@@ -1,0 +1,11 @@
+scope,method,runs,completed,completion_pct,waypoints_reached,waypoints_total,median_completed_s,mean_best_first_target_progress_pct,median_track_m,median_upwind_crossings,learned_overrides
+bounded_progress,standard_grid,16,0,0.0,2,56,,38.58752324564042,4181.57943767502,0.0,0
+bounded_progress,gamma_grid,16,0,0.0,2,56,,33.193851278322725,3466.961794954179,0.0,0
+bounded_progress,diffusion_grid,16,0,0.0,2,56,,33.138017683001344,3560.2729627138015,0.0,0
+bounded_progress,transformer_grid,16,0,0.0,2,56,,25.808978946444668,3189.5191320343088,0.0,0
+bounded_progress,gamma_los,16,0,0.0,3,56,,34.37615277828108,4166.0633427740095,6.5,0
+bounded_progress,gamma_direct,16,0,0.0,3,56,,35.70197343135756,4193.849666590428,2.5,0
+bounded_progress,forecast,16,0,0.0,2,56,,36.019977099656224,4290.006393988488,1.0,0
+bounded_progress,progress,16,0,0.0,2,56,,36.019977099656224,4290.006393988488,1.0,0
+bounded_progress,arrival,16,0,0.0,2,56,,36.019977099656224,4290.006393988488,1.0,0
+bounded_progress,actuator,16,0,0.0,2,56,,32.778395526005305,3346.333004084082,0.0,0

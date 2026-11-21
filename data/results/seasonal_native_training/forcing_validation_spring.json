@@ -1,0 +1,78 @@
+{
+  "route_points": 38,
+  "wet_drift_ring_points": 40,
+  "dry_ring_points": 8,
+  "drift_ring_metres": [
+    12500,
+    25000
+  ],
+  "seasons": {
+    "spring": {
+      "field_checks": {
+        "wind": {
+          "hours": 240,
+          "complete_cells": 48,
+          "cells_ever_valid": 48,
+          "fully_valid_distinct_native_locations": 48,
+          "variables": {
+            "u10": "m s-1",
+            "v10": "m s-1"
+          },
+          "raw_response_receipts": 2,
+          "source_sha256": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6"
+        },
+        "current": {
+          "hours": 240,
+          "complete_cells": 219,
+          "cells_ever_valid": 219,
+          "fully_valid_distinct_native_locations": 219,
+          "variables": {
+            "water_u": "m s-1",
+            "water_v": "m s-1"
+          },
+          "raw_response_receipts": 8,
+          "source_sha256": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d"
+        },
+        "wave": {
+          "hours": 240,
+          "complete_cells": 224,
+          "cells_ever_valid": 224,
+          "fully_valid_distinct_native_locations": 165,
+          "variables": {
+            "VHM0": "m",
+            "VMDR": "degree",
+            "VTPK": "s"
+          },
+          "raw_response_receipts": 7,
+          "source_sha256": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+        }
+      },
+      "query_times": 479,
+      "sample_positions": 78,
+      "interpolation_checks": 37362,
+      "range_sampled": {
+        "wind_speed_mps": [
+          0.04405843079490726,
+          15.477086586336588
+        ],
+        "current_speed_mps": [
+          0.0,
+          0.5216441459680482
+        ],
+        "significant_wave_height_m": [
+          0.08328029476925522,
+          3.423400078504364
+        ],
+        "wave_peak_period_s": [
+          1.5752829722991966,
+          9.550000190734863
+        ]
+      },
+      "nearest_wet_fallbacks": {
+        "wind": 0,
+        "current": 0,
+        "wave": 0
+      }
+    }
+  }
+}

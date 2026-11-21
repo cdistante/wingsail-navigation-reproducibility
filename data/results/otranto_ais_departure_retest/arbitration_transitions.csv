@@ -1,0 +1,37 @@
+arm,step,action_start_s,source,action,raw_action,reason,COLREG_active,ais_mode,drift_mode,actual_drift_trim,phase,waypoint,scenario_id
+crossing_fan__otranto_355__classical,1,0,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,237,1180,,,,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,7023,35110,,,,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,10761,53800,,,,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_355__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,237,1180,learned,hold,hold,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,7083,35410,physical release,sail,hold,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,7143,35710,learned,sail,sail,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,10761,53800,learned,sail,sail,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_005__classical,1,0,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,232,1155,,,,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,4203,21010,,,,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,7990,39945,,,,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_005__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,232,1155,learned,hold,hold,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,4263,21310,physical release,sail,hold,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,4323,21610,learned,sail,sail,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,7989,39940,learned,sail,sail,,0,route,,False,outbound,003,crossing_fan
+opposed_crossing__otranto_355__classical,1,0,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,349,1740,,,,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,7078,35385,,,,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,10647,53230,,,,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_355__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,349,1740,learned,hold,hold,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,7138,35685,physical release,sail,hold,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,7198,35985,learned,sail,sail,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,10483,52410,learned,sail,sail,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_005__classical,1,0,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,353,1760,,,,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,4198,20985,,,,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,8090,40445,,,,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_005__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,353,1760,learned,hold,hold,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,4258,21285,physical release,sail,hold,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,4318,21585,learned,sail,sail,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,8093,40460,learned,sail,sail,,0,route,,False,outbound,003,opposed_crossing

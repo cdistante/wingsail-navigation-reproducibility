@@ -1,0 +1,65 @@
+arm,step,action_start_s,source,action,raw_action,reason,COLREG_active,ais_mode,drift_mode,actual_drift_trim,phase,waypoint,scenario_id
+crossing_fan__otranto_355__classical,1,0,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,46,225,,,,,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,86,425,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,87,430,,,,,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,90,445,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,657,3280,,,,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,6483,32410,,,,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__classical,10867,54330,,,,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_355__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,46,225,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,86,425,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,87,430,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,90,445,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,657,3280,learned,hold,hold,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,6543,32710,physical release,sail,hold,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,6603,33010,learned,sail,sail,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_355__transformer,11214,56065,learned,sail,sail,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_005__classical,1,0,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,35,170,,,,,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,88,435,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,89,440,,,,,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,92,455,,,,,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,669,3340,,,,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,4203,21010,,,,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__classical,8569,42840,,,,,0,route,,False,outbound,003,crossing_fan
+crossing_fan__otranto_005__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,35,170,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,88,435,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,89,440,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,92,455,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,669,3340,learned,hold,hold,,0,route,holding,True,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,4263,21310,physical release,sail,hold,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,4323,21610,learned,sail,sail,,0,route,recovering,False,outbound,002,crossing_fan
+crossing_fan__otranto_005__transformer,8565,42820,learned,sail,sail,,0,route,,False,outbound,003,crossing_fan
+opposed_crossing__otranto_355__classical,1,0,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,42,205,,,,,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,81,400,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,632,3155,,,,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,7138,35685,,,,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__classical,10522,52605,,,,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_355__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,42,205,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,81,400,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,632,3155,learned,hold,hold,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,7198,35985,physical release,sail,hold,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,7258,36285,learned,sail,sail,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_355__transformer,10506,52525,learned,sail,sail,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_005__classical,1,0,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,30,145,,,,,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,82,405,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,85,420,,,,,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,86,425,,,,,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,656,3275,,,,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,4198,20985,,,,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__classical,8450,42245,,,,,0,route,,False,outbound,003,opposed_crossing
+opposed_crossing__otranto_005__transformer,1,0,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,30,145,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,82,405,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,85,420,classical fallback,planner,,AIS steering override,0,predictive fallback,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,86,425,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,656,3275,learned,hold,hold,,0,route,holding,True,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,4258,21285,physical release,sail,hold,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,4318,21585,learned,sail,sail,,0,route,recovering,False,outbound,002,opposed_crossing
+opposed_crossing__otranto_005__transformer,8448,42235,learned,sail,sail,,0,route,,False,outbound,003,opposed_crossing

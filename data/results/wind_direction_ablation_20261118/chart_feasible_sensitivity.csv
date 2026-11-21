@@ -1,0 +1,11 @@
+scope,method,runs,completed,completion_pct,waypoints_reached,waypoints_total,median_completed_s,mean_best_first_target_progress_pct,median_track_m,median_upwind_crossings,learned_overrides,routes_excluded_for_entire_capture_disk_in_blocked_cell
+full_route,standard_grid,48,30,62.5,68,112,2850.0,78.60632218241062,1316.9954287697528,0.0,0,costiera
+full_route,gamma_grid,48,30,62.5,68,112,2850.0,78.60632218241062,1316.9954287697528,0.0,0,costiera
+full_route,diffusion_grid,48,30,62.5,68,112,2850.0,78.60632218241062,1316.9954287697528,0.0,0,costiera
+full_route,transformer_grid,48,30,62.5,68,112,2850.0,78.60632218241062,1316.9954287697528,0.0,0,costiera
+full_route,gamma_los,48,30,62.5,68,112,2910.0,74.65928358021749,1310.6660072978675,2.0,0,costiera
+full_route,gamma_direct,48,29,60.416666666666664,67,112,2740.0,77.5469446327416,1339.918863957605,1.0,0,costiera
+full_route,forecast,48,37,77.08333333333333,78,112,2405.0,80.38713971513624,1203.89106544528,1.0,0,costiera
+full_route,progress,48,37,77.08333333333333,78,112,2440.0,80.33911228293547,1205.3793320658108,1.0,64,costiera
+full_route,arrival,48,37,77.08333333333333,78,112,2405.0,80.38713971513624,1203.89106544528,1.0,3,costiera
+full_route,actuator,48,29,60.416666666666664,66,112,2880.0,76.80168082630163,1315.0619705748418,0.0,0,costiera

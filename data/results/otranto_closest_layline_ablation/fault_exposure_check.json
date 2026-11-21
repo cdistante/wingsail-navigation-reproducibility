@@ -1,0 +1,1493 @@
+{
+  "cases": [
+    {
+      "case": "crossing_fan__otranto_005__layline_off",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "applied_navigation_duration_s": 47415.0,
+      "applied_encounter_start_s": 250.0,
+      "applied_encounter_end_s": 47665.0,
+      "original_drop_delivery_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "underway_drop_delivery_windows_encounter_s": [
+        [
+          665.0,
+          705.0
+        ],
+        [
+          725.0,
+          765.0
+        ]
+      ],
+      "underway_lost_delivery_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "both_full40s_underway_lost_delivery_effects_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "both_actual65s_underway_peaks_verified": true,
+      "underway_peak_interval_records": [
+        {
+          "encounter_interval_s": [
+            700.0,
+            705.0
+          ],
+          "navigation_interval_s": [
+            450.0,
+            455.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        },
+        {
+          "encounter_interval_s": [
+            760.0,
+            765.0
+          ],
+          "navigation_interval_s": [
+            510.0,
+            515.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        }
+      ],
+      "underway_contact_first_acquisition_s": 420.0,
+      "active_AIS_or_COLREG_steps_420_to900": 55,
+      "AIS_modes_420_to900": {
+        "predictive fallback": 55,
+        "route": 41
+      },
+      "minimum_clearance_by_phase_m": {
+        "before_acquisition": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 181.6580136898617,
+            "truth_with_reserve_m": 178.6580136898617,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          },
+          "new_underway_contact": {
+            "true_hull_m": 266.5830136898617,
+            "true_nominal_m": 241.58301368986167,
+            "truth_full_m": 181.6580136898617,
+            "truth_with_reserve_m": 178.6580136898617,
+            "projected_full_m": null,
+            "projected_with_reserve_m": null
+          },
+          "original_fleet": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 192.27230096498903,
+            "truth_with_reserve_m": 189.27230096498903,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          }
+        },
+        "acquired_before_anchor": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 244.8547528914129,
+            "true_nominal_m": 219.8547528914129,
+            "truth_full_m": 206.73385053452586,
+            "truth_with_reserve_m": 203.73385053452586,
+            "projected_full_m": 206.73384464974475,
+            "projected_with_reserve_m": 203.73384464974475
+          },
+          "new_underway_contact": {
+            "true_hull_m": 244.8547528914129,
+            "true_nominal_m": 219.8547528914129,
+            "truth_full_m": 206.73385053452586,
+            "truth_with_reserve_m": 203.73385053452586,
+            "projected_full_m": 206.73384464974475,
+            "projected_with_reserve_m": 203.73384464974475
+          },
+          "original_fleet": {
+            "true_hull_m": 797.2669768213615,
+            "true_nominal_m": 772.2669768213615,
+            "truth_full_m": 762.0669768213614,
+            "truth_with_reserve_m": 759.0669768213614,
+            "projected_full_m": 762.0668046852555,
+            "projected_with_reserve_m": 759.0668046852555
+          }
+        },
+        "anchor_before_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 252.38629129056147,
+            "true_nominal_m": 227.38629129056147,
+            "truth_full_m": 214.89334326647372,
+            "truth_with_reserve_m": 211.89334326647372,
+            "projected_full_m": 214.8933295303936,
+            "projected_with_reserve_m": 211.8933295303936
+          },
+          "new_underway_contact": {
+            "true_hull_m": 252.38629129056147,
+            "true_nominal_m": 227.38629129056147,
+            "truth_full_m": 214.89334326647372,
+            "truth_with_reserve_m": 211.89334326647372,
+            "projected_full_m": 214.8933295303936,
+            "projected_with_reserve_m": 211.8933295303936
+          },
+          "original_fleet": {
+            "true_hull_m": 1189.901120016044,
+            "true_nominal_m": 1164.901120016044,
+            "truth_full_m": 1154.701120016044,
+            "truth_with_reserve_m": 1151.701120016044,
+            "projected_full_m": 1154.7005649036128,
+            "projected_with_reserve_m": 1151.7005649036128
+          }
+        },
+        "first_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 253.4782094585039,
+            "true_nominal_m": 228.4782094585039,
+            "truth_full_m": 168.55320945850391,
+            "truth_with_reserve_m": 165.55320945850391,
+            "projected_full_m": 192.6622577020764,
+            "projected_with_reserve_m": 189.6622577020764
+          },
+          "new_underway_contact": {
+            "true_hull_m": 253.4782094585039,
+            "true_nominal_m": 228.4782094585039,
+            "truth_full_m": 168.55320945850391,
+            "truth_with_reserve_m": 165.55320945850391,
+            "projected_full_m": 192.6622577020764,
+            "projected_with_reserve_m": 189.6622577020764
+          },
+          "original_fleet": {
+            "true_hull_m": 1462.7020161586763,
+            "true_nominal_m": 1437.7020161586763,
+            "truth_full_m": 1424.5770161586763,
+            "truth_with_reserve_m": 1421.5770161586763,
+            "projected_full_m": 1424.5759215314072,
+            "projected_with_reserve_m": 1421.5759215314072
+          }
+        },
+        "between_underway_losses": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 245.06094555527778,
+            "true_nominal_m": 220.06094555527778,
+            "truth_full_m": 206.93594555527778,
+            "truth_with_reserve_m": 203.93594555527778,
+            "projected_full_m": 206.9360219787664,
+            "projected_with_reserve_m": 203.9360219787664
+          },
+          "new_underway_contact": {
+            "true_hull_m": 245.06094555527778,
+            "true_nominal_m": 220.06094555527778,
+            "truth_full_m": 206.93594555527778,
+            "truth_with_reserve_m": 203.93594555527778,
+            "projected_full_m": 206.9360219787664,
+            "projected_with_reserve_m": 203.9360219787664
+          },
+          "original_fleet": {
+            "true_hull_m": 1567.1398196114465,
+            "true_nominal_m": 1542.1398196114465,
+            "truth_full_m": 1531.9398196114464,
+            "truth_with_reserve_m": 1528.9398196114464,
+            "projected_full_m": 1531.9388210887741,
+            "projected_with_reserve_m": 1528.9388210887741
+          }
+        },
+        "second_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 220.29920439499335,
+            "true_nominal_m": 195.29920439499335,
+            "truth_full_m": 135.37420439499337,
+            "truth_with_reserve_m": 132.37420439499337,
+            "projected_full_m": 135.37442908108125,
+            "projected_with_reserve_m": 132.37442908108125
+          },
+          "new_underway_contact": {
+            "true_hull_m": 220.29920439499335,
+            "true_nominal_m": 195.29920439499335,
+            "truth_full_m": 135.37420439499337,
+            "truth_with_reserve_m": 132.37420439499337,
+            "projected_full_m": 135.37442908108125,
+            "projected_with_reserve_m": 132.37442908108125
+          },
+          "original_fleet": {
+            "true_hull_m": 1622.6099109362995,
+            "true_nominal_m": 1597.6099109362995,
+            "truth_full_m": 1584.4849109362995,
+            "truth_with_reserve_m": 1581.4849109362995,
+            "projected_full_m": 1584.4835588916092,
+            "projected_with_reserve_m": 1581.4835588916092
+          }
+        },
+        "after_losses_through900s": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 200.2513739337477,
+            "true_nominal_m": 175.2513739337477,
+            "truth_full_m": 162.16507100953476,
+            "truth_with_reserve_m": 159.16507100953476,
+            "projected_full_m": 162.16515739636884,
+            "projected_with_reserve_m": 159.16515739636884
+          },
+          "new_underway_contact": {
+            "true_hull_m": 200.2513739337477,
+            "true_nominal_m": 175.2513739337477,
+            "truth_full_m": 162.16507100953476,
+            "truth_with_reserve_m": 159.16507100953476,
+            "projected_full_m": 162.16515739636884,
+            "projected_with_reserve_m": 159.16515739636884
+          },
+          "original_fleet": {
+            "true_hull_m": 1749.127498466946,
+            "true_nominal_m": 1724.127498466946,
+            "truth_full_m": 1713.927498466946,
+            "truth_with_reserve_m": 1710.927498466946,
+            "projected_full_m": 1713.9263361653202,
+            "projected_with_reserve_m": 1710.9263361653202
+          }
+        },
+        "later_route": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 235.22244785529415,
+            "true_nominal_m": 210.22244785529415,
+            "truth_full_m": 200.02244785529416,
+            "truth_with_reserve_m": 197.02244785529416,
+            "projected_full_m": 200.02249926067606,
+            "projected_with_reserve_m": 197.02249926067606
+          },
+          "new_underway_contact": {
+            "true_hull_m": 235.22244785529415,
+            "true_nominal_m": 210.22244785529415,
+            "truth_full_m": 200.02244785529416,
+            "truth_with_reserve_m": 197.02244785529416,
+            "projected_full_m": 200.02249926067606,
+            "projected_with_reserve_m": 197.02249926067606
+          },
+          "original_fleet": {
+            "true_hull_m": 2206.756437440497,
+            "true_nominal_m": 2181.756437440497,
+            "truth_full_m": 2171.5564374404967,
+            "truth_with_reserve_m": 2168.5564374404967,
+            "projected_full_m": 2171.555162675444,
+            "projected_with_reserve_m": 2168.555162675444
+          }
+        }
+      },
+      "negative_contact_interval_counts_by_phase": {
+        "before_acquisition": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "acquired_before_anchor": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "anchor_before_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "first_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "between_underway_losses": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "second_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "after_losses_through900s": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "later_route": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        }
+      },
+      "first_negative_intervals_all_contacts": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_negative_intervals_new_contact": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_new_contact_visible_history_s": 420.0,
+      "new_contact_unseen_command_intervals": 34,
+      "history_sha256": "2ecd5727376225c63f0a64882449e6e5d44ab45fb6c8cd3994684518b881f212",
+      "phase_minimum_scope": "Native0.05s relative/radius-chord minima for each5s command. Preacquisition new-contact truth uses an explicit65s-equivalent hypothetical allowance; there is no fabricated report projection.",
+      "replay_sha256": "fb5f8f1105058b08b1e42361847061e95c4990109cfba14cd530ad679622624e",
+      "gate_log_sha256": "99f8fb8552ad2516528f608bddade4186a6e3df4127ba6d5fc660bab0b5c22b1"
+    },
+    {
+      "case": "crossing_fan__otranto_005__layline_on",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "applied_navigation_duration_s": 47415.0,
+      "applied_encounter_start_s": 250.0,
+      "applied_encounter_end_s": 47665.0,
+      "original_drop_delivery_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "underway_drop_delivery_windows_encounter_s": [
+        [
+          665.0,
+          705.0
+        ],
+        [
+          725.0,
+          765.0
+        ]
+      ],
+      "underway_lost_delivery_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "both_full40s_underway_lost_delivery_effects_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "both_actual65s_underway_peaks_verified": true,
+      "underway_peak_interval_records": [
+        {
+          "encounter_interval_s": [
+            700.0,
+            705.0
+          ],
+          "navigation_interval_s": [
+            450.0,
+            455.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        },
+        {
+          "encounter_interval_s": [
+            760.0,
+            765.0
+          ],
+          "navigation_interval_s": [
+            510.0,
+            515.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        }
+      ],
+      "underway_contact_first_acquisition_s": 420.0,
+      "active_AIS_or_COLREG_steps_420_to900": 55,
+      "AIS_modes_420_to900": {
+        "predictive fallback": 55,
+        "route": 41
+      },
+      "minimum_clearance_by_phase_m": {
+        "before_acquisition": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 181.6580136898617,
+            "truth_with_reserve_m": 178.6580136898617,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          },
+          "new_underway_contact": {
+            "true_hull_m": 266.5830136898617,
+            "true_nominal_m": 241.58301368986167,
+            "truth_full_m": 181.6580136898617,
+            "truth_with_reserve_m": 178.6580136898617,
+            "projected_full_m": null,
+            "projected_with_reserve_m": null
+          },
+          "original_fleet": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 192.27230096498903,
+            "truth_with_reserve_m": 189.27230096498903,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          }
+        },
+        "acquired_before_anchor": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 244.8547528914129,
+            "true_nominal_m": 219.8547528914129,
+            "truth_full_m": 206.73385053452586,
+            "truth_with_reserve_m": 203.73385053452586,
+            "projected_full_m": 206.73384464974475,
+            "projected_with_reserve_m": 203.73384464974475
+          },
+          "new_underway_contact": {
+            "true_hull_m": 244.8547528914129,
+            "true_nominal_m": 219.8547528914129,
+            "truth_full_m": 206.73385053452586,
+            "truth_with_reserve_m": 203.73385053452586,
+            "projected_full_m": 206.73384464974475,
+            "projected_with_reserve_m": 203.73384464974475
+          },
+          "original_fleet": {
+            "true_hull_m": 797.2669768213615,
+            "true_nominal_m": 772.2669768213615,
+            "truth_full_m": 762.0669768213614,
+            "truth_with_reserve_m": 759.0669768213614,
+            "projected_full_m": 762.0668046852555,
+            "projected_with_reserve_m": 759.0668046852555
+          }
+        },
+        "anchor_before_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 252.38629129056147,
+            "true_nominal_m": 227.38629129056147,
+            "truth_full_m": 214.89334326647372,
+            "truth_with_reserve_m": 211.89334326647372,
+            "projected_full_m": 214.8933295303936,
+            "projected_with_reserve_m": 211.8933295303936
+          },
+          "new_underway_contact": {
+            "true_hull_m": 252.38629129056147,
+            "true_nominal_m": 227.38629129056147,
+            "truth_full_m": 214.89334326647372,
+            "truth_with_reserve_m": 211.89334326647372,
+            "projected_full_m": 214.8933295303936,
+            "projected_with_reserve_m": 211.8933295303936
+          },
+          "original_fleet": {
+            "true_hull_m": 1189.901120016044,
+            "true_nominal_m": 1164.901120016044,
+            "truth_full_m": 1154.701120016044,
+            "truth_with_reserve_m": 1151.701120016044,
+            "projected_full_m": 1154.7005649036128,
+            "projected_with_reserve_m": 1151.7005649036128
+          }
+        },
+        "first_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 253.4782094585039,
+            "true_nominal_m": 228.4782094585039,
+            "truth_full_m": 168.55320945850391,
+            "truth_with_reserve_m": 165.55320945850391,
+            "projected_full_m": 192.6622577020764,
+            "projected_with_reserve_m": 189.6622577020764
+          },
+          "new_underway_contact": {
+            "true_hull_m": 253.4782094585039,
+            "true_nominal_m": 228.4782094585039,
+            "truth_full_m": 168.55320945850391,
+            "truth_with_reserve_m": 165.55320945850391,
+            "projected_full_m": 192.6622577020764,
+            "projected_with_reserve_m": 189.6622577020764
+          },
+          "original_fleet": {
+            "true_hull_m": 1462.7020161586763,
+            "true_nominal_m": 1437.7020161586763,
+            "truth_full_m": 1424.5770161586763,
+            "truth_with_reserve_m": 1421.5770161586763,
+            "projected_full_m": 1424.5759215314072,
+            "projected_with_reserve_m": 1421.5759215314072
+          }
+        },
+        "between_underway_losses": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 245.06094555527778,
+            "true_nominal_m": 220.06094555527778,
+            "truth_full_m": 206.93594555527778,
+            "truth_with_reserve_m": 203.93594555527778,
+            "projected_full_m": 206.9360219787664,
+            "projected_with_reserve_m": 203.9360219787664
+          },
+          "new_underway_contact": {
+            "true_hull_m": 245.06094555527778,
+            "true_nominal_m": 220.06094555527778,
+            "truth_full_m": 206.93594555527778,
+            "truth_with_reserve_m": 203.93594555527778,
+            "projected_full_m": 206.9360219787664,
+            "projected_with_reserve_m": 203.9360219787664
+          },
+          "original_fleet": {
+            "true_hull_m": 1567.1398196114465,
+            "true_nominal_m": 1542.1398196114465,
+            "truth_full_m": 1531.9398196114464,
+            "truth_with_reserve_m": 1528.9398196114464,
+            "projected_full_m": 1531.9388210887741,
+            "projected_with_reserve_m": 1528.9388210887741
+          }
+        },
+        "second_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 220.29920439499335,
+            "true_nominal_m": 195.29920439499335,
+            "truth_full_m": 135.37420439499337,
+            "truth_with_reserve_m": 132.37420439499337,
+            "projected_full_m": 135.37442908108125,
+            "projected_with_reserve_m": 132.37442908108125
+          },
+          "new_underway_contact": {
+            "true_hull_m": 220.29920439499335,
+            "true_nominal_m": 195.29920439499335,
+            "truth_full_m": 135.37420439499337,
+            "truth_with_reserve_m": 132.37420439499337,
+            "projected_full_m": 135.37442908108125,
+            "projected_with_reserve_m": 132.37442908108125
+          },
+          "original_fleet": {
+            "true_hull_m": 1622.6099109362995,
+            "true_nominal_m": 1597.6099109362995,
+            "truth_full_m": 1584.4849109362995,
+            "truth_with_reserve_m": 1581.4849109362995,
+            "projected_full_m": 1584.4835588916092,
+            "projected_with_reserve_m": 1581.4835588916092
+          }
+        },
+        "after_losses_through900s": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 200.2513739337477,
+            "true_nominal_m": 175.2513739337477,
+            "truth_full_m": 162.16507100953476,
+            "truth_with_reserve_m": 159.16507100953476,
+            "projected_full_m": 162.16515739636884,
+            "projected_with_reserve_m": 159.16515739636884
+          },
+          "new_underway_contact": {
+            "true_hull_m": 200.2513739337477,
+            "true_nominal_m": 175.2513739337477,
+            "truth_full_m": 162.16507100953476,
+            "truth_with_reserve_m": 159.16507100953476,
+            "projected_full_m": 162.16515739636884,
+            "projected_with_reserve_m": 159.16515739636884
+          },
+          "original_fleet": {
+            "true_hull_m": 1749.127498466946,
+            "true_nominal_m": 1724.127498466946,
+            "truth_full_m": 1713.927498466946,
+            "truth_with_reserve_m": 1710.927498466946,
+            "projected_full_m": 1713.9263361653202,
+            "projected_with_reserve_m": 1710.9263361653202
+          }
+        },
+        "later_route": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 235.22244785529415,
+            "true_nominal_m": 210.22244785529415,
+            "truth_full_m": 200.02244785529416,
+            "truth_with_reserve_m": 197.02244785529416,
+            "projected_full_m": 200.02249926067606,
+            "projected_with_reserve_m": 197.02249926067606
+          },
+          "new_underway_contact": {
+            "true_hull_m": 235.22244785529415,
+            "true_nominal_m": 210.22244785529415,
+            "truth_full_m": 200.02244785529416,
+            "truth_with_reserve_m": 197.02244785529416,
+            "projected_full_m": 200.02249926067606,
+            "projected_with_reserve_m": 197.02249926067606
+          },
+          "original_fleet": {
+            "true_hull_m": 2206.756437440497,
+            "true_nominal_m": 2181.756437440497,
+            "truth_full_m": 2171.5564374404967,
+            "truth_with_reserve_m": 2168.5564374404967,
+            "projected_full_m": 2171.555162675444,
+            "projected_with_reserve_m": 2168.555162675444
+          }
+        }
+      },
+      "negative_contact_interval_counts_by_phase": {
+        "before_acquisition": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "acquired_before_anchor": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "anchor_before_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "first_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "between_underway_losses": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "second_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "after_losses_through900s": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "later_route": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        }
+      },
+      "first_negative_intervals_all_contacts": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_negative_intervals_new_contact": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_new_contact_visible_history_s": 420.0,
+      "new_contact_unseen_command_intervals": 34,
+      "history_sha256": "2ecd5727376225c63f0a64882449e6e5d44ab45fb6c8cd3994684518b881f212",
+      "phase_minimum_scope": "Native0.05s relative/radius-chord minima for each5s command. Preacquisition new-contact truth uses an explicit65s-equivalent hypothetical allowance; there is no fabricated report projection.",
+      "replay_sha256": "07f350d276a71e67c598429d3c98d9f67a478b073e5a7e00f97f804e2985bd13",
+      "gate_log_sha256": "1b5abc028e4f07ea55ceafd98bd188c10e6f300358b14cd6ba6ae10568e463f5"
+    },
+    {
+      "case": "crossing_fan__otranto_355__layline_off",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "applied_navigation_duration_s": 65535.0,
+      "applied_encounter_start_s": 250.0,
+      "applied_encounter_end_s": 65785.0,
+      "original_drop_delivery_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "underway_drop_delivery_windows_encounter_s": [
+        [
+          665.0,
+          705.0
+        ],
+        [
+          725.0,
+          765.0
+        ]
+      ],
+      "underway_lost_delivery_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "both_full40s_underway_lost_delivery_effects_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "both_actual65s_underway_peaks_verified": true,
+      "underway_peak_interval_records": [
+        {
+          "encounter_interval_s": [
+            700.0,
+            705.0
+          ],
+          "navigation_interval_s": [
+            450.0,
+            455.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        },
+        {
+          "encounter_interval_s": [
+            760.0,
+            765.0
+          ],
+          "navigation_interval_s": [
+            510.0,
+            515.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        }
+      ],
+      "underway_contact_first_acquisition_s": 420.0,
+      "active_AIS_or_COLREG_steps_420_to900": 49,
+      "AIS_modes_420_to900": {
+        "predictive fallback": 49,
+        "route": 47
+      },
+      "minimum_clearance_by_phase_m": {
+        "before_acquisition": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 175.86074528236625,
+            "truth_with_reserve_m": 172.86074528236625,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          },
+          "new_underway_contact": {
+            "true_hull_m": 260.78574528236624,
+            "true_nominal_m": 235.78574528236624,
+            "truth_full_m": 175.86074528236625,
+            "truth_with_reserve_m": 172.86074528236625,
+            "projected_full_m": null,
+            "projected_with_reserve_m": null
+          },
+          "original_fleet": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 192.27230096498903,
+            "truth_with_reserve_m": 189.27230096498903,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          }
+        },
+        "acquired_before_anchor": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 226.26428462396586,
+            "true_nominal_m": 201.26428462396586,
+            "truth_full_m": 188.14124981234312,
+            "truth_with_reserve_m": 185.14124981234312,
+            "projected_full_m": 188.14123950461322,
+            "projected_with_reserve_m": 185.14123950461322
+          },
+          "new_underway_contact": {
+            "true_hull_m": 226.26428462396586,
+            "true_nominal_m": 201.26428462396586,
+            "truth_full_m": 188.14124981234312,
+            "truth_with_reserve_m": 185.14124981234312,
+            "projected_full_m": 188.14123950461322,
+            "projected_with_reserve_m": 185.14123950461322
+          },
+          "original_fleet": {
+            "true_hull_m": 801.9278399624649,
+            "true_nominal_m": 776.9278399624649,
+            "truth_full_m": 766.7278399624648,
+            "truth_with_reserve_m": 763.7278399624648,
+            "projected_full_m": 766.727701952182,
+            "projected_with_reserve_m": 763.727701952182
+          }
+        },
+        "anchor_before_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.183847819474,
+            "true_nominal_m": 202.183847819474,
+            "truth_full_m": 189.58379721949018,
+            "truth_with_reserve_m": 186.58379721949018,
+            "projected_full_m": 189.5837850325164,
+            "projected_with_reserve_m": 186.5837850325164
+          },
+          "new_underway_contact": {
+            "true_hull_m": 227.183847819474,
+            "true_nominal_m": 202.183847819474,
+            "truth_full_m": 189.58379721949018,
+            "truth_with_reserve_m": 186.58379721949018,
+            "projected_full_m": 189.5837850325164,
+            "projected_with_reserve_m": 186.5837850325164
+          },
+          "original_fleet": {
+            "true_hull_m": 1218.5739802120572,
+            "true_nominal_m": 1193.5739802120572,
+            "truth_full_m": 1183.3739802120572,
+            "truth_with_reserve_m": 1180.3739802120572,
+            "projected_full_m": 1183.3734633769536,
+            "projected_with_reserve_m": 1180.3734633769536
+          }
+        },
+        "first_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 225.77674079604276,
+            "true_nominal_m": 200.77674079604276,
+            "truth_full_m": 140.85174079604278,
+            "truth_with_reserve_m": 137.85174079604278,
+            "projected_full_m": 166.42321452142286,
+            "projected_with_reserve_m": 163.42321452142286
+          },
+          "new_underway_contact": {
+            "true_hull_m": 225.77674079604276,
+            "true_nominal_m": 200.77674079604276,
+            "truth_full_m": 140.85174079604278,
+            "truth_with_reserve_m": 137.85174079604278,
+            "projected_full_m": 166.42321452142286,
+            "projected_with_reserve_m": 163.42321452142286
+          },
+          "original_fleet": {
+            "true_hull_m": 1491.0216160329273,
+            "true_nominal_m": 1466.0216160329273,
+            "truth_full_m": 1452.8966160329273,
+            "truth_with_reserve_m": 1449.8966160329273,
+            "projected_full_m": 1452.8955261409612,
+            "projected_with_reserve_m": 1449.8955261409612
+          }
+        },
+        "between_underway_losses": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 216.0898106172677,
+            "true_nominal_m": 191.0898106172677,
+            "truth_full_m": 177.9648106172677,
+            "truth_with_reserve_m": 174.9648106172677,
+            "projected_full_m": 177.9648862142908,
+            "projected_with_reserve_m": 174.9648862142908
+          },
+          "new_underway_contact": {
+            "true_hull_m": 216.0898106172677,
+            "true_nominal_m": 191.0898106172677,
+            "truth_full_m": 177.9648106172677,
+            "truth_with_reserve_m": 174.9648106172677,
+            "projected_full_m": 177.9648862142908,
+            "projected_with_reserve_m": 174.9648862142908
+          },
+          "original_fleet": {
+            "true_hull_m": 1594.8689288860899,
+            "true_nominal_m": 1569.8689288860899,
+            "truth_full_m": 1559.6689288860898,
+            "truth_with_reserve_m": 1556.6689288860898,
+            "projected_full_m": 1559.6679266110018,
+            "projected_with_reserve_m": 1556.6679266110018
+          }
+        },
+        "second_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 187.08712962489358,
+            "true_nominal_m": 162.08712962489358,
+            "truth_full_m": 102.16212962489357,
+            "truth_with_reserve_m": 99.16212962489357,
+            "projected_full_m": 102.16234996577083,
+            "projected_with_reserve_m": 99.16234996577083
+          },
+          "new_underway_contact": {
+            "true_hull_m": 187.08712962489358,
+            "true_nominal_m": 162.08712962489358,
+            "truth_full_m": 102.16212962489357,
+            "truth_with_reserve_m": 99.16212962489357,
+            "projected_full_m": 102.16234996577083,
+            "projected_with_reserve_m": 99.16234996577083
+          },
+          "original_fleet": {
+            "true_hull_m": 1650.8707374989365,
+            "true_nominal_m": 1625.8707374989365,
+            "truth_full_m": 1612.7457374989365,
+            "truth_with_reserve_m": 1609.7457374989365,
+            "projected_full_m": 1612.7443871778019,
+            "projected_with_reserve_m": 1609.7443871778019
+          }
+        },
+        "after_losses_through900s": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 169.79251638188668,
+            "true_nominal_m": 144.79251638188668,
+            "truth_full_m": 131.67813516524132,
+            "truth_with_reserve_m": 128.67813516524132,
+            "projected_full_m": 131.67821773711574,
+            "projected_with_reserve_m": 128.67821773711574
+          },
+          "new_underway_contact": {
+            "true_hull_m": 169.79251638188668,
+            "true_nominal_m": 144.79251638188668,
+            "truth_full_m": 131.67813516524132,
+            "truth_with_reserve_m": 128.67813516524132,
+            "projected_full_m": 131.67821773711574,
+            "projected_with_reserve_m": 128.67821773711574
+          },
+          "original_fleet": {
+            "true_hull_m": 1781.1903085612287,
+            "true_nominal_m": 1756.1903085612287,
+            "truth_full_m": 1745.9903085612286,
+            "truth_with_reserve_m": 1742.9903085612286,
+            "projected_full_m": 1745.9891688680066,
+            "projected_with_reserve_m": 1742.9891688680066
+          }
+        },
+        "later_route": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 219.70841872584083,
+            "true_nominal_m": 194.70841872584083,
+            "truth_full_m": 184.5084187258408,
+            "truth_with_reserve_m": 181.5084187258408,
+            "projected_full_m": 184.50846045135407,
+            "projected_with_reserve_m": 181.50846045135407
+          },
+          "new_underway_contact": {
+            "true_hull_m": 219.70841872584083,
+            "true_nominal_m": 194.70841872584083,
+            "truth_full_m": 184.5084187258408,
+            "truth_with_reserve_m": 181.5084187258408,
+            "projected_full_m": 184.50846045135407,
+            "projected_with_reserve_m": 181.50846045135407
+          },
+          "original_fleet": {
+            "true_hull_m": 2243.076790653923,
+            "true_nominal_m": 2218.076790653923,
+            "truth_full_m": 2207.8767906539233,
+            "truth_with_reserve_m": 2204.8767906539233,
+            "projected_full_m": 2207.8755725323126,
+            "projected_with_reserve_m": 2204.8755725323126
+          }
+        }
+      },
+      "negative_contact_interval_counts_by_phase": {
+        "before_acquisition": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "acquired_before_anchor": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "anchor_before_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "first_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "between_underway_losses": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "second_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "after_losses_through900s": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "later_route": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        }
+      },
+      "first_negative_intervals_all_contacts": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_negative_intervals_new_contact": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_new_contact_visible_history_s": 420.0,
+      "new_contact_unseen_command_intervals": 34,
+      "history_sha256": "b01f3714e8ead30431c7d96667b05dabf41f7bedf04a1c56c83400c886d7deac",
+      "phase_minimum_scope": "Native0.05s relative/radius-chord minima for each5s command. Preacquisition new-contact truth uses an explicit65s-equivalent hypothetical allowance; there is no fabricated report projection.",
+      "replay_sha256": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+      "gate_log_sha256": "fa5b1ac8937aba8f4134f351c20d0eea5cee76b673ba8f322fef695f4c1c4e21"
+    },
+    {
+      "case": "crossing_fan__otranto_355__layline_on",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "applied_navigation_duration_s": 65535.0,
+      "applied_encounter_start_s": 250.0,
+      "applied_encounter_end_s": 65785.0,
+      "original_drop_delivery_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "underway_drop_delivery_windows_encounter_s": [
+        [
+          665.0,
+          705.0
+        ],
+        [
+          725.0,
+          765.0
+        ]
+      ],
+      "underway_lost_delivery_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "both_full40s_underway_lost_delivery_effects_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "both_actual65s_underway_peaks_verified": true,
+      "underway_peak_interval_records": [
+        {
+          "encounter_interval_s": [
+            700.0,
+            705.0
+          ],
+          "navigation_interval_s": [
+            450.0,
+            455.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        },
+        {
+          "encounter_interval_s": [
+            760.0,
+            765.0
+          ],
+          "navigation_interval_s": [
+            510.0,
+            515.0
+          ],
+          "maximum_actual_held_age_s": 65.0,
+          "all4_contacts_visible": true
+        }
+      ],
+      "underway_contact_first_acquisition_s": 420.0,
+      "active_AIS_or_COLREG_steps_420_to900": 49,
+      "AIS_modes_420_to900": {
+        "predictive fallback": 49,
+        "route": 47
+      },
+      "minimum_clearance_by_phase_m": {
+        "before_acquisition": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 175.86074528236625,
+            "truth_with_reserve_m": 172.86074528236625,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          },
+          "new_underway_contact": {
+            "true_hull_m": 260.78574528236624,
+            "true_nominal_m": 235.78574528236624,
+            "truth_full_m": 175.86074528236625,
+            "truth_with_reserve_m": 172.86074528236625,
+            "projected_full_m": null,
+            "projected_with_reserve_m": null
+          },
+          "original_fleet": {
+            "true_hull_m": 227.47230096498902,
+            "true_nominal_m": 202.47230096498902,
+            "truth_full_m": 192.27230096498903,
+            "truth_with_reserve_m": 189.27230096498903,
+            "projected_full_m": 192.2723009654597,
+            "projected_with_reserve_m": 189.2723009654597
+          }
+        },
+        "acquired_before_anchor": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 226.26428462396586,
+            "true_nominal_m": 201.26428462396586,
+            "truth_full_m": 188.14124981234312,
+            "truth_with_reserve_m": 185.14124981234312,
+            "projected_full_m": 188.14123950461322,
+            "projected_with_reserve_m": 185.14123950461322
+          },
+          "new_underway_contact": {
+            "true_hull_m": 226.26428462396586,
+            "true_nominal_m": 201.26428462396586,
+            "truth_full_m": 188.14124981234312,
+            "truth_with_reserve_m": 185.14124981234312,
+            "projected_full_m": 188.14123950461322,
+            "projected_with_reserve_m": 185.14123950461322
+          },
+          "original_fleet": {
+            "true_hull_m": 801.9278399624649,
+            "true_nominal_m": 776.9278399624649,
+            "truth_full_m": 766.7278399624648,
+            "truth_with_reserve_m": 763.7278399624648,
+            "projected_full_m": 766.727701952182,
+            "projected_with_reserve_m": 763.727701952182
+          }
+        },
+        "anchor_before_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 227.183847819474,
+            "true_nominal_m": 202.183847819474,
+            "truth_full_m": 189.58379721949018,
+            "truth_with_reserve_m": 186.58379721949018,
+            "projected_full_m": 189.5837850325164,
+            "projected_with_reserve_m": 186.5837850325164
+          },
+          "new_underway_contact": {
+            "true_hull_m": 227.183847819474,
+            "true_nominal_m": 202.183847819474,
+            "truth_full_m": 189.58379721949018,
+            "truth_with_reserve_m": 186.58379721949018,
+            "projected_full_m": 189.5837850325164,
+            "projected_with_reserve_m": 186.5837850325164
+          },
+          "original_fleet": {
+            "true_hull_m": 1218.5739802120572,
+            "true_nominal_m": 1193.5739802120572,
+            "truth_full_m": 1183.3739802120572,
+            "truth_with_reserve_m": 1180.3739802120572,
+            "projected_full_m": 1183.3734633769536,
+            "projected_with_reserve_m": 1180.3734633769536
+          }
+        },
+        "first_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 225.77674079604276,
+            "true_nominal_m": 200.77674079604276,
+            "truth_full_m": 140.85174079604278,
+            "truth_with_reserve_m": 137.85174079604278,
+            "projected_full_m": 166.42321452142286,
+            "projected_with_reserve_m": 163.42321452142286
+          },
+          "new_underway_contact": {
+            "true_hull_m": 225.77674079604276,
+            "true_nominal_m": 200.77674079604276,
+            "truth_full_m": 140.85174079604278,
+            "truth_with_reserve_m": 137.85174079604278,
+            "projected_full_m": 166.42321452142286,
+            "projected_with_reserve_m": 163.42321452142286
+          },
+          "original_fleet": {
+            "true_hull_m": 1491.0216160329273,
+            "true_nominal_m": 1466.0216160329273,
+            "truth_full_m": 1452.8966160329273,
+            "truth_with_reserve_m": 1449.8966160329273,
+            "projected_full_m": 1452.8955261409612,
+            "projected_with_reserve_m": 1449.8955261409612
+          }
+        },
+        "between_underway_losses": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 216.0898106172677,
+            "true_nominal_m": 191.0898106172677,
+            "truth_full_m": 177.9648106172677,
+            "truth_with_reserve_m": 174.9648106172677,
+            "projected_full_m": 177.9648862142908,
+            "projected_with_reserve_m": 174.9648862142908
+          },
+          "new_underway_contact": {
+            "true_hull_m": 216.0898106172677,
+            "true_nominal_m": 191.0898106172677,
+            "truth_full_m": 177.9648106172677,
+            "truth_with_reserve_m": 174.9648106172677,
+            "projected_full_m": 177.9648862142908,
+            "projected_with_reserve_m": 174.9648862142908
+          },
+          "original_fleet": {
+            "true_hull_m": 1594.8689288860899,
+            "true_nominal_m": 1569.8689288860899,
+            "truth_full_m": 1559.6689288860898,
+            "truth_with_reserve_m": 1556.6689288860898,
+            "projected_full_m": 1559.6679266110018,
+            "projected_with_reserve_m": 1556.6679266110018
+          }
+        },
+        "second_underway_lost_delivery": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 187.08712962489358,
+            "true_nominal_m": 162.08712962489358,
+            "truth_full_m": 102.16212962489357,
+            "truth_with_reserve_m": 99.16212962489357,
+            "projected_full_m": 102.16234996577083,
+            "projected_with_reserve_m": 99.16234996577083
+          },
+          "new_underway_contact": {
+            "true_hull_m": 187.08712962489358,
+            "true_nominal_m": 162.08712962489358,
+            "truth_full_m": 102.16212962489357,
+            "truth_with_reserve_m": 99.16212962489357,
+            "projected_full_m": 102.16234996577083,
+            "projected_with_reserve_m": 99.16234996577083
+          },
+          "original_fleet": {
+            "true_hull_m": 1650.8707374989365,
+            "true_nominal_m": 1625.8707374989365,
+            "truth_full_m": 1612.7457374989365,
+            "truth_with_reserve_m": 1609.7457374989365,
+            "projected_full_m": 1612.7443871778019,
+            "projected_with_reserve_m": 1609.7443871778019
+          }
+        },
+        "after_losses_through900s": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 169.79251638188668,
+            "true_nominal_m": 144.79251638188668,
+            "truth_full_m": 131.67813516524132,
+            "truth_with_reserve_m": 128.67813516524132,
+            "projected_full_m": 131.67821773711574,
+            "projected_with_reserve_m": 128.67821773711574
+          },
+          "new_underway_contact": {
+            "true_hull_m": 169.79251638188668,
+            "true_nominal_m": 144.79251638188668,
+            "truth_full_m": 131.67813516524132,
+            "truth_with_reserve_m": 128.67813516524132,
+            "projected_full_m": 131.67821773711574,
+            "projected_with_reserve_m": 128.67821773711574
+          },
+          "original_fleet": {
+            "true_hull_m": 1781.1903085612287,
+            "true_nominal_m": 1756.1903085612287,
+            "truth_full_m": 1745.9903085612286,
+            "truth_with_reserve_m": 1742.9903085612286,
+            "projected_full_m": 1745.9891688680066,
+            "projected_with_reserve_m": 1742.9891688680066
+          }
+        },
+        "later_route": {
+          "all_physical_or_visible_reports": {
+            "true_hull_m": 219.70841872584083,
+            "true_nominal_m": 194.70841872584083,
+            "truth_full_m": 184.5084187258408,
+            "truth_with_reserve_m": 181.5084187258408,
+            "projected_full_m": 184.50846045135407,
+            "projected_with_reserve_m": 181.50846045135407
+          },
+          "new_underway_contact": {
+            "true_hull_m": 219.70841872584083,
+            "true_nominal_m": 194.70841872584083,
+            "truth_full_m": 184.5084187258408,
+            "truth_with_reserve_m": 181.5084187258408,
+            "projected_full_m": 184.50846045135407,
+            "projected_with_reserve_m": 181.50846045135407
+          },
+          "original_fleet": {
+            "true_hull_m": 2243.076790653923,
+            "true_nominal_m": 2218.076790653923,
+            "truth_full_m": 2207.8767906539233,
+            "truth_with_reserve_m": 2204.8767906539233,
+            "projected_full_m": 2207.8755725323126,
+            "projected_with_reserve_m": 2204.8755725323126
+          }
+        }
+      },
+      "negative_contact_interval_counts_by_phase": {
+        "before_acquisition": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "acquired_before_anchor": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "anchor_before_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "first_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "between_underway_losses": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "second_underway_lost_delivery": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "after_losses_through900s": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        },
+        "later_route": {
+          "true_hull_m": 0,
+          "true_nominal_m": 0,
+          "truth_full_m": 0,
+          "truth_with_reserve_m": 0,
+          "projected_full_m": 0,
+          "projected_with_reserve_m": 0
+        }
+      },
+      "first_negative_intervals_all_contacts": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_negative_intervals_new_contact": {
+        "true_hull_m": null,
+        "true_nominal_m": null,
+        "truth_full_m": null,
+        "truth_with_reserve_m": null,
+        "projected_full_m": null,
+        "projected_with_reserve_m": null
+      },
+      "first_new_contact_visible_history_s": 420.0,
+      "new_contact_unseen_command_intervals": 34,
+      "history_sha256": "b01f3714e8ead30431c7d96667b05dabf41f7bedf04a1c56c83400c886d7deac",
+      "phase_minimum_scope": "Native0.05s relative/radius-chord minima for each5s command. Preacquisition new-contact truth uses an explicit65s-equivalent hypothetical allowance; there is no fabricated report projection.",
+      "replay_sha256": "dc6acb5a9aa7a606d5021fb0f9315ca27914dab6f7ecdad707d4b17b8e7a21a2",
+      "gate_log_sha256": "f5292e084d61b9e902044983ee62c17303878fcb939e8eb446316c5ff4d0fb85"
+    }
+  ],
+  "all_cases_final": true,
+  "all_underway_peak_pairs_experienced": true,
+  "source_sha256": "ce3e9b09ed1ab5e36630067bc9c3e64d5047313599d2d99bf59b304dea6d6b00",
+  "underway_config_sha256": "d4e9ea0236d742dcfb39edede048691c3b85cb756513f6f137755efb0195eb8e",
+  "independent_sweep_sha256": "5cc34b6e1c18b3d2c94f0557e425f073aa86667a09fe84ea5cdc72946cf35f04",
+  "independent_prefix_sweep_sha256": "94de6e0f0e79841898e897af4f4e3311e4a988e7fc020e8d8fe25c65f2d27a3a",
+  "phase_encounter_bounds_s": {
+    "before_acquisition": [
+      null,
+      420.0
+    ],
+    "acquired_before_anchor": [
+      420.0,
+      560.0
+    ],
+    "anchor_before_lost_delivery": [
+      560.0,
+      665.0
+    ],
+    "first_underway_lost_delivery": [
+      665.0,
+      705.0
+    ],
+    "between_underway_losses": [
+      705.0,
+      725.0
+    ],
+    "second_underway_lost_delivery": [
+      725.0,
+      765.0
+    ],
+    "after_losses_through900s": [
+      765.0,
+      900.0
+    ],
+    "later_route": [
+      900.0,
+      null
+    ]
+  },
+  "scope": "Original sheltered monitoring and new underway AIS losses have fixed original UTC anchors. All physical contacts are reconstructed, while report projections exist only after real acquisition. Scheduled windows alone do not establish actual exposure or active avoidance."
+}

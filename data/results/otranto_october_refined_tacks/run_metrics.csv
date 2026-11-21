@@ -1,0 +1,12 @@
+arm,status,captures,elapsed_s,track_distance_m,forecast_tack_refinement,forecast_tracking_feedback,forecast_tack_step_seconds,forecast_refinement_phase
+recorded_grid_mpc,completed,8,9520,6685.307623111972,False,False,,
+original_gamma,completed,8,9225,6415.080737303299,False,False,120.0,all
+original_diffusion,completed,8,9225,6415.080737303299,False,False,120.0,all
+grid_mpc,completed,8,9520,6685.307623111972,False,False,,
+gamma,completed,8,9175,6362.512561223398,True,True,60.0,return
+diffusion,completed,8,9175,6362.512561223398,True,True,60.0,return
+gamma_angles_only,completed,8,9235,6429.441446707617,True,False,120.0,all
+gamma_feedback_120,completed,8,9240,6421.597935977915,True,True,120.0,all
+gamma_all_60,completed,8,9295,6377.6344523918915,True,True,60.0,all
+diffusion_all_60,completed,8,9295,6377.6344523918915,True,True,60.0,all
+gamma_original,completed,8,9225,6415.080737303299,False,False,120.0,all

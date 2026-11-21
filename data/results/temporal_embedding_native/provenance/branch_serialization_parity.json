@@ -1,0 +1,9 @@
+{
+  "scenario": "winter__20260116T1800Z__otranto_002__train_opposed",
+  "launch_source_sha256": "5e5ea697b92021bde1795ff91e308e39778be0924c9cbf2845096dd3e4239fe7",
+  "replay_source_sha256": "f2cf2e9f4e8fb30f6b05dec9fd5810faa353a26f61d0daf771689c7614833e16",
+  "states": 1,
+  "branches": 2,
+  "identical_fixed_labels_sha256": "cda237d2bae306f756b60881537edfe937838b416d698816c2e2097f3147c3cf",
+  "checks": "Archived rows, rebuilt rows from launch source and rebuilt rows from trace-capable source are identical."
+}

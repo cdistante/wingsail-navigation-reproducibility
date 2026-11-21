@@ -1,0 +1,2875 @@
+{
+  "states": 40,
+  "eligible_states": 40,
+  "eligible_alternative_pairs": 97,
+  "states_with_oracle_safe_gain_gt_25": 4,
+  "incumbent_outcomes": {
+    "safe_capture": 40
+  },
+  "eligible_alternative_outcomes": {
+    "safe_capture": 97
+  },
+  "arms": {
+    "physics": {
+      "scored_states": 0,
+      "predicted_crossings": 0,
+      "decidable_crossings": 0,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 0,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {},
+      "selected_outcomes": {
+        "safe_capture": 40
+      },
+      "gate_precision_on_safe_pairs": null,
+      "observed_safe_win_fraction_of_crossings": null,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": null,
+      "observed_oracle_regret_states": 40,
+      "mean_observed_oracle_regret_s": 9.445576740208192,
+      "safe_eta_states": 40,
+      "safe_eta_pairs": 97,
+      "state_weighted_pair_mae_s": 64.51432990102379,
+      "state_weighted_pair_bias_s": -21.17393554611411
+    },
+    "explicit": {
+      "scored_states": 40,
+      "predicted_crossings": 13,
+      "decidable_crossings": 13,
+      "observed_safe_gain_gt_25_crossings": 3,
+      "observed_safe_gain_le_25_crossings": 10,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 13
+      },
+      "selected_outcomes": {
+        "safe_capture": 40
+      },
+      "gate_precision_on_safe_pairs": 0.23076923076923078,
+      "observed_safe_win_fraction_of_crossings": 0.23076923076923078,
+      "oracle_opportunity_recall": 0.75,
+      "mean_observed_crossing_gain_s": -17.52936386521815,
+      "observed_oracle_regret_states": 40,
+      "mean_observed_oracle_regret_s": 15.142619996404093,
+      "safe_eta_states": 40,
+      "safe_eta_pairs": 97,
+      "state_weighted_pair_mae_s": 57.79861567943036,
+      "state_weighted_pair_bias_s": -16.350965929935104
+    },
+    "temporal": {
+      "scored_states": 40,
+      "predicted_crossings": 17,
+      "decidable_crossings": 17,
+      "observed_safe_gain_gt_25_crossings": 3,
+      "observed_safe_gain_le_25_crossings": 14,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 17
+      },
+      "selected_outcomes": {
+        "safe_capture": 40
+      },
+      "gate_precision_on_safe_pairs": 0.17647058823529413,
+      "observed_safe_win_fraction_of_crossings": 0.17647058823529413,
+      "oracle_opportunity_recall": 0.75,
+      "mean_observed_crossing_gain_s": -17.529673837141015,
+      "observed_oracle_regret_states": 40,
+      "mean_observed_oracle_regret_s": 16.895688120993125,
+      "safe_eta_states": 40,
+      "safe_eta_pairs": 97,
+      "state_weighted_pair_mae_s": 305.52157865076185,
+      "state_weighted_pair_bias_s": -175.07056416542383
+    },
+    "snapshot": {
+      "scored_states": 40,
+      "predicted_crossings": 14,
+      "decidable_crossings": 14,
+      "observed_safe_gain_gt_25_crossings": 3,
+      "observed_safe_gain_le_25_crossings": 11,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 14
+      },
+      "selected_outcomes": {
+        "safe_capture": 40
+      },
+      "gate_precision_on_safe_pairs": 0.21428571428571427,
+      "observed_safe_win_fraction_of_crossings": 0.21428571428571427,
+      "oracle_opportunity_recall": 0.75,
+      "mean_observed_crossing_gain_s": -8.472025811442677,
+      "observed_oracle_regret_states": 40,
+      "mean_observed_oracle_regret_s": 12.41078577421313,
+      "safe_eta_states": 40,
+      "safe_eta_pairs": 97,
+      "state_weighted_pair_mae_s": 240.59786363247002,
+      "state_weighted_pair_bias_s": -131.28089731431146
+    }
+  },
+  "state_records": [
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/865",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 190.63412322106342,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 190.63412322106342,
+        "2": -36.649192212824346,
+        "3": -48.912056565959574
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 190.63412322106342,
+          "paired_prediction_errors_s": {
+            "1": -290.7924573878454,
+            "2": 9.718359853297898,
+            "3": -42.44307330298716
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 77.93558427044445,
+          "actual_selected_gain_s": 190.63412322106342,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -112.69853895061897,
+            "2": 19.01256338157509,
+            "3": -52.863048292682834
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 777.2724893537634,
+          "actual_selected_gain_s": 190.63412322106342,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 586.6383661327,
+            "2": -45.55854739014558,
+            "3": -227.07171812719344
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 640.916246457216,
+          "actual_selected_gain_s": 190.63412322106342,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 450.28212323615253,
+            "2": -17.74034780002512,
+            "3": -143.20754907788978
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/2425",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -11.052308727742684
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -18.264719499894
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 60.038798759595466,
+          "actual_selected_gain_s": -11.052308727742684,
+          "observed_oracle_regret_s": 11.052308727742684,
+          "paired_prediction_errors_s": {
+            "1": 71.09110748733815
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -27.564645223753132
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -4.352150526224591
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/2665",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -2.785418816108745
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -26.927998787468937
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 44.05498297305894,
+          "actual_selected_gain_s": -2.785418816108745,
+          "observed_oracle_regret_s": 2.785418816108745,
+          "paired_prediction_errors_s": {
+            "1": 46.840401789167686
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -41.66071547050353
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -20.31833476609006
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/2905",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.8890305759152852
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -24.838605767301374
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 30.443863977786805,
+          "actual_selected_gain_s": -0.8890305759152852,
+          "observed_oracle_regret_s": 0.8890305759152852,
+          "paired_prediction_errors_s": {
+            "1": 31.33289455370209
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -44.1391923492136
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -26.376464860113742
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/3145",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -1.9564627209095988
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -16.130457416692934
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 19.744878307108195,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 21.701341028017794
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -39.82088025645692
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -26.20873000027757
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/3385",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -7.737228762579619,
+        "2": -4.895793694944587,
+        "3": -9.785368717438544
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -22.215515099063907,
+            "2": -0.04400641731361077,
+            "3": -0.6486307838862615
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 44.00407887247012,
+          "actual_selected_gain_s": -9.785368717438544,
+          "observed_oracle_regret_s": 9.785368717438544,
+          "paired_prediction_errors_s": {
+            "1": -59.14581064926573,
+            "2": 35.85612491880886,
+            "3": 53.78944758990866
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 40.88306703611664,
+          "actual_selected_gain_s": -7.737228762579619,
+          "observed_oracle_regret_s": 7.737228762579619,
+          "paired_prediction_errors_s": {
+            "1": 48.62029579869626,
+            "2": -57.69905129407675,
+            "3": -86.52539078528802
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 21.242437294324873,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 28.97966605690449,
+            "2": -39.46927171356481,
+            "3": -58.97207054520402
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/3459.85",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -117.92053729925544,
+        "2": -97.93837531465113
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 14.633116132541545,
+            "2": 97.04816038858587
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 81.90705604557377,
+          "actual_selected_gain_s": -97.93837531465113,
+          "observed_oracle_regret_s": 97.93837531465113,
+          "paired_prediction_errors_s": {
+            "1": -55.52010238057892,
+            "2": 179.8454313602249
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1104.3728876344771,
+            "2": -540.802766491428
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1020.8281115951387,
+            "2": -482.723740482375
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/3699.85",
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -21.804683101619617,
+        "2": -30.138624041399453
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -71.9050351705805,
+            "2": -115.22491922046379
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 14.188322035646252,
+            "2": -23.546204244664068
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 94.55687362672421,
+          "actual_selected_gain_s": -21.804683101619617,
+          "observed_oracle_regret_s": 21.804683101619617,
+          "paired_prediction_errors_s": {
+            "1": 116.36155672834383,
+            "2": -449.56868683624924
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 73.17077133886886,
+          "actual_selected_gain_s": -21.804683101619617,
+          "observed_oracle_regret_s": 21.804683101619617,
+          "paired_prediction_errors_s": {
+            "1": 94.97545444048848,
+            "2": -425.3796694599054
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/20",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -225.90979534899816,
+        "2": -82.51248100269595
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 221.66621678410593,
+            "2": 5.167631960360723
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 54.327232343128344,
+          "actual_selected_gain_s": -225.90979534899816,
+          "observed_oracle_regret_s": 225.90979534899816,
+          "paired_prediction_errors_s": {
+            "1": 280.2370276921265,
+            "2": 13.108077580977806
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 826.6045865087594,
+          "actual_selected_gain_s": -225.90979534899816,
+          "observed_oracle_regret_s": 225.90979534899816,
+          "paired_prediction_errors_s": {
+            "1": 1052.5143818577576,
+            "2": -63.73029758201392
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 720.0203654012789,
+          "actual_selected_gain_s": -225.90979534899816,
+          "observed_oracle_regret_s": 225.90979534899816,
+          "paired_prediction_errors_s": {
+            "1": 945.9301607502771,
+            "2": -35.56846040037772
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/260",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 34.478201321861434,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 34.478201321861434,
+        "2": -101.99369667235305
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 34.478201321861434,
+          "paired_prediction_errors_s": {
+            "1": -140.41569298690138,
+            "2": 62.039625727330076
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 55.7522034269914,
+          "actual_selected_gain_s": 34.478201321861434,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 21.274002105129966,
+            "2": 96.66145350955367
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 531.5810115705299,
+          "actual_selected_gain_s": 34.478201321861434,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 497.10281024866845,
+            "2": -12.519657502142763
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 593.288078344437,
+          "actual_selected_gain_s": 34.478201321861434,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 558.8098770225756,
+            "2": 25.18131953151351
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/500",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 8.832701562088914,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 8.832701562088914,
+        "2": -88.55559084980086,
+        "3": -145.34630420757458
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.832701562088914,
+          "paired_prediction_errors_s": {
+            "1": -112.58568035360213,
+            "2": 70.82290379732285,
+            "3": 63.87630383709438
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 111.60244632342938,
+          "actual_selected_gain_s": 8.832701562088914,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 102.76974476134046,
+            "2": 92.01690455920016,
+            "3": 118.91264041837803
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 661.0651403174434,
+          "actual_selected_gain_s": 8.832701562088914,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 652.2324387553545,
+            "2": -11.502258516287839,
+            "3": -200.4860916473981
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 726.1665722250295,
+          "actual_selected_gain_s": 8.832701562088914,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 717.3338706629406,
+            "2": 24.533701268076584,
+            "3": -85.2527643561798
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/1100",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0,
+        "2": -177.39011764614838,
+        "3": -178.36302276999936,
+        "4": -267.59279415839114
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -137.91958115906687,
+            "2": 68.36500632633101,
+            "3": 63.47391182440265,
+            "4": 136.2666480756841
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -111.89611859939214,
+            "2": -129.35855825502563,
+            "3": -121.8670623154951,
+            "4": -28.738413209460987
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -118.71198284779734,
+            "2": -1356.5558961999313,
+            "3": -1405.350344898798,
+            "4": -1415.322836603084
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -82.3590105372923,
+            "2": -1020.1853261995273,
+            "3": -1054.6868876438364,
+            "4": -1037.5233247472163
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/1340",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0,
+        "2": -188.02314888987462,
+        "3": -187.98849593508044,
+        "4": -329.44139958417486
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -119.32817934038485,
+            "2": 88.27308281583714,
+            "3": 83.1528474899892,
+            "4": 208.49935113218453
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -98.22844462819671,
+            "2": -121.50791878466748,
+            "3": -114.47230738803069,
+            "4": 31.00298568488506
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -64.98998351499336,
+            "2": -1321.0431627846351,
+            "3": -1369.4625998695738,
+            "4": -1325.6881227043946
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -67.25357914758774,
+            "2": -998.0298102439469,
+            "3": -1032.6405572123585,
+            "4": -962.6798644609316
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/1580",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0,
+        "2": -142.46982281373334,
+        "3": -140.75527253440805,
+        "4": -334.5191703561111
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -100.72121323046781,
+            "2": 44.965521974992726,
+            "3": 39.978767773637855,
+            "4": 218.35248678928474
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -84.60258356482655,
+            "2": -173.50685228886096,
+            "3": -166.81752124461195,
+            "4": 31.347122701299895
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -42.62427772709805,
+            "2": -1342.963350532975,
+            "3": -1390.6491919742402,
+            "4": -1292.489210027153
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -52.44811078500163,
+            "2": -1032.7876720265435,
+            "3": -1067.2259050564476,
+            "4": -944.0058356692941
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/1820",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -82.3761075677894
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -73.90817662152256
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -28.54886388575619
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -39.41123080389934
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/2060",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -64.03151586498473
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -54.299321433309956
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -13.535893279555125
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -23.66950719955048
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/185",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -66.16830058767391
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -80.23121170959848
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -154.72909083944114
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -123.99803851304478
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/425",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 36.854275349271575,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 36.854275349271575,
+        "2": 0.0,
+        "3": -54.98047513602069
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 36.854275349271575,
+          "paired_prediction_errors_s": {
+            "1": -118.9145993759671,
+            "2": -39.14065226361117,
+            "3": -84.81693378514092
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 92.500326576112,
+          "actual_selected_gain_s": 36.854275349271575,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 55.64605122684043,
+            "2": -8.837700608537943,
+            "3": -10.243635947593702
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 599.4955998247992,
+          "actual_selected_gain_s": 36.854275349271575,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 562.6413244755277,
+            "2": -116.69015351133021,
+            "3": -338.59135164301324
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 665.3469650899574,
+          "actual_selected_gain_s": 36.854275349271575,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 628.4926897406858,
+            "2": -79.95242054801884,
+            "3": -222.01691041514232
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/665",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 52.61684067432088,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 12.067296098603492,
+        "2": 0.0,
+        "3": -43.73843408845141,
+        "4": 52.61684067432088
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 52.61684067432088,
+          "paired_prediction_errors_s": {
+            "1": -79.67390480683162,
+            "2": -12.924391703454603,
+            "3": -2.59586966614188,
+            "4": -155.17699507622
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 136.19497353391898,
+          "actual_selected_gain_s": 12.067296098603492,
+          "observed_oracle_regret_s": 40.54954457571739,
+          "paired_prediction_errors_s": {
+            "1": 124.12767743531549,
+            "2": 3.151079198501293,
+            "3": 38.83046056172225,
+            "4": -98.04880811708563
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 730.0816115969319,
+          "actual_selected_gain_s": 12.067296098603492,
+          "observed_oracle_regret_s": 40.54954457571739,
+          "paired_prediction_errors_s": {
+            "1": 718.0143154983284,
+            "2": -97.02383570076108,
+            "3": -271.66564613728724,
+            "4": -685.6159516680473
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 794.520250212619,
+          "actual_selected_gain_s": 12.067296098603492,
+          "observed_oracle_regret_s": 40.54954457571739,
+          "paired_prediction_errors_s": {
+            "1": 782.4529541140155,
+            "2": -62.572519006992934,
+            "3": -160.70795672499662,
+            "4": -464.4340029677219
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/1625",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.11099876295770628,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.11099876295770628,
+        "2": -40.4549530686927,
+        "3": -40.05328288913006,
+        "4": -329.29546857458763
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.11099876295770628,
+          "paired_prediction_errors_s": {
+            "1": -110.60050329711362,
+            "2": -68.7678541383525,
+            "3": -75.06522213651806,
+            "4": 197.71280714701493
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.11099876295770628,
+          "paired_prediction_errors_s": {
+            "1": -91.71593597853348,
+            "2": -271.3843653461968,
+            "3": -265.3357820979611,
+            "4": 27.667971305436595
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.11099876295770628,
+          "paired_prediction_errors_s": {
+            "1": -50.0111364316831,
+            "2": -1462.0592352640326,
+            "3": -1510.4713718546493,
+            "4": -1316.8630874637086
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.11099876295770628,
+          "paired_prediction_errors_s": {
+            "1": -59.57737503738963,
+            "2": -1151.1717071403166,
+            "3": -1186.4799257007687,
+            "4": -968.1611948533512
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/1865",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.17023975226334187,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.17023975226334187,
+        "2": -175.682603649469,
+        "3": -174.72445248031295,
+        "4": -92.87305881505608
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.17023975226334187,
+          "paired_prediction_errors_s": {
+            "1": -92.10325356652038,
+            "2": 80.2267915351033,
+            "3": 74.5579132059097,
+            "4": -23.26084311762679
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.17023975226334187,
+          "paired_prediction_errors_s": {
+            "1": -78.23170624205545,
+            "2": -136.36766799374868,
+            "3": -130.0363245491767,
+            "4": -207.95274035153193
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.17023975226334187,
+          "paired_prediction_errors_s": {
+            "1": -35.322980107539024,
+            "2": -1292.9835130996837,
+            "3": -1340.1749368907545,
+            "4": -1516.0104675582004
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.17023975226334187,
+          "paired_prediction_errors_s": {
+            "1": -45.1190479035389,
+            "2": -993.627070393054,
+            "3": -1028.1857357505603,
+            "4": -1180.284683957353
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/2105",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.18806489703706575,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.18806489703706575,
+        "2": -146.16870939582577,
+        "3": -145.22407801168742,
+        "4": -270.26837600956196
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.18806489703706575,
+          "paired_prediction_errors_s": {
+            "1": -73.56977513409151,
+            "2": 34.5402376135346,
+            "3": 38.88704268388665,
+            "4": 150.52446805449108
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.18806489703706575,
+          "paired_prediction_errors_s": {
+            "1": -64.88061505311362,
+            "2": -183.13008298545105,
+            "3": -169.19731994639324,
+            "4": -38.53664083607259
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.18806489703706575,
+          "paired_prediction_errors_s": {
+            "1": -21.002171495823063,
+            "2": -1305.3501513612753,
+            "3": -1342.8638670731132,
+            "4": -1308.1122795746974
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.18806489703706575,
+          "paired_prediction_errors_s": {
+            "1": -31.37892341940551,
+            "2": -1013.0778241275591,
+            "3": -1038.556378325539,
+            "4": -981.1668508099569
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/2345",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.09542646604825222,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.09542646604825222
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.09542646604825222,
+          "paired_prediction_errors_s": {
+            "1": -54.93118925302872
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.09542646604825222,
+          "paired_prediction_errors_s": {
+            "1": -51.787002088940994
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.09542646604825222,
+          "paired_prediction_errors_s": {
+            "1": -8.149413605737095
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.09542646604825222,
+          "paired_prediction_errors_s": {
+            "1": -19.171233796023785
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/2585",
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.19149484358490554,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.19149484358490554
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.19149484358490554,
+          "paired_prediction_errors_s": {
+            "1": -36.96719186639268
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.19149484358490554,
+          "paired_prediction_errors_s": {
+            "1": -37.847702782704914
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 1.1477170324252484,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.19149484358490554,
+          "paired_prediction_errors_s": {
+            "1": 0.9562221888403428
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.19149484358490554,
+          "paired_prediction_errors_s": {
+            "1": -10.995410481382976
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/185",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -154.8668350659077,
+        "2": -159.6440276892156,
+        "3": -5.559930179989806
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 23.53149718549048,
+            "2": 88.3518281047784,
+            "3": -44.73239519237768
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -49.34461701879809,
+            "2": 0.14292056065664838,
+            "3": -6.165025775606182
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 99.22651927846118,
+            "2": 157.59140108498127,
+            "3": -32.934775246676054
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -56.264567719193565,
+            "2": 2.818282526814073,
+            "3": -18.399325780588697
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/425",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -119.58271482456462,
+        "2": -96.2950261190067,
+        "3": -6.446078744740134,
+        "4": -24.560142440465142
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -14.477464717793737,
+            "2": 24.95739077806593,
+            "3": -24.187712071658325,
+            "4": -104.72920452399057
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 3.4772461680122433,
+            "2": 25.635364533430447,
+            "3": 2.016018797810375,
+            "4": -35.65699428220728
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 199.89653505182036,
+          "actual_selected_gain_s": -96.2950261190067,
+          "observed_oracle_regret_s": 96.2950261190067,
+          "paired_prediction_errors_s": {
+            "1": 263.97454031265465,
+            "2": 296.1915611708271,
+            "3": -30.123528361945773,
+            "4": -127.47247361130485
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 8.10442793744869,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 72.51769767491487,
+            "2": 104.3994540564554,
+            "3": -13.213995386063289,
+            "4": -76.5421409089247
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/665",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -102.5986216937074,
+        "2": -86.88094417449315,
+        "3": -3.329119337827251,
+        "4": -32.27558774815407
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.656052015417345,
+            "2": 15.159199715785462,
+            "3": -9.541616249751542,
+            "4": -27.85387580272959
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 27.58061750843126,
+          "actual_selected_gain_s": -86.88094417449315,
+          "observed_oracle_regret_s": 86.88094417449315,
+          "paired_prediction_errors_s": {
+            "1": 87.89311305180604,
+            "2": 114.46156168292441,
+            "3": 5.043031927599941,
+            "4": 11.141812334744372
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 437.34256653186094,
+          "actual_selected_gain_s": -86.88094417449315,
+          "observed_oracle_regret_s": 86.88094417449315,
+          "paired_prediction_errors_s": {
+            "1": 487.4527516705458,
+            "2": 524.2235107063541,
+            "3": -34.01706655028647,
+            "4": -107.15458940259009
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 208.91698924720185,
+          "actual_selected_gain_s": -86.88094417449315,
+          "observed_oracle_regret_s": 86.88094417449315,
+          "paired_prediction_errors_s": {
+            "1": 260.32016226948394,
+            "2": 295.797933421695,
+            "3": -14.96193035301826,
+            "4": -48.15731045657867
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/1745",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -2.3272193840704745
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -3.182822670797748
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -21.867152899288556
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 8.328111204798091,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 10.655330588868566
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -6.461905894000651
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/1865.2",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.4688070389324821,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.4688070389324821,
+        "2": -222.97361959833665
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.4688070389324821,
+          "paired_prediction_errors_s": {
+            "1": -140.8586439803721,
+            "2": 169.33388685675254
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.4688070389324821,
+          "paired_prediction_errors_s": {
+            "1": -142.0025489744021,
+            "2": 16.88172199605083
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.4688070389324821,
+          "paired_prediction_errors_s": {
+            "1": -13.961500652749919,
+            "2": -626.6684364367768
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.4688070389324821,
+          "paired_prediction_errors_s": {
+            "1": -36.603677356470826,
+            "2": -415.62822321780413
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/2105.2",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 8.284323137532851,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 8.284323137532851,
+        "2": -203.2748631128809,
+        "3": -213.0625917367521,
+        "4": -227.65553007856943
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.284323137532851,
+          "paired_prediction_errors_s": {
+            "1": -40.214902578887745,
+            "2": 89.40206519377557,
+            "3": 85.35317503840577,
+            "4": 177.39243606215246
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.284323137532851,
+          "paired_prediction_errors_s": {
+            "1": -38.05084731605086,
+            "2": -144.58917804934435,
+            "3": -142.8706711864387,
+            "4": 6.275138327649529
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 105.03718754452734,
+          "actual_selected_gain_s": 8.284323137532851,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 96.75286440699449,
+            "2": -966.2606454459803,
+            "3": -989.4130456726172,
+            "4": -382.981828870707
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 80.05199083196783,
+          "actual_selected_gain_s": 8.284323137532851,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 71.76766769443498,
+            "2": -683.7826340870369,
+            "3": -702.2529043879563,
+            "4": -299.56822969668167
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/2465.2",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.3229532901547145,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.3229532901547145
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.3229532901547145,
+          "paired_prediction_errors_s": {
+            "1": -29.014044814462864
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.3229532901547145,
+          "paired_prediction_errors_s": {
+            "1": -9.422519435767185
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.3229532901547145,
+          "paired_prediction_errors_s": {
+            "1": -102.80859640707223
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.3229532901547145,
+          "paired_prediction_errors_s": {
+            "1": -69.16241748873034
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/2705.2",
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -14.856627160194307,
+        "2": -25.27348186373709
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1.1171730644768445,
+            "2": -40.72492580872992
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 2.1429549997280333,
+            "2": -67.71340157053879
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -75.74690542762252,
+            "2": -189.36786799152395
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -47.90173056345617,
+            "2": -143.20115290735833
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/190",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 11.114459500904104,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -107.46083638175651,
+        "2": -107.51754007821455,
+        "3": 11.114459500904104
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.114459500904104,
+          "paired_prediction_errors_s": {
+            "1": -4.967558784039284,
+            "2": 33.93470472790705,
+            "3": -33.033156764320665
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 7.820733939413685,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.114459500904104,
+          "paired_prediction_errors_s": {
+            "1": -88.91531841196843,
+            "2": -67.49565649776446,
+            "3": -3.293725561490419
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.114459500904104,
+          "paired_prediction_errors_s": {
+            "1": -18.84886720666509,
+            "2": 11.162007005420492,
+            "3": -28.768532144124492
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.114459500904104,
+          "paired_prediction_errors_s": {
+            "1": -101.0757759765711,
+            "2": -73.22063098913532,
+            "3": -31.73523812420717
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/430",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 11.096170722192255,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -91.41297830056874,
+        "2": -91.72607732531651,
+        "3": 11.096170722192255,
+        "4": -17.944802934024665
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.096170722192255,
+          "paired_prediction_errors_s": {
+            "1": -9.563249705226099,
+            "2": 17.862076722551592,
+            "3": -51.57699514621709,
+            "4": -112.39784369878316
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 6.36628412248956,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.096170722192255,
+          "paired_prediction_errors_s": {
+            "1": -46.86582414428858,
+            "2": -24.765876481148098,
+            "3": -4.729886599702695,
+            "4": -35.49928733437059
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.096170722192255,
+          "paired_prediction_errors_s": {
+            "1": 36.397863566875,
+            "2": 60.51031214631803,
+            "3": -36.66449031686216,
+            "4": -76.2477692545649
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.096170722192255,
+          "paired_prediction_errors_s": {
+            "1": -40.79516176300058,
+            "2": -18.172156197683762,
+            "3": -37.86921488332291,
+            "4": -53.7826917307666
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/670",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 11.042999857175118,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -83.59038021604056,
+        "2": -75.36383898961344,
+        "3": 11.042999857175118,
+        "4": -18.11407684769938
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.042999857175118,
+          "paired_prediction_errors_s": {
+            "1": -9.364067955553764,
+            "2": 1.256852097737692,
+            "3": -71.09900496143132,
+            "4": -62.45992423308826
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 4.07589454037543,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.042999857175118,
+          "paired_prediction_errors_s": {
+            "1": 13.14862664059956,
+            "2": 29.136574229698226,
+            "3": -6.967105316799689,
+            "4": -10.794622316778714
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 62.087998584512434,
+          "actual_selected_gain_s": -75.36383898961344,
+          "observed_oracle_regret_s": 86.40683884678856,
+          "paired_prediction_errors_s": {
+            "1": 125.71316718927119,
+            "2": 137.45183757412588,
+            "3": -44.19207543313905,
+            "4": -48.511311326154555
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 11.042999857175118,
+          "paired_prediction_errors_s": {
+            "1": 44.492488863101016,
+            "2": 55.39058964604192,
+            "3": -44.11637018144893,
+            "4": -26.91980649856123
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/910",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 10.977762511069841,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -72.13166716342084,
+        "2": -75.5070861253771,
+        "3": 10.977762511069841,
+        "4": -17.258499056810933
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 10.977762511069841,
+          "paired_prediction_errors_s": {
+            "1": -17.106837417971747,
+            "2": 1.3133959681410943,
+            "3": -32.21085334671079,
+            "4": -17.836761106958875
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 27.418431886093913,
+          "actual_selected_gain_s": -75.5070861253771,
+          "observed_oracle_regret_s": 86.48484863644694,
+          "paired_prediction_errors_s": {
+            "1": 70.16716936309581,
+            "2": 102.92551801147101,
+            "3": -38.23379040228451,
+            "4": 10.527450906666672
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 173.9672045347295,
+          "actual_selected_gain_s": -75.5070861253771,
+          "observed_oracle_regret_s": 86.48484863644694,
+          "paired_prediction_errors_s": {
+            "1": 226.99963906523953,
+            "2": 249.4742906601066,
+            "3": -26.288672529975656,
+            "4": -26.452842089941214
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 5,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 81.40807644497568,
+          "actual_selected_gain_s": -75.5070861253771,
+          "observed_oracle_regret_s": 86.48484863644694,
+          "paired_prediction_errors_s": {
+            "1": 134.54492577078963,
+            "2": 156.91516257035278,
+            "3": -36.19379698454645,
+            "4": -5.065059034352089
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/1270",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.13927181806661793,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.13927181806661793
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.13927181806661793,
+          "paired_prediction_errors_s": {
+            "1": -91.1183584724206
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.13927181806661793,
+          "paired_prediction_errors_s": {
+            "1": -0.8484633280131675
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 57.514825311431196,
+          "actual_selected_gain_s": 0.13927181806661793,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 57.37555349336458
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 59.18677444706418,
+          "actual_selected_gain_s": 0.13927181806661793,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 59.04750262899756
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/1510",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0880040557240136,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0880040557240136
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0880040557240136,
+          "paired_prediction_errors_s": {
+            "1": -88.073982472848
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 1.7086451745392424,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0880040557240136,
+          "paired_prediction_errors_s": {
+            "1": 1.6206411188152288
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 61.65278531131855,
+          "actual_selected_gain_s": 0.0880040557240136,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 61.56478125559454
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 64.13250004691645,
+          "actual_selected_gain_s": 0.0880040557240136,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 64.04449599119243
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/1750",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.058262493170332164,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.058262493170332164
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.058262493170332164,
+          "paired_prediction_errors_s": {
+            "1": -86.02356688801478
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.37926267841226036,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.058262493170332164,
+          "paired_prediction_errors_s": {
+            "1": 0.3210001852419282
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 65.38417778159874,
+          "actual_selected_gain_s": 0.058262493170332164,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 65.3259152884284
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 67.77797536832941,
+          "actual_selected_gain_s": 0.058262493170332164,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 67.71971287515908
+          }
+        }
+      }
+    },
+    {
+      "state_id": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/1990",
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "block": "autumn",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.057688332907900985,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.057688332907900985
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.057688332907900985,
+          "paired_prediction_errors_s": {
+            "1": -84.06904408426658
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.057688332907900985,
+          "paired_prediction_errors_s": {
+            "1": -1.6784640969702878
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 68.38418647156237,
+          "actual_selected_gain_s": 0.057688332907900985,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 68.32649813865447
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 71.00702714412398,
+          "actual_selected_gain_s": 0.057688332907900985,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 70.94933881121608
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "status": "PASS",
+  "matched_cases": 12,
+  "episode_rows": 24,
+  "manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "checkpoint_sha256": "d7450771f695a0df0f0cb07edd9adf740a18e2741bd5363ccbb2957b7f1ea31a",
+  "training_partition": {
+    "training_receipt_sha256": "bad00d66e78eca99e26bab84cd2d78bc3ad58b764984a24d78c7fb462f3e0b18",
+    "training_scenarios": 96,
+    "validation_scenarios": 32,
+    "selected_seed": 10921,
+    "selected_update": 48
+  },
+  "audited_capture_order": true,
+  "full_margin_scope": "Original report and truth envelope over applied native motion, with hulls, 25 m gap, one report uncertainty radius and 3 m reserve.",
+  "guard": {
+    "implementation": "RobustNativeEngine",
+    "report_guard_uncertainty_multiplier": 2,
+    "reserve_m": 3.0,
+    "evaluation_envelope": "original full report and truth swept radii"
+  },
+  "summary": {
+    "physics": {
+      "cases": 12,
+      "completed": 4,
+      "status": {
+        "no_safe_native_action": 8,
+        "captured": 4
+      },
+      "fully_audited_cases": 10,
+      "nonpositive_clearance_cases": 0,
+      "minimum_full_margin_m": 27.651355150619167,
+      "mean_penalized_s": 30086.956624917806,
+      "median_completed_s": 3830.440204377269,
+      "learned_changes": 0,
+      "maximum_decision_s": 0.08813216700036719,
+      "overruns_5s": 0,
+      "ordered_captures": 10,
+      "required_captures": 28,
+      "clear_completed_routes": 4,
+      "minimum_truth_margin_m": 27.651355150619167,
+      "minimum_report_margin_m": 27.651393757225975,
+      "maximum_report_age_s": 60.0,
+      "cases_exposing_drops": 10
+    },
+    "grpo_progress": {
+      "cases": 12,
+      "completed": 4,
+      "status": {
+        "no_safe_native_action": 8,
+        "captured": 4
+      },
+      "fully_audited_cases": 10,
+      "nonpositive_clearance_cases": 0,
+      "minimum_full_margin_m": 27.651355150619167,
+      "mean_penalized_s": 30071.980058883546,
+      "median_completed_s": 3830.440204377269,
+      "learned_changes": 4,
+      "maximum_decision_s": 0.0917366249996121,
+      "overruns_5s": 0,
+      "ordered_captures": 10,
+      "required_captures": 28,
+      "clear_completed_routes": 4,
+      "minimum_truth_margin_m": 27.651355150619167,
+      "minimum_report_margin_m": 27.651393757225975,
+      "maximum_report_age_s": 60.0,
+      "cases_exposing_drops": 10
+    }
+  },
+  "paired": {
+    "joint_completions": 4,
+    "joint_clear_completions": 4,
+    "grpo_only_completions": 0,
+    "physics_only_completions": 0,
+    "grpo_faster": 1,
+    "grpo_slower": 0,
+    "ties": 3,
+    "median_grpo_minus_physics_s": 0.0,
+    "mean_grpo_minus_physics_s": -44.9296981027785,
+    "median_grpo_minus_physics_s_both_clear": 0.0
+  },
+  "before_after_guard": {
+    "physics": {
+      "prior_episodes_sha256": "2df18616ffebedc4f13c6cd6b09465e0f2dfc6febe758674669318c665100883",
+      "before": {
+        "cases": 12,
+        "completed": 5,
+        "status": {
+          "censored_cap": 1,
+          "no_safe_native_action": 6,
+          "captured": 5
+        },
+        "fully_audited_cases": 10,
+        "nonpositive_clearance_cases": 1,
+        "minimum_full_margin_m": -1.096235500118965,
+        "mean_penalized_s": 26794.27744854476,
+        "median_completed_s": 3687.8498835234323,
+        "learned_changes": 0,
+        "maximum_decision_s": 0.08714312500160304,
+        "overruns_5s": 0,
+        "ordered_captures": 12,
+        "required_captures": 28,
+        "clear_completed_routes": 5,
+        "minimum_truth_margin_m": -1.096235500118965,
+        "minimum_report_margin_m": 0.16558570275088869,
+        "maximum_report_age_s": 60.0,
+        "cases_exposing_drops": 10
+      },
+      "after": {
+        "cases": 12,
+        "completed": 4,
+        "status": {
+          "no_safe_native_action": 8,
+          "captured": 4
+        },
+        "fully_audited_cases": 10,
+        "nonpositive_clearance_cases": 0,
+        "minimum_full_margin_m": 27.651355150619167,
+        "mean_penalized_s": 30086.956624917806,
+        "median_completed_s": 3830.440204377269,
+        "learned_changes": 0,
+        "maximum_decision_s": 0.08813216700036719,
+        "overruns_5s": 0,
+        "ordered_captures": 10,
+        "required_captures": 28,
+        "clear_completed_routes": 4,
+        "minimum_truth_margin_m": 27.651355150619167,
+        "minimum_report_margin_m": 27.651393757225975,
+        "maximum_report_age_s": 60.0,
+        "cases_exposing_drops": 10
+      },
+      "shared_finishes": 4,
+      "median_after_minus_before_s_on_shared_finishes": 0.0,
+      "cases": {
+        "autumn__20261012T0600Z__brindisi_small__test_oblique_fan": {
+          "before_status": "censored_cap",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 21600.0,
+          "after_elapsed_s": 175.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 58.91638416030888,
+          "after_full_truth_margin_m": 61.04464965260567,
+          "before_full_report_margin_m": 58.97957005358286,
+          "after_full_report_margin_m": 61.1013290630799
+        },
+        "autumn__20261012T0600Z__brindisi_small__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 155.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 11.194594145629154,
+          "after_full_truth_margin_m": 27.651355150619167,
+          "before_full_report_margin_m": 11.194638584432013,
+          "after_full_report_margin_m": 27.651393757225975
+        },
+        "autumn__20261014T1200Z__brindisi_003__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 2,
+          "before_elapsed_s": 3586.9681523863223,
+          "after_elapsed_s": 3586.9681523863223,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 132.2098820246746,
+          "after_full_truth_margin_m": 132.2098820246746,
+          "before_full_report_margin_m": 132.21055717376007,
+          "after_full_report_margin_m": 132.21055717376007
+        },
+        "autumn__20261014T1200Z__brindisi_003__test_raking_overtake": {
+          "before_status": "captured",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 3687.8498835234323,
+          "after_elapsed_s": 170.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 27.626054283174597,
+          "after_full_truth_margin_m": 36.146884985779806,
+          "before_full_report_margin_m": 34.15503415497432,
+          "after_full_report_margin_m": 37.58834511066125
+        },
+        "autumn__20261016T1800Z__brindisi_004__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 3,
+          "after_ordered_captures": 3,
+          "before_elapsed_s": 3136.773091320996,
+          "after_elapsed_s": 3136.773091320996,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 84.35753224798377,
+          "after_full_truth_margin_m": 84.35753224798377,
+          "before_full_report_margin_m": 84.39967957722074,
+          "after_full_report_margin_m": 84.39967957722074
+        },
+        "autumn__20261016T1800Z__brindisi_004__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 165.0,
+          "after_elapsed_s": 155.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 1.509228793284791,
+          "after_full_truth_margin_m": 30.298784714153754,
+          "before_full_report_margin_m": 1.3301711318664928,
+          "after_full_report_margin_m": 30.298803877178344
+        },
+        "autumn__20261018T0000Z__brindisi_small__test_oblique_fan": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 0.0,
+          "after_elapsed_s": 0.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": null,
+          "after_full_truth_margin_m": null,
+          "before_full_report_margin_m": null,
+          "after_full_report_margin_m": null
+        },
+        "autumn__20261018T0000Z__brindisi_small__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 0.0,
+          "after_elapsed_s": 0.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": null,
+          "after_full_truth_margin_m": null,
+          "before_full_report_margin_m": null,
+          "after_full_report_margin_m": null
+        },
+        "autumn__20261013T1800Z__brindisi_003__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 2,
+          "before_elapsed_s": 4073.912256368215,
+          "after_elapsed_s": 4073.912256368215,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 108.44189859809455,
+          "after_full_truth_margin_m": 108.44189859809455,
+          "before_full_report_margin_m": 108.44191654567604,
+          "after_full_report_margin_m": 108.44191654567604
+        },
+        "autumn__20261013T1800Z__brindisi_003__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 170.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": -1.096235500118965,
+          "after_full_truth_margin_m": 29.42562959336783,
+          "before_full_report_margin_m": 0.16558570275088869,
+          "after_full_report_margin_m": 29.425646671799313
+        },
+        "autumn__20261017T1200Z__brindisi_004__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 3,
+          "after_ordered_captures": 3,
+          "before_elapsed_s": 4645.825998938142,
+          "after_elapsed_s": 4645.825998938142,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 66.8973636227425,
+          "after_full_truth_margin_m": 66.8973636227425,
+          "before_full_report_margin_m": 66.95533239159839,
+          "after_full_report_margin_m": 66.95533239159839
+        },
+        "autumn__20261017T1200Z__brindisi_004__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 160.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 2.7406619026685917,
+          "after_full_truth_margin_m": 34.51690069987255,
+          "before_full_report_margin_m": 2.646137486689881,
+          "after_full_report_margin_m": 34.51685881881356
+        }
+      }
+    },
+    "grpo_progress": {
+      "prior_episodes_sha256": "238f7fd218de74531d7778aa45f4e2ef2ab2f0cbf4983248086eb744b863139e",
+      "before": {
+        "cases": 12,
+        "completed": 5,
+        "status": {
+          "censored_cap": 1,
+          "no_safe_native_action": 6,
+          "captured": 5
+        },
+        "fully_audited_cases": 10,
+        "nonpositive_clearance_cases": 1,
+        "minimum_full_margin_m": -1.096235500118965,
+        "mean_penalized_s": 26779.3008825105,
+        "median_completed_s": 3687.8498835234323,
+        "learned_changes": 4,
+        "maximum_decision_s": 0.12176079100026982,
+        "overruns_5s": 0,
+        "ordered_captures": 12,
+        "required_captures": 28,
+        "clear_completed_routes": 5,
+        "minimum_truth_margin_m": -1.096235500118965,
+        "minimum_report_margin_m": 0.16558570275088869,
+        "maximum_report_age_s": 60.0,
+        "cases_exposing_drops": 10
+      },
+      "after": {
+        "cases": 12,
+        "completed": 4,
+        "status": {
+          "no_safe_native_action": 8,
+          "captured": 4
+        },
+        "fully_audited_cases": 10,
+        "nonpositive_clearance_cases": 0,
+        "minimum_full_margin_m": 27.651355150619167,
+        "mean_penalized_s": 30071.980058883546,
+        "median_completed_s": 3830.440204377269,
+        "learned_changes": 4,
+        "maximum_decision_s": 0.0917366249996121,
+        "overruns_5s": 0,
+        "ordered_captures": 10,
+        "required_captures": 28,
+        "clear_completed_routes": 4,
+        "minimum_truth_margin_m": 27.651355150619167,
+        "minimum_report_margin_m": 27.651393757225975,
+        "maximum_report_age_s": 60.0,
+        "cases_exposing_drops": 10
+      },
+      "shared_finishes": 4,
+      "median_after_minus_before_s_on_shared_finishes": 0.0,
+      "cases": {
+        "autumn__20261012T0600Z__brindisi_small__test_oblique_fan": {
+          "before_status": "censored_cap",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 21600.0,
+          "after_elapsed_s": 175.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 58.91638416030888,
+          "after_full_truth_margin_m": 61.04464965260567,
+          "before_full_report_margin_m": 58.97957005358286,
+          "after_full_report_margin_m": 61.1013290630799
+        },
+        "autumn__20261012T0600Z__brindisi_small__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 155.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 11.194594145629154,
+          "after_full_truth_margin_m": 27.651355150619167,
+          "before_full_report_margin_m": 11.194638584432013,
+          "after_full_report_margin_m": 27.651393757225975
+        },
+        "autumn__20261014T1200Z__brindisi_003__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 2,
+          "before_elapsed_s": 3586.9681523863223,
+          "after_elapsed_s": 3586.9681523863223,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 132.2098820246746,
+          "after_full_truth_margin_m": 132.2098820246746,
+          "before_full_report_margin_m": 132.21055717376007,
+          "after_full_report_margin_m": 132.21055717376007
+        },
+        "autumn__20261014T1200Z__brindisi_003__test_raking_overtake": {
+          "before_status": "captured",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 3687.8498835234323,
+          "after_elapsed_s": 170.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 27.626054283174597,
+          "after_full_truth_margin_m": 36.146884985779806,
+          "before_full_report_margin_m": 34.15503415497432,
+          "after_full_report_margin_m": 37.58834511066125
+        },
+        "autumn__20261016T1800Z__brindisi_004__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 3,
+          "after_ordered_captures": 3,
+          "before_elapsed_s": 3136.773091320996,
+          "after_elapsed_s": 3136.773091320996,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 84.35753224798377,
+          "after_full_truth_margin_m": 84.35753224798377,
+          "before_full_report_margin_m": 84.39967957722074,
+          "after_full_report_margin_m": 84.39967957722074
+        },
+        "autumn__20261016T1800Z__brindisi_004__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 165.0,
+          "after_elapsed_s": 155.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 1.509228793284791,
+          "after_full_truth_margin_m": 30.298784714153754,
+          "before_full_report_margin_m": 1.3301711318664928,
+          "after_full_report_margin_m": 30.298803877178344
+        },
+        "autumn__20261018T0000Z__brindisi_small__test_oblique_fan": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 0.0,
+          "after_elapsed_s": 0.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": null,
+          "after_full_truth_margin_m": null,
+          "before_full_report_margin_m": null,
+          "after_full_report_margin_m": null
+        },
+        "autumn__20261018T0000Z__brindisi_small__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 0.0,
+          "after_elapsed_s": 0.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": null,
+          "after_full_truth_margin_m": null,
+          "before_full_report_margin_m": null,
+          "after_full_report_margin_m": null
+        },
+        "autumn__20261013T1800Z__brindisi_003__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 2,
+          "after_ordered_captures": 2,
+          "before_elapsed_s": 4073.912256368215,
+          "after_elapsed_s": 4073.912256368215,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 108.44189859809455,
+          "after_full_truth_margin_m": 108.44189859809455,
+          "before_full_report_margin_m": 108.44191654567604,
+          "after_full_report_margin_m": 108.44191654567604
+        },
+        "autumn__20261013T1800Z__brindisi_003__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 170.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": -1.096235500118965,
+          "after_full_truth_margin_m": 29.42562959336783,
+          "before_full_report_margin_m": 0.16558570275088869,
+          "after_full_report_margin_m": 29.425646671799313
+        },
+        "autumn__20261017T1200Z__brindisi_004__test_oblique_fan": {
+          "before_status": "captured",
+          "after_status": "captured",
+          "before_ordered_captures": 3,
+          "after_ordered_captures": 3,
+          "before_elapsed_s": 4466.107206527028,
+          "after_elapsed_s": 4466.107206527028,
+          "after_minus_before_s_on_shared_finish": 0.0,
+          "before_full_truth_margin_m": 61.40789414987735,
+          "after_full_truth_margin_m": 61.40789414987735,
+          "before_full_report_margin_m": 61.47554470728504,
+          "after_full_report_margin_m": 61.47554470728504
+        },
+        "autumn__20261017T1200Z__brindisi_004__test_raking_overtake": {
+          "before_status": "no_safe_native_action",
+          "after_status": "no_safe_native_action",
+          "before_ordered_captures": 0,
+          "after_ordered_captures": 0,
+          "before_elapsed_s": 160.0,
+          "after_elapsed_s": 150.0,
+          "after_minus_before_s_on_shared_finish": null,
+          "before_full_truth_margin_m": 2.7406619026685917,
+          "after_full_truth_margin_m": 34.51690069987255,
+          "before_full_report_margin_m": 2.646137486689881,
+          "after_full_report_margin_m": 34.51685881881356
+        }
+      }
+    }
+  },
+  "trajectories": {
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan/physics": {
+      "applied_intervals": 35,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 36,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 61.1013290630799,
+        "truth": 61.04464965260567
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake/physics": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 27.651393757225975,
+        "truth": 27.651355150619167
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/physics": {
+      "applied_intervals": 719,
+      "forecast_decisions": 30,
+      "captures": 2,
+      "maximum_clock_error_s": 9.103828801926284e-14,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.999999999749996,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 719,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 132.21055717376007,
+        "truth": 132.2098820246746
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/physics": {
+      "applied_intervals": 34,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 35,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 37.58834511066125,
+        "truth": 36.146884985779806
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/physics": {
+      "applied_intervals": 628,
+      "forecast_decisions": 27,
+      "captures": 3,
+      "maximum_clock_error_s": 1.8207657603852567e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.999999999932804,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 628,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 84.39967957722074,
+        "truth": 84.35753224798377
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake/physics": {
+      "applied_intervals": 31,
+      "forecast_decisions": 1,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 32,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 30.298803877178344,
+        "truth": 30.298784714153754
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan/physics": {
+      "applied_intervals": 0,
+      "forecast_decisions": 0,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 1,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": null,
+        "truth": null
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake/physics": {
+      "applied_intervals": 0,
+      "forecast_decisions": 0,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 1,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": null,
+        "truth": null
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/physics": {
+      "applied_intervals": 816,
+      "forecast_decisions": 35,
+      "captures": 2,
+      "maximum_clock_error_s": 1.8207657603852567e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.99999999992039,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 816,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 108.44191654567604,
+        "truth": 108.44189859809455
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake/physics": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 29.425646671799313,
+        "truth": 29.42562959336783
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/physics": {
+      "applied_intervals": 931,
+      "forecast_decisions": 41,
+      "captures": 3,
+      "maximum_clock_error_s": 3.637090628672013e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.99999999993374,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 931,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 66.95533239159839,
+        "truth": 66.8973636227425
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake/physics": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 34.51685881881356,
+        "truth": 34.51690069987255
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 35,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 36,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 61.1013290630799,
+        "truth": 61.04464965260567
+      },
+      "strategy_status": {
+        "no_incumbent_capture": 2
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 27.651393757225975,
+        "truth": 27.651355150619167
+      },
+      "strategy_status": {
+        "no_incumbent_capture": 2
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 719,
+      "forecast_decisions": 30,
+      "captures": 2,
+      "maximum_clock_error_s": 9.103828801926284e-14,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.999999999749996,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 719,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 132.21055717376007,
+        "truth": 132.2098820246746
+      },
+      "strategy_status": {
+        "outside_legacy_support": 13,
+        "no_competing_capture": 16
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 34,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 35,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 37.58834511066125,
+        "truth": 36.146884985779806
+      },
+      "strategy_status": {
+        "no_competing_capture": 1,
+        "outside_legacy_support": 1
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 628,
+      "forecast_decisions": 27,
+      "captures": 3,
+      "maximum_clock_error_s": 1.8207657603852567e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.999999999932804,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 628,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 84.39967957722074,
+        "truth": 84.35753224798377
+      },
+      "strategy_status": {
+        "incumbent_retained": 18,
+        "no_competing_capture": 8
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 31,
+      "forecast_decisions": 1,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 32,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 30.298803877178344,
+        "truth": 30.298784714153754
+      },
+      "strategy_status": {
+        "incumbent_retained": 1
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 0,
+      "forecast_decisions": 0,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 1,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": null,
+        "truth": null
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 0,
+      "forecast_decisions": 0,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 1,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": null,
+        "truth": null
+      },
+      "strategy_status": {},
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 816,
+      "forecast_decisions": 35,
+      "captures": 2,
+      "maximum_clock_error_s": 1.8207657603852567e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.99999999992039,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 816,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 108.44191654567604,
+        "truth": 108.44189859809455
+      },
+      "strategy_status": {
+        "no_incumbent_capture": 5,
+        "incumbent_retained": 28,
+        "no_competing_capture": 1
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 29.425646671799313,
+        "truth": 29.42562959336783
+      },
+      "strategy_status": {
+        "no_incumbent_capture": 2
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan/grpo_progress": {
+      "applied_intervals": 895,
+      "forecast_decisions": 38,
+      "captures": 3,
+      "maximum_clock_error_s": 9.094947017729282e-13,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": 49.999999999967244,
+      "nonincumbent_proposals_including_native_scheduled_switches": 4,
+      "authenticated_complete_control_attempts": 895,
+      "terminal_unapplied_attempts": 0,
+      "trace_clearance_minimum_m": {
+        "report": 61.47554470728504,
+        "truth": 61.40789414987735
+      },
+      "strategy_status": {
+        "selected": 4,
+        "incumbent_retained": 32,
+        "no_competing_capture": 1
+      },
+      "requested_changes": 4,
+      "applied_changes": 4
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake/grpo_progress": {
+      "applied_intervals": 30,
+      "forecast_decisions": 2,
+      "captures": 0,
+      "maximum_clock_error_s": 0.0,
+      "maximum_capture_distance_error_m": 0.0,
+      "maximum_recorded_capture_distance_m": null,
+      "nonincumbent_proposals_including_native_scheduled_switches": 0,
+      "authenticated_complete_control_attempts": 31,
+      "terminal_unapplied_attempts": 1,
+      "trace_clearance_minimum_m": {
+        "report": 34.51685881881356,
+        "truth": 34.51690069987255
+      },
+      "strategy_status": {
+        "incumbent_retained": 2
+      },
+      "requested_changes": 0,
+      "applied_changes": 0
+    }
+  },
+  "applied_grpo_changes": 4,
+  "audit_sha256": "c7e5d8638728c99d4dcb5a527f8e34aca72ff94a783b89707fa4279d93784159",
+  "paired_episodes_sha256": "746e908b616a3496d016914a778ae06d87d4f04ff19cebcb3012670e37a318c8"
+}

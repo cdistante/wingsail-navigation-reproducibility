@@ -1,0 +1,4690 @@
+{
+  "monitoring_start_utc": "2026-09-30T23:50:00+00:00",
+  "encounter_utc": "2026-09-30T23:50:40+00:00",
+  "radius_m": 50.0,
+  "dt_s": 5,
+  "maximum_steps": 17280,
+  "wind_from_degrees": [
+    5,
+    355
+  ],
+  "scenario_ids": [
+    "crossing_fan",
+    "opposed_crossing"
+  ],
+  "marine_bounds": {
+    "latitude_bounds": [
+      39.5,
+      41.0
+    ],
+    "longitude_bounds": [
+      18.0,
+      19.5
+    ]
+  },
+  "runs": {
+    "crossing_fan__otranto_355__classical": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "completed",
+      "steps": 12604,
+      "elapsed_s": 63020,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 10760,
+          "distance_metres": 49.707343585575195,
+          "elapsed_s": 53800,
+          "from_monitoring_start_s": 54090.0,
+          "segment_s": 53800,
+          "segment_distance_m": 15614.192945157467,
+          "utc": "2026-10-01T14:51:30+00:00",
+          "latitude": 40.22806830230978,
+          "longitude": 18.750471513474537
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 10862,
+          "distance_metres": 48.82887328693246,
+          "elapsed_s": 54310,
+          "from_monitoring_start_s": 54600.0,
+          "segment_s": 510,
+          "segment_distance_m": 509.1857976794463,
+          "utc": "2026-10-01T15:00:00+00:00",
+          "latitude": 40.22684130667004,
+          "longitude": 18.756138952144596
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 10997,
+          "distance_metres": 49.75844018808477,
+          "elapsed_s": 54985,
+          "from_monitoring_start_s": 55275.0,
+          "segment_s": 675,
+          "segment_distance_m": 665.8205063636234,
+          "utc": "2026-10-01T15:11:15+00:00",
+          "latitude": 40.223629526558675,
+          "longitude": 18.752105983685
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 11439,
+          "distance_metres": 49.334442924307204,
+          "elapsed_s": 57195,
+          "from_monitoring_start_s": 57485.0,
+          "segment_s": 2210,
+          "segment_distance_m": 1266.3775248614984,
+          "utc": "2026-10-01T15:48:05+00:00",
+          "latitude": 40.22622601486009,
+          "longitude": 18.751734382072954
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 11518,
+          "distance_metres": 48.57713069142997,
+          "elapsed_s": 57590,
+          "from_monitoring_start_s": 57880.0,
+          "segment_s": 395,
+          "segment_distance_m": 320.98990958927794,
+          "utc": "2026-10-01T15:54:40+00:00",
+          "latitude": 40.22375716055715,
+          "longitude": 18.75180539920541
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 11956,
+          "distance_metres": 49.89528893964985,
+          "elapsed_s": 59780,
+          "from_monitoring_start_s": 60070.0,
+          "segment_s": 2190,
+          "segment_distance_m": 1186.2568382407371,
+          "utc": "2026-10-01T16:31:10+00:00",
+          "latitude": 40.22621811059208,
+          "longitude": 18.756682462291224
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 12478,
+          "distance_metres": 48.03412509612148,
+          "elapsed_s": 62390,
+          "from_monitoring_start_s": 62680.0,
+          "segment_s": 2610,
+          "segment_distance_m": 1243.077627409962,
+          "utc": "2026-10-01T17:14:40+00:00",
+          "latitude": 40.227978213770676,
+          "longitude": 18.749677839545342
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 12604,
+          "distance_metres": 49.3577781688708,
+          "elapsed_s": 63020,
+          "from_monitoring_start_s": 63310.0,
+          "segment_s": 630,
+          "segment_distance_m": 455.1250375819096,
+          "utc": "2026-10-01T17:25:10+00:00",
+          "latitude": 40.22528713799165,
+          "longitude": 18.74711001844088
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "total_elapsed_s": 63310.0,
+      "gate_attempts": 59,
+      "maximum_gate_decision_s": 0.00034866700298152864,
+      "launch_gate_uncapped_margin_m": 39.523210534805344,
+      "launch_gate_preview_margin_m": 157.7805776025203,
+      "unfinished_leg": null,
+      "track_m": 21261.026186883922,
+      "forecast_updates": 5582,
+      "controller_outcomes": {
+        "acados": 5818,
+        "drift trim": 6786
+      },
+      "maximum_gpx_position_difference_m": 6.933991647424081e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 12605,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 219,
+      "maximum_archive_batch_scalar_difference": 1.1368683772161603e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3014790217737319,
+          "v": -3.445920987059076,
+          "speed": 3.4590838454168527,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6212843212156959,
+          "direction": 5.202373278257639,
+          "peak_period": 4.271330758432871
+        },
+        "current": {
+          "u": 0.19981131074962433,
+          "v": -0.2461697516108203,
+          "speed": 0.3170553682113203,
+          "direction": 140.93441792092221,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "3b97db9b6a98d3b4187233c275300e322a7c29fcd736bd555b8c0d3e43a2019c",
+        "track.gpx": "e486f0647ef708cfc6cc09a277288de3bb9b337e182cf3d2482d49451e16d2fb",
+        "run.log": "523194e95700cdc09e910cfe06083911fc2f784a714946bbf2d0114f3a2546f7",
+        "departure_gate.json": "77c568758507ade61a36fcf6c9c7986abc6582c2feb4ef302346e0ee61244f41",
+        "departure_gate.jsonl": "00d30c94a1486efeabf3494af3a0d4505045a975a91cb5c1d35cc64a4484e708"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_355__classical",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 12604,
+        "AIS_choose_applied_attempts": 12604,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.0006143750215414912,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "523194e95700cdc09e910cfe06083911fc2f784a714946bbf2d0114f3a2546f7",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/crossing_fan__otranto_355__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "5184a1980ab634a7f4d8ecbf4f51780f4bc055769da7bb47366aeac54e7411c1",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 12604,
+        "AIS_applied_decision_applied_attempts": 12604,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.03981183300493285,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "523194e95700cdc09e910cfe06083911fc2f784a714946bbf2d0114f3a2546f7",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/crossing_fan__otranto_355__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "85752985905beeba847c82b36f6ae9ba3ca87cd600d12b3eb2da6c6d5168e120",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:54:50Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 290.0,
+        "applied_actions": 12604,
+        "frames": 12605,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.2575309747935531,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.4278905445601153,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 64,
+        "astern_control_boundary_count": 57,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 12603,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 5.820766091346741e-11,
+        "maximum_truth_outside_report_envelope_m": -10.184843826219728,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 227.47230096498902,
+        "truth_minimum_nominal_m": 202.47230096498902,
+        "truth_centered_minimum_uncertainty_m": 192.27230096498903,
+        "configured_truth_centered_minimum_m": 189.27230096498903,
+        "model_minimum_uncertainty_m": 192.2723009654597,
+        "configured_model_minimum_m": 189.2723009654597,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 227.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 202.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 192.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 192.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 189.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 189.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 12604
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10760,
+            "distance_metres": 49.707343585575195
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10862,
+            "distance_metres": 48.82887328693246
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10997,
+            "distance_metres": 49.75844018808477
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11439,
+            "distance_metres": 49.334442924307204
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11518,
+            "distance_metres": 48.57713069142997
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11956,
+            "distance_metres": 49.89528893964985
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12478,
+            "distance_metres": 48.03412509612148
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12604,
+            "distance_metres": 49.3577781688708
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10760,
+            "distance_metres": 49.707343585575195
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10862,
+            "distance_metres": 48.82887328693246
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10997,
+            "distance_metres": 49.75844018808477
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11439,
+            "distance_metres": 49.334442924307204
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11518,
+            "distance_metres": 48.57713069142997
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11956,
+            "distance_metres": 49.89528893964985
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12478,
+            "distance_metres": 48.03412509612148
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12604,
+            "distance_metres": 49.3577781688708
+          }
+        ],
+        "final_goal_distance_m": 49.3577781688708,
+        "replay_sha256": "3b97db9b6a98d3b4187233c275300e322a7c29fcd736bd555b8c0d3e43a2019c",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "523194e95700cdc09e910cfe06083911fc2f784a714946bbf2d0114f3a2546f7",
+        "history_sha256": "f06377730a73dca4015b94c9b8d0c4472f4c6028e42284d1570d8cd3dec90223",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "departure_gate_summary_sha256": "77c568758507ade61a36fcf6c9c7986abc6582c2feb4ef302346e0ee61244f41",
+        "departure_gate_log_sha256": "00d30c94a1486efeabf3494af3a0d4505045a975a91cb5c1d35cc64a4484e708",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 6786,
+        "holding_mode_updates": 6786,
+        "recovering_mode_updates": 3738,
+        "forecast_hold_reference_updates": 6786,
+        "forecast_reference_updates": 5582,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5818,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 33930
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 12604
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 12604
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "crossing_fan__otranto_355__classical",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1180,
+          "end_s": 35110,
+          "duration_s": 33930,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 12604,
+        "search_total_seconds": 2.757124497933546,
+        "first_AIS_choose_seconds": 0.00024116600980050862,
+        "search_max_seconds": 0.0006143750215414912,
+        "search_p95_seconds": 0.0002670419926289469,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 12604,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "crossing_fan__otranto_355__transformer": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "completed",
+      "steps": 12617,
+      "elapsed_s": 63085,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 10760,
+          "distance_metres": 48.342785337520844,
+          "elapsed_s": 53800,
+          "from_monitoring_start_s": 54090.0,
+          "segment_s": 53800,
+          "segment_distance_m": 15599.71710903231,
+          "utc": "2026-10-01T14:51:30+00:00",
+          "latitude": 40.22807281401253,
+          "longitude": 18.750455882224855
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 10863,
+          "distance_metres": 45.27389103294112,
+          "elapsed_s": 54315,
+          "from_monitoring_start_s": 54605.0,
+          "segment_s": 515,
+          "segment_distance_m": 514.2051642071789,
+          "utc": "2026-10-01T15:00:05+00:00",
+          "latitude": 40.226833674399025,
+          "longitude": 18.756180311859623
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 10998,
+          "distance_metres": 46.147688599481725,
+          "elapsed_s": 54990,
+          "from_monitoring_start_s": 55280.0,
+          "segment_s": 675,
+          "segment_distance_m": 664.9488454047627,
+          "utc": "2026-10-01T15:11:20+00:00",
+          "latitude": 40.223620417404504,
+          "longitude": 18.75205918600213
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 11450,
+          "distance_metres": 49.19166604171253,
+          "elapsed_s": 57250,
+          "from_monitoring_start_s": 57540.0,
+          "segment_s": 2260,
+          "segment_distance_m": 1379.327471762554,
+          "utc": "2026-10-01T15:49:00+00:00",
+          "latitude": 40.226251947360524,
+          "longitude": 18.7518683750329
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 11530,
+          "distance_metres": 46.525345201292076,
+          "elapsed_s": 57650,
+          "from_monitoring_start_s": 57940.0,
+          "segment_s": 400,
+          "segment_distance_m": 298.66022808911737,
+          "utc": "2026-10-01T15:55:40+00:00",
+          "latitude": 40.22373658849919,
+          "longitude": 18.751812823973808
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 11973,
+          "distance_metres": 49.87559916954141,
+          "elapsed_s": 59865,
+          "from_monitoring_start_s": 60155.0,
+          "segment_s": 2215,
+          "segment_distance_m": 1194.4888404796861,
+          "utc": "2026-10-01T16:32:35+00:00",
+          "latitude": 40.22622970710219,
+          "longitude": 18.756799305475624
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 12492,
+          "distance_metres": 48.94371944001681,
+          "elapsed_s": 62460,
+          "from_monitoring_start_s": 62750.0,
+          "segment_s": 2595,
+          "segment_distance_m": 1230.6170512467268,
+          "utc": "2026-10-01T17:15:50+00:00",
+          "latitude": 40.227948989721014,
+          "longitude": 18.74971901393883
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 12617,
+          "distance_metres": 48.655418472523785,
+          "elapsed_s": 63085,
+          "from_monitoring_start_s": 63375.0,
+          "segment_s": 625,
+          "segment_distance_m": 454.555586178525,
+          "utc": "2026-10-01T17:26:15+00:00",
+          "latitude": 40.22516663152032,
+          "longitude": 18.747196583419566
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "total_elapsed_s": 63375.0,
+      "gate_attempts": 59,
+      "maximum_gate_decision_s": 0.0003854169917758554,
+      "launch_gate_uncapped_margin_m": 39.523210534805344,
+      "launch_gate_preview_margin_m": 157.7805776025203,
+      "unfinished_leg": null,
+      "track_m": 21336.52029640086,
+      "forecast_updates": 5535,
+      "controller_outcomes": {
+        "acados": 5771,
+        "drift trim": 6846
+      },
+      "maximum_gpx_position_difference_m": 6.956718499289154e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 12618,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 219,
+      "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3014790217737319,
+          "v": -3.445920987059076,
+          "speed": 3.4590838454168527,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6212843212156959,
+          "direction": 5.202373278257639,
+          "peak_period": 4.271330758432871
+        },
+        "current": {
+          "u": 0.19981131074962433,
+          "v": -0.2461697516108203,
+          "speed": 0.3170553682113203,
+          "direction": 140.93441792092221,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "a1383c95f80de97d950631e3128d0f0c0ac765140e09de6a81f07c66f5c5fddc",
+        "track.gpx": "09189da038783cd911a0f1d21478fa4e9572f6999ef8fff8cf75d2a7f6682254",
+        "run.log": "a752dba7297eea53c65be3b7174417fa291ec734ce4f0b8e89550107857fc981",
+        "departure_gate.json": "7baadefad42982e92e6b24e141693e3394a56ed21b9631130e713a3c03a237b6",
+        "departure_gate.jsonl": "61dba412ad7b3e360fa0c0ff23c72d10b88386dd6182c0d718e1f9c242689fde"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_355__transformer",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 12617,
+        "AIS_choose_applied_attempts": 12617,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.00102112497552298,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "a752dba7297eea53c65be3b7174417fa291ec734ce4f0b8e89550107857fc981",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/crossing_fan__otranto_355__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "e6ea5be6a6f2dc81d52143e87887beb8a2c45fdd292dd242a7b1ee87a40fdff5",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 12617,
+        "AIS_applied_decision_applied_attempts": 12617,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.042730624991236255,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "a752dba7297eea53c65be3b7174417fa291ec734ce4f0b8e89550107857fc981",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/crossing_fan__otranto_355__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "674874920eb236149186fcdb2c71f8eea0bef7df1a8f8d89a5d380efe9f1835f",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:54:50Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 290.0,
+        "applied_actions": 12617,
+        "frames": 12618,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.2575309747935531,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.4278905445601153,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 61,
+        "astern_control_boundary_count": 55,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 12616,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 8.731149137020111e-11,
+        "maximum_truth_outside_report_envelope_m": -10.184843826219728,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 227.47230096498902,
+        "truth_minimum_nominal_m": 202.47230096498902,
+        "truth_centered_minimum_uncertainty_m": 192.27230096498903,
+        "configured_truth_centered_minimum_m": 189.27230096498903,
+        "model_minimum_uncertainty_m": 192.2723009654597,
+        "configured_model_minimum_m": 189.2723009654597,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 227.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 202.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 192.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 192.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 189.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 189.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 12617
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10760,
+            "distance_metres": 48.342785337520844
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10863,
+            "distance_metres": 45.27389103294112
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10998,
+            "distance_metres": 46.147688599481725
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11450,
+            "distance_metres": 49.19166604171253
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11530,
+            "distance_metres": 46.525345201292076
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11973,
+            "distance_metres": 49.87559916954141
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12492,
+            "distance_metres": 48.94371944001681
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12617,
+            "distance_metres": 48.655418472523785
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10760,
+            "distance_metres": 48.342785337520844
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10863,
+            "distance_metres": 45.27389103294112
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10998,
+            "distance_metres": 46.147688599481725
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11450,
+            "distance_metres": 49.19166604171253
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11530,
+            "distance_metres": 46.525345201292076
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11973,
+            "distance_metres": 49.87559916954141
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12492,
+            "distance_metres": 48.94371944001681
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12617,
+            "distance_metres": 48.655418472523785
+          }
+        ],
+        "final_goal_distance_m": 48.655418472523785,
+        "replay_sha256": "a1383c95f80de97d950631e3128d0f0c0ac765140e09de6a81f07c66f5c5fddc",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "a752dba7297eea53c65be3b7174417fa291ec734ce4f0b8e89550107857fc981",
+        "history_sha256": "374f5d2085ddcb28a3cf1735aa5c45195edf99e6762564efde389afad37739cc",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "departure_gate_summary_sha256": "7baadefad42982e92e6b24e141693e3394a56ed21b9631130e713a3c03a237b6",
+        "departure_gate_log_sha256": "61dba412ad7b3e360fa0c0ff23c72d10b88386dd6182c0d718e1f9c242689fde",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 12381,
+        "learned_source_updates": 12321,
+        "learned_hold_updates": 6846,
+        "learned_sail_updates": 5475,
+        "accepted_hold_updates": 6846,
+        "accepted_sail_updates": 5535,
+        "physical_release_overrides": 60,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 60,
+        "AIS_encounter_deferrals": 236,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 6846,
+        "holding_mode_updates": 6846,
+        "recovering_mode_updates": 3678,
+        "forecast_hold_reference_updates": 6846,
+        "forecast_reference_updates": 5535,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5771,
+        "raw_proposal_telemetry_updates": 12381,
+        "fresh_model_evaluation_updates": 215,
+        "cached_model_telemetry_updates": 12166,
+        "raw_hold_telemetry_updates": 6906,
+        "accepted_weather_windows": 208,
+        "raw_model_weather_windows": 208,
+        "model_proposal_events": 215,
+        "raw_hold_proposal_events": 116,
+        "raw_sail_proposal_events": 99,
+        "physical_release_proposal_events": 1,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 34230
+      },
+      "first_accepted_policy_start_s": 1180,
+      "first_accepted_difference_from_classical_s": 35110,
+      "first_physical_release_override_start_s": 35410,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 236
+        },
+        {
+          "source": "learned",
+          "action": "hold",
+          "updates": 6846
+        },
+        {
+          "source": "physical release",
+          "action": "sail",
+          "updates": 60
+        },
+        {
+          "source": "learned",
+          "action": "sail",
+          "updates": 5475
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS encounter": 236,
+        "none": 12381
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "crossing_fan__otranto_355__transformer",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1180,
+          "end_s": 35410,
+          "duration_s": 34230,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 12617,
+        "search_total_seconds": 2.7751181185012683,
+        "first_AIS_choose_seconds": 0.00022770799114368856,
+        "search_max_seconds": 0.00102112497552298,
+        "search_p95_seconds": 0.0002698330208659172,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 12617,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "crossing_fan__otranto_005__classical": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "completed",
+      "steps": 9304,
+      "elapsed_s": 46520,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 7989,
+          "distance_metres": 48.814477927050156,
+          "elapsed_s": 39945,
+          "from_monitoring_start_s": 40235.0,
+          "segment_s": 39945,
+          "segment_distance_m": 7399.428623969201,
+          "utc": "2026-10-01T11:00:35+00:00",
+          "latitude": 40.22790390767227,
+          "longitude": 18.75011942562901
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 8087,
+          "distance_metres": 48.81068459330801,
+          "elapsed_s": 40435,
+          "from_monitoring_start_s": 40725.0,
+          "segment_s": 490,
+          "segment_distance_m": 535.5104594600667,
+          "utc": "2026-10-01T11:08:45+00:00",
+          "latitude": 40.226587280220194,
+          "longitude": 18.756101207320654
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 8231,
+          "distance_metres": 49.116318369789305,
+          "elapsed_s": 41155,
+          "from_monitoring_start_s": 41445.0,
+          "segment_s": 720,
+          "segment_distance_m": 563.0485938340059,
+          "utc": "2026-10-01T11:20:45+00:00",
+          "latitude": 40.22353773768998,
+          "longitude": 18.7521795108334
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 8567,
+          "distance_metres": 47.54609133357928,
+          "elapsed_s": 42835,
+          "from_monitoring_start_s": 43125.0,
+          "segment_s": 1680,
+          "segment_distance_m": 858.2233241703121,
+          "utc": "2026-10-01T11:48:45+00:00",
+          "latitude": 40.22628698150909,
+          "longitude": 18.75140909453421
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 8644,
+          "distance_metres": 47.87740447222282,
+          "elapsed_s": 43220,
+          "from_monitoring_start_s": 43510.0,
+          "segment_s": 385,
+          "segment_distance_m": 314.4045758980521,
+          "utc": "2026-10-01T11:55:10+00:00",
+          "latitude": 40.22370772988382,
+          "longitude": 18.75194517120309
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 9017,
+          "distance_metres": 49.91038764655798,
+          "elapsed_s": 45085,
+          "from_monitoring_start_s": 45375.0,
+          "segment_s": 1865,
+          "segment_distance_m": 1243.079883215137,
+          "utc": "2026-10-01T12:26:15+00:00",
+          "latitude": 40.226219090904046,
+          "longitude": 18.756622331971357
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 9216,
+          "distance_metres": 49.266085492827266,
+          "elapsed_s": 46080,
+          "from_monitoring_start_s": 46370.0,
+          "segment_s": 995,
+          "segment_distance_m": 576.5997555960728,
+          "utc": "2026-10-01T12:42:50+00:00",
+          "latitude": 40.22793054269553,
+          "longitude": 18.750241734411304
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 9304,
+          "distance_metres": 46.85387448744339,
+          "elapsed_s": 46520,
+          "from_monitoring_start_s": 46810.0,
+          "segment_s": 440,
+          "segment_distance_m": 401.8122067120105,
+          "utc": "2026-10-01T12:50:10+00:00",
+          "latitude": 40.22522873303122,
+          "longitude": 18.74713015580477
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "total_elapsed_s": 46810.0,
+      "gate_attempts": 59,
+      "maximum_gate_decision_s": 0.00035112499608658254,
+      "launch_gate_uncapped_margin_m": 39.523210534805344,
+      "launch_gate_preview_margin_m": 157.7805776025203,
+      "unfinished_leg": null,
+      "track_m": 11892.107422854859,
+      "forecast_updates": 5102,
+      "controller_outcomes": {
+        "acados": 5333,
+        "drift trim": 3971
+      },
+      "maximum_gpx_position_difference_m": 6.970309980591603e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 9305,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 164,
+      "maximum_archive_batch_scalar_difference": 1.1368683772161603e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.30147902177373137,
+          "v": -3.445920987059076,
+          "speed": 3.4590838454168527,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6212843212156959,
+          "direction": 5.202373278257639,
+          "peak_period": 4.271330758432871
+        },
+        "current": {
+          "u": 0.19981131074962433,
+          "v": -0.2461697516108203,
+          "speed": 0.3170553682113203,
+          "direction": 140.93441792092221,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "db75d4d7412b26dc0282acb9ac5a6eb065e5f4b127b21f7ec48e71da9db04f0c",
+        "track.gpx": "754a79ef3399baa59bebb746d5ad54a23bf3f0960b80dbe7554c7516f272ae56",
+        "run.log": "d77b59181139e947e14647c2d66449d54db351c0884198efcad127f17dfcc18f",
+        "departure_gate.json": "a4c471630d208791865b7d77da3e74b3f71411ff41d0842e501f28e2d36b4eba",
+        "departure_gate.jsonl": "b88c0612ed4d3892545c3c656847d31b1cab124156876cb96eeff374f8d5d030"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_005__classical",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 9304,
+        "AIS_choose_applied_attempts": 9304,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.022141291992738843,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "d77b59181139e947e14647c2d66449d54db351c0884198efcad127f17dfcc18f",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/crossing_fan__otranto_005__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "abab8a38cfa703277487f78bbf03143d5550d31c5faf3462bb329bbbeb4118e6",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 9304,
+        "AIS_applied_decision_applied_attempts": 9304,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.06798158297897317,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "d77b59181139e947e14647c2d66449d54db351c0884198efcad127f17dfcc18f",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/crossing_fan__otranto_005__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "3d275bf0606afc0a363fb5c4b08a305465e376b0008d94f70053e08ad523068f",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:54:50Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 290.0,
+        "applied_actions": 9304,
+        "frames": 9305,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.09170430992358893,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.4457014645315664,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 11,
+        "astern_control_boundary_count": 9,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 9303,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 4.3655745685100555e-11,
+        "maximum_truth_outside_report_envelope_m": -10.190850593152568,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 227.47230096498902,
+        "truth_minimum_nominal_m": 202.47230096498902,
+        "truth_centered_minimum_uncertainty_m": 192.27230096498903,
+        "configured_truth_centered_minimum_m": 189.27230096498903,
+        "model_minimum_uncertainty_m": 192.2723009654597,
+        "configured_model_minimum_m": 189.2723009654597,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 227.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 202.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 192.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 192.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 189.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 189.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 9304
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 7989,
+            "distance_metres": 48.814477927050156
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8087,
+            "distance_metres": 48.81068459330801
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8231,
+            "distance_metres": 49.116318369789305
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8567,
+            "distance_metres": 47.54609133357928
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8644,
+            "distance_metres": 47.87740447222282
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9017,
+            "distance_metres": 49.91038764655798
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9216,
+            "distance_metres": 49.266085492827266
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9304,
+            "distance_metres": 46.85387448744339
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 7989,
+            "distance_metres": 48.814477927050156
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8087,
+            "distance_metres": 48.81068459330801
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8231,
+            "distance_metres": 49.116318369789305
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8567,
+            "distance_metres": 47.54609133357928
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8644,
+            "distance_metres": 47.87740447222282
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9017,
+            "distance_metres": 49.91038764655798
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9216,
+            "distance_metres": 49.266085492827266
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9304,
+            "distance_metres": 46.85387448744339
+          }
+        ],
+        "final_goal_distance_m": 46.85387448744339,
+        "replay_sha256": "db75d4d7412b26dc0282acb9ac5a6eb065e5f4b127b21f7ec48e71da9db04f0c",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "d77b59181139e947e14647c2d66449d54db351c0884198efcad127f17dfcc18f",
+        "history_sha256": "46e784955af65fd02c86279f64cd9bc75105ee4982e0d7049615ab0a20693655",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "departure_gate_summary_sha256": "a4c471630d208791865b7d77da3e74b3f71411ff41d0842e501f28e2d36b4eba",
+        "departure_gate_log_sha256": "b88c0612ed4d3892545c3c656847d31b1cab124156876cb96eeff374f8d5d030",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 3971,
+        "holding_mode_updates": 3971,
+        "recovering_mode_updates": 3787,
+        "forecast_hold_reference_updates": 3971,
+        "forecast_reference_updates": 5102,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5333,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 19855
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 9304
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 9304
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "crossing_fan__otranto_005__classical",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1155,
+          "end_s": 21010,
+          "duration_s": 19855,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 9304,
+        "search_total_seconds": 2.1364859692112077,
+        "first_AIS_choose_seconds": 0.00019395901472307742,
+        "search_max_seconds": 0.022141291992738843,
+        "search_p95_seconds": 0.0002692090056370944,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 9304,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "crossing_fan__otranto_005__transformer": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "completed",
+      "steps": 9327,
+      "elapsed_s": 46635,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 7988,
+          "distance_metres": 49.889804979197706,
+          "elapsed_s": 39940,
+          "from_monitoring_start_s": 40230.0,
+          "segment_s": 39940,
+          "segment_distance_m": 7404.213122903896,
+          "utc": "2026-10-01T11:00:30+00:00",
+          "latitude": 40.22793043969688,
+          "longitude": 18.749741399436886
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 8092,
+          "distance_metres": 49.26008219461409,
+          "elapsed_s": 40460,
+          "from_monitoring_start_s": 40750.0,
+          "segment_s": 520,
+          "segment_distance_m": 562.2840937973714,
+          "utc": "2026-10-01T11:09:10+00:00",
+          "latitude": 40.2267008757318,
+          "longitude": 18.756088165523295
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 8256,
+          "distance_metres": 49.47210088173237,
+          "elapsed_s": 41280,
+          "from_monitoring_start_s": 41570.0,
+          "segment_s": 820,
+          "segment_distance_m": 644.4912240537691,
+          "utc": "2026-10-01T11:22:50+00:00",
+          "latitude": 40.22353177317669,
+          "longitude": 18.752188199785707
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 8592,
+          "distance_metres": 48.45248733785963,
+          "elapsed_s": 42960,
+          "from_monitoring_start_s": 43250.0,
+          "segment_s": 1680,
+          "segment_distance_m": 866.7286234310948,
+          "utc": "2026-10-01T11:50:50+00:00",
+          "latitude": 40.22625471835417,
+          "longitude": 18.75148065160434
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 8669,
+          "distance_metres": 47.49518350167625,
+          "elapsed_s": 43345,
+          "from_monitoring_start_s": 43635.0,
+          "segment_s": 385,
+          "segment_distance_m": 312.8342574240209,
+          "utc": "2026-10-01T11:57:15+00:00",
+          "latitude": 40.2236838660829,
+          "longitude": 18.751986325787925
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 9041,
+          "distance_metres": 49.47074403023935,
+          "elapsed_s": 45205,
+          "from_monitoring_start_s": 45495.0,
+          "segment_s": 1860,
+          "segment_distance_m": 1238.6328962633684,
+          "utc": "2026-10-01T12:28:15+00:00",
+          "latitude": 40.2262233767229,
+          "longitude": 18.75661713511593
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 9240,
+          "distance_metres": 48.52397752198584,
+          "elapsed_s": 46200,
+          "from_monitoring_start_s": 46490.0,
+          "segment_s": 995,
+          "segment_distance_m": 577.7492006240886,
+          "utc": "2026-10-01T12:44:50+00:00",
+          "latitude": 40.22793056613908,
+          "longitude": 18.75021999702159
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 9327,
+          "distance_metres": 49.264726026861695,
+          "elapsed_s": 46635,
+          "from_monitoring_start_s": 46925.0,
+          "segment_s": 435,
+          "segment_distance_m": 397.5905693425823,
+          "utc": "2026-10-01T12:52:05+00:00",
+          "latitude": 40.225261213079975,
+          "longitude": 18.747135360259506
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "gate_wait_seconds": 290.0,
+      "total_elapsed_s": 46925.0,
+      "gate_attempts": 59,
+      "maximum_gate_decision_s": 0.00044220901327207685,
+      "launch_gate_uncapped_margin_m": 39.523210534805344,
+      "launch_gate_preview_margin_m": 157.7805776025203,
+      "unfinished_leg": null,
+      "track_m": 12004.523987840192,
+      "forecast_updates": 5065,
+      "controller_outcomes": {
+        "acados": 5296,
+        "drift trim": 4031
+      },
+      "maximum_gpx_position_difference_m": 6.930910403389216e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 9328,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 163,
+      "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.30147902177373137,
+          "v": -3.445920987059076,
+          "speed": 3.4590838454168527,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6212843212156959,
+          "direction": 5.202373278257639,
+          "peak_period": 4.271330758432871
+        },
+        "current": {
+          "u": 0.19981131074962433,
+          "v": -0.2461697516108203,
+          "speed": 0.3170553682113203,
+          "direction": 140.93441792092221,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "fcdda926b323707637ec559560acca40b3c4d6855607d65ee633fc146e4adbfe",
+        "track.gpx": "790e4bc4cfea685e57545fa7c21552721c1ceaeb77fd0d3c7a397c8fc1793723",
+        "run.log": "c2b660d261fda7897bd8200c6c221a18ca68cf93f10b05d00bf77c4452bffdd6",
+        "departure_gate.json": "a5d7fd37e9f72ad7093740afea28582ab6af6a0904fea48a54db6e24f1f48d57",
+        "departure_gate.jsonl": "f37442c95c4413c624527ceb9bad66ed308145cd433c38b5c2943b68add1b2ea"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_005__transformer",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 9327,
+        "AIS_choose_applied_attempts": 9327,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.0004722909943666309,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "c2b660d261fda7897bd8200c6c221a18ca68cf93f10b05d00bf77c4452bffdd6",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/crossing_fan__otranto_005__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "df2254144072aecc5c779f8183ee6e7b79e492a94236529c5d010f2acaee855b",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 9327,
+        "AIS_applied_decision_applied_attempts": 9327,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.029173791990615427,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "c2b660d261fda7897bd8200c6c221a18ca68cf93f10b05d00bf77c4452bffdd6",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/crossing_fan__otranto_005__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "8c17887e886022161c7ed5fba10f6313656fd8aec7706fed65144b6213fc0629",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:54:50Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 290.0,
+        "applied_actions": 9327,
+        "frames": 9328,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.09170430992358893,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.4457014645315664,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 11,
+        "astern_control_boundary_count": 9,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 9326,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 5.820766091346741e-11,
+        "maximum_truth_outside_report_envelope_m": -10.190850593152568,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 227.47230096498902,
+        "truth_minimum_nominal_m": 202.47230096498902,
+        "truth_centered_minimum_uncertainty_m": 192.27230096498903,
+        "configured_truth_centered_minimum_m": 189.27230096498903,
+        "model_minimum_uncertainty_m": 192.2723009654597,
+        "configured_model_minimum_m": 189.2723009654597,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 227.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 202.47230096498902,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 192.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 192.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 189.27230096498903,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 189.2723009654597,
+            "mmsi": 998100202,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 250.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 9327
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 7988,
+            "distance_metres": 49.889804979197706
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8092,
+            "distance_metres": 49.26008219461409
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8256,
+            "distance_metres": 49.47210088173237
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8592,
+            "distance_metres": 48.45248733785963
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8669,
+            "distance_metres": 47.49518350167625
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9041,
+            "distance_metres": 49.47074403023935
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9240,
+            "distance_metres": 48.52397752198584
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9327,
+            "distance_metres": 49.264726026861695
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 7988,
+            "distance_metres": 49.889804979197706
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8092,
+            "distance_metres": 49.26008219461409
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8256,
+            "distance_metres": 49.47210088173237
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8592,
+            "distance_metres": 48.45248733785963
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8669,
+            "distance_metres": 47.49518350167625
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9041,
+            "distance_metres": 49.47074403023935
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9240,
+            "distance_metres": 48.52397752198584
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9327,
+            "distance_metres": 49.264726026861695
+          }
+        ],
+        "final_goal_distance_m": 49.264726026861695,
+        "replay_sha256": "fcdda926b323707637ec559560acca40b3c4d6855607d65ee633fc146e4adbfe",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "c2b660d261fda7897bd8200c6c221a18ca68cf93f10b05d00bf77c4452bffdd6",
+        "history_sha256": "f279a8a0727f97dbca01c8c4ad41210ea19527874150d621ffcc4c69f6cb0c88",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "departure_gate_summary_sha256": "a5d7fd37e9f72ad7093740afea28582ab6af6a0904fea48a54db6e24f1f48d57",
+        "departure_gate_log_sha256": "f37442c95c4413c624527ceb9bad66ed308145cd433c38b5c2943b68add1b2ea",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 9096,
+        "learned_source_updates": 9036,
+        "learned_hold_updates": 4031,
+        "learned_sail_updates": 5005,
+        "accepted_hold_updates": 4031,
+        "accepted_sail_updates": 5065,
+        "physical_release_overrides": 60,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 60,
+        "AIS_encounter_deferrals": 231,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 4031,
+        "holding_mode_updates": 4031,
+        "recovering_mode_updates": 3726,
+        "forecast_hold_reference_updates": 4031,
+        "forecast_reference_updates": 5065,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5296,
+        "raw_proposal_telemetry_updates": 9096,
+        "fresh_model_evaluation_updates": 160,
+        "cached_model_telemetry_updates": 8936,
+        "raw_hold_telemetry_updates": 4091,
+        "accepted_weather_windows": 153,
+        "raw_model_weather_windows": 153,
+        "model_proposal_events": 160,
+        "raw_hold_proposal_events": 69,
+        "raw_sail_proposal_events": 91,
+        "physical_release_proposal_events": 1,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 20155
+      },
+      "first_accepted_policy_start_s": 1155,
+      "first_accepted_difference_from_classical_s": 21010,
+      "first_physical_release_override_start_s": 21310,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 231
+        },
+        {
+          "source": "learned",
+          "action": "hold",
+          "updates": 4031
+        },
+        {
+          "source": "physical release",
+          "action": "sail",
+          "updates": 60
+        },
+        {
+          "source": "learned",
+          "action": "sail",
+          "updates": 5005
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS encounter": 231,
+        "none": 9096
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "crossing_fan__otranto_005__transformer",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1155,
+          "end_s": 21310,
+          "duration_s": 20155,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 9327,
+        "search_total_seconds": 2.120392726646969,
+        "first_AIS_choose_seconds": 0.0002128329942934215,
+        "search_max_seconds": 0.0004722909943666309,
+        "search_p95_seconds": 0.0002674999996088445,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 9327,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "opposed_crossing__otranto_355__classical": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "completed",
+      "steps": 12474,
+      "elapsed_s": 62370,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 10646,
+          "distance_metres": 47.7549342426283,
+          "elapsed_s": 53230,
+          "from_monitoring_start_s": 53545.0,
+          "segment_s": 53230,
+          "segment_distance_m": 15475.32437475236,
+          "utc": "2026-10-01T14:42:25+00:00",
+          "latitude": 40.22807407841162,
+          "longitude": 18.750448461685835
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 10749,
+          "distance_metres": 47.053264755786394,
+          "elapsed_s": 53745,
+          "from_monitoring_start_s": 54060.0,
+          "segment_s": 515,
+          "segment_distance_m": 519.6773990992793,
+          "utc": "2026-10-01T14:51:00+00:00",
+          "latitude": 40.22683672708818,
+          "longitude": 18.756159153657137
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 10883,
+          "distance_metres": 48.34688654252058,
+          "elapsed_s": 54415,
+          "from_monitoring_start_s": 54730.0,
+          "segment_s": 670,
+          "segment_distance_m": 638.9723823510078,
+          "utc": "2026-10-01T15:02:10+00:00",
+          "latitude": 40.22355152099908,
+          "longitude": 18.75215922555526
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 11333,
+          "distance_metres": 49.38953756887079,
+          "elapsed_s": 56665,
+          "from_monitoring_start_s": 56980.0,
+          "segment_s": 2250,
+          "segment_distance_m": 1344.0844768615616,
+          "utc": "2026-10-01T15:39:40+00:00",
+          "latitude": 40.22623113054901,
+          "longitude": 18.751552521194014
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 11410,
+          "distance_metres": 48.874911845115,
+          "elapsed_s": 57050,
+          "from_monitoring_start_s": 57365.0,
+          "segment_s": 385,
+          "segment_distance_m": 296.06420404638493,
+          "utc": "2026-10-01T15:46:05+00:00",
+          "latitude": 40.22376975902282,
+          "longitude": 18.75173509238232
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 11873,
+          "distance_metres": 49.31521505793699,
+          "elapsed_s": 59365,
+          "from_monitoring_start_s": 59680.0,
+          "segment_s": 2315,
+          "segment_distance_m": 1297.4909351377314,
+          "utc": "2026-10-01T16:24:40+00:00",
+          "latitude": 40.22624792464976,
+          "longitude": 18.756858038614297
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 12372,
+          "distance_metres": 48.85909739643932,
+          "elapsed_s": 61860,
+          "from_monitoring_start_s": 62175.0,
+          "segment_s": 2495,
+          "segment_distance_m": 1208.87344552421,
+          "utc": "2026-10-01T17:06:15+00:00",
+          "latitude": 40.22791624154624,
+          "longitude": 18.749818950168418
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 12474,
+          "distance_metres": 48.41792895889724,
+          "elapsed_s": 62370,
+          "from_monitoring_start_s": 62685.0,
+          "segment_s": 510,
+          "segment_distance_m": 388.59176475236325,
+          "utc": "2026-10-01T17:14:45+00:00",
+          "latitude": 40.22525415332825,
+          "longitude": 18.747129742105557
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "gate_wait_seconds": 315.0,
+      "total_elapsed_s": 62685.0,
+      "gate_attempts": 64,
+      "maximum_gate_decision_s": 0.00035116702201776206,
+      "launch_gate_uncapped_margin_m": 34.233918464265344,
+      "launch_gate_preview_margin_m": 182.61909402690907,
+      "unfinished_leg": null,
+      "track_m": 21169.078982524898,
+      "forecast_updates": 5397,
+      "controller_outcomes": {
+        "acados": 5745,
+        "drift trim": 6729
+      },
+      "maximum_gpx_position_difference_m": 6.943537493948655e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 12475,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 216,
+      "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.30133947941996864,
+          "v": -3.444326010657111,
+          "speed": 3.457482776464147,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6219316252291044,
+          "direction": 5.198881940708461,
+          "peak_period": 4.274046036339617
+        },
+        "current": {
+          "u": 0.19966866759819693,
+          "v": -0.2459843762229304,
+          "speed": 0.31682154309046506,
+          "direction": 140.93331953565465,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "284f8a116b6abbdd5e67f7a2567086be77f7de025c467059d66a5200af4d0408",
+        "track.gpx": "7e97ddee0f3571ec3298286ac4bf66e8f766c129d9484e8b940835788ebd80d1",
+        "run.log": "5f966341bc05066540dd7f8127b4567fbac537c81f839801b8b0dc3a7ade8125",
+        "departure_gate.json": "cd51128fdbf274104170e8a4e024c6846555c0198d875ae38146b8487cf5cf1c",
+        "departure_gate.jsonl": "8c58a584f02a59150ed7876a9595381afca1cd29c725af71e3f641a83085b1f4"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_355__classical",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 12474,
+        "AIS_choose_applied_attempts": 12474,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.006411540991393849,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "5f966341bc05066540dd7f8127b4567fbac537c81f839801b8b0dc3a7ade8125",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/opposed_crossing__otranto_355__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "d2d1cbb52aa124f38da2144c1e8b178a75cb314456f976007305398df9580d30",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 12474,
+        "AIS_applied_decision_applied_attempts": 12474,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.043062042008386925,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "5f966341bc05066540dd7f8127b4567fbac537c81f839801b8b0dc3a7ade8125",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/opposed_crossing__otranto_355__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "fea1986ac1f09882448e9bc18ce012d0ebf8d549478268530721b66e0c34e3ec",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:55:15Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 315.0,
+        "applied_actions": 12474,
+        "frames": 12475,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.8664406685170838,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.44913536751654315,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 171,
+        "astern_control_boundary_count": 168,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 12473,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 8.731149137020111e-11,
+        "maximum_truth_outside_report_envelope_m": -10.187048049937584,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 270.33726939597204,
+        "truth_minimum_nominal_m": 245.33726939597204,
+        "truth_centered_minimum_uncertainty_m": 235.13726939597206,
+        "configured_truth_centered_minimum_m": 232.13726939597206,
+        "model_minimum_uncertainty_m": 235.1372693948844,
+        "configured_model_minimum_m": 232.1372693948844,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 270.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 245.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 235.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 235.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 232.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 232.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 12474
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10646,
+            "distance_metres": 47.7549342426283
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10749,
+            "distance_metres": 47.053264755786394
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10883,
+            "distance_metres": 48.34688654252058
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11333,
+            "distance_metres": 49.38953756887079
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11410,
+            "distance_metres": 48.874911845115
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11873,
+            "distance_metres": 49.31521505793699
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12372,
+            "distance_metres": 48.85909739643932
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12474,
+            "distance_metres": 48.41792895889724
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10646,
+            "distance_metres": 47.7549342426283
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10749,
+            "distance_metres": 47.053264755786394
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10883,
+            "distance_metres": 48.34688654252058
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11333,
+            "distance_metres": 49.38953756887079
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11410,
+            "distance_metres": 48.874911845115
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11873,
+            "distance_metres": 49.31521505793699
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12372,
+            "distance_metres": 48.85909739643932
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12474,
+            "distance_metres": 48.41792895889724
+          }
+        ],
+        "final_goal_distance_m": 48.41792895889724,
+        "replay_sha256": "284f8a116b6abbdd5e67f7a2567086be77f7de025c467059d66a5200af4d0408",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "5f966341bc05066540dd7f8127b4567fbac537c81f839801b8b0dc3a7ade8125",
+        "history_sha256": "12e2fd43c83510735cc6cd9eeb56f9649596d6a2a1e287a208c48efcb2e75caf",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "departure_gate_summary_sha256": "cd51128fdbf274104170e8a4e024c6846555c0198d875ae38146b8487cf5cf1c",
+        "departure_gate_log_sha256": "8c58a584f02a59150ed7876a9595381afca1cd29c725af71e3f641a83085b1f4",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 6729,
+        "holding_mode_updates": 6729,
+        "recovering_mode_updates": 3569,
+        "forecast_hold_reference_updates": 6729,
+        "forecast_reference_updates": 5397,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5745,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 33645
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 12474
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 12474
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "opposed_crossing__otranto_355__classical",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1740,
+          "end_s": 35385,
+          "duration_s": 33645,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 12474,
+        "search_total_seconds": 2.721197806939017,
+        "first_AIS_choose_seconds": 0.00020120901172049344,
+        "search_max_seconds": 0.006411540991393849,
+        "search_p95_seconds": 0.0002648330118972808,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 12474,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "opposed_crossing__otranto_355__transformer": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "completed",
+      "steps": 12273,
+      "elapsed_s": 61365,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 10482,
+          "distance_metres": 49.601947900366596,
+          "elapsed_s": 52410,
+          "from_monitoring_start_s": 52725.0,
+          "segment_s": 52410,
+          "segment_distance_m": 15267.054815517115,
+          "utc": "2026-10-01T14:28:45+00:00",
+          "latitude": 40.2279110326347,
+          "longitude": 18.7501882193811
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 10585,
+          "distance_metres": 49.675868150462904,
+          "elapsed_s": 52925,
+          "from_monitoring_start_s": 53240.0,
+          "segment_s": 515,
+          "segment_distance_m": 526.6072847174062,
+          "utc": "2026-10-01T14:37:20+00:00",
+          "latitude": 40.22666404784491,
+          "longitude": 18.756081545685618
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 10688,
+          "distance_metres": 49.17809600659998,
+          "elapsed_s": 53440,
+          "from_monitoring_start_s": 53755.0,
+          "segment_s": 515,
+          "segment_distance_m": 508.9226582873314,
+          "utc": "2026-10-01T14:45:55+00:00",
+          "latitude": 40.22344513461541,
+          "longitude": 18.752227093883675
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 11119,
+          "distance_metres": 49.96831511068088,
+          "elapsed_s": 55595,
+          "from_monitoring_start_s": 55910.0,
+          "segment_s": 2155,
+          "segment_distance_m": 1293.4378533586655,
+          "utc": "2026-10-01T15:21:50+00:00",
+          "latitude": 40.22623737605453,
+          "longitude": 18.75184066020728
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 11198,
+          "distance_metres": 48.29077399525438,
+          "elapsed_s": 55990,
+          "from_monitoring_start_s": 56305.0,
+          "segment_s": 395,
+          "segment_distance_m": 298.7207979368201,
+          "utc": "2026-10-01T15:28:25+00:00",
+          "latitude": 40.22374095110144,
+          "longitude": 18.751862922738553
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 11717,
+          "distance_metres": 47.829354818257336,
+          "elapsed_s": 58585,
+          "from_monitoring_start_s": 58900.0,
+          "segment_s": 2595,
+          "segment_distance_m": 1438.191941150355,
+          "utc": "2026-10-01T16:11:40+00:00",
+          "latitude": 40.226354942424216,
+          "longitude": 18.757054868400644
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 12156,
+          "distance_metres": 49.33435041721713,
+          "elapsed_s": 60780,
+          "from_monitoring_start_s": 61095.0,
+          "segment_s": 2195,
+          "segment_distance_m": 1101.2592424635875,
+          "utc": "2026-10-01T16:48:15+00:00",
+          "latitude": 40.2279159307295,
+          "longitude": 18.74980299974311
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 12273,
+          "distance_metres": 46.92753066441115,
+          "elapsed_s": 61365,
+          "from_monitoring_start_s": 61680.0,
+          "segment_s": 585,
+          "segment_distance_m": 442.21623012551413,
+          "utc": "2026-10-01T16:58:00+00:00",
+          "latitude": 40.225192382659706,
+          "longitude": 18.747158641631387
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "gate_wait_seconds": 315.0,
+      "total_elapsed_s": 61680.0,
+      "gate_attempts": 64,
+      "maximum_gate_decision_s": 0.00034770899219438434,
+      "launch_gate_uncapped_margin_m": 34.233918464265344,
+      "launch_gate_preview_margin_m": 182.61909402690907,
+      "unfinished_leg": null,
+      "track_m": 20876.410823556795,
+      "forecast_updates": 5136,
+      "controller_outcomes": {
+        "acados": 5484,
+        "drift trim": 6789
+      },
+      "maximum_gpx_position_difference_m": 6.943537493948655e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 12274,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 213,
+      "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.30133947941996864,
+          "v": -3.444326010657111,
+          "speed": 3.457482776464147,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6219316252291044,
+          "direction": 5.198881940708461,
+          "peak_period": 4.274046036339617
+        },
+        "current": {
+          "u": 0.19966866759819693,
+          "v": -0.2459843762229304,
+          "speed": 0.31682154309046506,
+          "direction": 140.93331953565465,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "ec47d501c55886636ea1e887932aa995d1791e2dd48f01906b354423bd9c668a",
+        "track.gpx": "49c5421578582ccecf1ce15846a1461713602355b11fd85a55dcaf628a9c7a8a",
+        "run.log": "ea721fb92592801fffc8c9dbbf1342e6ba38443fabfae82375f91aa6daa8330e",
+        "departure_gate.json": "cc4d09504b2b40e48f59263a35bfc0a8c2c8f8218a4d412b9bff9f7a4307c0d1",
+        "departure_gate.jsonl": "8d4034ce2c4109c70b5f2e205be3ea7913ff1a38388c3499b6c834b16d322984"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_355__transformer",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 12273,
+        "AIS_choose_applied_attempts": 12273,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.0034187089768238366,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "ea721fb92592801fffc8c9dbbf1342e6ba38443fabfae82375f91aa6daa8330e",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/opposed_crossing__otranto_355__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "0f10210488af7f7786c06754329dcd81d20a996985c7f4658247bff6e79430c4",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 12273,
+        "AIS_applied_decision_applied_attempts": 12273,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.02728170799673535,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "ea721fb92592801fffc8c9dbbf1342e6ba38443fabfae82375f91aa6daa8330e",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/opposed_crossing__otranto_355__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "4f8e820963e6158654ae6792277e6272dbb166196664f33dff693ad16b72ad2d",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:55:15Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 315.0,
+        "applied_actions": 12273,
+        "frames": 12274,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.7318588786241731,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.44913536751654315,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 195,
+        "astern_control_boundary_count": 189,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 12272,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 8.731149137020111e-11,
+        "maximum_truth_outside_report_envelope_m": -10.187048049937584,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 270.33726939597204,
+        "truth_minimum_nominal_m": 245.33726939597204,
+        "truth_centered_minimum_uncertainty_m": 235.13726939597206,
+        "configured_truth_centered_minimum_m": 232.13726939597206,
+        "model_minimum_uncertainty_m": 235.1372693948844,
+        "configured_model_minimum_m": 232.1372693948844,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 270.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 245.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 235.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 235.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 232.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 232.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 12273
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10482,
+            "distance_metres": 49.601947900366596
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10585,
+            "distance_metres": 49.675868150462904
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10688,
+            "distance_metres": 49.17809600659998
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11119,
+            "distance_metres": 49.96831511068088
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11198,
+            "distance_metres": 48.29077399525438
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11717,
+            "distance_metres": 47.829354818257336
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12156,
+            "distance_metres": 49.33435041721713
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12273,
+            "distance_metres": 46.92753066441115
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 10482,
+            "distance_metres": 49.601947900366596
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 10585,
+            "distance_metres": 49.675868150462904
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 10688,
+            "distance_metres": 49.17809600659998
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 11119,
+            "distance_metres": 49.96831511068088
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 11198,
+            "distance_metres": 48.29077399525438
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 11717,
+            "distance_metres": 47.829354818257336
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 12156,
+            "distance_metres": 49.33435041721713
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 12273,
+            "distance_metres": 46.92753066441115
+          }
+        ],
+        "final_goal_distance_m": 46.92753066441115,
+        "replay_sha256": "ec47d501c55886636ea1e887932aa995d1791e2dd48f01906b354423bd9c668a",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "ea721fb92592801fffc8c9dbbf1342e6ba38443fabfae82375f91aa6daa8330e",
+        "history_sha256": "804b81544b077a485a34221b66a681ac59b55b6707f65fc468c511eb747bbced",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "departure_gate_summary_sha256": "cc4d09504b2b40e48f59263a35bfc0a8c2c8f8218a4d412b9bff9f7a4307c0d1",
+        "departure_gate_log_sha256": "8d4034ce2c4109c70b5f2e205be3ea7913ff1a38388c3499b6c834b16d322984",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 11925,
+        "learned_source_updates": 11865,
+        "learned_hold_updates": 6789,
+        "learned_sail_updates": 5076,
+        "accepted_hold_updates": 6789,
+        "accepted_sail_updates": 5136,
+        "physical_release_overrides": 60,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 60,
+        "AIS_encounter_deferrals": 348,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 6789,
+        "holding_mode_updates": 6789,
+        "recovering_mode_updates": 3345,
+        "forecast_hold_reference_updates": 6789,
+        "forecast_reference_updates": 5136,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5484,
+        "raw_proposal_telemetry_updates": 11925,
+        "fresh_model_evaluation_updates": 207,
+        "cached_model_telemetry_updates": 11718,
+        "raw_hold_telemetry_updates": 6849,
+        "accepted_weather_windows": 200,
+        "raw_model_weather_windows": 200,
+        "model_proposal_events": 207,
+        "raw_hold_proposal_events": 115,
+        "raw_sail_proposal_events": 92,
+        "physical_release_proposal_events": 1,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 33945
+      },
+      "first_accepted_policy_start_s": 1740,
+      "first_accepted_difference_from_classical_s": 35385,
+      "first_physical_release_override_start_s": 35685,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 348
+        },
+        {
+          "source": "learned",
+          "action": "hold",
+          "updates": 6789
+        },
+        {
+          "source": "physical release",
+          "action": "sail",
+          "updates": 60
+        },
+        {
+          "source": "learned",
+          "action": "sail",
+          "updates": 5076
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS encounter": 348,
+        "none": 11925
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "opposed_crossing__otranto_355__transformer",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1740,
+          "end_s": 35685,
+          "duration_s": 33945,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 12273,
+        "search_total_seconds": 2.6813310410652775,
+        "first_AIS_choose_seconds": 0.0002434579946566373,
+        "search_max_seconds": 0.0034187089768238366,
+        "search_p95_seconds": 0.00026620898279361427,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 12273,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "opposed_crossing__otranto_005__classical": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "completed",
+      "steps": 9392,
+      "elapsed_s": 46960,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 8089,
+          "distance_metres": 49.58665752360627,
+          "elapsed_s": 40445,
+          "from_monitoring_start_s": 40760.0,
+          "segment_s": 40445,
+          "segment_distance_m": 7739.151702658447,
+          "utc": "2026-10-01T11:09:20+00:00",
+          "latitude": 40.22789437161442,
+          "longitude": 18.75010294992188
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 8186,
+          "distance_metres": 47.76191703296651,
+          "elapsed_s": 40930,
+          "from_monitoring_start_s": 41245.0,
+          "segment_s": 485,
+          "segment_distance_m": 534.1314579907082,
+          "utc": "2026-10-01T11:17:25+00:00",
+          "latitude": 40.2266814664004,
+          "longitude": 18.75610441399047
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 8348,
+          "distance_metres": 48.63573133116808,
+          "elapsed_s": 41740,
+          "from_monitoring_start_s": 42055.0,
+          "segment_s": 810,
+          "segment_distance_m": 654.1703333015691,
+          "utc": "2026-10-01T11:30:55+00:00",
+          "latitude": 40.2235709218074,
+          "longitude": 18.75214763751609
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 8679,
+          "distance_metres": 49.436333563525665,
+          "elapsed_s": 43395,
+          "from_monitoring_start_s": 43710.0,
+          "segment_s": 1655,
+          "segment_distance_m": 883.1784067124937,
+          "utc": "2026-10-01T11:58:30+00:00",
+          "latitude": 40.22627036071017,
+          "longitude": 18.75140274925701
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 8755,
+          "distance_metres": 48.54942314022526,
+          "elapsed_s": 43775,
+          "from_monitoring_start_s": 44090.0,
+          "segment_s": 380,
+          "segment_distance_m": 306.40801862999916,
+          "utc": "2026-10-01T12:04:50+00:00",
+          "latitude": 40.2237579375546,
+          "longitude": 18.751799867916645
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 9094,
+          "distance_metres": 49.63099648585431,
+          "elapsed_s": 45470,
+          "from_monitoring_start_s": 45785.0,
+          "segment_s": 1695,
+          "segment_distance_m": 1082.2217894732335,
+          "utc": "2026-10-01T12:33:05+00:00",
+          "latitude": 40.22622176788187,
+          "longitude": 18.75661970424943
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 9304,
+          "distance_metres": 48.230362226812275,
+          "elapsed_s": 46520,
+          "from_monitoring_start_s": 46835.0,
+          "segment_s": 1050,
+          "segment_distance_m": 598.3951079902009,
+          "utc": "2026-10-01T12:50:35+00:00",
+          "latitude": 40.22793982856287,
+          "longitude": 18.75023897685415
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 9392,
+          "distance_metres": 48.7644882461078,
+          "elapsed_s": 46960,
+          "from_monitoring_start_s": 47275.0,
+          "segment_s": 440,
+          "segment_distance_m": 400.1160751092812,
+          "utc": "2026-10-01T12:57:55+00:00",
+          "latitude": 40.225268432655795,
+          "longitude": 18.74712088121649
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "gate_wait_seconds": 315.0,
+      "total_elapsed_s": 47275.0,
+      "gate_attempts": 64,
+      "maximum_gate_decision_s": 0.00034320898703299463,
+      "launch_gate_uncapped_margin_m": 34.233918464265344,
+      "launch_gate_preview_margin_m": 182.61909402690907,
+      "unfinished_leg": null,
+      "track_m": 12197.772891865932,
+      "forecast_updates": 5195,
+      "controller_outcomes": {
+        "acados": 5547,
+        "drift trim": 3845
+      },
+      "maximum_gpx_position_difference_m": 6.935067292778143e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 9393,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 165,
+      "maximum_archive_batch_scalar_difference": 1.1368683772161603e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3013394794199681,
+          "v": -3.444326010657111,
+          "speed": 3.457482776464147,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6219316252291044,
+          "direction": 5.198881940708461,
+          "peak_period": 4.274046036339617
+        },
+        "current": {
+          "u": 0.19966866759819693,
+          "v": -0.2459843762229304,
+          "speed": 0.31682154309046506,
+          "direction": 140.93331953565465,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "c0bdea9fcf914e993f0459606fc06c6fc40738906c43adf41b137a912f1f4a31",
+        "track.gpx": "cb0192004d4480891dd2dce6d7572d079bb2cd7564eb3f0264d2b7124b660ce2",
+        "run.log": "88c08dfe27604d5ea7c9ea4723fc200ef9e6e445f3aad6d1ee0015bdffb98739",
+        "departure_gate.json": "97026d419d38192e8892d2de41a61e6cb638e0bdbccdf2d859d74d71bebf9b74",
+        "departure_gate.jsonl": "c4b66b478cc7de610bd58110187773084ae0e52d33972b2333383904bb56354b"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_005__classical",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 9392,
+        "AIS_choose_applied_attempts": 9392,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.0007599589880555868,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "88c08dfe27604d5ea7c9ea4723fc200ef9e6e445f3aad6d1ee0015bdffb98739",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/opposed_crossing__otranto_005__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "e2d5e5147735258802e0544945bc11dbeb7a013788984fd501d7864095ef4fe4",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 9392,
+        "AIS_applied_decision_applied_attempts": 9392,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.024341333017218858,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "88c08dfe27604d5ea7c9ea4723fc200ef9e6e445f3aad6d1ee0015bdffb98739",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/opposed_crossing__otranto_005__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "bf49681ed10551e9b791d1b1bdd535485502264af9fae9cd061034e5cf152e6f",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:55:15Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 315.0,
+        "applied_actions": 9392,
+        "frames": 9393,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.6057982695964806,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.44560950608475985,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 52,
+        "astern_control_boundary_count": 45,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 9391,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 5.820766091346741e-11,
+        "maximum_truth_outside_report_envelope_m": -10.191152289519959,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 270.33726939597204,
+        "truth_minimum_nominal_m": 245.33726939597204,
+        "truth_centered_minimum_uncertainty_m": 235.13726939597206,
+        "configured_truth_centered_minimum_m": 232.13726939597206,
+        "model_minimum_uncertainty_m": 235.1372693948844,
+        "configured_model_minimum_m": 232.1372693948844,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 270.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 245.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 235.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 235.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 232.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 232.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 9392
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 8089,
+            "distance_metres": 49.58665752360627
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8186,
+            "distance_metres": 47.76191703296651
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8348,
+            "distance_metres": 48.63573133116808
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8679,
+            "distance_metres": 49.436333563525665
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8755,
+            "distance_metres": 48.54942314022526
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9094,
+            "distance_metres": 49.63099648585431
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9304,
+            "distance_metres": 48.230362226812275
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9392,
+            "distance_metres": 48.7644882461078
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 8089,
+            "distance_metres": 49.58665752360627
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8186,
+            "distance_metres": 47.76191703296651
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8348,
+            "distance_metres": 48.63573133116808
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8679,
+            "distance_metres": 49.436333563525665
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8755,
+            "distance_metres": 48.54942314022526
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9094,
+            "distance_metres": 49.63099648585431
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9304,
+            "distance_metres": 48.230362226812275
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9392,
+            "distance_metres": 48.7644882461078
+          }
+        ],
+        "final_goal_distance_m": 48.7644882461078,
+        "replay_sha256": "c0bdea9fcf914e993f0459606fc06c6fc40738906c43adf41b137a912f1f4a31",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "88c08dfe27604d5ea7c9ea4723fc200ef9e6e445f3aad6d1ee0015bdffb98739",
+        "history_sha256": "f2458079a706c09a8d43aa054a60611794aa555c6fa5da4eb2970fe21868334c",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "departure_gate_summary_sha256": "97026d419d38192e8892d2de41a61e6cb638e0bdbccdf2d859d74d71bebf9b74",
+        "departure_gate_log_sha256": "c4b66b478cc7de610bd58110187773084ae0e52d33972b2333383904bb56354b",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 3845,
+        "holding_mode_updates": 3845,
+        "recovering_mode_updates": 3892,
+        "forecast_hold_reference_updates": 3845,
+        "forecast_reference_updates": 5195,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5547,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 19225
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 9392
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 9392
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "opposed_crossing__otranto_005__classical",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1760,
+          "end_s": 20985,
+          "duration_s": 19225,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 9392,
+        "search_total_seconds": 2.1401065287936945,
+        "first_AIS_choose_seconds": 0.00017708298400975764,
+        "search_max_seconds": 0.0007599589880555868,
+        "search_p95_seconds": 0.00027133399271406233,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 9392,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    },
+    "opposed_crossing__otranto_005__transformer": {
+      "directory": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "completed",
+      "steps": 9369,
+      "elapsed_s": 46845,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 8092,
+          "distance_metres": 49.0060681812849,
+          "elapsed_s": 40460,
+          "from_monitoring_start_s": 40775.0,
+          "segment_s": 40460,
+          "segment_distance_m": 7751.472542934867,
+          "utc": "2026-10-01T11:09:35+00:00",
+          "latitude": 40.22789776239132,
+          "longitude": 18.75008799754937
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 8189,
+          "distance_metres": 47.83879902621503,
+          "elapsed_s": 40945,
+          "from_monitoring_start_s": 41260.0,
+          "segment_s": 485,
+          "segment_distance_m": 536.5913517035663,
+          "utc": "2026-10-01T11:17:40+00:00",
+          "latitude": 40.226643468558244,
+          "longitude": 18.75610399431673
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 8346,
+          "distance_metres": 48.751014701327655,
+          "elapsed_s": 41730,
+          "from_monitoring_start_s": 42045.0,
+          "segment_s": 785,
+          "segment_distance_m": 634.0788700423664,
+          "utc": "2026-10-01T11:30:45+00:00",
+          "latitude": 40.22342857514844,
+          "longitude": 18.752227164100333
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 8681,
+          "distance_metres": 49.01054748132256,
+          "elapsed_s": 43405,
+          "from_monitoring_start_s": 43720.0,
+          "segment_s": 1675,
+          "segment_distance_m": 881.2451268054102,
+          "utc": "2026-10-01T11:58:40+00:00",
+          "latitude": 40.226286083562094,
+          "longitude": 18.75137547766667
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 8756,
+          "distance_metres": 48.489539604592636,
+          "elapsed_s": 43780,
+          "from_monitoring_start_s": 44095.0,
+          "segment_s": 375,
+          "segment_distance_m": 310.74553403015676,
+          "utc": "2026-10-01T12:04:55+00:00",
+          "latitude": 40.22373967413184,
+          "longitude": 18.751873954126552
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 9083,
+          "distance_metres": 49.44089280144445,
+          "elapsed_s": 45415,
+          "from_monitoring_start_s": 45730.0,
+          "segment_s": 1635,
+          "segment_distance_m": 1104.2080316126523,
+          "utc": "2026-10-01T12:32:10+00:00",
+          "latitude": 40.226223650929406,
+          "longitude": 18.75661706194211
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 9282,
+          "distance_metres": 48.156968479089066,
+          "elapsed_s": 46410,
+          "from_monitoring_start_s": 46725.0,
+          "segment_s": 995,
+          "segment_distance_m": 579.7468033725289,
+          "utc": "2026-10-01T12:48:45+00:00",
+          "latitude": 40.22792594334082,
+          "longitude": 18.750192484637864
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 9369,
+          "distance_metres": 46.3288005065801,
+          "elapsed_s": 46845,
+          "from_monitoring_start_s": 47160.0,
+          "segment_s": 435,
+          "segment_distance_m": 398.1257174414544,
+          "utc": "2026-10-01T12:56:00+00:00",
+          "latitude": 40.225260381068836,
+          "longitude": 18.74709267188757
+        }
+      ],
+      "monitoring_start_utc": "2026-09-30T23:50:00Z",
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "gate_wait_seconds": 315.0,
+      "total_elapsed_s": 47160.0,
+      "gate_attempts": 64,
+      "maximum_gate_decision_s": 0.00035504199331626296,
+      "launch_gate_uncapped_margin_m": 34.233918464265344,
+      "launch_gate_preview_margin_m": 182.61909402690907,
+      "unfinished_leg": null,
+      "track_m": 12196.213977943002,
+      "forecast_updates": 5112,
+      "controller_outcomes": {
+        "acados": 5464,
+        "drift trim": 3905
+      },
+      "maximum_gpx_position_difference_m": 6.967593643535118e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 9370,
+      "maximum_archive_value_difference": 1.7053025658242404e-13,
+      "archive_scalar_crosschecks_per_provider": 165,
+      "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3013394794199681,
+          "v": -3.444326010657111,
+          "speed": 3.457482776464147,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6219316252291044,
+          "direction": 5.198881940708461,
+          "peak_period": 4.274046036339617
+        },
+        "current": {
+          "u": 0.19966866759819693,
+          "v": -0.2459843762229304,
+          "speed": 0.31682154309046506,
+          "direction": 140.93331953565465,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "f183b36decd14890145448fc858f7e23c3e971d577baab5377e31a407777a3c4",
+        "track.gpx": "fc56bcf88c119be087b20eba8235cda3909d2479b4f3f32fa31840fe30e8bdfe",
+        "run.log": "c45b58019b5ae661f112c1bfd0ae25418326d097954adc39b04246970c93b453",
+        "departure_gate.json": "575e52200e1a37d83bc2b97940357fc275ced4df2d8417e995030f71eefbc77c",
+        "departure_gate.jsonl": "f869ed896074254dd66c5392e4b8fad3b37f9f31d3bad45f7d85f11ea7741501"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_005__transformer",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 9369,
+        "AIS_choose_applied_attempts": 9369,
+        "AIS_choose_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_choose_s": 0.0012660840002354234,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "c45b58019b5ae661f112c1bfd0ae25418326d097954adc39b04246970c93b453",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_decision_timing/opposed_crossing__otranto_005__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "70c65a619475ebeb62371eba5d044bd6d62eac417816142976d87860fcabadd8",
+        "AIS_choose_overrun_or_unapplied_timing_records": [],
+        "AIS_applied_decision_attempts": 9369,
+        "AIS_applied_decision_applied_attempts": 9369,
+        "AIS_applied_decision_unapplied_final_attempts": 0,
+        "maximum_complete_AIS_applied_decision_s": 0.031165749998763204,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "c45b58019b5ae661f112c1bfd0ae25418326d097954adc39b04246970c93b453",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_ais_departure_retest/independent_applied_decision_timing/opposed_crossing__otranto_005__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "509e3954cf02ee7ecf060187f588cb92a56ad43b4d037e88bc8e042de21c4e70",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:55:15Z",
+        "monitoring_start_utc": "2026-09-30T23:50:00Z",
+        "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+        "gate_wait_seconds": 315.0,
+        "applied_actions": 9369,
+        "frames": 9370,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.2635528760291823,
+        "maximum_first300s_launch_tube_excess_m": -30.0,
+        "observed_launch_displacement_tube_obeyed_first300s": true,
+        "launch_tube_coverage_seconds": 300.0,
+        "maximum_first300s_native_ground_speed_mps": 0.44560950608475985,
+        "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+        "astern_action_count": 44,
+        "astern_control_boundary_count": 39,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 9368,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 4.3655745685100555e-11,
+        "maximum_truth_outside_report_envelope_m": -10.191152289519959,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 270.33726939597204,
+        "truth_minimum_nominal_m": 245.33726939597204,
+        "truth_centered_minimum_uncertainty_m": 235.13726939597206,
+        "configured_truth_centered_minimum_m": 232.13726939597206,
+        "model_minimum_uncertainty_m": 235.1372693948844,
+        "configured_model_minimum_m": 232.1372693948844,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 270.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "true_nominal_25m": {
+            "margin_m": 245.33726939597204,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 235.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 235.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "truth_with_reserve": {
+            "margin_m": 232.13726939597206,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          },
+          "projected_with_reserve": {
+            "margin_m": 232.1372693948844,
+            "mmsi": 998100303,
+            "elapsed_s": 0.0,
+            "action_step": 1,
+            "scenario_seconds": 275.0,
+            "ais_mode": "route"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "route": 9369
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "completed",
+        "strict_clearance_stop": false,
+        "waypoint_arrivals": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 8092,
+            "distance_metres": 49.0060681812849
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8189,
+            "distance_metres": 47.83879902621503
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8346,
+            "distance_metres": 48.751014701327655
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8681,
+            "distance_metres": 49.01054748132256
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8756,
+            "distance_metres": 48.489539604592636
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9083,
+            "distance_metres": 49.44089280144445
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9282,
+            "distance_metres": 48.156968479089066
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9369,
+            "distance_metres": 46.3288005065801
+          }
+        ],
+        "goal_captures": [
+          {
+            "phase": "outbound",
+            "waypoint": "002",
+            "step": 8092,
+            "distance_metres": 49.0060681812849
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "003",
+            "step": 8189,
+            "distance_metres": 47.83879902621503
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "004",
+            "step": 8346,
+            "distance_metres": 48.751014701327655
+          },
+          {
+            "phase": "outbound",
+            "waypoint": "005",
+            "step": 8681,
+            "distance_metres": 49.01054748132256
+          },
+          {
+            "phase": "return",
+            "waypoint": "004",
+            "step": 8756,
+            "distance_metres": 48.489539604592636
+          },
+          {
+            "phase": "return",
+            "waypoint": "003",
+            "step": 9083,
+            "distance_metres": 49.44089280144445
+          },
+          {
+            "phase": "return",
+            "waypoint": "002",
+            "step": 9282,
+            "distance_metres": 48.156968479089066
+          },
+          {
+            "phase": "return",
+            "waypoint": "001",
+            "step": 9369,
+            "distance_metres": 46.3288005065801
+          }
+        ],
+        "final_goal_distance_m": 46.3288005065801,
+        "replay_sha256": "f183b36decd14890145448fc858f7e23c3e971d577baab5377e31a407777a3c4",
+        "replay_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_ais_departure_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "c45b58019b5ae661f112c1bfd0ae25418326d097954adc39b04246970c93b453",
+        "history_sha256": "224d9ed15a331d41ade6ada644cd32589059eca4d74e2ac198d95d3530e103a4",
+        "audit_source_sha256": "6f1e774888b884b194a0f0ca409d42a1c76bb613e9bd425a92ef7bece19686b7",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "departure_gate_summary_sha256": "575e52200e1a37d83bc2b97940357fc275ced4df2d8417e995030f71eefbc77c",
+        "departure_gate_log_sha256": "f869ed896074254dd66c5392e4b8fad3b37f9f31d3bad45f7d85f11ea7741501",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 0,
+        "accepted_policy_updates": 9017,
+        "learned_source_updates": 8957,
+        "learned_hold_updates": 3905,
+        "learned_sail_updates": 5052,
+        "accepted_hold_updates": 3905,
+        "accepted_sail_updates": 5112,
+        "physical_release_overrides": 60,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 60,
+        "AIS_encounter_deferrals": 352,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 3905,
+        "holding_mode_updates": 3905,
+        "recovering_mode_updates": 3835,
+        "forecast_hold_reference_updates": 3905,
+        "forecast_reference_updates": 5112,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_predictive_fallback_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 5464,
+        "raw_proposal_telemetry_updates": 9017,
+        "fresh_model_evaluation_updates": 159,
+        "cached_model_telemetry_updates": 8858,
+        "raw_hold_telemetry_updates": 3965,
+        "accepted_weather_windows": 152,
+        "raw_model_weather_windows": 152,
+        "model_proposal_events": 159,
+        "raw_hold_proposal_events": 67,
+        "raw_sail_proposal_events": 92,
+        "physical_release_proposal_events": 1,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 19525
+      },
+      "first_accepted_policy_start_s": 1760,
+      "first_accepted_difference_from_classical_s": 20985,
+      "first_physical_release_override_start_s": 21285,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 352
+        },
+        {
+          "source": "learned",
+          "action": "hold",
+          "updates": 3905
+        },
+        {
+          "source": "physical release",
+          "action": "sail",
+          "updates": 60
+        },
+        {
+          "source": "learned",
+          "action": "sail",
+          "updates": 5052
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS encounter": 352,
+        "none": 9017
+      },
+      "actual_hold_intervals": [
+        {
+          "arm": "opposed_crossing__otranto_005__transformer",
+          "phase": "outbound",
+          "waypoint": "002",
+          "start_s": 1760,
+          "end_s": 21285,
+          "duration_s": 19525,
+          "end_reason": "route"
+        }
+      ],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 9369,
+        "search_total_seconds": 2.1290515039581805,
+        "first_AIS_choose_seconds": 0.00022341599105857313,
+        "search_max_seconds": 0.0012660840002354234,
+        "search_p95_seconds": 0.00026912501198239625,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 9369,
+        "unapplied_attempts": 0,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 0
+    }
+  },
+  "comparisons_by_wind": {
+    "crossing_fan__355": {
+      "classical_arm": "crossing_fan__otranto_355__classical",
+      "transformer_arm": "crossing_fan__otranto_355__transformer",
+      "paired_frames": 12605,
+      "frame_counts_equal": false,
+      "states_identical": false,
+      "observations_identical": false,
+      "first_state_difference_at_step": 7023,
+      "first_observation_difference_at_step": 7023,
+      "first_applied_command_difference_at_step": 7023,
+      "first_applied_command_difference_start_s": 35110,
+      "applied_commands_identical": false,
+      "nominal_references_identical": false,
+      "maximum_coincident_position_difference_m": 1272.2321954492525,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 65,
+      "both_completed": true,
+      "capture_deltas": [
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "002",
+          "classical_elapsed_s": 53800,
+          "transformer_elapsed_s": 53800,
+          "transformer_minus_classical_s": 0,
+          "classical_capture_range_m": 49.707343585575195,
+          "transformer_capture_range_m": 48.342785337520844,
+          "classical_segment_s": 53800,
+          "transformer_segment_s": 53800,
+          "classical_segment_track_m": 15614.192945157467,
+          "transformer_segment_track_m": 15599.71710903231
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "003",
+          "classical_elapsed_s": 54310,
+          "transformer_elapsed_s": 54315,
+          "transformer_minus_classical_s": 5,
+          "classical_capture_range_m": 48.82887328693246,
+          "transformer_capture_range_m": 45.27389103294112,
+          "classical_segment_s": 510,
+          "transformer_segment_s": 515,
+          "classical_segment_track_m": 509.1857976794463,
+          "transformer_segment_track_m": 514.2051642071789
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "004",
+          "classical_elapsed_s": 54985,
+          "transformer_elapsed_s": 54990,
+          "transformer_minus_classical_s": 5,
+          "classical_capture_range_m": 49.75844018808477,
+          "transformer_capture_range_m": 46.147688599481725,
+          "classical_segment_s": 675,
+          "transformer_segment_s": 675,
+          "classical_segment_track_m": 665.8205063636234,
+          "transformer_segment_track_m": 664.9488454047627
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "005",
+          "classical_elapsed_s": 57195,
+          "transformer_elapsed_s": 57250,
+          "transformer_minus_classical_s": 55,
+          "classical_capture_range_m": 49.334442924307204,
+          "transformer_capture_range_m": 49.19166604171253,
+          "classical_segment_s": 2210,
+          "transformer_segment_s": 2260,
+          "classical_segment_track_m": 1266.3775248614984,
+          "transformer_segment_track_m": 1379.327471762554
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "004",
+          "classical_elapsed_s": 57590,
+          "transformer_elapsed_s": 57650,
+          "transformer_minus_classical_s": 60,
+          "classical_capture_range_m": 48.57713069142997,
+          "transformer_capture_range_m": 46.525345201292076,
+          "classical_segment_s": 395,
+          "transformer_segment_s": 400,
+          "classical_segment_track_m": 320.98990958927794,
+          "transformer_segment_track_m": 298.66022808911737
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "003",
+          "classical_elapsed_s": 59780,
+          "transformer_elapsed_s": 59865,
+          "transformer_minus_classical_s": 85,
+          "classical_capture_range_m": 49.89528893964985,
+          "transformer_capture_range_m": 49.87559916954141,
+          "classical_segment_s": 2190,
+          "transformer_segment_s": 2215,
+          "classical_segment_track_m": 1186.2568382407371,
+          "transformer_segment_track_m": 1194.4888404796861
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "002",
+          "classical_elapsed_s": 62390,
+          "transformer_elapsed_s": 62460,
+          "transformer_minus_classical_s": 70,
+          "classical_capture_range_m": 48.03412509612148,
+          "transformer_capture_range_m": 48.94371944001681,
+          "classical_segment_s": 2610,
+          "transformer_segment_s": 2595,
+          "classical_segment_track_m": 1243.077627409962,
+          "transformer_segment_track_m": 1230.6170512467268
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "001",
+          "classical_elapsed_s": 63020,
+          "transformer_elapsed_s": 63085,
+          "transformer_minus_classical_s": 65,
+          "classical_capture_range_m": 49.3577781688708,
+          "transformer_capture_range_m": 48.655418472523785,
+          "classical_segment_s": 630,
+          "transformer_segment_s": 625,
+          "classical_segment_track_m": 455.1250375819096,
+          "transformer_segment_track_m": 454.555586178525
+        }
+      ]
+    },
+    "crossing_fan__005": {
+      "classical_arm": "crossing_fan__otranto_005__classical",
+      "transformer_arm": "crossing_fan__otranto_005__transformer",
+      "paired_frames": 9305,
+      "frame_counts_equal": false,
+      "states_identical": false,
+      "observations_identical": false,
+      "first_state_difference_at_step": 4203,
+      "first_observation_difference_at_step": 4203,
+      "first_applied_command_difference_at_step": 4203,
+      "first_applied_command_difference_start_s": 21010,
+      "applied_commands_identical": false,
+      "nominal_references_identical": false,
+      "maximum_coincident_position_difference_m": 128.65287564489037,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 115,
+      "both_completed": true,
+      "capture_deltas": [
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "002",
+          "classical_elapsed_s": 39945,
+          "transformer_elapsed_s": 39940,
+          "transformer_minus_classical_s": -5,
+          "classical_capture_range_m": 48.814477927050156,
+          "transformer_capture_range_m": 49.889804979197706,
+          "classical_segment_s": 39945,
+          "transformer_segment_s": 39940,
+          "classical_segment_track_m": 7399.428623969201,
+          "transformer_segment_track_m": 7404.213122903896
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "003",
+          "classical_elapsed_s": 40435,
+          "transformer_elapsed_s": 40460,
+          "transformer_minus_classical_s": 25,
+          "classical_capture_range_m": 48.81068459330801,
+          "transformer_capture_range_m": 49.26008219461409,
+          "classical_segment_s": 490,
+          "transformer_segment_s": 520,
+          "classical_segment_track_m": 535.5104594600667,
+          "transformer_segment_track_m": 562.2840937973714
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "004",
+          "classical_elapsed_s": 41155,
+          "transformer_elapsed_s": 41280,
+          "transformer_minus_classical_s": 125,
+          "classical_capture_range_m": 49.116318369789305,
+          "transformer_capture_range_m": 49.47210088173237,
+          "classical_segment_s": 720,
+          "transformer_segment_s": 820,
+          "classical_segment_track_m": 563.0485938340059,
+          "transformer_segment_track_m": 644.4912240537691
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "005",
+          "classical_elapsed_s": 42835,
+          "transformer_elapsed_s": 42960,
+          "transformer_minus_classical_s": 125,
+          "classical_capture_range_m": 47.54609133357928,
+          "transformer_capture_range_m": 48.45248733785963,
+          "classical_segment_s": 1680,
+          "transformer_segment_s": 1680,
+          "classical_segment_track_m": 858.2233241703121,
+          "transformer_segment_track_m": 866.7286234310948
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "004",
+          "classical_elapsed_s": 43220,
+          "transformer_elapsed_s": 43345,
+          "transformer_minus_classical_s": 125,
+          "classical_capture_range_m": 47.87740447222282,
+          "transformer_capture_range_m": 47.49518350167625,
+          "classical_segment_s": 385,
+          "transformer_segment_s": 385,
+          "classical_segment_track_m": 314.4045758980521,
+          "transformer_segment_track_m": 312.8342574240209
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "003",
+          "classical_elapsed_s": 45085,
+          "transformer_elapsed_s": 45205,
+          "transformer_minus_classical_s": 120,
+          "classical_capture_range_m": 49.91038764655798,
+          "transformer_capture_range_m": 49.47074403023935,
+          "classical_segment_s": 1865,
+          "transformer_segment_s": 1860,
+          "classical_segment_track_m": 1243.079883215137,
+          "transformer_segment_track_m": 1238.6328962633684
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "002",
+          "classical_elapsed_s": 46080,
+          "transformer_elapsed_s": 46200,
+          "transformer_minus_classical_s": 120,
+          "classical_capture_range_m": 49.266085492827266,
+          "transformer_capture_range_m": 48.52397752198584,
+          "classical_segment_s": 995,
+          "transformer_segment_s": 995,
+          "classical_segment_track_m": 576.5997555960728,
+          "transformer_segment_track_m": 577.7492006240886
+        },
+        {
+          "scenario_id": "crossing_fan",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "001",
+          "classical_elapsed_s": 46520,
+          "transformer_elapsed_s": 46635,
+          "transformer_minus_classical_s": 115,
+          "classical_capture_range_m": 46.85387448744339,
+          "transformer_capture_range_m": 49.264726026861695,
+          "classical_segment_s": 440,
+          "transformer_segment_s": 435,
+          "classical_segment_track_m": 401.8122067120105,
+          "transformer_segment_track_m": 397.5905693425823
+        }
+      ]
+    },
+    "opposed_crossing__355": {
+      "classical_arm": "opposed_crossing__otranto_355__classical",
+      "transformer_arm": "opposed_crossing__otranto_355__transformer",
+      "paired_frames": 12274,
+      "frame_counts_equal": false,
+      "states_identical": false,
+      "observations_identical": false,
+      "first_state_difference_at_step": 7078,
+      "first_observation_difference_at_step": 7078,
+      "first_applied_command_difference_at_step": 7078,
+      "first_applied_command_difference_start_s": 35385,
+      "applied_commands_identical": false,
+      "nominal_references_identical": false,
+      "maximum_coincident_position_difference_m": 3192.992818804709,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": -1005,
+      "both_completed": true,
+      "capture_deltas": [
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "002",
+          "classical_elapsed_s": 53230,
+          "transformer_elapsed_s": 52410,
+          "transformer_minus_classical_s": -820,
+          "classical_capture_range_m": 47.7549342426283,
+          "transformer_capture_range_m": 49.601947900366596,
+          "classical_segment_s": 53230,
+          "transformer_segment_s": 52410,
+          "classical_segment_track_m": 15475.32437475236,
+          "transformer_segment_track_m": 15267.054815517115
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "003",
+          "classical_elapsed_s": 53745,
+          "transformer_elapsed_s": 52925,
+          "transformer_minus_classical_s": -820,
+          "classical_capture_range_m": 47.053264755786394,
+          "transformer_capture_range_m": 49.675868150462904,
+          "classical_segment_s": 515,
+          "transformer_segment_s": 515,
+          "classical_segment_track_m": 519.6773990992793,
+          "transformer_segment_track_m": 526.6072847174062
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "004",
+          "classical_elapsed_s": 54415,
+          "transformer_elapsed_s": 53440,
+          "transformer_minus_classical_s": -975,
+          "classical_capture_range_m": 48.34688654252058,
+          "transformer_capture_range_m": 49.17809600659998,
+          "classical_segment_s": 670,
+          "transformer_segment_s": 515,
+          "classical_segment_track_m": 638.9723823510078,
+          "transformer_segment_track_m": 508.9226582873314
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "outbound",
+          "waypoint": "005",
+          "classical_elapsed_s": 56665,
+          "transformer_elapsed_s": 55595,
+          "transformer_minus_classical_s": -1070,
+          "classical_capture_range_m": 49.38953756887079,
+          "transformer_capture_range_m": 49.96831511068088,
+          "classical_segment_s": 2250,
+          "transformer_segment_s": 2155,
+          "classical_segment_track_m": 1344.0844768615616,
+          "transformer_segment_track_m": 1293.4378533586655
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "004",
+          "classical_elapsed_s": 57050,
+          "transformer_elapsed_s": 55990,
+          "transformer_minus_classical_s": -1060,
+          "classical_capture_range_m": 48.874911845115,
+          "transformer_capture_range_m": 48.29077399525438,
+          "classical_segment_s": 385,
+          "transformer_segment_s": 395,
+          "classical_segment_track_m": 296.06420404638493,
+          "transformer_segment_track_m": 298.7207979368201
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "003",
+          "classical_elapsed_s": 59365,
+          "transformer_elapsed_s": 58585,
+          "transformer_minus_classical_s": -780,
+          "classical_capture_range_m": 49.31521505793699,
+          "transformer_capture_range_m": 47.829354818257336,
+          "classical_segment_s": 2315,
+          "transformer_segment_s": 2595,
+          "classical_segment_track_m": 1297.4909351377314,
+          "transformer_segment_track_m": 1438.191941150355
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "002",
+          "classical_elapsed_s": 61860,
+          "transformer_elapsed_s": 60780,
+          "transformer_minus_classical_s": -1080,
+          "classical_capture_range_m": 48.85909739643932,
+          "transformer_capture_range_m": 49.33435041721713,
+          "classical_segment_s": 2495,
+          "transformer_segment_s": 2195,
+          "classical_segment_track_m": 1208.87344552421,
+          "transformer_segment_track_m": 1101.2592424635875
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 355,
+          "phase": "return",
+          "waypoint": "001",
+          "classical_elapsed_s": 62370,
+          "transformer_elapsed_s": 61365,
+          "transformer_minus_classical_s": -1005,
+          "classical_capture_range_m": 48.41792895889724,
+          "transformer_capture_range_m": 46.92753066441115,
+          "classical_segment_s": 510,
+          "transformer_segment_s": 585,
+          "classical_segment_track_m": 388.59176475236325,
+          "transformer_segment_track_m": 442.21623012551413
+        }
+      ]
+    },
+    "opposed_crossing__005": {
+      "classical_arm": "opposed_crossing__otranto_005__classical",
+      "transformer_arm": "opposed_crossing__otranto_005__transformer",
+      "paired_frames": 9370,
+      "frame_counts_equal": false,
+      "states_identical": false,
+      "observations_identical": false,
+      "first_state_difference_at_step": 4198,
+      "first_observation_difference_at_step": 4198,
+      "first_applied_command_difference_at_step": 4198,
+      "first_applied_command_difference_start_s": 20985,
+      "applied_commands_identical": false,
+      "nominal_references_identical": false,
+      "maximum_coincident_position_difference_m": 1010.1790811940621,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": -115,
+      "both_completed": true,
+      "capture_deltas": [
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "002",
+          "classical_elapsed_s": 40445,
+          "transformer_elapsed_s": 40460,
+          "transformer_minus_classical_s": 15,
+          "classical_capture_range_m": 49.58665752360627,
+          "transformer_capture_range_m": 49.0060681812849,
+          "classical_segment_s": 40445,
+          "transformer_segment_s": 40460,
+          "classical_segment_track_m": 7739.151702658447,
+          "transformer_segment_track_m": 7751.472542934867
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "003",
+          "classical_elapsed_s": 40930,
+          "transformer_elapsed_s": 40945,
+          "transformer_minus_classical_s": 15,
+          "classical_capture_range_m": 47.76191703296651,
+          "transformer_capture_range_m": 47.83879902621503,
+          "classical_segment_s": 485,
+          "transformer_segment_s": 485,
+          "classical_segment_track_m": 534.1314579907082,
+          "transformer_segment_track_m": 536.5913517035663
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "004",
+          "classical_elapsed_s": 41740,
+          "transformer_elapsed_s": 41730,
+          "transformer_minus_classical_s": -10,
+          "classical_capture_range_m": 48.63573133116808,
+          "transformer_capture_range_m": 48.751014701327655,
+          "classical_segment_s": 810,
+          "transformer_segment_s": 785,
+          "classical_segment_track_m": 654.1703333015691,
+          "transformer_segment_track_m": 634.0788700423664
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "outbound",
+          "waypoint": "005",
+          "classical_elapsed_s": 43395,
+          "transformer_elapsed_s": 43405,
+          "transformer_minus_classical_s": 10,
+          "classical_capture_range_m": 49.436333563525665,
+          "transformer_capture_range_m": 49.01054748132256,
+          "classical_segment_s": 1655,
+          "transformer_segment_s": 1675,
+          "classical_segment_track_m": 883.1784067124937,
+          "transformer_segment_track_m": 881.2451268054102
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "004",
+          "classical_elapsed_s": 43775,
+          "transformer_elapsed_s": 43780,
+          "transformer_minus_classical_s": 5,
+          "classical_capture_range_m": 48.54942314022526,
+          "transformer_capture_range_m": 48.489539604592636,
+          "classical_segment_s": 380,
+          "transformer_segment_s": 375,
+          "classical_segment_track_m": 306.40801862999916,
+          "transformer_segment_track_m": 310.74553403015676
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "003",
+          "classical_elapsed_s": 45470,
+          "transformer_elapsed_s": 45415,
+          "transformer_minus_classical_s": -55,
+          "classical_capture_range_m": 49.63099648585431,
+          "transformer_capture_range_m": 49.44089280144445,
+          "classical_segment_s": 1695,
+          "transformer_segment_s": 1635,
+          "classical_segment_track_m": 1082.2217894732335,
+          "transformer_segment_track_m": 1104.2080316126523
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "002",
+          "classical_elapsed_s": 46520,
+          "transformer_elapsed_s": 46410,
+          "transformer_minus_classical_s": -110,
+          "classical_capture_range_m": 48.230362226812275,
+          "transformer_capture_range_m": 48.156968479089066,
+          "classical_segment_s": 1050,
+          "transformer_segment_s": 995,
+          "classical_segment_track_m": 598.3951079902009,
+          "transformer_segment_track_m": 579.7468033725289
+        },
+        {
+          "scenario_id": "opposed_crossing",
+          "wind_from_degrees": 5,
+          "phase": "return",
+          "waypoint": "001",
+          "classical_elapsed_s": 46960,
+          "transformer_elapsed_s": 46845,
+          "transformer_minus_classical_s": -115,
+          "classical_capture_range_m": 48.7644882461078,
+          "transformer_capture_range_m": 46.3288005065801,
+          "classical_segment_s": 440,
+          "transformer_segment_s": 435,
+          "classical_segment_track_m": 400.1160751092812,
+          "transformer_segment_track_m": 398.1257174414544
+        }
+      ]
+    }
+  },
+  "measurement": "First saved entry in each original 50 m GPX circle; geodesic chords between consecutive 5 s fixes. Incomplete tails are included in total distance.",
+  "forcing_audit": "All saved positions and timestamps resampled from native archive; wind speed preserved with declared controlled FROM bearing.",
+  "clearance_measurement": "Independent 0.05 s Fossen reconstruction against truth and report-projected full uncertainty with and without 3 m reserve.",
+  "policy_counting": "Applied updates counted after actuator arbitration; fresh model decisions deduplicated by decision UTC plus weather-window UTC; cached telemetry is reported separately.",
+  "classical_rule_diagnostic": "Each temporal classical_action is the rule evaluated at that decision's own state, retained with cached telemetry. It is distinct from the separate classical trajectory after paths diverge."
+}

@@ -1,0 +1,82 @@
+{
+  "baseline_study": "data/results/otranto_ais_departure_retest",
+  "baseline_manifest": "data/results/otranto_ais_departure_retest/audit_outputs_sha256.json",
+  "baseline_manifest_sha256": "dd0a8ce9cb8e624e2502fdaa58521e2b57f216f1761cf0e8f6c2490fcbdff065",
+  "baseline_manifest_entries": 1020,
+  "all_baseline_manifest_entries_match": true,
+  "matched_arm_bindings_sha256": {
+    "crossing_fan__otranto_005__classical": {
+      "execution.json": "68e1f18e55f8d6506f9c22b2fcfe8675fe61b1d5844683a8fd15943098a7a75a",
+      "navigation.jsonl.gz": "db75d4d7412b26dc0282acb9ac5a6eb065e5f4b127b21f7ec48e71da9db04f0c",
+      "track.gpx": "754a79ef3399baa59bebb746d5ad54a23bf3f0960b80dbe7554c7516f272ae56",
+      "navigation.mp4": "98d4e5a4e7439f2b9df0358304844434391866e4fa1476550c3ad4a537b384f1",
+      "video_verification.json": "4cd6e3221767b8cff7b04eb1486c82188676878ca58056ad5210a220a0e88173",
+      "departure_gate.json": "a4c471630d208791865b7d77da3e74b3f71411ff41d0842e501f28e2d36b4eba",
+      "departure_gate.jsonl": "b88c0612ed4d3892545c3c656847d31b1cab124156876cb96eeff374f8d5d030"
+    },
+    "crossing_fan__otranto_005__transformer": {
+      "execution.json": "ff64c75a63dbb8b71270171503194ad67b693a307ad9fbc45753f2305a4fb75e",
+      "navigation.jsonl.gz": "fcdda926b323707637ec559560acca40b3c4d6855607d65ee633fc146e4adbfe",
+      "track.gpx": "790e4bc4cfea685e57545fa7c21552721c1ceaeb77fd0d3c7a397c8fc1793723",
+      "navigation.mp4": "896b2dc699fa49808b925c0442549119d53c28f6d17caecb84af8f5815dadcae",
+      "video_verification.json": "89f437b7789b1574aff22f85c4f6a6ca0a1a07248f8f9fadfc9e46658bd86692",
+      "departure_gate.json": "a5d7fd37e9f72ad7093740afea28582ab6af6a0904fea48a54db6e24f1f48d57",
+      "departure_gate.jsonl": "f37442c95c4413c624527ceb9bad66ed308145cd433c38b5c2943b68add1b2ea"
+    },
+    "crossing_fan__otranto_355__classical": {
+      "execution.json": "b36aee1cb9aaf67b48b169f0c025ee014485ec41a5d997279d0dd8539e472d24",
+      "navigation.jsonl.gz": "3b97db9b6a98d3b4187233c275300e322a7c29fcd736bd555b8c0d3e43a2019c",
+      "track.gpx": "e486f0647ef708cfc6cc09a277288de3bb9b337e182cf3d2482d49451e16d2fb",
+      "navigation.mp4": "07b8ec0ad8822b9ece46829893c76bb798cebf5654f56cbd29d67b983d4fe1c8",
+      "video_verification.json": "e6b5efe974ca26dd2c170785264f9597f0f3d3730cd4a0615cead571c261a3f2",
+      "departure_gate.json": "77c568758507ade61a36fcf6c9c7986abc6582c2feb4ef302346e0ee61244f41",
+      "departure_gate.jsonl": "00d30c94a1486efeabf3494af3a0d4505045a975a91cb5c1d35cc64a4484e708"
+    },
+    "crossing_fan__otranto_355__transformer": {
+      "execution.json": "acd3ec318bb2b6cfe139d1a965e44140a1a103deba296b0497faee702d40dd38",
+      "navigation.jsonl.gz": "a1383c95f80de97d950631e3128d0f0c0ac765140e09de6a81f07c66f5c5fddc",
+      "track.gpx": "09189da038783cd911a0f1d21478fa4e9572f6999ef8fff8cf75d2a7f6682254",
+      "navigation.mp4": "67934d2a864bd34a1a11e1415f5619503c047f947a4d615266e370cbb32e8878",
+      "video_verification.json": "524a647a91a88633f447ab61b9ae71f1b7f11951eed0e30e0c719d5c90dbc4ce",
+      "departure_gate.json": "7baadefad42982e92e6b24e141693e3394a56ed21b9631130e713a3c03a237b6",
+      "departure_gate.jsonl": "61dba412ad7b3e360fa0c0ff23c72d10b88386dd6182c0d718e1f9c242689fde"
+    },
+    "opposed_crossing__otranto_005__classical": {
+      "execution.json": "8d5e0ca1f2fc403fb0f245c46f646324301633a7fca4a61ae51ae6f05816b839",
+      "navigation.jsonl.gz": "c0bdea9fcf914e993f0459606fc06c6fc40738906c43adf41b137a912f1f4a31",
+      "track.gpx": "cb0192004d4480891dd2dce6d7572d079bb2cd7564eb3f0264d2b7124b660ce2",
+      "navigation.mp4": "7dbf3ace26f190665c18f07bbfba0ed823e76cc9e18f4321cb526093831ef70f",
+      "video_verification.json": "aef10adddd067db977931c40e5f3d1e6ae00fc72aa9d4c072dbece34ad2ffa87",
+      "departure_gate.json": "97026d419d38192e8892d2de41a61e6cb638e0bdbccdf2d859d74d71bebf9b74",
+      "departure_gate.jsonl": "c4b66b478cc7de610bd58110187773084ae0e52d33972b2333383904bb56354b"
+    },
+    "opposed_crossing__otranto_005__transformer": {
+      "execution.json": "acdaf327d773203cb952a6f60e3c7adc8b998a0116d193267d4809d015227286",
+      "navigation.jsonl.gz": "f183b36decd14890145448fc858f7e23c3e971d577baab5377e31a407777a3c4",
+      "track.gpx": "fc56bcf88c119be087b20eba8235cda3909d2479b4f3f32fa31840fe30e8bdfe",
+      "navigation.mp4": "a4ef0671480428dbae01ee05cd86a1ac85b2f47ad833f43884d944a8ccc46f7d",
+      "video_verification.json": "baa9f11cefc34f61c0894221275a90d3140904e8cd8876481a857e83f0ab4849",
+      "departure_gate.json": "575e52200e1a37d83bc2b97940357fc275ced4df2d8417e995030f71eefbc77c",
+      "departure_gate.jsonl": "f869ed896074254dd66c5392e4b8fad3b37f9f31d3bad45f7d85f11ea7741501"
+    },
+    "opposed_crossing__otranto_355__classical": {
+      "execution.json": "b47a791995012996d6ec110287c6a26199774cde874f1cdf05b3e88c165374f8",
+      "navigation.jsonl.gz": "284f8a116b6abbdd5e67f7a2567086be77f7de025c467059d66a5200af4d0408",
+      "track.gpx": "7e97ddee0f3571ec3298286ac4bf66e8f766c129d9484e8b940835788ebd80d1",
+      "navigation.mp4": "6da8d56cedf5b86218bcf59f759d9c95e01c29afdddbe8a19ffc752b8f9d3250",
+      "video_verification.json": "c830314b617ababfa93d901409cd88de955d7098a883e297225a54d852efd978",
+      "departure_gate.json": "cd51128fdbf274104170e8a4e024c6846555c0198d875ae38146b8487cf5cf1c",
+      "departure_gate.jsonl": "8c58a584f02a59150ed7876a9595381afca1cd29c725af71e3f641a83085b1f4"
+    },
+    "opposed_crossing__otranto_355__transformer": {
+      "execution.json": "0ab56f85642993f43dccfbba9b81c31c571523d3c8348e07caf5753a4d905a14",
+      "navigation.jsonl.gz": "ec47d501c55886636ea1e887932aa995d1791e2dd48f01906b354423bd9c668a",
+      "track.gpx": "49c5421578582ccecf1ce15846a1461713602355b11fd85a55dcaf628a9c7a8a",
+      "navigation.mp4": "87f169c829b861616d694f775aaca007cf871c97ee6e1dda0fdb9d3c3c383eaa",
+      "video_verification.json": "97e705d6ff5cc7523410e6da2d9ef79f676df1a461b898cd6156741b7f72d304",
+      "departure_gate.json": "cc4d09504b2b40e48f59263a35bfc0a8c2c8f8218a4d412b9bff9f7a4307c0d1",
+      "departure_gate.jsonl": "8d4034ce2c4109c70b5f2e205be3ea7913ff1a38388c3499b6c834b16d322984"
+    }
+  },
+  "meaning": "Preserved completed departure-gated study,1020manifest entries and8raw/media/gate bindings. This new underway challenge leaves all baseline files read-only."
+}

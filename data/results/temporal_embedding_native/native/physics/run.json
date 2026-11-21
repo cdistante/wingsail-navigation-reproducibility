@@ -1,0 +1,36 @@
+{
+  "method": "physics",
+  "inputs_sha256": "ff69fef8ef34573abf65f9c399e496eb4b0295cb58bc1825945ab9b04b3a9675",
+  "episodes_sha256": "cbd4c6451f154cdf797085c5532335bb01e5030fdd16b35a11fa6162e9cb7999",
+  "summary": {
+    "cases": 12,
+    "completed": 5,
+    "status": {
+      "censored_cap": 1,
+      "no_safe_native_action": 6,
+      "captured": 5
+    },
+    "fully_audited_cases": 10,
+    "nonpositive_clearance_cases": 0,
+    "minimum_full_margin_m": 16.386657373039093,
+    "mean_penalized_s": 26840.340547165153,
+    "median_completed_s": 3809.349679005286,
+    "learned_changes": 0,
+    "maximum_decision_s": 0.21298204199774773,
+    "overruns_5s": 0
+  },
+  "trace_sha256es": {
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_oblique_fan__physics.json.gz": "71fb4d53e60da679ae9eb028feacb41a9664bc7f3055797a46abbecb33b97196",
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_raking_overtake__physics.json.gz": "f2af563c6ef5c8425be8ee2d00ef49c46853fc32319649d267856bc75f948bd1",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_oblique_fan__physics.json.gz": "92b0a671a7359b9ecc7263eb0d5895ee8b0f1cf2d51337ba5a7699e61a97f11a",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_raking_overtake__physics.json.gz": "18971fd5c4a6a8dcb87d48afc67dc7ca76dc6525045611733d0c3030452c5fa0",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_oblique_fan__physics.json.gz": "257c01662a5c6f9146f59473def138224848b2aa4f590eb9d8a3635141a7aadb",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_raking_overtake__physics.json.gz": "4446d17778e01dc96c2ecca320c036ba9e0ec9f05f79a128c161a51c2d1519b4",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_oblique_fan__physics.json.gz": "75c1283cc3d4a08fea007f3dcca619c9520ba671b57d3d63720e17e05cdb6a28",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_raking_overtake__physics.json.gz": "54730dddb527e62a7d2a4b29976d2aa42473a8515ba24c8829d8a2be2d0efdfc",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_oblique_fan__physics.json.gz": "61b652c763cf206419ed501c31737b6840fd9a2db68045113671a680bbb917ba",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_raking_overtake__physics.json.gz": "bc5b2733f50c3cc84fe5062c04955b8dd6ab677ef49c34d3a399bb73a7e715f4",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_oblique_fan__physics.json.gz": "886a6cfb3864446f07db60fe949c32634d98a1b6914ca0799f275b5911918c60",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_raking_overtake__physics.json.gz": "72b11634753f26b116f26fe98cab28e095f82a5bd98bf377688cc3e6314a2818"
+  }
+}

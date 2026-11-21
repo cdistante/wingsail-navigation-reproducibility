@@ -1,0 +1,3 @@
+scope,variant,reference,paired_cells,variant_only_completed,reference_only_completed,completion_delta_pp,identical_state_and_control_traces,total_waypoint_delta,variant_more_waypoints,variant_fewer_waypoints,both_completed,median_completion_time_delta_s,variant_faster_pairs,variant_slower_pairs,equal_time_pairs,mean_first_target_progress_delta_pp,full_completed,ablated_completed,different_state_or_action,full_overrides,ablated_overrides
+full_route,arrival_no_transition,arrival,56,0,0,0.0,51,0,0,0,37,0.0,2,1,34,-0.003953157772971291,37,37,5,3,9
+bounded_progress,arrival_no_transition,arrival,16,0,0,0.0,16,0,0,0,0,,0,0,0,0.0,0,0,0,0,0

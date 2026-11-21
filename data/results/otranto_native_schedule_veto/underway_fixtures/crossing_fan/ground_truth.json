@@ -1,0 +1,46 @@
+{
+  "fixture": "crossing_fan_underway",
+  "source": "Predefined follow-on encounter using earlier traffic-free prefix kinematics for design only.",
+  "position_model": "Piecewise constant velocity with one linear velocity ramp in east/north.",
+  "first_emission_s": 400.0,
+  "origin_latitude_longitude": [
+    40.225,
+    18.746666667
+  ],
+  "scenarios": {
+    "mixed": [
+      {
+        "mmsi": 998100204,
+        "name": "VALIDATION CROSSING_FAN UNDERWAY CONTACT",
+        "callsign": "UW204",
+        "ship_type": 70,
+        "initial_east_metres": 222.04020719388248,
+        "initial_north_metres": 519.0592955934226,
+        "speed_metres_per_second": 0.75,
+        "course_degrees": 175,
+        "length_metres": 60,
+        "beam_metres": 12,
+        "destination": "OFFLINE VALIDATION",
+        "heading_degrees": null
+      }
+    ]
+  },
+  "velocity_ramps": [
+    {
+      "mmsi": 998100204,
+      "start_s": 645,
+      "end_s": 685,
+      "final_course_degrees": 185,
+      "final_speed_mps": 1.75,
+      "acceleration_magnitude_mps2": 0.025493622343918606
+    }
+  ],
+  "design_anchors": [
+    {
+      "mmsi": 998100204,
+      "unmanoeuvred_anchor_s": 560.0,
+      "east_m": 258.6456191478989,
+      "north_m": 100.65752239488947
+    }
+  ]
+}

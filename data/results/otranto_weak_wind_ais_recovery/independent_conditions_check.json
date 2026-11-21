@@ -1,0 +1,133 @@
+{
+  "all_conditions_match_baseline": true,
+  "within_bearing_treatments_match_except_transformer": true,
+  "all_four_core_fingerprints_identical": true,
+  "paired_first_300s_controls_states_observations_identical": true,
+  "source_sha256": "4aa0ec02fc3576a59057a6b884ad4e48a98b28c23707ee24dcde392a116ba5cc",
+  "cases": [
+    {
+      "case": "otranto_355__classical",
+      "source_files_verified": 78,
+      "baseline_replay_preserved": true,
+      "conditions_match_baseline": true,
+      "launch_state_environment_match_baseline": true,
+      "core_changes_from_baseline": {
+        "world/ais_buffer_maneuver.py": {
+          "baseline": "1532e7f123e09b8fb196928fbb0bc3aee088dc25381b953be45c13998ac99aab",
+          "recovery": "b261a8e9071996eed02f2efade14aee110b056df4b528bb5d7fa1ff26659cbcb"
+        },
+        "world/ais_clearance_refinement.py": {
+          "baseline": "1a6a53d24796b0d79f6d376fcf7d552b0a2a7eaf49a2cebb18da03428d32c281",
+          "recovery": "9182ec686fe3c764d69237c8a16fc9480550c471113459a3c99687ae37473637"
+        },
+        "world/run_legacy_fossen.py": {
+          "baseline": "b938d1115a1b363ca4bbee62d010a5ce992e6d6a292e34610e208ecc81b1976e",
+          "recovery": "84123bbb6a95ab7fdd39379049f983e36c8d6ec94778076957d04c1b2589010c"
+        }
+      },
+      "added_study_script_paths": [
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/launch.py",
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/run_archive.py"
+      ],
+      "removed_baseline_script_paths": [
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/launch.py",
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/run_archive.py"
+      ],
+      "experiment_sha256": "3f660a9bc411091e0b1576e5cd447eee8174e103add5dff440346ccfd6cc47c2",
+      "execution_sha256": "676b8ddeb856f5839276c172095261c2e40049302c02d4262da1c75379d37884"
+    },
+    {
+      "case": "otranto_355__transformer",
+      "source_files_verified": 78,
+      "baseline_replay_preserved": true,
+      "conditions_match_baseline": true,
+      "launch_state_environment_match_baseline": true,
+      "core_changes_from_baseline": {
+        "world/ais_buffer_maneuver.py": {
+          "baseline": "1532e7f123e09b8fb196928fbb0bc3aee088dc25381b953be45c13998ac99aab",
+          "recovery": "b261a8e9071996eed02f2efade14aee110b056df4b528bb5d7fa1ff26659cbcb"
+        },
+        "world/ais_clearance_refinement.py": {
+          "baseline": "1a6a53d24796b0d79f6d376fcf7d552b0a2a7eaf49a2cebb18da03428d32c281",
+          "recovery": "9182ec686fe3c764d69237c8a16fc9480550c471113459a3c99687ae37473637"
+        },
+        "world/run_legacy_fossen.py": {
+          "baseline": "b938d1115a1b363ca4bbee62d010a5ce992e6d6a292e34610e208ecc81b1976e",
+          "recovery": "84123bbb6a95ab7fdd39379049f983e36c8d6ec94778076957d04c1b2589010c"
+        }
+      },
+      "added_study_script_paths": [
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/launch.py",
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/run_archive.py"
+      ],
+      "removed_baseline_script_paths": [
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/launch.py",
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/run_archive.py"
+      ],
+      "experiment_sha256": "8262c30b1abc196d2b18d0d67741eef60cecc71a9c05040ab3d329e8eae806ef",
+      "execution_sha256": "513df23b87d3d246c02bca2044ccae9fccf95d97d682f7f549c30edd8d2874d1"
+    },
+    {
+      "case": "otranto_005__classical",
+      "source_files_verified": 78,
+      "baseline_replay_preserved": true,
+      "conditions_match_baseline": true,
+      "launch_state_environment_match_baseline": true,
+      "core_changes_from_baseline": {
+        "world/ais_buffer_maneuver.py": {
+          "baseline": "1532e7f123e09b8fb196928fbb0bc3aee088dc25381b953be45c13998ac99aab",
+          "recovery": "b261a8e9071996eed02f2efade14aee110b056df4b528bb5d7fa1ff26659cbcb"
+        },
+        "world/ais_clearance_refinement.py": {
+          "baseline": "1a6a53d24796b0d79f6d376fcf7d552b0a2a7eaf49a2cebb18da03428d32c281",
+          "recovery": "9182ec686fe3c764d69237c8a16fc9480550c471113459a3c99687ae37473637"
+        },
+        "world/run_legacy_fossen.py": {
+          "baseline": "b938d1115a1b363ca4bbee62d010a5ce992e6d6a292e34610e208ecc81b1976e",
+          "recovery": "84123bbb6a95ab7fdd39379049f983e36c8d6ec94778076957d04c1b2589010c"
+        }
+      },
+      "added_study_script_paths": [
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/launch.py",
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/run_archive.py"
+      ],
+      "removed_baseline_script_paths": [
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/launch.py",
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/run_archive.py"
+      ],
+      "experiment_sha256": "504dcb1fb076a9e965bac5a1bfd9a0c3833231085b8a2571d2a32d4fbdefa36d",
+      "execution_sha256": "a98adae501e60515b696c1159a14f99f93684f6699c260bfe37b59b6611a6ec2"
+    },
+    {
+      "case": "otranto_005__transformer",
+      "source_files_verified": 78,
+      "baseline_replay_preserved": true,
+      "conditions_match_baseline": true,
+      "launch_state_environment_match_baseline": true,
+      "core_changes_from_baseline": {
+        "world/ais_buffer_maneuver.py": {
+          "baseline": "1532e7f123e09b8fb196928fbb0bc3aee088dc25381b953be45c13998ac99aab",
+          "recovery": "b261a8e9071996eed02f2efade14aee110b056df4b528bb5d7fa1ff26659cbcb"
+        },
+        "world/ais_clearance_refinement.py": {
+          "baseline": "1a6a53d24796b0d79f6d376fcf7d552b0a2a7eaf49a2cebb18da03428d32c281",
+          "recovery": "9182ec686fe3c764d69237c8a16fc9480550c471113459a3c99687ae37473637"
+        },
+        "world/run_legacy_fossen.py": {
+          "baseline": "b938d1115a1b363ca4bbee62d010a5ce992e6d6a292e34610e208ecc81b1976e",
+          "recovery": "84123bbb6a95ab7fdd39379049f983e36c8d6ec94778076957d04c1b2589010c"
+        }
+      },
+      "added_study_script_paths": [
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/launch.py",
+        "data/results/otranto_weak_wind_ais_recovery/reproduce/run_archive.py"
+      ],
+      "removed_baseline_script_paths": [
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/launch.py",
+        "data/results/otranto_weak_wind_tacks_ais_colreg/reproduce/run_archive.py"
+      ],
+      "experiment_sha256": "d958823e554cc7f3614b74de1dc5f60ccef3ba63e19c1d127651b95cbf05356e",
+      "execution_sha256": "a6ea420d9cb1e80e5fb2726652d70178a59b5fa64635f57d3196c63263e1ecdd"
+    }
+  ]
+}

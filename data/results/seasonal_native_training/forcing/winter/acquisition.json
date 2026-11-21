@@ -1,0 +1,1783 @@
+{
+  "season": "winter",
+  "core_start_utc": "2026-01-12T00:00:00Z",
+  "core_end_exclusive_utc": "2026-01-19T00:00:00Z",
+  "coverage_first_utc": "2026-01-11T00:00:00Z",
+  "coverage_last_utc": "2026-01-20T23:00:00Z",
+  "requested_bounds": {
+    "latitude": [
+      39.85,
+      40.85
+    ],
+    "longitude": [
+      17.65,
+      19.15
+    ]
+  },
+  "source_utc_step_hours": 1,
+  "data": {
+    "wind": {
+      "url": "https://archive-api.open-meteo.com/v1/archive",
+      "model": "era5",
+      "provider": "ECMWF/Copernicus Climate Change Service ERA5 single-level reanalysis",
+      "variables": [
+        "wind_speed_10m",
+        "wind_direction_10m"
+      ],
+      "units": [
+        "m/s",
+        "\u00b0"
+      ],
+      "spacing": 0.25,
+      "offset": 0.0,
+      "coordinate_mapping": "native regular grid",
+      "citation": "https://doi.org/10.24381/cds.adbb2d47",
+      "grid_shape": [
+        240,
+        6,
+        8
+      ],
+      "latitude_range": [
+        39.75,
+        41.0
+      ],
+      "longitude_range": [
+        17.5,
+        19.25
+      ],
+      "max_source_target_distance_m": 0.0,
+      "provider_rejected_grid_cells": 0,
+      "complete_grid_cells": 48,
+      "ever_valid_grid_cells": 48,
+      "valid_fraction": 1.0,
+      "hours_with_a_valid_cell": 240,
+      "path": "forcing/winter/wind.nc",
+      "sha256": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+      "responses": [
+        {
+          "response": "forcing_raw/winter/wind_000.json",
+          "sha256": "d67a296655ab433600f3736f327fef34a3f93e3dc517032df5e8578441521155",
+          "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.750000%2C39.750000%2C39.750000%2C39.750000%2C39.750000%2C39.750000%2C39.750000%2C39.750000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.250000%2C40.250000%2C40.250000%2C40.250000%2C40.250000%2C40.250000%2C40.250000%2C40.250000%2C40.500000%2C40.500000%2C40.500000%2C40.500000%2C40.500000%2C40.500000%2C40.500000%2C40.500000%2C40.750000%2C40.750000%2C40.750000%2C40.750000&longitude=17.500000%2C17.750000%2C18.000000%2C18.250000%2C18.500000%2C18.750000%2C19.000000%2C19.250000%2C17.500000%2C17.750000%2C18.000000%2C18.250000%2C18.500000%2C18.750000%2C19.000000%2C19.250000%2C17.500000%2C17.750000%2C18.000000%2C18.250000%2C18.500000%2C18.750000%2C19.000000%2C19.250000%2C17.500000%2C17.750000%2C18.000000%2C18.250000%2C18.500000%2C18.750000%2C19.000000%2C19.250000%2C17.500000%2C17.750000%2C18.000000%2C18.250000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wind_speed_10m%2Cwind_direction_10m&models=era5",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/wind_001.json",
+          "sha256": "81d9dfc2bd0af2b87d9ff2a5dce0cf4583aa4199309ba3317015196d80f540cf",
+          "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=40.750000%2C40.750000%2C40.750000%2C40.750000%2C41.000000%2C41.000000%2C41.000000%2C41.000000%2C41.000000%2C41.000000%2C41.000000%2C41.000000&longitude=18.500000%2C18.750000%2C19.000000%2C19.250000%2C17.500000%2C17.750000%2C18.000000%2C18.250000%2C18.500000%2C18.750000%2C19.000000%2C19.250000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wind_speed_10m%2Cwind_direction_10m&models=era5",
+          "points": 12
+        }
+      ]
+    },
+    "current": {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "model": "meteofrance_currents",
+      "provider": "M\u00e9t\u00e9o-France SMOC total surface current (Eulerian, wave and tide components)",
+      "variables": [
+        "ocean_current_velocity",
+        "ocean_current_direction"
+      ],
+      "units": [
+        "m/s",
+        "\u00b0"
+      ],
+      "spacing": 0.08333333333333333,
+      "offset": 0.5,
+      "coordinate_mapping": "native regular cell centres",
+      "citation": "https://doi.org/10.48670/moi-00016",
+      "grid_shape": [
+        240,
+        14,
+        20
+      ],
+      "latitude_range": [
+        39.791666666666664,
+        40.875
+      ],
+      "longitude_range": [
+        17.625,
+        19.208333333333332
+      ],
+      "max_source_target_distance_m": 1.3169287805638341,
+      "provider_rejected_grid_cells": 0,
+      "complete_grid_cells": 219,
+      "ever_valid_grid_cells": 219,
+      "valid_fraction": 0.7821428571428571,
+      "hours_with_a_valid_cell": 240,
+      "path": "forcing/winter/current.nc",
+      "sha256": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+      "responses": [
+        {
+          "response": "forcing_raw/winter/current_000.json",
+          "sha256": "4d197b8582826cef11a7269f2dcd133896fc400004297b9b5a2629161e32cb6b",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.791667%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.875000&longitude=17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_001.json",
+          "sha256": "753af228d50b8bff410bd15844d9cc7362c01fee0c29ea1d70136d0cec6aaaf5",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.875000%2C39.875000%2C39.875000%2C39.875000%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C39.958333%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667&longitude=18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_002.json",
+          "sha256": "4accfcc6148513b5fdca2505bffc00f065003ee311c6523501df698a783361e5",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.041667%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.125000%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333&longitude=18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_003.json",
+          "sha256": "bbb1366e85d1c0209757a57cf8ef4493df8c73d2a41c5c8824a0dc30bb44e9d0",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.208333%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.291667%2C40.375000%2C40.375000%2C40.375000%2C40.375000&longitude=18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_004.json",
+          "sha256": "bb44c7a2cf49bc88024f2d0b27f8bef14ba3f3bf8ea30dd2c94b79d79f741224",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.375000%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333%2C40.458333&longitude=17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_005.json",
+          "sha256": "f2d4c8d66b107dcb72783b79576ebf4b5910b59da104b851252ce37b98984834",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.541667%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.625000&longitude=17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_006.json",
+          "sha256": "1b484c88308289ffee42c784c2258360633a4168890408cc6ba983dd956894d6",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.625000%2C40.625000%2C40.625000%2C40.625000%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.708333%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667&longitude=18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/current_007.json",
+          "sha256": "78ad81aeafa17051b2b44df68a2821076987a36e870f3af60db9b9eb295865ee",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.791667%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000%2C40.875000&longitude=18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333%2C17.625000%2C17.708333%2C17.791667%2C17.875000%2C17.958333%2C18.041667%2C18.125000%2C18.208333%2C18.291667%2C18.375000%2C18.458333%2C18.541667%2C18.625000%2C18.708333%2C18.791667%2C18.875000%2C18.958333%2C19.041667%2C19.125000%2C19.208333&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=ocean_current_velocity%2Cocean_current_direction&models=meteofrance_currents",
+          "points": 28
+        }
+      ]
+    },
+    "wave": {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "model": "ecmwf_wam",
+      "provider": "ECMWF WAM archived forecast (approximately 9 km)",
+      "variables": [
+        "wave_height",
+        "wave_direction",
+        "wave_peak_period"
+      ],
+      "units": [
+        "m",
+        "\u00b0",
+        "s"
+      ],
+      "spacing": 0.08,
+      "offset": 0.0,
+      "coordinate_mapping": "nearest native reduced-grid cell on a 0.08 degree regular target grid",
+      "citation": "https://www.ecmwf.int/en/research/modelling-and-prediction/marine",
+      "grid_shape": [
+        240,
+        14,
+        21
+      ],
+      "latitude_range": [
+        39.84,
+        40.88
+      ],
+      "longitude_range": [
+        17.6,
+        19.2
+      ],
+      "max_source_target_distance_m": 6590.50434774916,
+      "provider_rejected_grid_cells": 70,
+      "complete_grid_cells": 224,
+      "ever_valid_grid_cells": 224,
+      "valid_fraction": 0.7619047619047619,
+      "hours_with_a_valid_cell": 240,
+      "path": "forcing/winter/wave.nc",
+      "sha256": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3",
+      "responses": [
+        {
+          "response": "forcing_raw/winter/wave_000.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_0.json",
+          "sha256": "605ea685971111075b6bfab9bcc5f076dd916630c14755969e0d41c833e12189",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_0.json",
+          "sha256": "06cd81c080205ad1e88bb8f29c2284e2a6a41ae399a0f560b297cdd59c5c6c33",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000&longitude=18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_1_0.json",
+          "sha256": "8f1a7dc6c574084687d514ad8d43ba7d0a3d48a3c3524a0c8f5166ff8bb36858",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_1_1_0.json",
+          "sha256": "293a39cc54066cb413fbd6ba2e696cad66736f9da315d70c588885e7eb1dc3d8",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_0_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000&longitude=18.320000%2C18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_0_0_1.json",
+          "sha256": "b3edd5882a30a3955e4072eb57eb80504c71cfb744a87659db0f38b03e5f37a3",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000&longitude=18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_0_1.json",
+          "sha256": "8d44f1af4942546d06eec387799f378e43eacee701e327043d22bf812c28bbc5",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000&longitude=18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_0_1_1.json",
+          "sha256": "367638ad9f31082267555773a73126c87435beaaf258e38944dd04a7a5e3cdfb",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.840000%2C39.840000&longitude=18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_0.json",
+          "sha256": "ee3a33d131e02a5570d82cf467330b406097b7cf68aa9c475dee011d1da5fbae",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.840000%2C39.840000%2C39.840000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000&longitude=18.080000%2C18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_0_0.json",
+          "sha256": "149dfcc016d4451c4ded4b7a17fff9c717cb5cd986a12c217f9feeb2d8474407",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000&longitude=18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_000_1_1_1.json",
+          "sha256": "e5b0f8fdafa40402f18a7b615d0922cc68da10d811014dfe54989691025108e5",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000&longitude=18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5
+        },
+        {
+          "response": "forcing_raw/winter/wave_001.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_0.json",
+          "sha256": "d1a8775e41f67565e459bfa32d10601167aff8f6b6d7e22078bd14dd79299f8d",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C39.920000%2C40.000000%2C40.000000%2C40.000000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000%2C40.000000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_0_0.json",
+          "sha256": "51db253f7aba5b9df27eeee97924c920251a6af42150e70f52f2fd3117bfcda8",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000&longitude=17.840000%2C17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000&longitude=18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_0_1_0.json",
+          "sha256": "ea2f4f5f946e4f4166a1a185a28e3a1a468f9af31fa032d55c9a04ecdbf2e4e2",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000&longitude=18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000&longitude=18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000&longitude=18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_0_1_1_1_1_1.json",
+          "sha256": "683aa47322c2ef9020bdb1742cd5892fca0f5111b387404b2502ba04121590ac",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000&longitude=18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_0.json",
+          "sha256": "9877180610d57e001cbbfe37b431814321dc2b943296eb1bf8379eba3a19cd0e",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000%2C40.000000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_0.json",
+          "sha256": "cd6bb83c59181b6132153735ade99573887e0322978ddc0d76e7f73aa3fb4aca",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_0_0.json",
+          "sha256": "6121331d859522001f0a940f7aac0407047b373957df439f78506801cdbe0692",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000&longitude=18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_001_1_1_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.240000%2C40.240000%2C40.240000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000&longitude=18.320000%2C18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000&longitude=18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_0_1.json",
+          "sha256": "ea0b708422e43900cb4764b5f67c4498b04e5430cb47f1b7676943e5300f802b",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000&longitude=18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_0_1.json",
+          "sha256": "2a5041e1f47928a8028ae15fa3d2b3bedd6cde7bb4cba85c59b3af6c1dc01d14",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.080000%2C40.080000&longitude=18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_0.json",
+          "sha256": "4aa6a8612a722a3d36410fb7b61ac273d7eb065663a7193344f75004026426ab",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.080000%2C40.080000%2C40.080000%2C40.160000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_0.json",
+          "sha256": "a8d718ff75d63fa856e3daaf5a302667ca487f93b5232fce65ff780d26e3cc7c",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000&longitude=17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000&longitude=17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_1_0.json",
+          "sha256": "fae3a274da59dafdc30aedd99239a7f0a883ced84e2f12d7b8b95512951304ce",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_1_1_0.json",
+          "sha256": "c3a0410ddad964e6e79e2c9b53bb7cded8c7a9ef313b62742edf3e7c4534f543",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_0_1_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.240000%2C40.240000%2C40.240000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000&longitude=18.080000%2C18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000&longitude=18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000&longitude=18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000&longitude=18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000&longitude=18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_0_1_1.json",
+          "sha256": "b2410c0bab8e783c11c63d75144aaa9d67bae0cfd155cba1d516ebfb67fbf0c2",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000&longitude=18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3
+        },
+        {
+          "response": "forcing_raw/winter/wave_002_1_1.json",
+          "sha256": "c6ff3f876e1fd731e55afd2ee8a980f3dc974e464d3b8ad1b12c594421cd211e",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.160000%2C40.240000%2C40.240000%2C40.240000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_003.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000&longitude=17.840000%2C17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_0_0.json",
+          "sha256": "6ce4547bf43bdb41d551b1ce21550c5abf28551dfaba849df55c6407c128ea31",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000&longitude=18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000&longitude=18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000&longitude=18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_0_1_1_1.json",
+          "sha256": "b8901369a0a3e5dee9b6e33f1796d19a48ab56353e9bcf0f608bb1b87ff90cad",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000&longitude=18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_0_1.json",
+          "sha256": "de744bf6e2da3439021771449b3ee9cdda92afcec328c0269009ac2002e0e6fc",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000%2C40.240000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=17.600000%2C17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000&longitude=18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_0_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=18.320000%2C18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=18.400000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_0_1.json",
+          "sha256": "0d5da604aa923f7d64652393947b9ee3ed78aedc6bf65007ce936566c08fc650",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=18.480000%2C18.560000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_003_1_1_1.json",
+          "sha256": "2dc9546568864b178da149206aa3f831d0a27e669099127024e27a2df156cfb8",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.320000%2C40.320000&longitude=18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5
+        },
+        {
+          "response": "forcing_raw/winter/wave_004.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000%2C40.320000%2C40.400000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_0_0.json",
+          "sha256": "80c7d018f8031da1cd6ac565a241e57a137678a3c2b82612100c2b7e42239197",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.320000&longitude=19.040000%2C19.120000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000%2C40.400000&longitude=19.200000%2C17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_0_1_0.json",
+          "sha256": "cbf33b536330d03b3e44205628bed95ed0e33550799485ee58c3a63124a3d996",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.320000&longitude=19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000&longitude=17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000&longitude=17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_0_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000&longitude=18.080000%2C18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000&longitude=18.240000%2C18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_0_1_1.json",
+          "sha256": "032c630c90008cee09abbfdbd3bb9f4b85b02f76253f2c5b6593bbe669d147da",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000&longitude=18.320000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_0_1_1.json",
+          "sha256": "64cd6f3de39bc34980a642157a547b9281f02235e5032629a5d3d962fd73032d",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.400000%2C40.480000%2C40.480000%2C40.480000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_0.json",
+          "sha256": "561851da1853fee259997575e6e45049fe0708198d5e305fde657b8ef151e4d9",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.400000%2C40.400000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000%2C40.480000%2C40.480000%2C40.480000&longitude=19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_0.json",
+          "sha256": "5a5a0d9651cb6d261312b6cf904c0bb8fd1b2b7b2f576a23cf47d5c3323f8842",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.400000%2C40.400000&longitude=19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000&longitude=17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000&longitude=17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_0_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000&longitude=17.840000%2C17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000&longitude=18.000000%2C18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=18.080000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000&longitude=18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=18.160000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_1_0_1.json",
+          "sha256": "b69a77ebd86ea00868aa01b634d7674d6c538cd22892a169fa668a0b86d12a41",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000&longitude=18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_004_1_1_1_1.json",
+          "sha256": "c2ae21c78f65744bd90fd66eb39ff59756fb857348fc7639e643ad94d4972359",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000&longitude=18.320000%2C18.400000%2C18.480000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3
+        },
+        {
+          "response": "forcing_raw/winter/wave_005.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_0.json",
+          "sha256": "9e865ea0070f6433039d88a776515c82b0206f5a6d71e8e91b874faaf8b62611",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000%2C40.480000&longitude=18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.560000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000&longitude=17.600000%2C17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000&longitude=17.760000%2C17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000&longitude=17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_1_0_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_1_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_0_1_1_1.json",
+          "sha256": "4659a4bc147dd29bf6b47f07c32f0d8022e08f2751b53bc663530c239dac409b",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000&longitude=18.080000%2C18.160000%2C18.240000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_0.json",
+          "sha256": "382394dfd29500ab28ffee66c49ed021c45b05be024ac1a97e521c49368132a8",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000%2C40.560000&longitude=18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000%2C40.560000%2C40.640000&longitude=19.040000%2C19.120000%2C19.200000%2C17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_0_0.json",
+          "sha256": "3c87167b9cb469226e2fffee41ee73b005b690134282a5ccfc51289ff113da2c",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.560000&longitude=19.040000%2C19.120000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000%2C40.640000&longitude=19.200000%2C17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_0_1_0.json",
+          "sha256": "c47e401d584e6d3bbd66b7cc6c0c78b7276aaac62ba85c0fc18041b9145e999f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.560000&longitude=19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_0_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000&longitude=17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_0_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_0_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000&longitude=17.840000%2C17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_1_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=17.840000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000&longitude=17.920000%2C18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=17.920000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_005_1_1_1_1_1_1.json",
+          "sha256": "ca2fc40e68a837dd24ef7e1c442e389d4b4b0c7b9b04a39ca0902376b5be331a",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000&longitude=18.000000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_006.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.720000%2C40.720000%2C40.720000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_0.json",
+          "sha256": "f32623391c3f04a01105a2b917a58dc659bb5d3944fd8fa65f300873f41427b0",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.640000%2C40.720000%2C40.720000%2C40.720000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 9,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_0.json",
+          "sha256": "51adf9175d89eb4f9d4d712c3f605afee2412aea0e912a0568402838d9df6f4f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.640000%2C40.640000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 4
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000%2C40.720000%2C40.720000%2C40.720000&longitude=19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 5,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_0.json",
+          "sha256": "9b3043e8f847c89d14eb49534d7cc682c218fee186f5987d52d02576a61c2f32",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.640000%2C40.640000&longitude=19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_1.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000%2C40.720000%2C40.720000&longitude=17.600000%2C17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 3,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000&longitude=17.600000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_1_1.json",
+          "sha256": "373f13f09a9d112bbaf0ec05c3366d135d880be02e57b3d3dc6a7500f0b6939f",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000%2C40.720000&longitude=17.680000%2C17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 2,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_1_1_0.json",
+          "sha256": "ad14a1ad61bbda535d8e6d7a9d2516fd0cf162c6fdd58d95d759c468f72bd245",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000&longitude=17.680000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1,
+          "response_status": "no data for at least one requested location"
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_0_1_1_1_1_1.json",
+          "sha256": "5e792e8d3a36e94072a54981729545654dc54f9fdddba35af6152525c464c977",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000&longitude=17.760000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 1
+        },
+        {
+          "response": "forcing_raw/winter/wave_006_1.json",
+          "sha256": "a0ce9b71a1d93a8f8acd8241c8a1a50fbb55b631fa57b2a29d07ec154b7f48b9",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000%2C40.720000&longitude=17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 18
+        },
+        {
+          "response": "forcing_raw/winter/wave_007.json",
+          "sha256": "45369226730c3b983236db8757edce0cdd1848793c4ddd56f0c7b28f691925b6",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.800000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000&longitude=17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000%2C18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000%2C17.600000%2C17.680000%2C17.760000%2C17.840000%2C17.920000%2C18.000000%2C18.080000%2C18.160000%2C18.240000%2C18.320000%2C18.400000%2C18.480000%2C18.560000%2C18.640000%2C18.720000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 36
+        },
+        {
+          "response": "forcing_raw/winter/wave_008.json",
+          "sha256": "62b48edbc58e18f2f1ee03a680d142915314c9242a9e216ff2c12f3277956cab",
+          "request_url": "https://marine-api.open-meteo.com/v1/marine?latitude=40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000%2C40.880000&longitude=18.800000%2C18.880000%2C18.960000%2C19.040000%2C19.120000%2C19.200000&start_date=2026-01-11&end_date=2026-01-20&timezone=UTC&cell_selection=nearest&wind_speed_unit=ms&hourly=wave_height%2Cwave_direction%2Cwave_peak_period&models=ecmwf_wam",
+          "points": 6
+        }
+      ]
+    }
+  },
+  "confirmed_utc": "2026-11-19T19:03:55.024722+00:00"
+}

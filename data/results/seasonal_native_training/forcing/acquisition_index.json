@@ -1,0 +1,24 @@
+{
+  "archive_interfaces": [
+    "https://open-meteo.com/en/docs/historical-weather-api",
+    "https://open-meteo.com/en/docs/marine-weather-api"
+  ],
+  "seasons": {
+    "winter": {
+      "path": "forcing/winter/acquisition.json",
+      "sha256": "1e278208df8a7c93648f24d01cbb050899b7eb7844c7e101dbed3e2a2078a7d3"
+    },
+    "spring": {
+      "path": "forcing/spring/acquisition.json",
+      "sha256": "a1f7d86889d6bd9229dbcf030fda0107ffdfaae019d176d326aa3d91c09434fd"
+    },
+    "summer": {
+      "path": "forcing/summer/acquisition.json",
+      "sha256": "6c53a5ec1203df56066489d1e07ab8caeab20382b74c924e7df765b5fdaebcd3"
+    },
+    "autumn": {
+      "path": "forcing/autumn/acquisition.json",
+      "sha256": "ff6daaf66e47c2a545e222495f37eb6386ff16b766a6aca5e05c35602a6ae1ea"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "starts": 111,
+  "branches": 482,
+  "terminal_status": {
+    "captured": 482
+  },
+  "groups": 26,
+  "safe_capture_pairs": 371,
+  "realized_safe_gains_over_25s": 45,
+  "starts_with_realized_safe_gain_over_25s": 34,
+  "start_regimes": {
+    "both": 35,
+    "opposing_current": 38,
+    "upwind": 38
+  },
+  "branches_with_nonpositive_full_margin": 0,
+  "branches_with_chart_violations": 0,
+  "unapplied_first_actions": 0,
+  "labels_sha256": "1942de3ca85db6f76fb45c1ce09e5168e70e99635c77c92da8c257309ea03085",
+  "plan_sha256": "838372a9d0b5d12b3223e0b4d80e68463ff8abedc430b8b1a477e310393be3b5",
+  "protocol": {
+    "source_sha256": {
+      "eta_stage1_expanded/reproduce/run_stage1.py": "6dd9490467b03759494750bf035ed6cc08e6d77b00b446df69baec81fe673e77",
+      "eta_stage1_expanded/reproduce/hard_starts.py": "e778c96a55430c340cbdfc2f545c98625d4a7942886fc9c46be819ab5beedd89",
+      "temporal_embedding_native/reproduce/causal_weather.py": "f2cf2e9f4e8fb30f6b05dec9fd5810faa353a26f61d0daf771689c7614833e16",
+      "temporal_embedding_native/reproduce/run_temporal_ablation.py": "eb5bae13df6e8b85434807f9967cae361b0d486149131570e149e48c1a5571b1"
+    },
+    "manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+    "forcing_sha256": {
+      "winter": {
+        "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+        "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+        "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+      },
+      "spring": {
+        "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+        "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+        "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+      },
+      "summer": {
+        "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+        "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+        "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+      },
+      "autumn": {
+        "wind": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+        "current": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+        "wave": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af"
+      }
+    },
+    "guard": {
+      "implementation": "EfficientNativeEngine",
+      "baseline": "grpo_progress_anticipatory_ais",
+      "report_guard_uncertainty_multiplier": 2,
+      "reserve_m": 3.0,
+      "evaluation_envelope": "original full report and truth swept radii"
+    },
+    "geometry": "Prospectively filtered by upwind geometry or opposing current, with at least two alternatives.",
+    "acceptance": "Legal finite schedule ETAs within 150 s of incumbent, at most six branches per start.",
+    "max_branch_duration_s": 4800.0,
+    "capture_radius_m": 50.0,
+    "population": {
+      "train": [
+        "winter",
+        "summer"
+      ],
+      "calibration": [
+        "spring"
+      ]
+    }
+  }
+}

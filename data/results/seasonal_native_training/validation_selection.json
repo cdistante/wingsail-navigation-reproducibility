@@ -1,0 +1,56 @@
+{
+  "selected_strength": 0.0,
+  "best_nonzero_strength": 0.3,
+  "training_receipt_sha256": "32ab4bdf19c8790452f6edfe03a1cc7aa7a588f0690acfaf2033f4986ae82aad",
+  "validation_cases": 6,
+  "metrics": {
+    "0.0": {
+      "cases": 6,
+      "completed": 5,
+      "status": {
+        "captured": 5,
+        "no_safe_native_action": 1
+      },
+      "fully_audited_cases": 6,
+      "nonpositive_clearance_cases": 0,
+      "minimum_full_margin_m": 101.76518365308173,
+      "mean_penalized_s": 7939.958568237293,
+      "median_completed_s": 1163.4375448416567,
+      "learned_changes": 0,
+      "maximum_decision_s": 0.08155520798754878,
+      "overruns_5s": 0
+    },
+    "0.3": {
+      "cases": 6,
+      "completed": 5,
+      "status": {
+        "captured": 5,
+        "no_safe_native_action": 1
+      },
+      "fully_audited_cases": 6,
+      "nonpositive_clearance_cases": 0,
+      "minimum_full_margin_m": 101.76518365308173,
+      "mean_penalized_s": 7947.930390928287,
+      "median_completed_s": 1174.4459172472357,
+      "learned_changes": 5,
+      "maximum_decision_s": 0.08238912501838058,
+      "overruns_5s": 0
+    },
+    "1.0": {
+      "cases": 6,
+      "completed": 5,
+      "status": {
+        "captured": 5,
+        "no_safe_native_action": 1
+      },
+      "fully_audited_cases": 6,
+      "nonpositive_clearance_cases": 0,
+      "minimum_full_margin_m": 101.76518365308173,
+      "mean_penalized_s": 8070.296771093107,
+      "median_completed_s": 1238.0325573825976,
+      "learned_changes": 12,
+      "maximum_decision_s": 0.11798454201198183,
+      "overruns_5s": 0
+    }
+  }
+}

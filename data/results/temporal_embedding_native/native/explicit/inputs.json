@@ -1,0 +1,201 @@
+{
+  "split_manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "forcing_sha256": {
+    "winter": {
+      "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+      "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+      "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+    },
+    "spring": {
+      "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+      "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+      "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+    },
+    "summer": {
+      "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+      "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+      "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+    },
+    "autumn": {
+      "wind": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+      "current": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+      "wave": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af"
+    }
+  },
+  "source_sha256": {
+    "run_seasonal.py": "30b9775384d0f3ec4e2e806b4cb1769f057b1ee1bd8925a9993a70fb5ef3dbdd",
+    "native_branches.py": "8e728b067ea728654266fb6cc2ef07493f52429f2655ba44e172fe70f37dfe0b",
+    "seasonal_environment.py": "0b32298911bd6545b8887193013236d682edc227d12d0c00c6c46700f8bf4e58",
+    "scenario_environment.py": "22710e0fda7f71b678fde5355615fda162f8a45272826c9184139c856ddc13c7",
+    "seasonal_ranker.py": "317d60539e93ec4c76d04568a44dde65587982aa63f47ea902066093c0969283",
+    "world/fossen.py": "e3ca63c8de309143f6e7c004e347d96eeb067802ff16a6b62a2223909c5de7f1",
+    "world/acados_fossen.py": "b0429914bfb56e0db6f0a301112ce48156f0c7c21eec718ca8dc0dc43e967f2e",
+    "world/forecast_tacks.py": "6cefcf49f7eb227946bb184ce1690a5013cb1eb377754a4fb3bbf72e5ebdeec8",
+    "world/ais_avoidance.py": "8aee42ba2f39ac8bb3577e63508e334c0727425c64877db47e91420ad4b8afac",
+    "world/synthetic_ais.py": "f0c50db19d2047193da25160cbb13de8bb654fc37cdb68b34b7ecad03b39a8b5",
+    "world/colreg.py": "d7888d0883e3f184f55896e0679742f50b64863b6f0d47b90585f46195f714bb",
+    "world/global_map.py": "4ab4b3ef8a79aa1d59d3faafe10ad38f1387c944aa4ca8769a3d906488412fbf",
+    "world/learned_tacks.py": "a1fe64d92a33b5fe96b52c3d2bcedd1807daba567cd73683172b9cc5f6d87747",
+    "weather_embedding.py": "92795ce1082c3fa7a2f36717fcb3f9d1d0b7154e46ee4e0bfc9bd86e004397d2"
+  },
+  "frozen_encoder_sha256": "cf467bcf85a08af99c9819f13b04e65b57f34006ff3957cc42646bba04bc0972",
+  "bathymetry_sha256": "97af76b5bc06cbfd6cacd8c493c675d2a8e70a69a420f17e89ce152f93dfc410",
+  "reference_protocol": {
+    "split_manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+    "forcing_sha256": {
+      "winter": {
+        "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+        "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+        "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+      },
+      "spring": {
+        "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+        "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+        "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+      },
+      "summer": {
+        "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+        "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+        "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+      },
+      "autumn": {
+        "wind": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+        "current": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+        "wave": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af"
+      }
+    },
+    "source_sha256": {
+      "run_seasonal.py": "30b9775384d0f3ec4e2e806b4cb1769f057b1ee1bd8925a9993a70fb5ef3dbdd",
+      "native_branches.py": "8e728b067ea728654266fb6cc2ef07493f52429f2655ba44e172fe70f37dfe0b",
+      "seasonal_environment.py": "0b32298911bd6545b8887193013236d682edc227d12d0c00c6c46700f8bf4e58",
+      "scenario_environment.py": "22710e0fda7f71b678fde5355615fda162f8a45272826c9184139c856ddc13c7",
+      "seasonal_ranker.py": "317d60539e93ec4c76d04568a44dde65587982aa63f47ea902066093c0969283",
+      "world/fossen.py": "e3ca63c8de309143f6e7c004e347d96eeb067802ff16a6b62a2223909c5de7f1",
+      "world/acados_fossen.py": "b0429914bfb56e0db6f0a301112ce48156f0c7c21eec718ca8dc0dc43e967f2e",
+      "world/forecast_tacks.py": "6cefcf49f7eb227946bb184ce1690a5013cb1eb377754a4fb3bbf72e5ebdeec8",
+      "world/ais_avoidance.py": "8aee42ba2f39ac8bb3577e63508e334c0727425c64877db47e91420ad4b8afac",
+      "world/synthetic_ais.py": "f0c50db19d2047193da25160cbb13de8bb654fc37cdb68b34b7ecad03b39a8b5",
+      "world/colreg.py": "d7888d0883e3f184f55896e0679742f50b64863b6f0d47b90585f46195f714bb",
+      "world/global_map.py": "4ab4b3ef8a79aa1d59d3faafe10ad38f1387c944aa4ca8769a3d906488412fbf",
+      "world/learned_tacks.py": "a1fe64d92a33b5fe96b52c3d2bcedd1807daba567cd73683172b9cc5f6d87747",
+      "weather_embedding.py": "92795ce1082c3fa7a2f36717fcb3f9d1d0b7154e46ee4e0bfc9bd86e004397d2",
+      "data/results/grpo_progress_stale_ais/reproduce/run_stale_retest.py": "ff0eb8675c76005f6755c1efc07708b5dbc62b047814327934452a9a89a1edd9",
+      "data/results/grpo_progress_native/reproduce/run_native_comparison.py": "4c3d74cb0644d28ea787d21a0b09c15d141a0c7d1229d261e52f52d4016a2906",
+      "data/results/grpo_progress_stale_ais/reproduce/native_stale_guard.py": "c62dd347cb72f7d16621d546b89ec394096fac2bc4f5d75051330c63386ac536",
+      "world/learned_mark_policy.py": "805a73bc267b2a8a3746b4b3a68bc49d92eb44c588e12db69dc76ae6105b5c31",
+      "data/results/grpo_progress_anticipatory_ais/reproduce/run_anticipatory_retest.py": "2aa9b2a6594b883a1b78fc45b59e4ab500b43a71269a452d0342ed25b4d5e732",
+      "data/results/grpo_progress_anticipatory_ais/reproduce/native_anticipatory_guard.py": "d8e251c259a9054834300af0b392aedda4a7ba4a9654fb5cee5012ebb3a3f231",
+      "data/results/grpo_progress_efficient_ais/reproduce/run_efficient_retest.py": "da34195c1e632ad77e2f28a186e7c58af67c3aa6eb2c6f0b47c9b5b351dd72b5",
+      "data/results/grpo_progress_efficient_ais/reproduce/native_efficient_guard.py": "861f45addc73fce78bab2d5d64821d5c1ac0f9e3beb2ca675c2c67fb90e96296"
+    },
+    "frozen_encoder_sha256": "cf467bcf85a08af99c9819f13b04e65b57f34006ff3957cc42646bba04bc0972",
+    "bathymetry_sha256": "97af76b5bc06cbfd6cacd8c493c675d2a8e70a69a420f17e89ce152f93dfc410",
+    "training_receipt_sha256": "bad00d66e78eca99e26bab84cd2d78bc3ad58b764984a24d78c7fb462f3e0b18",
+    "model_sha256": "d7450771f695a0df0f0cb07edd9adf740a18e2741bd5363ccbb2957b7f1ea31a",
+    "guard": {
+      "implementation": "EfficientNativeEngine",
+      "baseline": "grpo_progress_anticipatory_ais",
+      "report_guard_uncertainty_multiplier": 2,
+      "reserve_m": 3.0,
+      "evaluation_envelope": "original full report and truth swept radii"
+    },
+    "prior_stale_guard": {
+      "implementation": "RobustNativeEngine",
+      "report_guard_uncertainty_multiplier": 2,
+      "reserve_m": 3.0,
+      "evaluation_envelope": "original full report and truth swept radii"
+    },
+    "prior_stale_receipts_sha256": {
+      "physics": {
+        "inputs.json": "89932ac532647115ba32b63ff13181b26f84acf8aa8341e62fbfbc836e7e110e",
+        "run.json": "2cb7fa31186343564e3dbf7fa530c9c2495207df93e60d606c991883b746d954",
+        "episodes.csv": "c3322a373d6655c11b2e2d83571ad3dea230056c14b8729b3abc57875245d002"
+      },
+      "grpo_progress": {
+        "inputs.json": "4cd38a5f3ba844f8d51e04fc0ad48869794b114398e4599c93b82a3b2bbdfa6e",
+        "run.json": "f40396ea35491a4332808acabf14ee4a0402c7c9591e29fbe6ddfc3cc4023a79",
+        "episodes.csv": "b41a821c2683fa198cf7798c1323cb0b0a395712c4535698b9d9894de9300ba5"
+      }
+    },
+    "prior_early_guard": {
+      "implementation": "AnticipatoryNativeEngine",
+      "baseline": "grpo_progress_stale_ais",
+      "report_guard_uncertainty_multiplier": 2,
+      "reserve_m": 3.0,
+      "evaluation_envelope": "original full report and truth swept radii"
+    },
+    "prior_early_receipts_sha256": {
+      "physics": {
+        "inputs.json": "76af06242f19e711692010b6fddf8ffc7cb77497a6392d844b2a6ae4e0502d41",
+        "run.json": "fa7f0e6a56eb14cabc92d20eb186a91afe597db40a237f157516b5e2f71168fe",
+        "episodes.csv": "d25a791536dea238f4594d1d02e3095dff749a710efa76e3ff31c797c3f840f3"
+      },
+      "grpo_progress": {
+        "inputs.json": "2a1b37242f98b0dc3d11ff464ae452a6f9c87b09c087d71f1dfd72a9455aa20f",
+        "run.json": "1ad2787d6ac61e0a26515ba8931d9b0452ad1f86ab32af73113500f4c03cf04f",
+        "episodes.csv": "0b66993a81287caa3c5367a983c316bf82cff62295974111b14e1aff033de3d5"
+      }
+    }
+  },
+  "test_ids": [
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake"
+  ],
+  "arms": [
+    "physics",
+    "explicit",
+    "temporal",
+    "snapshot"
+  ],
+  "minimum_gain_s_strict": 25.0,
+  "maximum_forecast_regret_s": 150.0,
+  "ridge": 2.0,
+  "residual_cap_s": 900.0,
+  "residual_strength": 1.0,
+  "branch_limit_per_episode": 8,
+  "min_start_interval_s": 180.0,
+  "max_branch_duration_s": 4800.0,
+  "controller_weather": "Most recent grid valid time at or before each observation or history token.",
+  "plant_weather": "Interpolated archive forcing, held for each native control interval.",
+  "study_sources": {
+    "run_temporal_ablation.py": "eb5bae13df6e8b85434807f9967cae361b0d486149131570e149e48c1a5571b1",
+    "ablation_ranker.py": "df4b89874d96bacf78a3e713d6cce1ca861b17adb8c670fdeac23ef81a33ace8",
+    "causal_weather.py": "5e5ea697b92021bde1795ff91e308e39778be0924c9cbf2845096dd3e4239fe7"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "xarray": "2026.9.0",
+    "netCDF4": "1.7.5.1.post1",
+    "casadi": "3.8.2",
+    "torch": "2.15.0"
+  },
+  "method": "explicit",
+  "scenarios": [
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake"
+  ],
+  "probe": false,
+  "model_sha256": "194694f8be60a33aa4d747faeef700b7b9a5c12af6a8db40fc402615138759ea",
+  "workers": 8
+}

@@ -1,0 +1,1097 @@
+{
+  "cases": [
+    {
+      "case": "crossing_fan__otranto_005__classical",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 290.0,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "applied_navigation_duration_s": 46520.0,
+      "total_monitoring_plus_navigation_s": 46810.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 189.27230096498903,
+          "truth_full_m": 192.27230096498903,
+          "projected_with_reserve_m": 189.2723009654597,
+          "true_nominal_m": 202.47230096498902,
+          "true_hull_m": 227.47230096498902
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "46e784955af65fd02c86279f64cd9bc75105ee4982e0d7049615ab0a20693655",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "db75d4d7412b26dc0282acb9ac5a6eb065e5f4b127b21f7ec48e71da9db04f0c",
+      "gate_log_sha256": "b88c0612ed4d3892545c3c656847d31b1cab124156876cb96eeff374f8d5d030"
+    },
+    {
+      "case": "crossing_fan__otranto_005__transformer",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 290.0,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "applied_navigation_duration_s": 46635.0,
+      "total_monitoring_plus_navigation_s": 46925.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 189.27230096498903,
+          "truth_full_m": 192.27230096498903,
+          "projected_with_reserve_m": 189.2723009654597,
+          "true_nominal_m": 202.47230096498902,
+          "true_hull_m": 227.47230096498902
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "f279a8a0727f97dbca01c8c4ad41210ea19527874150d621ffcc4c69f6cb0c88",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "fcdda926b323707637ec559560acca40b3c4d6855607d65ee633fc146e4adbfe",
+      "gate_log_sha256": "f37442c95c4413c624527ceb9bad66ed308145cd433c38b5c2943b68add1b2ea"
+    },
+    {
+      "case": "crossing_fan__otranto_355__classical",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 290.0,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "applied_navigation_duration_s": 63020.0,
+      "total_monitoring_plus_navigation_s": 63310.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 189.27230096498903,
+          "truth_full_m": 192.27230096498903,
+          "projected_with_reserve_m": 189.2723009654597,
+          "true_nominal_m": 202.47230096498902,
+          "true_hull_m": 227.47230096498902
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "f06377730a73dca4015b94c9b8d0c4472f4c6028e42284d1570d8cd3dec90223",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "3b97db9b6a98d3b4187233c275300e322a7c29fcd736bd555b8c0d3e43a2019c",
+      "gate_log_sha256": "00d30c94a1486efeabf3494af3a0d4505045a975a91cb5c1d35cc64a4484e708"
+    },
+    {
+      "case": "crossing_fan__otranto_355__transformer",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 290.0,
+      "actual_departure_utc": "2026-09-30T23:54:50Z",
+      "applied_navigation_duration_s": 63085.0,
+      "total_monitoring_plus_navigation_s": 63375.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 189.27230096498903,
+          "truth_full_m": 192.27230096498903,
+          "projected_with_reserve_m": 189.2723009654597,
+          "true_nominal_m": 202.47230096498902,
+          "true_hull_m": 227.47230096498902
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "374f5d2085ddcb28a3cf1735aa5c45195edf99e6762564efde389afad37739cc",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "a1383c95f80de97d950631e3128d0f0c0ac765140e09de6a81f07c66f5c5fddc",
+      "gate_log_sha256": "61dba412ad7b3e360fa0c0ff23c72d10b88386dd6182c0d718e1f9c242689fde"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__classical",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 315.0,
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "applied_navigation_duration_s": 46960.0,
+      "total_monitoring_plus_navigation_s": 47275.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 232.13726939597206,
+          "truth_full_m": 235.13726939597206,
+          "projected_with_reserve_m": 232.1372693948844,
+          "true_nominal_m": 245.33726939597204,
+          "true_hull_m": 270.33726939597204
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "f2458079a706c09a8d43aa054a60611794aa555c6fa5da4eb2970fe21868334c",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "c0bdea9fcf914e993f0459606fc06c6fc40738906c43adf41b137a912f1f4a31",
+      "gate_log_sha256": "c4b66b478cc7de610bd58110187773084ae0e52d33972b2333383904bb56354b"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__transformer",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 315.0,
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "applied_navigation_duration_s": 46845.0,
+      "total_monitoring_plus_navigation_s": 47160.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 232.13726939597206,
+          "truth_full_m": 235.13726939597206,
+          "projected_with_reserve_m": 232.1372693948844,
+          "true_nominal_m": 245.33726939597204,
+          "true_hull_m": 270.33726939597204
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "224d9ed15a331d41ade6ada644cd32589059eca4d74e2ac198d95d3530e103a4",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "f183b36decd14890145448fc858f7e23c3e971d577baab5377e31a407777a3c4",
+      "gate_log_sha256": "f869ed896074254dd66c5392e4b8fad3b37f9f31d3bad45f7d85f11ea7741501"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__classical",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 315.0,
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "applied_navigation_duration_s": 62370.0,
+      "total_monitoring_plus_navigation_s": 62685.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 232.13726939597206,
+          "truth_full_m": 235.13726939597206,
+          "projected_with_reserve_m": 232.1372693948844,
+          "true_nominal_m": 245.33726939597204,
+          "true_hull_m": 270.33726939597204
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "12e2fd43c83510735cc6cd9eeb56f9649596d6a2a1e287a208c48efcb2e75caf",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "284f8a116b6abbdd5e67f7a2567086be77f7de025c467059d66a5200af4d0408",
+      "gate_log_sha256": "8c58a584f02a59150ed7876a9595381afca1cd29c725af71e3f641a83085b1f4"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__transformer",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "gate_wait_seconds": 315.0,
+      "actual_departure_utc": "2026-09-30T23:55:15Z",
+      "applied_navigation_duration_s": 61365.0,
+      "total_monitoring_plus_navigation_s": 61680.0,
+      "requested_navigation_checkpoint_s": 600.0,
+      "entire600s_navigation_checkpoint_experienced": true,
+      "fixed40s_drop_delivery_effect_windows_since_monitoring_start_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_while_sheltered_s": [
+        40.0,
+        40.0
+      ],
+      "drop_delivery_effect_duration_underway_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced_underway": false,
+      "maximum_monitored_instantaneous_report_age_s": 60.0,
+      "maximum_sheltered_held_report_age_s": 65.0,
+      "full65s_peak_monitored_while_sheltered": true,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced_underway": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_since_monitoring_s": 125.0,
+          "physical_end_since_monitoring_s": 165.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 185.0,
+          "changed_velocity_report_delivered_before_launch": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_since_monitoring_s": 185.0,
+          "physical_end_since_monitoring_s": 225.0,
+          "physical_ramp_duration_while_sheltered_s": 40.0,
+          "physical_ramp_duration_underway_s": 0.0,
+          "first_changed_velocity_report_delivery_since_monitoring_s": 245.0,
+          "changed_velocity_report_delivered_before_launch": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": null,
+        "truth_full_m": null,
+        "projected_with_reserve_m": null,
+        "true_nominal_m": null,
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 232.13726939597206,
+          "truth_full_m": 235.13726939597206,
+          "projected_with_reserve_m": 232.1372693948844,
+          "true_nominal_m": 245.33726939597204,
+          "true_hull_m": 270.33726939597204
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "history_sha256": "804b81544b077a485a34221b66a681ac59b55b6707f65fc468c511eb747bbced",
+      "timing_scope": "First five-second launched command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations. Delaying launch changes forcing sampled at UTC and the traffic phase; no isolated causal attribution to traffic geometry, weather or a single algorithm follows.",
+      "replay_sha256": "ec47d501c55886636ea1e887932aa995d1791e2dd48f01906b354423bd9c668a",
+      "gate_log_sha256": "8d4034ce2c4109c70b5f2e205be3ea7913ff1a38388c3499b6c834b16d322984"
+    }
+  ],
+  "all_cases_final": true,
+  "source_sha256": "f677386df820a0a83c7c7af82bae667130166b933f953b28d15780bcec80d5e9",
+  "independent_sweep_sha256": "cf8a378043e1279c2f31a1cf3fb9c69c81493e65c589b126794646d7571f3ede",
+  "independent_prefix_sweep_sha256": "44aabb353a85a35c135c22a9d6c587ec9aa0cf38a104b13f2323343f9216034a",
+  "scope": "Fixed-UTC faults are separated into sheltered monitoring and launched motion. Avoiding outages by waiting is a departure-scheduling result; it does not establish underway65s-dropout tolerance. No sheltered plant-motion or berth-clearance claim is made."
+}

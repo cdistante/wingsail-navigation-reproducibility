@@ -1,0 +1,3 @@
+run_id,wind_from,phase,waypoint,window_utc,release_guard,source,applied_action,first_control_interval_start_s,raw_action,classical_action,p_hold
+otranto_355__temporal_transformer,355.0,outbound,002,2026-10-01T09:55:00Z,sustained feasible release,physical release,sail,36300.0,hold,sail,0.987872838973999
+otranto_005__temporal_transformer,5.0,outbound,002,2026-10-01T05:50:00Z,sustained feasible release,physical release,sail,21600.0,hold,sail,0.8223556876182556

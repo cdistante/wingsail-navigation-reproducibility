@@ -1,0 +1,124 @@
+{
+  "fixture": "crossing_fan",
+  "uncertainty_note": "Synthetic emitted positions/velocities are exact; uncertainty models delayed/dropout propagation.",
+  "position_model": "Independent analytic integration of piecewise linear EN velocity ramps; constant before and after each40s ramp.",
+  "source": "Study-local predefined fixture parameters, no controller outcomes used.",
+  "origin_latitude_longitude": [
+    40.225,
+    18.746666667
+  ],
+  "scenarios": {
+    "mixed": [
+      {
+        "mmsi": 998100201,
+        "name": "VALIDATION CROSSING_FAN FERRY",
+        "callsign": "VAL201",
+        "ship_type": 60,
+        "initial_east_metres": -77.16643424269643,
+        "initial_north_metres": -406.7607775671006,
+        "speed_metres_per_second": 3.7,
+        "course_degrees": 20.0,
+        "length_metres": 60.0,
+        "beam_metres": 12.0,
+        "destination": "OFFLINE VALIDATION",
+        "heading_degrees": null
+      },
+      {
+        "mmsi": 998100202,
+        "name": "VALIDATION CROSSING_FAN CARGO",
+        "callsign": "VAL202",
+        "ship_type": 70,
+        "initial_east_metres": 425.6888470414087,
+        "initial_north_metres": 158.70399894305865,
+        "speed_metres_per_second": 2.8,
+        "course_degrees": 255.0,
+        "length_metres": 75.0,
+        "beam_metres": 14.0,
+        "destination": "OFFLINE VALIDATION",
+        "heading_degrees": null
+      },
+      {
+        "mmsi": 998100203,
+        "name": "VALIDATION CROSSING_FAN TUG",
+        "callsign": "VAL203",
+        "ship_type": 52,
+        "initial_east_metres": -480.9121302469379,
+        "initial_north_metres": -157.28037962347824,
+        "speed_metres_per_second": 3.2,
+        "course_degrees": 70.0,
+        "length_metres": 26.0,
+        "beam_metres": 9.0,
+        "destination": "OFFLINE VALIDATION",
+        "heading_degrees": null
+      }
+    ]
+  },
+  "velocity_ramps": [
+    {
+      "mmsi": 998100201,
+      "start_s": 85.0,
+      "end_s": 125.0,
+      "final_course_degrees": 32.0,
+      "final_speed_mps": 3.45,
+      "acceleration_magnitude_mps2": 0.01969123779225709
+    },
+    {
+      "mmsi": 998100202,
+      "start_s": 145.0,
+      "end_s": 185.0,
+      "final_course_degrees": 242.0,
+      "final_speed_mps": 3.1,
+      "acceleration_magnitude_mps2": 0.018284824228857056
+    },
+    {
+      "mmsi": 998100203,
+      "start_s": 85.0,
+      "end_s": 125.0,
+      "final_course_degrees": 57.0,
+      "final_speed_mps": 3.5,
+      "acceleration_magnitude_mps2": 0.020373244538038276
+    }
+  ],
+  "design_anchors": [
+    {
+      "mmsi": 998100201,
+      "unmanoeuvred_anchor_s": 140.0,
+      "east_m": 100.0,
+      "north_m": 80.0
+    },
+    {
+      "mmsi": 998100202,
+      "unmanoeuvred_anchor_s": 150.0,
+      "east_m": 20.0,
+      "north_m": 50.0
+    },
+    {
+      "mmsi": 998100203,
+      "unmanoeuvred_anchor_s": 130.0,
+      "east_m": -90.0,
+      "north_m": -15.0
+    }
+  ],
+  "truth_trace": {
+    "file": "truth_trace.csv",
+    "first_s": -80.0,
+    "last_s": 600.0,
+    "step_s": 0.05
+  },
+  "reporting": {
+    "report_interval_s": 5.0,
+    "report_delay_s": 20.0,
+    "drop_emission_windows_s": [
+      [
+        85.0,
+        125.0
+      ],
+      [
+        145.0,
+        185.0
+      ]
+    ],
+    "maximum_held_report_age_s": 65.0,
+    "preview_age_budget_s": 65.0
+  }
+}

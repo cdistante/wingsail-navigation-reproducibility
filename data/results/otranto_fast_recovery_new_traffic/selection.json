@@ -1,0 +1,34 @@
+{
+  "candidate": "candidate02_batched",
+  "full_authorization_utc": "2026-11-19T12:35:57.879849+00:00",
+  "purpose": "Corrective engineering full-mission tests of all eight prespecified arms, after retained initial C03 new-traffic latency failures. Selection is a computation gate, not a clearance/completion certificate.",
+  "source_sha256": {
+    "world/ais_buffer_maneuver.py": "0a77504464a750a04ea23795037c8914831161d896ac1bd67f284067a90742bf",
+    "world/ais_fast_recovery.py": "5b996f265ff24c284115bfcf3f9f2b1edd50ae00a161b148f1c0419a16b24e75",
+    "world/ais_clearance_refinement.py": "e87f85c8acb17dc733dd72b937a417b31fd7d4c1746f3de56eaf9d67811a6dd0",
+    "world/run_legacy_fossen.py": "f4b2bb999223ebf5385f34528706c54d77cf9f020651dea7b6a84b4c731e4162",
+    "tests/test_ais_buffer_maneuver.py": "a4f84c9abb0328d5d823ee1ccac533a414403b9607a2a4eb2a17c62b7ccd21ca"
+  },
+  "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e",
+  "cold_benchmark_sha256": "89830d08edfcce13a34930b7200662b3b4874757e479f4a8ce67833fa7576af4",
+  "cold_trials": 24,
+  "cold_all_under5s": true,
+  "cold_max_constructor_plus_choose_s": 4.224015416984912,
+  "cold_all_return_full_clearance_maneuver": false,
+  "initial_validation_failures_preserved": "pilot_studies/c03_initial_step",
+  "failed_finite_proposals_not_adopted": [
+    "global144",
+    "two_stage925"
+  ],
+  "full_attempts_expected": 8,
+  "full_cap_steps": 17280,
+  "radius_m": 50,
+  "all_outcomes_retained": true,
+  "fixture_retuning_after_outcomes": false,
+  "notes": [
+    "First-input envelope/nominal risk eligibility was frozen before controller outcomes.",
+    "Actual safety and goal checks remain outcomes, with no exclusion of stopped or failed cases.",
+    "Live600s checkpoints do not restart or censor full mission attempts."
+  ],
+  "post_definition_geometry_or_safety_parameter_retuning": false
+}

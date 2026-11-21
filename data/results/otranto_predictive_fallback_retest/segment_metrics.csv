@@ -1,0 +1,9 @@
+arm,scenario_id,wind_from_degrees,method,phase,from_waypoint,to_waypoint,captured,segment_s,track_m,elapsed_s,terminal_range_m,minimum_range_m
+crossing_fan__otranto_355__classical,crossing_fan,355,classical,outbound,001,002,False,175,99.2498698250108,175,532.322981763843,466.33123214557077
+crossing_fan__otranto_355__transformer,crossing_fan,355,transformer,outbound,001,002,False,175,99.2498698250108,175,532.322981763843,466.33123214557077
+crossing_fan__otranto_005__classical,crossing_fan,5,classical,outbound,001,002,False,175,96.74986332705888,175,529.199970113682,466.33123214557077
+crossing_fan__otranto_005__transformer,crossing_fan,5,transformer,outbound,001,002,False,175,96.74986332705888,175,529.199970113682,466.33123214557077
+opposed_crossing__otranto_355__classical,opposed_crossing,355,classical,outbound,001,002,False,105,54.2275104244995,105,463.5072723203693,462.7498434824489
+opposed_crossing__otranto_355__transformer,opposed_crossing,355,transformer,outbound,001,002,False,105,54.2275104244995,105,463.5072723203693,462.7498434824489
+opposed_crossing__otranto_005__classical,opposed_crossing,5,classical,outbound,001,002,False,110,56.550440585066944,110,463.9189632676537,462.70561797438666
+opposed_crossing__otranto_005__transformer,opposed_crossing,5,transformer,outbound,001,002,False,110,56.550440585066944,110,463.9189632676537,462.70561797438666

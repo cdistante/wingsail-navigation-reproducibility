@@ -1,0 +1,17 @@
+{
+  "synthetic_verification_id": "train-000",
+  "future_shift_inside_sample_window_s": 450.0,
+  "first_future_observation_s": 600,
+  "initial_padding": "12 copies of first observation",
+  "pre_observation_future_intervention_embedding_delta": 0.0,
+  "equal_present_different_past_embedding_max_delta": 1.1216965913772583,
+  "fresh_batch_versus_individual_max_absolute_error": 7.152557373046875e-07,
+  "fresh_checkpoint_sha256": "cf467bcf85a08af99c9819f13b04e65b57f34006ff3957cc42646bba04bc0972",
+  "legacy_public_encoder_max_absolute_error": 7.152557373046875e-07,
+  "legacy_parity_examples": 144,
+  "embedding_shape": [
+    18,
+    48
+  ],
+  "embedding_dtype": "float32"
+}

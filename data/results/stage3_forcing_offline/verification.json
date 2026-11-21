@@ -1,0 +1,26 @@
+{
+  "counts_by_block": {
+    "winter": 1512,
+    "summer": 1512,
+    "spring": 1512,
+    "autumn": 1512
+  },
+  "checks": [
+    "Selected hyperparameters minimize the exported April objective within each model family.",
+    "Unique paired rows and exact one-hour forecast horizons.",
+    "Previous and next weather vectors match corresponding adjacent issue records.",
+    "Independent trend forecasts and vector RMSE reproduce saved values.",
+    "Fresh independent process reproduced all five study artifacts byte for byte."
+  ],
+  "previous_and_next_hour_pair_checks": [
+    6012,
+    6012
+  ],
+  "artifact_sha256": {
+    "selection_receipt.json": "ee0e8f02cdd17ac8f19c3ee39b1293bc06a190dda1c3fbd2f5afd5b0d1ff0ac9",
+    "forcing_ridge_head.npz": "56b75074b500c402cbf503818fe9a0c3ba243a907515f7662b9be2357ce6f23e",
+    "prediction_records.csv.gz": "f489e833444754fa0fbc748df317fcbac9758e2c980b2fabe4a405fb5d4a442f",
+    "daily_metrics.csv": "1b84e3fd7a2d796c686af8cde976f2bcae58dc3ac3f3806c640ea0c97dea835b",
+    "metrics.json": "2f25b5f5feb7ed2c295f5c76f586ed9818f5a933415a9113047491a2f8138c4e"
+  }
+}

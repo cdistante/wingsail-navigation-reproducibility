@@ -1,0 +1,56 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_off": {
+      "case": "crossing_fan__otranto_005__layline_off",
+      "mode": "off",
+      "wind_from_degrees": 5,
+      "execution_return_code": 0,
+      "same_invocation_as_native_hybrid_apart_from_layline_flag_and_output_paths": true,
+      "same_archives_traffic_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "baseline_execution_sha256": "b1ed4172e42c42d8af48495c83df065e6227b51413219a8ad0e1f39864d75de7",
+      "baseline_replay_sha256": "2f7f7335391e5cb896d7b8a64da06e2390e165f3381506a0222415db4656e7ae",
+      "experiment_sha256": "fd9067d48f9d642ddb4812c43d482984e3dd016b3e8e722b7d1fa87b8893852d",
+      "execution_sha256": "5da1f4133241ff43c7fb89feb7a4813306951383b3e8a04d2ad617303fc1abaa"
+    },
+    "crossing_fan__otranto_005__layline_on": {
+      "case": "crossing_fan__otranto_005__layline_on",
+      "mode": "on",
+      "wind_from_degrees": 5,
+      "execution_return_code": 0,
+      "same_invocation_as_native_hybrid_apart_from_layline_flag_and_output_paths": true,
+      "same_archives_traffic_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "baseline_execution_sha256": "b1ed4172e42c42d8af48495c83df065e6227b51413219a8ad0e1f39864d75de7",
+      "baseline_replay_sha256": "2f7f7335391e5cb896d7b8a64da06e2390e165f3381506a0222415db4656e7ae",
+      "experiment_sha256": "c753e8c60a1423a37587695334435c66e94b455014d1f197bc95cdc0b6b3065a",
+      "execution_sha256": "6839fff1ea9f3395a71f37c94c6c867efdeacffeeaf1299be5d035c1d468d318"
+    },
+    "crossing_fan__otranto_355__layline_off": {
+      "case": "crossing_fan__otranto_355__layline_off",
+      "mode": "off",
+      "wind_from_degrees": 355,
+      "execution_return_code": 0,
+      "same_invocation_as_native_hybrid_apart_from_layline_flag_and_output_paths": true,
+      "same_archives_traffic_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "baseline_execution_sha256": "3cab9046a861f9262984f3ca6833eb7c9d6d362b03b0fefe46dee3790f7d66bc",
+      "baseline_replay_sha256": "8c893c656b54b168738e6b151d1c9cba0dcd77cdd1ca5908c6d518d5f7981a18",
+      "experiment_sha256": "810f5ac97dc182fdc15ab40873d702e3eb2598124dc4c7cc00694e302ec9110b",
+      "execution_sha256": "523d96b0968056a64dc67fef6a4d62cbb3040d56d719d776196b60426911cfd6"
+    },
+    "crossing_fan__otranto_355__layline_on": {
+      "case": "crossing_fan__otranto_355__layline_on",
+      "mode": "on",
+      "wind_from_degrees": 355,
+      "execution_return_code": 0,
+      "same_invocation_as_native_hybrid_apart_from_layline_flag_and_output_paths": true,
+      "same_archives_traffic_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "baseline_execution_sha256": "3cab9046a861f9262984f3ca6833eb7c9d6d362b03b0fefe46dee3790f7d66bc",
+      "baseline_replay_sha256": "8c893c656b54b168738e6b151d1c9cba0dcd77cdd1ca5908c6d518d5f7981a18",
+      "experiment_sha256": "b07088e2afa049416931393fbd345997ceae5f12867223f7248527b8409def97",
+      "execution_sha256": "e2f73d45be8195228413dde24749397c01e700d7cc577176fddb67bc8a2b5b62"
+    }
+  }
+}

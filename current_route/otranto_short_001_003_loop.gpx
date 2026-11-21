@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="maritime_world"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:opencpn="http://www.opencpn.org">
+  <rte>
+    <name>otranto_short_001_003_loop</name>
+    <extensions>
+      <opencpn:planned_speed>6.00</opencpn:planned_speed>
+      <opencpn:planned_departure>2026-09-30T03:00:00Z</opencpn:planned_departure>
+    </extensions>
+    <rtept lat="40.225000000" lon="18.746666667">
+      <name>001</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.228333333" lon="18.750000000">
+      <name>002</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.226666667" lon="18.756666667">
+      <name>003</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+  </rte>
+</gpx>

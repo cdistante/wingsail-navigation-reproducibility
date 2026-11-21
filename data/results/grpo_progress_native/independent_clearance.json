@@ -1,0 +1,789 @@
+{
+  "status": "verified",
+  "scope": "Full replay of applied Fossen controls at 0.05 s; analytical fixture truth and delivered-AIS projection swept over synchronized chords with each full uncertainty envelope plus reserve.",
+  "manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "auditor_sha256": "e38967099bdccfead48e435bc4dd0b1f2389616e3b10e19f036c0c1e80436b77",
+  "cases_per_arm": 12,
+  "applied_controls": 16530,
+  "integration_substeps": 1651664,
+  "paired_clearance_flags": {
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan": {
+      "physics": "no_applied_path",
+      "grpo_progress": "no_applied_path"
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake": {
+      "physics": "no_applied_path",
+      "grpo_progress": "no_applied_path"
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake": {
+      "physics": "violated",
+      "grpo_progress": "violated"
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    }
+  },
+  "cases": [
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 4320,
+      "integration_substeps": 432000,
+      "replayed_elapsed_s": 21600.0,
+      "trace_sha256": "0e668be8a5881112fdbc8c00f196f46df67f1a04af40f9b37aebda51e105dd00",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 1.3969838619232178e-09
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 58.97957005358286,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 58.91638416030888,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 31,
+      "integration_substeps": 3100,
+      "replayed_elapsed_s": 155.0,
+      "trace_sha256": "a8d0898be80bd0350264ea25310897f5f3625c2e6b1c49c323a9cb95136a4e4e",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 11.194638584432013,
+          "elapsed_s": 155.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 30.0
+        },
+        "truth": {
+          "margin_m": 11.194594145629154,
+          "elapsed_s": 155.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 30.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 719,
+      "integration_substeps": 71740,
+      "replayed_elapsed_s": 3587.0,
+      "trace_sha256": "0a75d542b21febacaa5d4a4c326610e41632e0c9bc720ddab07f7e90c068402b",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 132.21055717376007,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 132.2098820246746,
+          "elapsed_s": 104.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 739,
+      "integration_substeps": 73757,
+      "replayed_elapsed_s": 3687.8500000000004,
+      "trace_sha256": "1543a8a43ac69237463b3dde22448e76f443752a4829628ba05579d07b3896db",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 34.15503415497432,
+          "elapsed_s": 185.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 27.626054283174597,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 628,
+      "integration_substeps": 62736,
+      "replayed_elapsed_s": 3136.8,
+      "trace_sha256": "ef3bd7ac0d87513c9414d013a8e3ad0786b2fc7aa9623b55e9e288a42bfa2327",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.4210854715202004e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 84.39967957722074,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 84.35753224798377,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 33,
+      "integration_substeps": 3300,
+      "replayed_elapsed_s": 165.0,
+      "trace_sha256": "c805139193653b02c60d307661718d4b141cf3712a5b4a4d3298db8d4822ce3e",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 1.3301711318664928,
+          "elapsed_s": 165.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 40.0
+        },
+        "truth": {
+          "margin_m": 1.509228793284791,
+          "elapsed_s": 165.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 40.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "dab22e2516d77e86a385bf9f0de89d19765e7504452dd73d2c06f66d0860a778",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": null,
+        "truth": null
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "8a6ac6d862109e15eedded0481dc9d882ff4453dc69f87035a4ae21467149c0f",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": null,
+        "truth": null
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 816,
+      "integration_substeps": 81479,
+      "replayed_elapsed_s": 4073.95,
+      "trace_sha256": "1f3f0664cbde2a5e2eff619092b2b2998b36df4b5c9d5342feefa6a3e3397e06",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 108.44191654567604,
+          "elapsed_s": 120.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 108.44189859809455,
+          "elapsed_s": 120.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 34,
+      "integration_substeps": 3400,
+      "replayed_elapsed_s": 170.0,
+      "trace_sha256": "f7e7e641a741abd245f14810f549f918403548cf8abfd370d5f892d8fe87e019",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 1
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 0.16558570275088869,
+          "elapsed_s": 170.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": -1.096235500118965,
+          "elapsed_s": 169.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 931,
+      "integration_substeps": 92917,
+      "replayed_elapsed_s": 4645.85,
+      "trace_sha256": "fec3632944a98da59c92cdd8a99b744da8a178e7726e27e76421fe0ac18d6232",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 7.821654435247183e-10
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 66.95533239159839,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 66.8973636227425,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 32,
+      "integration_substeps": 3200,
+      "replayed_elapsed_s": 160.0,
+      "trace_sha256": "2bcd3bf1f8b77e7adb9e5b8a16df27b177c4b8fbdf8e46f0dce1021f4befac57",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 2.646137486689881,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "truth": {
+          "margin_m": 2.7406619026685917,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 4320,
+      "integration_substeps": 432000,
+      "replayed_elapsed_s": 21600.0,
+      "trace_sha256": "5d6d876ef2912e0d3fab4d941b72748273d2e4520990cd764c6dbc9a7f5a11e9",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 1.3969838619232178e-09
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 58.97957005358286,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 58.91638416030888,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 31,
+      "integration_substeps": 3100,
+      "replayed_elapsed_s": 155.0,
+      "trace_sha256": "c7eb261113109481bcb112db0d2906c4d6d48db0573a432d4e7f8b959ff84240",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 11.194638584432013,
+          "elapsed_s": 155.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 30.0
+        },
+        "truth": {
+          "margin_m": 11.194594145629154,
+          "elapsed_s": 155.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 30.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 719,
+      "integration_substeps": 71740,
+      "replayed_elapsed_s": 3587.0,
+      "trace_sha256": "934881fbfe4f9681c492191a7f6717539e5774d583274b124c30c57704bdb05f",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 132.21055717376007,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 132.2098820246746,
+          "elapsed_s": 104.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 739,
+      "integration_substeps": 73757,
+      "replayed_elapsed_s": 3687.8500000000004,
+      "trace_sha256": "a568e5febfc324fdcb8aaec0fff536052645783a062b1091334cdea3bde56964",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 34.15503415497432,
+          "elapsed_s": 185.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 27.626054283174597,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 628,
+      "integration_substeps": 62736,
+      "replayed_elapsed_s": 3136.8,
+      "trace_sha256": "6abb348d00955b58cd5eb753f313a9a1a3afabc18220b4d2edf14fff010398cc",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.4210854715202004e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 84.39967957722074,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 84.35753224798377,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 33,
+      "integration_substeps": 3300,
+      "replayed_elapsed_s": 165.0,
+      "trace_sha256": "8e931f9c0fa24056e07cadcf43148f1618a778eda45f45bf1b7ffc1d8f79cd3f",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 1.3301711318664928,
+          "elapsed_s": 165.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 40.0
+        },
+        "truth": {
+          "margin_m": 1.509228793284791,
+          "elapsed_s": 165.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 40.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "835be66e54288fdd68634008b6865259b2dc0d53a91de04de79f19c249213d57",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": null,
+        "truth": null
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "9236e7f613bca91900063776c79eb3d95135aeee5a120408c7c45d3590256ade",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": null,
+        "truth": null
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 816,
+      "integration_substeps": 81479,
+      "replayed_elapsed_s": 4073.95,
+      "trace_sha256": "b7d31f7d56e624764881dd0c35c2f035236131eeb25884bc224fb96d38d7b47c",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 108.44191654567604,
+          "elapsed_s": 120.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 108.44189859809455,
+          "elapsed_s": 120.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 34,
+      "integration_substeps": 3400,
+      "replayed_elapsed_s": 170.0,
+      "trace_sha256": "fa3cf943d69052d6f150fbceed134efacb018eb2a4ea10f4ae425d2cbf4453a6",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 1
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 0.16558570275088869,
+          "elapsed_s": 170.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": -1.096235500118965,
+          "elapsed_s": 169.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 895,
+      "integration_substeps": 89323,
+      "replayed_elapsed_s": 4466.150000000001,
+      "trace_sha256": "b6e0bd35e973c5616575a819ca2679afe3062781d6e25941202d969d140c0392",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 61.47554470728504,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 61.40789414987735,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 32,
+      "integration_substeps": 3200,
+      "replayed_elapsed_s": 160.0,
+      "trace_sha256": "1bbf3df7d52bd038a464357037b6b47e0e95b22242699498c56328389739594e",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0
+      },
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 2.646137486689881,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "truth": {
+          "margin_m": 2.7406619026685917,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        }
+      }
+    }
+  ]
+}

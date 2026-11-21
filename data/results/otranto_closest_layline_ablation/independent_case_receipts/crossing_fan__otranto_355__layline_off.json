@@ -1,0 +1,558 @@
+{
+  "case": "crossing_fan__otranto_355__layline_off",
+  "input_verification": {
+    "case": "crossing_fan__otranto_355__layline_off",
+    "mode": "off",
+    "wind_from_degrees": 355,
+    "execution_return_code": 0,
+    "same_invocation_as_native_hybrid_apart_from_layline_flag_and_output_paths": true,
+    "same_archives_traffic_initial_state_and_launch_clock": true,
+    "sources_bound_to_unchanged_execution_snapshot": true,
+    "baseline_execution_sha256": "3cab9046a861f9262984f3ca6833eb7c9d6d362b03b0fefe46dee3790f7d66bc",
+    "baseline_replay_sha256": "8c893c656b54b168738e6b151d1c9cba0dcd77cdd1ca5908c6d518d5f7981a18",
+    "experiment_sha256": "810f5ac97dc182fdc15ab40873d702e3eb2598124dc4c7cc00694e302ec9110b",
+    "execution_sha256": "523d96b0968056a64dc67fef6a4d62cbb3040d56d719d776196b60426911cfd6"
+  },
+  "gate": {
+    "case": "crossing_fan__otranto_355__layline_off",
+    "encounter_id": "crossing_fan",
+    "scope": "received-report sheltered monitoring; no prelaunch plant motion or in-water clearance is claimed",
+    "launch_selected": true,
+    "first_qualifying_gate_step": 58,
+    "monitoring_start_utc": "2026-09-30T23:50:00Z",
+    "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+    "actual_departure_utc": "2026-09-30T23:54:50Z",
+    "gate_wait_seconds": 290.0,
+    "gate_attempts": 59,
+    "maximum_gate_decision_s": 0.0006272500031627715,
+    "all_gate_attempts_below_5s": true,
+    "maximum_instantaneous_monitored_report_age_s": 60.0,
+    "maximum_monitored_held_age_to_next_poll_s": 65.0,
+    "65s_report_age_peak_experienced_while_sheltered": true,
+    "maximum_independent_formula_difference": 2.2737367544323206e-13,
+    "maximum_independent_report_position_error_m": 1.3680470392664685e-09,
+    "maximum_independent_report_velocity_error_mps": 5.532480504626016e-13,
+    "final_launch_certificate": {
+      "min_robust_receding_mps": 2.3003337864355435,
+      "min_uncapped_startup_margin_m": 39.52321053480546,
+      "min_preview_margin_m": 157.7805776025203
+    },
+    "fixed_traffic_and_reporting_clock_verified": true,
+    "first_three_consecutive_fresh_eligible_reports_verified": true,
+    "sheltered_own_state_unchanged": true,
+    "selected_state_and_reports_equal_launch_replay": true,
+    "gate_log_sha256": "fa5b1ac8937aba8f4134f351c20d0eea5cee76b673ba8f322fef695f4c1c4e21",
+    "gate_summary_sha256": "5dd0937f6e9577b77dfa262471221ca4282e52c294dea9e56fd5723af54d235e",
+    "fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+    "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+    "audit_source_sha256": "daa0287b9bc8118cbb1faf3018ee6b517dac8812f7ffb2e4afbb6fbf62f1ce25"
+  },
+  "clearance": {
+    "case": "crossing_fan__otranto_355__layline_off",
+    "encounter_id": "crossing_fan",
+    "scope": "all-applied-actions",
+    "AIS_choose_attempts": 13107,
+    "AIS_choose_applied_attempts": 13107,
+    "AIS_choose_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_choose_s": 2.368127416993957,
+    "AIS_choose_attempts_at_or_above_5s": 0,
+    "all_AIS_choose_attempts_below_5s": true,
+    "AIS_choose_timing_measurement_log": "data/results/otranto_closest_layline_ablation/runs/crossing_fan__otranto_355__layline_off/run.log",
+    "AIS_choose_timing_measurement_log_sha256": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+    "AIS_choose_attempt_timing_csv": "data/results/otranto_closest_layline_ablation/independent_decision_timing/crossing_fan__otranto_355__layline_off.csv",
+    "AIS_choose_attempt_timing_csv_sha256": "b71a3ecfa0b414ca6a9bf76fb6a666be1efd223eb5585fc885608b73492702d1",
+    "AIS_choose_overrun_or_unapplied_timing_records": [],
+    "AIS_applied_decision_attempts": 13107,
+    "AIS_applied_decision_applied_attempts": 13107,
+    "AIS_applied_decision_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_applied_decision_s": 2.3721554999938235,
+    "AIS_applied_decision_attempts_at_or_above_5s": 0,
+    "all_AIS_applied_decision_attempts_below_5s": true,
+    "AIS_applied_decision_timing_measurement_log": "data/results/otranto_closest_layline_ablation/runs/crossing_fan__otranto_355__layline_off/run.log",
+    "AIS_applied_decision_timing_measurement_log_sha256": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+    "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_closest_layline_ablation/independent_applied_decision_timing/crossing_fan__otranto_355__layline_off.csv",
+    "AIS_applied_decision_attempt_timing_csv_sha256": "4ef70b7ef3cf1f0353965cf098f4831dda6efbca33f9f1a7976e89764822bfa9",
+    "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+    "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+    "requested_checkpoint_seconds": null,
+    "closed_before_or_at_checkpoint": false,
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:54:50Z",
+    "monitoring_start_utc": "2026-09-30T23:50:00Z",
+    "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+    "gate_wait_seconds": 290.0,
+    "applied_actions": 13107,
+    "frames": 13108,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.9605390061277504,
+    "maximum_first300s_launch_tube_excess_m": -30.0,
+    "observed_launch_displacement_tube_obeyed_first300s": true,
+    "launch_tube_coverage_seconds": 300.0,
+    "maximum_first300s_native_ground_speed_mps": 0.6688696570758098,
+    "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+    "astern_action_count": 109,
+    "astern_control_boundary_count": 99,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 13106,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 2.9103830456733704e-11,
+    "maximum_truth_outside_report_envelope_m": -7.331969977272969,
+    "distinct_report_ages_s": [
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0
+    ],
+    "maximum_applied_held_report_age_s": 65.0,
+    "longest_fault_peak_experienced": true,
+    "truth_minimum_hull_m": 169.79251638188668,
+    "truth_minimum_nominal_m": 144.79251638188668,
+    "truth_centered_minimum_uncertainty_m": 102.16212962489357,
+    "configured_truth_centered_minimum_m": 99.16212962489357,
+    "model_minimum_uncertainty_m": 102.16234996577083,
+    "configured_model_minimum_m": 99.16234996577083,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 169.79251638188668,
+        "mmsi": 998100204,
+        "elapsed_s": 563.8139662298397,
+        "action_step": 113,
+        "scenario_seconds": 813.8139662298397,
+        "ais_mode": "route"
+      },
+      "true_nominal_25m": {
+        "margin_m": 144.79251638188668,
+        "mmsi": 998100204,
+        "elapsed_s": 563.8139662298397,
+        "action_step": 113,
+        "scenario_seconds": 813.8139662298397,
+        "ais_mode": "route"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 102.16212962489357,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 102.16234996577083,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "truth_with_reserve": {
+        "margin_m": 99.16212962489357,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_with_reserve": {
+        "margin_m": 99.16234996577083,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "route": 13058,
+      "predictive fallback": 49
+    },
+    "verified_constant_velocity_truth_extended_after_s": 600.0,
+    "mission_status": "completed",
+    "strict_clearance_stop": false,
+    "waypoint_arrivals": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 11035,
+        "distance_metres": 48.85007040576452
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 11143,
+        "distance_metres": 48.59847269814438
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 11276,
+        "distance_metres": 48.23615272005638
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11772,
+        "distance_metres": 49.567092225531745
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11851,
+        "distance_metres": 47.14112238172534
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 12389,
+        "distance_metres": 48.79008306004734
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12992,
+        "distance_metres": 49.143735551179525
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 13107,
+        "distance_metres": 47.48758836321978
+      }
+    ],
+    "goal_captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 11035,
+        "distance_metres": 48.85007040576452
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 11143,
+        "distance_metres": 48.59847269814438
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 11276,
+        "distance_metres": 48.23615272005638
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11772,
+        "distance_metres": 49.567092225531745
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11851,
+        "distance_metres": 47.14112238172534
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 12389,
+        "distance_metres": 48.79008306004734
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12992,
+        "distance_metres": 49.143735551179525
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 13107,
+        "distance_metres": 47.48758836321978
+      }
+    ],
+    "final_goal_distance_m": 47.48758836321978,
+    "replay_sha256": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+    "replay_measurement_path": "data/results/otranto_closest_layline_ablation/runs/crossing_fan__otranto_355__layline_off/navigation.jsonl.gz",
+    "run_log_measurement_path": "data/results/otranto_closest_layline_ablation/runs/crossing_fan__otranto_355__layline_off/run.log",
+    "source_live_recording_path": null,
+    "checkpoint_inputs_frozen": false,
+    "run_log_sha256": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+    "history_sha256": "b01f3714e8ead30431c7d96667b05dabf41f7bedf04a1c56c83400c886d7deac",
+    "audit_source_sha256": "2b4c281813ac4ed3f0852a92844cbf8b9cef4b10b26397d497f827775ee07d77",
+    "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+    "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+    "underway_truth_fixture_sha256": "46d8b151fc85e1b9572aea08c305e8bd87b0f9f927cc5943bccdc448c5203291",
+    "underway_truth_trace_sha256": "9d30d28602d6ad05d67766b5ddafa363987b634b38ca331c8a0fa31481afeff5",
+    "underway_target_mmsi": 998100204,
+    "underway_first_emission_s": 400.0,
+    "underway_first_delivery_s": 420.0,
+    "underway_first_acquisition_encounter_elapsed_s": 420.0,
+    "underway_report_age_peak_intervals": [
+      {
+        "encounter_interval_s": [
+          700.0,
+          705.0
+        ],
+        "navigation_interval_s": [
+          450.0,
+          455.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      },
+      {
+        "encounter_interval_s": [
+          760.0,
+          765.0
+        ],
+        "navigation_interval_s": [
+          510.0,
+          515.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      }
+    ],
+    "underway_both65s_age_peaks_verified": true,
+    "underway_modes_420_to_900_s": {
+      "predictive fallback": 49,
+      "route": 47
+    },
+    "regatta_frames_with_reported_search_wall_s": 0,
+    "maximum_recorded_regatta_search_wall_s": null,
+    "regatta_guidance_telemetry_frame_counts": {},
+    "regatta_timing_scope": "Reported last upstream forecast-search cost, possibly repeated by cached references. It is separate from AIS selection and is not an end-to-end control-decision or unique-call count.",
+    "underway_active_ais_or_colreg_steps_420_to_900_s": 49,
+    "physical_clearance_scope": "All4physical contacts throughout. Before acquisition the fourth receives a labeled hypothetical65s allowance; report-centered clearance uses only actually received contacts.",
+    "departure_gate_summary_sha256": "5dd0937f6e9577b77dfa262471221ca4282e52c294dea9e56fd5723af54d235e",
+    "departure_gate_log_sha256": "fa5b1ac8937aba8f4134f351c20d0eea5cee76b673ba8f322fef695f4c1c4e21",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  "route": {
+    "directory": "data/results/otranto_closest_layline_ablation/runs/crossing_fan__otranto_355__layline_off",
+    "planner": "gamma",
+    "controller": "acados-direct",
+    "wind_from_degrees": 355,
+    "status": "completed",
+    "steps": 13107,
+    "elapsed_s": 65535,
+    "captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 11035,
+        "distance_metres": 48.85007040576452,
+        "elapsed_s": 55175,
+        "from_monitoring_start_s": 55465.0,
+        "segment_s": 55175,
+        "segment_distance_m": 16564.695986427687,
+        "utc": "2026-10-01T15:14:25+00:00",
+        "latitude": 40.22797557580783,
+        "longitude": 18.75033396064717
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 11143,
+        "distance_metres": 48.59847269814438,
+        "elapsed_s": 55715,
+        "from_monitoring_start_s": 56005.0,
+        "segment_s": 540,
+        "segment_distance_m": 521.9856846040751,
+        "utc": "2026-10-01T15:23:25+00:00",
+        "latitude": 40.22668849584133,
+        "longitude": 18.756094940581335
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 11276,
+        "distance_metres": 48.23615272005638,
+        "elapsed_s": 56380,
+        "from_monitoring_start_s": 56670.0,
+        "segment_s": 665,
+        "segment_distance_m": 600.8668550719646,
+        "utc": "2026-10-01T15:34:30+00:00",
+        "latitude": 40.22359496557255,
+        "longitude": 18.752119848435342
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11772,
+        "distance_metres": 49.567092225531745,
+        "elapsed_s": 58860,
+        "from_monitoring_start_s": 59150.0,
+        "segment_s": 2480,
+        "segment_distance_m": 1343.9807755802392,
+        "utc": "2026-10-01T16:15:50+00:00",
+        "latitude": 40.226222058588085,
+        "longitude": 18.751708733324136
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11851,
+        "distance_metres": 47.14112238172534,
+        "elapsed_s": 59255,
+        "from_monitoring_start_s": 59545.0,
+        "segment_s": 395,
+        "segment_distance_m": 309.26891468635165,
+        "utc": "2026-10-01T16:22:25+00:00",
+        "latitude": 40.22373334798138,
+        "longitude": 18.75185059252084
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 12389,
+        "distance_metres": 48.79008306004734,
+        "elapsed_s": 61945,
+        "from_monitoring_start_s": 62235.0,
+        "segment_s": 2690,
+        "segment_distance_m": 1358.1674421007356,
+        "utc": "2026-10-01T17:07:15+00:00",
+        "latitude": 40.22628015898234,
+        "longitude": 18.756938702617475
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12992,
+        "distance_metres": 49.143735551179525,
+        "elapsed_s": 64960,
+        "from_monitoring_start_s": 65250.0,
+        "segment_s": 3015,
+        "segment_distance_m": 1296.1309411663676,
+        "utc": "2026-10-01T17:57:30+00:00",
+        "latitude": 40.22790076028586,
+        "longitude": 18.749881326979988
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 13107,
+        "distance_metres": 47.48758836321978,
+        "elapsed_s": 65535,
+        "from_monitoring_start_s": 65825.0,
+        "segment_s": 575,
+        "segment_distance_m": 397.08123535218436,
+        "utc": "2026-10-01T18:07:05+00:00",
+        "latitude": 40.22516467414419,
+        "longitude": 18.747182754686804
+      }
+    ],
+    "monitoring_start_utc": "2026-09-30T23:50:00Z",
+    "actual_departure_utc": "2026-09-30T23:54:50Z",
+    "gate_wait_seconds": 290.0,
+    "total_elapsed_s": 65825.0,
+    "gate_attempts": 59,
+    "maximum_gate_decision_s": 0.0006272500031627715,
+    "launch_gate_uncapped_margin_m": 39.523210534805344,
+    "launch_gate_preview_margin_m": 157.7805776025203,
+    "unfinished_leg": null,
+    "track_m": 22392.177834989605,
+    "forecast_updates": 6205,
+    "controller_outcomes": {
+      "AIS predictive fallback": 49,
+      "acados": 6213,
+      "drift trim": 6845
+    },
+    "maximum_gpx_position_difference_m": 6.97680759657681e-05,
+    "gpx_timestamp_count": 0,
+    "archive_checks_per_provider": 13108,
+    "maximum_archive_value_difference": 1.7053025658242404e-13,
+    "archive_scalar_crosschecks_per_provider": 227,
+    "maximum_archive_batch_scalar_difference": 1.7053025658242404e-13,
+    "archive_native_coastal_fallback_counts": {
+      "wind": 0,
+      "wave": 0,
+      "current": 0
+    },
+    "departure_environment": {
+      "wind": {
+        "u": 0.3014790217737319,
+        "v": -3.445920987059076,
+        "speed": 3.4590838454168527,
+        "direction": 355.0
+      },
+      "wave": {
+        "height": 0.6212843212156959,
+        "direction": 5.202373278257639,
+        "peak_period": 4.271330758432871
+      },
+      "current": {
+        "u": 0.19981131074962433,
+        "v": -0.2461697516108203,
+        "speed": 0.3170553682113203,
+        "direction": 140.93441792092221,
+        "depth": 0.0
+      }
+    },
+    "sha256": {
+      "navigation.jsonl.gz": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+      "track.gpx": "01ed1481c512a8d9c903c1840fbd7b0166567bf90ba54e53ca3cc64b090b4021",
+      "run.log": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+      "departure_gate.json": "5dd0937f6e9577b77dfa262471221ca4282e52c294dea9e56fd5723af54d235e",
+      "departure_gate.jsonl": "fa5b1ac8937aba8f4134f351c20d0eea5cee76b673ba8f322fef695f4c1c4e21"
+    }
+  },
+  "native_control_timing": {
+    "case": "crossing_fan__otranto_355__layline_off",
+    "attempts": 13107,
+    "applied_attempts": 13107,
+    "unapplied_terminal_attempts": 0,
+    "maximum_complete_native_control_decision_s": 2.462205832998734,
+    "attempts_at_or_above_5s": 0,
+    "all_complete_native_control_attempts_below_5s": true,
+    "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+    "overrun_or_unapplied_records": [],
+    "timing_csv_sha256": "9077c35e859f126682ac3dc30762220fb874637c60a0c7b5c8bfc9f92f4a6751",
+    "run_log_sha256": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+    "replay_sha256": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+    "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+  },
+  "layline_policy": {
+    "applied_reference_steps": 0,
+    "applied_reference_steps_by_leg_and_source": [],
+    "first_applied_reference": null,
+    "last_applied_reference": null,
+    "scope": "Replay references retained through AIS/controller admission. Repeated held references are included."
+  },
+  "audit_source_sha256": "36081ff6d53ca8c15b56cc780311a792903fc7fa97083c763ff3582d0865f49d",
+  "acceptance_checks": {
+    "normal_execution": true,
+    "complete_ordered_8captures_50m": true,
+    "truth_full_plus_3m_positive": true,
+    "report_full_plus_3m_positive": true,
+    "no_negative_clearance_intervals": true,
+    "underway_acquisition_at420s": true,
+    "both_underway65s_peaks_verified": true,
+    "all_gate_attempts_below5s": true,
+    "all_AIS_choose_attempts_below5s": true,
+    "all_AIS_accept_or_stop_attempts_below5s": true,
+    "all_full_native_control_decisions_below5s": true
+  },
+  "passed": true
+}

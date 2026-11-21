@@ -1,0 +1,14 @@
+{
+  "cases": 72,
+  "replay_samples": 216,
+  "selection": "First, middle and final frames of the classical forecast run in each route and wind cell",
+  "maximum_error_vs_native_xarray": {
+    "wind_speed_mps": 1.7763568394002505e-15,
+    "wind_from_deg": 0.0,
+    "current_u_mps": 1.1102230246251565e-16,
+    "current_v_mps": 8.326672684688674e-17,
+    "wave_height_m": 2.220446049250313e-16,
+    "wave_direction_deg": 1.1368683772161603e-13,
+    "wave_period_s": 1.7763568394002505e-15
+  }
+}

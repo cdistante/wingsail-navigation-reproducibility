@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "description": "Selected return-only gate-entry refinement for the archived October Otranto round trip.",
+  "selected_runs": {
+    "gamma": "gamma_upwind_commit",
+    "diffusion": "diffusion_upwind_commit"
+  },
+  "comparison_runs": {
+    "grid_mpc": "reference_grid",
+    "prior_best_gamma": "prior_best_gamma",
+    "prior_best_diffusion": "prior_best_diffusion",
+    "original_forecast": "original_forecast",
+    "fresh_prior_control": "gamma_prior_control"
+  },
+  "configuration": {
+    "forecast_tack_refinement": true,
+    "forecast_tracking_feedback": true,
+    "forecast_tack_step_seconds": 60,
+    "forecast_refinement_phase": "return",
+    "forecast_gate_aim_fraction": 0.5,
+    "forecast_maneuver_commit_seconds": 60,
+    "forecast_gate_aim_upwind_angle_deg": 60
+  },
+  "shared_conditions": {
+    "departure_utc": "2026-10-01T13:00:00Z",
+    "true_capture_radius_m": 50,
+    "control_interval_s": 5,
+    "time_cap_s": 23000,
+    "route": "current_route/otranto_short_test_loop.gpx",
+    "return_to_start": true,
+    "archived_wind_direction": "unmodified",
+    "ais": false,
+    "learned_guidance": false
+  },
+  "acceptance": {
+    "captures_in_order": 8,
+    "maximum_capture_distance_m": 50,
+    "preserve_outbound_states_and_observations": true,
+    "return_003_002_time_no_slower_than_grid": true,
+    "return_004_003_002_time_no_slower_than_grid": true,
+    "whole_loop_no_slower_than_prior_best": true,
+    "selected_gamma_diffusion_states_and_navigation_match": true
+  },
+  "selection_rationale": "The gate aim anticipates the following upwind leg, while a 60 s maneuver commitment prevents an immediate opposite-side replan during a turn. The 60 degree continuation guard avoids biasing gates before downwind legs. Selection considers both 003-to-002 and the combined 004-to-003-to-002 interval, so a later 003 capture cannot alone create an apparent gain.",
+  "retained_trials": [
+    "gamma_prior_control",
+    "gamma_gate_half",
+    "gamma_gate_commit",
+    "gamma_upwind_commit",
+    "diffusion_upwind_commit"
+  ],
+  "scope": "Exploratory engineering selection on the same archived departure; no independent generalization claim.",
+  "verification_status": "Verified all selected capture, outbound, paired-trajectory and timing criteria.",
+  "verification": {
+    "gamma": "gamma_upwind_commit",
+    "diffusion": "diffusion_upwind_commit",
+    "gamma_diffusion_parity": {
+      "paired_frames": 1817,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "outcomes": {
+      "gamma_upwind_commit": {
+        "return_003_002_s": 2125,
+        "return_004_003_002_s": 2990,
+        "whole_loop_s": 9080,
+        "minus_grid_s": {
+          "return_003_002_s": -60,
+          "return_004_003_002_s": -70,
+          "whole_loop_s": -440
+        },
+        "minus_prior_best_s": {
+          "return_003_002_s": -135,
+          "return_004_003_002_s": -95,
+          "whole_loop_s": -95
+        }
+      },
+      "diffusion_upwind_commit": {
+        "return_003_002_s": 2125,
+        "return_004_003_002_s": 2990,
+        "whole_loop_s": 9080,
+        "minus_grid_s": {
+          "return_003_002_s": -60,
+          "return_004_003_002_s": -70,
+          "whole_loop_s": -440
+        },
+        "minus_prior_best_s": {
+          "return_003_002_s": -135,
+          "return_004_003_002_s": -95,
+          "whole_loop_s": -95
+        }
+      }
+    }
+  },
+  "comparison_sha256": "d7ddd436578825b5f6ac95b2e585c2859bd53b5136d0a315f1ba1407a19bade3"
+}

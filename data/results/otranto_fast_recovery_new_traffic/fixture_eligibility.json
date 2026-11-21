@@ -1,0 +1,113 @@
+{
+  "departure_utc": "2026-09-30T23:50:00Z",
+  "encounter_lead_s": 40.0,
+  "report_interval_s": 5.0,
+  "report_delay_s": 20.0,
+  "drop_emission_windows_s": [
+    [
+      85.0,
+      125.0
+    ],
+    [
+      145.0,
+      185.0
+    ]
+  ],
+  "maximum_held_report_age_s": 65.0,
+  "preview_age_budget_s": 65.0,
+  "age_peaks_encounter_s": [
+    145.0,
+    205.0
+  ],
+  "age_peaks_mission_s": [
+    185.0,
+    245.0
+  ],
+  "age_derivation": "Last emissions80/140 are retained until receipts125+20/185+20; applied intervals140\u2013145/200\u2013205 reach ages60\u201365 immediately before the new observation resets to20.",
+  "acceleration_bound_mps2": 0.026,
+  "nominal_gap_m": 25.0,
+  "initial_uncertainty_m": 5.0,
+  "linear_growth_mps": 0.05,
+  "steering_reserve_m": 3.0,
+  "own_initial_bow_deg": 45.0,
+  "own_initial_speed_mps": 0.0,
+  "own_initial_flap_deg": -10.0,
+  "fixture_selection": "Both predefined fleets retained regardless of subsequent controller outcome; no outcome-based tuning or exclusion.",
+  "eligibility_definition": "Strictly positive initial truth/report full uncertainty plus reserve, acceleration vectors below.026, and at least one received-report CV full-envelope threat over360s to a passive-current CV ownship from zero water speed. This is input eligibility, not control feasibility.",
+  "passive_initial_ground_velocity_mps": [
+    0.20146597130618213,
+    -0.24832010611034305
+  ],
+  "initial_current_source_replay_sha256": "8449cb3f577dbf6a49967cc67b28908ec4fbb65d3a9c60f1f7922f7e18e39315",
+  "initial_current_scope": "Only first observation current u/v read; no controls or trajectories used.",
+  "route_sha256": "7f10e7441acfa91bed78808ad8da456c062aa960ec1303e81161c434d6397415",
+  "source_sha256": "e631406d6c9f73018786a82532c3b7d5e62ec0d712feec7e170ce2e50a9dfca4",
+  "cases": {
+    "crossing_fan": {
+      "fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+      "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+      "checks": [
+        {
+          "mmsi": 998100201,
+          "initial_truth_full_reserve_m": 490.4433499958496,
+          "initial_report_full_reserve_m": 490.4433499958497,
+          "passive_current_cv_preview_margin_m": -92.83726804643632,
+          "passive_cv_minimum_time_s": 144.55,
+          "target_acceleration_mps2": 0.01969123779225709
+        },
+        {
+          "mmsi": 998100202,
+          "initial_truth_full_reserve_m": 488.2007021412787,
+          "initial_report_full_reserve_m": 488.2007021412787,
+          "passive_current_cv_preview_margin_m": -28.571232856107017,
+          "passive_cv_minimum_time_s": 189.20000000000002,
+          "target_acceleration_mps2": 0.018284824228857056
+        },
+        {
+          "mmsi": 998100203,
+          "initial_truth_full_reserve_m": 580.609263419978,
+          "initial_report_full_reserve_m": 580.609263419978,
+          "passive_current_cv_preview_margin_m": -24.84987054646446,
+          "passive_cv_minimum_time_s": 202.25,
+          "target_acceleration_mps2": 0.020373244538038276
+        }
+      ],
+      "initial_full_envelopes_strictly_clear": true,
+      "passive_current_cv_threat_present": true,
+      "all_accelerations_below_bound": true
+    },
+    "opposed_crossing": {
+      "fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+      "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+      "checks": [
+        {
+          "mmsi": 998100301,
+          "initial_truth_full_reserve_m": 410.75660284289376,
+          "initial_report_full_reserve_m": 410.75660284289376,
+          "passive_current_cv_preview_margin_m": -98.59347311319698,
+          "passive_cv_minimum_time_s": 129.45000000000002,
+          "target_acceleration_mps2": 0.02266987987878302
+        },
+        {
+          "mmsi": 998100302,
+          "initial_truth_full_reserve_m": 466.61584931621417,
+          "initial_report_full_reserve_m": 466.61584931621417,
+          "passive_current_cv_preview_margin_m": -19.004785549699164,
+          "passive_cv_minimum_time_s": 194.85000000000002,
+          "target_acceleration_mps2": 0.01751292446100249
+        },
+        {
+          "mmsi": 998100303,
+          "initial_truth_full_reserve_m": 589.5066884605678,
+          "initial_report_full_reserve_m": 589.5066884605678,
+          "passive_current_cv_preview_margin_m": -94.35748394666284,
+          "passive_cv_minimum_time_s": 199.70000000000002,
+          "target_acceleration_mps2": 0.018128174958405414
+        }
+      ],
+      "initial_full_envelopes_strictly_clear": true,
+      "passive_current_cv_threat_present": true,
+      "all_accelerations_below_bound": true
+    }
+  }
+}

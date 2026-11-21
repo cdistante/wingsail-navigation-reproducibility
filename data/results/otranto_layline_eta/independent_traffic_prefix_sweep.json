@@ -1,0 +1,412 @@
+[
+  {
+    "case": "crossing_fan__otranto_005__layline_eta",
+    "encounter_id": "crossing_fan",
+    "scope": "live-prefix-only",
+    "AIS_choose_attempts": 120,
+    "AIS_choose_applied_attempts": 120,
+    "AIS_choose_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_choose_s": 2.287969915982103,
+    "AIS_choose_attempts_at_or_above_5s": 0,
+    "all_AIS_choose_attempts_below_5s": true,
+    "AIS_choose_timing_measurement_log": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_005__layline_eta/decision_timing_600s.jsonl",
+    "AIS_choose_timing_measurement_log_sha256": "e329d6a4c71675b86a723067501c27808843c4e3cb3773346aefafcf9922c8a7",
+    "AIS_choose_attempt_timing_csv": "data/results/otranto_layline_eta/independent_decision_timing_checkpoint/crossing_fan__otranto_005__layline_eta.csv",
+    "AIS_choose_attempt_timing_csv_sha256": "23150d75e5df413c4af03f50f07c26717a1394bed308f3b426fd0835f2bf002d",
+    "AIS_choose_overrun_or_unapplied_timing_records": [],
+    "AIS_applied_decision_attempts": 120,
+    "AIS_applied_decision_applied_attempts": 120,
+    "AIS_applied_decision_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_applied_decision_s": 2.291643832984846,
+    "AIS_applied_decision_attempts_at_or_above_5s": 0,
+    "all_AIS_applied_decision_attempts_below_5s": true,
+    "AIS_applied_decision_timing_measurement_log": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_005__layline_eta/decision_timing_600s.jsonl",
+    "AIS_applied_decision_timing_measurement_log_sha256": "e329d6a4c71675b86a723067501c27808843c4e3cb3773346aefafcf9922c8a7",
+    "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_layline_eta/independent_applied_decision_timing_checkpoint/crossing_fan__otranto_005__layline_eta.csv",
+    "AIS_applied_decision_attempt_timing_csv_sha256": "201068362bc726de3cbad4390059bd8b83f1b100f2277870c8b2e8c4be6e63ee",
+    "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+    "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+    "requested_checkpoint_seconds": 600,
+    "closed_before_or_at_checkpoint": false,
+    "wind_from_degrees": 5.0,
+    "departure_utc": "2026-09-30T23:54:50Z",
+    "monitoring_start_utc": "2026-09-30T23:50:00Z",
+    "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+    "gate_wait_seconds": 290.0,
+    "applied_actions": 120,
+    "frames": 121,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.5859060913966497,
+    "maximum_first300s_launch_tube_excess_m": -30.0,
+    "observed_launch_displacement_tube_obeyed_first300s": true,
+    "launch_tube_coverage_seconds": 300.0,
+    "maximum_first300s_native_ground_speed_mps": 0.598810133249682,
+    "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+    "astern_action_count": 66,
+    "astern_control_boundary_count": 64,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 119,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+    "maximum_truth_outside_report_envelope_m": -7.33197000020148,
+    "distinct_report_ages_s": [
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0
+    ],
+    "maximum_applied_held_report_age_s": 65.0,
+    "longest_fault_peak_experienced": true,
+    "truth_minimum_hull_m": 200.2513739337477,
+    "truth_minimum_nominal_m": 175.2513739337477,
+    "truth_centered_minimum_uncertainty_m": 135.37420439499337,
+    "configured_truth_centered_minimum_m": 132.37420439499337,
+    "model_minimum_uncertainty_m": 135.37442908108125,
+    "configured_model_minimum_m": 132.37442908108125,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 200.2513739337477,
+        "mmsi": 998100204,
+        "elapsed_s": 572.4873875574748,
+        "action_step": 115,
+        "scenario_seconds": 822.4873875574748,
+        "ais_mode": "route"
+      },
+      "true_nominal_25m": {
+        "margin_m": 175.2513739337477,
+        "mmsi": 998100204,
+        "elapsed_s": 572.4873875574748,
+        "action_step": 115,
+        "scenario_seconds": 822.4873875574748,
+        "ais_mode": "route"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 135.37420439499337,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 135.37442908108125,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "truth_with_reserve": {
+        "margin_m": 132.37420439499337,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_with_reserve": {
+        "margin_m": 132.37442908108125,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "route": 65,
+      "predictive fallback": 55
+    },
+    "verified_constant_velocity_truth_extended_after_s": 600.0,
+    "mission_status": "live-prefix-only",
+    "strict_clearance_stop": false,
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "5f270d4ee7c96b94c133a85de907fefa1c4f531ab86b487d7ed6e801e0bc933f",
+    "replay_measurement_path": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_005__layline_eta/navigation_600s.jsonl.gz",
+    "run_log_measurement_path": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_005__layline_eta/decision_timing_600s.jsonl",
+    "source_live_recording_path": "data/results/otranto_layline_eta/runs/crossing_fan__otranto_005__layline_eta/navigation.jsonl.gz",
+    "checkpoint_inputs_frozen": true,
+    "run_log_sha256": "e329d6a4c71675b86a723067501c27808843c4e3cb3773346aefafcf9922c8a7",
+    "history_sha256": "f7a5d7277cf4da5f6ac861cb1c5abf0fb6ae5d5770efc0b00a0671dafc232eea",
+    "audit_source_sha256": "2b4c281813ac4ed3f0852a92844cbf8b9cef4b10b26397d497f827775ee07d77",
+    "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+    "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+    "underway_truth_fixture_sha256": "46d8b151fc85e1b9572aea08c305e8bd87b0f9f927cc5943bccdc448c5203291",
+    "underway_truth_trace_sha256": "9d30d28602d6ad05d67766b5ddafa363987b634b38ca331c8a0fa31481afeff5",
+    "underway_target_mmsi": 998100204,
+    "underway_first_emission_s": 400.0,
+    "underway_first_delivery_s": 420.0,
+    "underway_first_acquisition_encounter_elapsed_s": 420.0,
+    "underway_report_age_peak_intervals": [
+      {
+        "encounter_interval_s": [
+          700.0,
+          705.0
+        ],
+        "navigation_interval_s": [
+          450.0,
+          455.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      },
+      {
+        "encounter_interval_s": [
+          760.0,
+          765.0
+        ],
+        "navigation_interval_s": [
+          510.0,
+          515.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      }
+    ],
+    "underway_both65s_age_peaks_verified": true,
+    "underway_modes_420_to_900_s": {
+      "predictive fallback": 55,
+      "route": 31
+    },
+    "regatta_frames_with_reported_search_wall_s": 0,
+    "maximum_recorded_regatta_search_wall_s": null,
+    "regatta_guidance_telemetry_frame_counts": {},
+    "regatta_timing_scope": "Reported last upstream forecast-search cost, possibly repeated by cached references. It is separate from AIS selection and is not an end-to-end control-decision or unique-call count.",
+    "underway_active_ais_or_colreg_steps_420_to_900_s": 55,
+    "physical_clearance_scope": "All4physical contacts throughout. Before acquisition the fourth receives a labeled hypothetical65s allowance; report-centered clearance uses only actually received contacts.",
+    "departure_gate_summary_sha256": "6fbc576c86e510059cfbd4de5673943c55260f252d7ecc15e369fd2ff4c49082",
+    "departure_gate_log_sha256": "bcd0abcdd760d87a483d10790371c49b3ca378e320eba8d6d0916b3ffb7604f0",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    },
+    "first_600s_state_and_observation_equal_off": true
+  },
+  {
+    "case": "crossing_fan__otranto_355__layline_eta",
+    "encounter_id": "crossing_fan",
+    "scope": "live-prefix-only",
+    "AIS_choose_attempts": 120,
+    "AIS_choose_applied_attempts": 120,
+    "AIS_choose_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_choose_s": 2.245294082997134,
+    "AIS_choose_attempts_at_or_above_5s": 0,
+    "all_AIS_choose_attempts_below_5s": true,
+    "AIS_choose_timing_measurement_log": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_355__layline_eta/decision_timing_600s.jsonl",
+    "AIS_choose_timing_measurement_log_sha256": "93b10441c364a180a8cf68a2c5f038d584aa67788b29800ebf6f9ce1467ddd0e",
+    "AIS_choose_attempt_timing_csv": "data/results/otranto_layline_eta/independent_decision_timing_checkpoint/crossing_fan__otranto_355__layline_eta.csv",
+    "AIS_choose_attempt_timing_csv_sha256": "a358da4132ed6a6f80fe0f7e4e5fa27ed17ebfc5938193679c0170f53918f804",
+    "AIS_choose_overrun_or_unapplied_timing_records": [],
+    "AIS_applied_decision_attempts": 120,
+    "AIS_applied_decision_applied_attempts": 120,
+    "AIS_applied_decision_unapplied_final_attempts": 0,
+    "maximum_complete_AIS_applied_decision_s": 2.248904500011122,
+    "AIS_applied_decision_attempts_at_or_above_5s": 0,
+    "all_AIS_applied_decision_attempts_below_5s": true,
+    "AIS_applied_decision_timing_measurement_log": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_355__layline_eta/decision_timing_600s.jsonl",
+    "AIS_applied_decision_timing_measurement_log_sha256": "93b10441c364a180a8cf68a2c5f038d584aa67788b29800ebf6f9ce1467ddd0e",
+    "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_layline_eta/independent_applied_decision_timing_checkpoint/crossing_fan__otranto_355__layline_eta.csv",
+    "AIS_applied_decision_attempt_timing_csv_sha256": "fc1fe70a269f3cab712ab40515e55b9fb8c389ea848e3639d815dbccd1440781",
+    "AIS_applied_decision_overrun_or_unapplied_timing_records": [],
+    "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+    "requested_checkpoint_seconds": 600,
+    "closed_before_or_at_checkpoint": false,
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:54:50Z",
+    "monitoring_start_utc": "2026-09-30T23:50:00Z",
+    "traffic_epoch_utc": "2026-09-30T23:50:40Z",
+    "gate_wait_seconds": 290.0,
+    "applied_actions": 120,
+    "frames": 121,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.5912509049760901,
+    "maximum_first300s_launch_tube_excess_m": -30.0,
+    "observed_launch_displacement_tube_obeyed_first300s": true,
+    "launch_tube_coverage_seconds": 300.0,
+    "maximum_first300s_native_ground_speed_mps": 0.6688696570758098,
+    "launch_tube_check_scope": "Observed native first300s displacement relative to launch origin satisfies the assumed30m+2m/s*t disk; this empirical check is not a general speed-bound proof.",
+    "astern_action_count": 62,
+    "astern_control_boundary_count": 60,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 119,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+    "maximum_truth_outside_report_envelope_m": -7.331969977272969,
+    "distinct_report_ages_s": [
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0
+    ],
+    "maximum_applied_held_report_age_s": 65.0,
+    "longest_fault_peak_experienced": true,
+    "truth_minimum_hull_m": 169.79251638188668,
+    "truth_minimum_nominal_m": 144.79251638188668,
+    "truth_centered_minimum_uncertainty_m": 102.16212962489357,
+    "configured_truth_centered_minimum_m": 99.16212962489357,
+    "model_minimum_uncertainty_m": 102.16234996577083,
+    "configured_model_minimum_m": 99.16234996577083,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 169.79251638188668,
+        "mmsi": 998100204,
+        "elapsed_s": 563.8139662298397,
+        "action_step": 113,
+        "scenario_seconds": 813.8139662298397,
+        "ais_mode": "route"
+      },
+      "true_nominal_25m": {
+        "margin_m": 144.79251638188668,
+        "mmsi": 998100204,
+        "elapsed_s": 563.8139662298397,
+        "action_step": 113,
+        "scenario_seconds": 813.8139662298397,
+        "ais_mode": "route"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 102.16212962489357,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 102.16234996577083,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "truth_with_reserve": {
+        "margin_m": 99.16212962489357,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      },
+      "projected_with_reserve": {
+        "margin_m": 99.16234996577083,
+        "mmsi": 998100204,
+        "elapsed_s": 515.0,
+        "action_step": 103,
+        "scenario_seconds": 765.0,
+        "ais_mode": "route"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "route": 71,
+      "predictive fallback": 49
+    },
+    "verified_constant_velocity_truth_extended_after_s": 600.0,
+    "mission_status": "live-prefix-only",
+    "strict_clearance_stop": false,
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "76f6e9d1bdfcc69bbfe94154327328082681d4f831ceffe422b1f06057277dcb",
+    "replay_measurement_path": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_355__layline_eta/navigation_600s.jsonl.gz",
+    "run_log_measurement_path": "data/results/otranto_layline_eta/independent_checkpoint_inputs/crossing_fan__otranto_355__layline_eta/decision_timing_600s.jsonl",
+    "source_live_recording_path": "data/results/otranto_layline_eta/runs/crossing_fan__otranto_355__layline_eta/navigation.jsonl.gz",
+    "checkpoint_inputs_frozen": true,
+    "run_log_sha256": "93b10441c364a180a8cf68a2c5f038d584aa67788b29800ebf6f9ce1467ddd0e",
+    "history_sha256": "b87e74187de70c5a815929b2dbaaa68c2dc758ae84832bf96e963b2e8f5f3c9a",
+    "audit_source_sha256": "2b4c281813ac4ed3f0852a92844cbf8b9cef4b10b26397d497f827775ee07d77",
+    "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+    "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+    "underway_truth_fixture_sha256": "46d8b151fc85e1b9572aea08c305e8bd87b0f9f927cc5943bccdc448c5203291",
+    "underway_truth_trace_sha256": "9d30d28602d6ad05d67766b5ddafa363987b634b38ca331c8a0fa31481afeff5",
+    "underway_target_mmsi": 998100204,
+    "underway_first_emission_s": 400.0,
+    "underway_first_delivery_s": 420.0,
+    "underway_first_acquisition_encounter_elapsed_s": 420.0,
+    "underway_report_age_peak_intervals": [
+      {
+        "encounter_interval_s": [
+          700.0,
+          705.0
+        ],
+        "navigation_interval_s": [
+          450.0,
+          455.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      },
+      {
+        "encounter_interval_s": [
+          760.0,
+          765.0
+        ],
+        "navigation_interval_s": [
+          510.0,
+          515.0
+        ],
+        "maximum_actual_held_age_s": 65.0,
+        "all4_contacts_visible": true
+      }
+    ],
+    "underway_both65s_age_peaks_verified": true,
+    "underway_modes_420_to_900_s": {
+      "predictive fallback": 49,
+      "route": 37
+    },
+    "regatta_frames_with_reported_search_wall_s": 0,
+    "maximum_recorded_regatta_search_wall_s": null,
+    "regatta_guidance_telemetry_frame_counts": {},
+    "regatta_timing_scope": "Reported last upstream forecast-search cost, possibly repeated by cached references. It is separate from AIS selection and is not an end-to-end control-decision or unique-call count.",
+    "underway_active_ais_or_colreg_steps_420_to_900_s": 49,
+    "physical_clearance_scope": "All4physical contacts throughout. Before acquisition the fourth receives a labeled hypothetical65s allowance; report-centered clearance uses only actually received contacts.",
+    "departure_gate_summary_sha256": "07d94ea8e5d94b21471353c3dcdc49f54d33bdb6b63389d4b692a79f0c434c54",
+    "departure_gate_log_sha256": "614ab627da2519925c1b8cf3667f28ee21b6ecd8b68aedbe5a2b0d3fad888b9e",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    },
+    "first_600s_state_and_observation_equal_off": true
+  }
+]

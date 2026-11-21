@@ -1,0 +1,428 @@
+[
+  {
+    "case": "otranto_005__classical",
+    "scope": "live-prefix-only",
+    "wind_from_degrees": 5.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 60,
+    "frames": 61,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 8.526512829121202e-14,
+    "maximum_truth_outside_report_envelope_m": -5.991719979291481,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 1.7439406563999142,
+    "truth_minimum_nominal_m": -23.25605934360008,
+    "truth_centered_minimum_uncertainty_m": -39.24286216978725,
+    "configured_truth_centered_minimum_m": -42.24286216978725,
+    "model_minimum_uncertainty_m": -39.24291656496126,
+    "configured_model_minimum_m": -42.24291656496126,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 1.7439406563999142,
+        "mmsi": 999000102,
+        "elapsed_s": 147.1805320134148,
+        "action_step": 30,
+        "scenario_seconds": 107.18053201341478,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "true_nominal_25m": {
+        "margin_m": -23.25605934360008,
+        "mmsi": 999000102,
+        "elapsed_s": 147.1805320134148,
+        "action_step": 30,
+        "scenario_seconds": 107.18053201341478,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -39.24286216978725,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16725655303384,
+        "action_step": 31,
+        "scenario_seconds": 111.16725655303382,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -39.24291656496126,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16743326306877,
+        "action_step": 31,
+        "scenario_seconds": 111.16743326306879,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_with_reserve": {
+        "margin_m": -42.24286216978725,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16725655303384,
+        "action_step": 31,
+        "scenario_seconds": 111.16725655303382,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_with_reserve": {
+        "margin_m": -42.24291656496126,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16743326306877,
+        "action_step": 31,
+        "scenario_seconds": 111.16743326306879,
+        "ais_mode": "fallback minimum-risk"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 7,
+      "truth_full_uncertainty": 9,
+      "projected_full_uncertainty": 9,
+      "truth_with_reserve": 9,
+      "projected_with_reserve": 9
+    },
+    "ais_modes": {
+      "fallback minimum-risk": 33,
+      "buffer maneuver": 27
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "live-prefix-only",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "3a5fd62330f4a80a90d82f6ecb5120d996ae58afbf668e61eface91dd547b101",
+    "history_sha256": "7542abca80cedcee9b8ff9ca25f0522cdff13fc9119c589ae7ef76f4d38e3761",
+    "audit_source_sha256": "9850a0991f84e16fe99a1f6fbddc2f7a27b0202d6a4afad12274f0b953897a5e",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_005__transformer",
+    "scope": "live-prefix-only",
+    "wind_from_degrees": 5.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 60,
+    "frames": 61,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 8.526512829121202e-14,
+    "maximum_truth_outside_report_envelope_m": -5.991719979291481,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 1.7439406563999142,
+    "truth_minimum_nominal_m": -23.25605934360008,
+    "truth_centered_minimum_uncertainty_m": -39.24286216978725,
+    "configured_truth_centered_minimum_m": -42.24286216978725,
+    "model_minimum_uncertainty_m": -39.24291656496126,
+    "configured_model_minimum_m": -42.24291656496126,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 1.7439406563999142,
+        "mmsi": 999000102,
+        "elapsed_s": 147.1805320134148,
+        "action_step": 30,
+        "scenario_seconds": 107.18053201341478,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "true_nominal_25m": {
+        "margin_m": -23.25605934360008,
+        "mmsi": 999000102,
+        "elapsed_s": 147.1805320134148,
+        "action_step": 30,
+        "scenario_seconds": 107.18053201341478,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -39.24286216978725,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16725655303384,
+        "action_step": 31,
+        "scenario_seconds": 111.16725655303382,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -39.24291656496126,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16743326306877,
+        "action_step": 31,
+        "scenario_seconds": 111.16743326306879,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_with_reserve": {
+        "margin_m": -42.24286216978725,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16725655303384,
+        "action_step": 31,
+        "scenario_seconds": 111.16725655303382,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_with_reserve": {
+        "margin_m": -42.24291656496126,
+        "mmsi": 999000102,
+        "elapsed_s": 151.16743326306877,
+        "action_step": 31,
+        "scenario_seconds": 111.16743326306879,
+        "ais_mode": "fallback minimum-risk"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 7,
+      "truth_full_uncertainty": 9,
+      "projected_full_uncertainty": 9,
+      "truth_with_reserve": 9,
+      "projected_with_reserve": 9
+    },
+    "ais_modes": {
+      "fallback minimum-risk": 33,
+      "buffer maneuver": 27
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "live-prefix-only",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "33c57e7f2260e756b3ab714e60fe5cc2e527eb810a06d3f86fa5506bd6f88f30",
+    "history_sha256": "7542abca80cedcee9b8ff9ca25f0522cdff13fc9119c589ae7ef76f4d38e3761",
+    "audit_source_sha256": "9850a0991f84e16fe99a1f6fbddc2f7a27b0202d6a4afad12274f0b953897a5e",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_355__classical",
+    "scope": "live-prefix-only",
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 60,
+    "frames": 61,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+    "maximum_truth_outside_report_envelope_m": -5.991719842374304,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 10.195118005345584,
+    "truth_minimum_nominal_m": -14.804881994654409,
+    "truth_centered_minimum_uncertainty_m": -32.271050162432864,
+    "configured_truth_centered_minimum_m": -35.271050162432864,
+    "model_minimum_uncertainty_m": -32.27113794800891,
+    "configured_model_minimum_m": -35.27113794800891,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 10.195118005345584,
+        "mmsi": 999000102,
+        "elapsed_s": 148.5983532680528,
+        "action_step": 30,
+        "scenario_seconds": 108.59835326805278,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "true_nominal_25m": {
+        "margin_m": -14.804881994654409,
+        "mmsi": 999000102,
+        "elapsed_s": 148.5983532680528,
+        "action_step": 30,
+        "scenario_seconds": 108.59835326805278,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -32.271050162432864,
+        "mmsi": 999000102,
+        "elapsed_s": 153.6779786133811,
+        "action_step": 31,
+        "scenario_seconds": 113.6779786133811,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -32.27113794800891,
+        "mmsi": 999000102,
+        "elapsed_s": 153.67820611190788,
+        "action_step": 31,
+        "scenario_seconds": 113.67820611190788,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_with_reserve": {
+        "margin_m": -35.271050162432864,
+        "mmsi": 999000102,
+        "elapsed_s": 153.6779786133811,
+        "action_step": 31,
+        "scenario_seconds": 113.6779786133811,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_with_reserve": {
+        "margin_m": -35.27113794800891,
+        "mmsi": 999000102,
+        "elapsed_s": 153.67820611190788,
+        "action_step": 31,
+        "scenario_seconds": 113.67820611190788,
+        "ais_mode": "fallback minimum-risk"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 7,
+      "truth_full_uncertainty": 8,
+      "projected_full_uncertainty": 8,
+      "truth_with_reserve": 9,
+      "projected_with_reserve": 9
+    },
+    "ais_modes": {
+      "avoidance course": 1,
+      "fallback minimum-risk": 32,
+      "buffer maneuver": 27
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "live-prefix-only",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "a8ccfacda8afa815156e0600934e25fad55442f4772d7fa038445133a0d492ab",
+    "history_sha256": "c792db250bda858c41eec0b83d339ff262f4b8e36be061e9895816e65932a689",
+    "audit_source_sha256": "9850a0991f84e16fe99a1f6fbddc2f7a27b0202d6a4afad12274f0b953897a5e",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_355__transformer",
+    "scope": "live-prefix-only",
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 60,
+    "frames": 61,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+    "maximum_truth_outside_report_envelope_m": -5.991719842374304,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 10.195118005345584,
+    "truth_minimum_nominal_m": -14.804881994654409,
+    "truth_centered_minimum_uncertainty_m": -32.271050162432864,
+    "configured_truth_centered_minimum_m": -35.271050162432864,
+    "model_minimum_uncertainty_m": -32.27113794800891,
+    "configured_model_minimum_m": -35.27113794800891,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 10.195118005345584,
+        "mmsi": 999000102,
+        "elapsed_s": 148.5983532680528,
+        "action_step": 30,
+        "scenario_seconds": 108.59835326805278,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "true_nominal_25m": {
+        "margin_m": -14.804881994654409,
+        "mmsi": 999000102,
+        "elapsed_s": 148.5983532680528,
+        "action_step": 30,
+        "scenario_seconds": 108.59835326805278,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -32.271050162432864,
+        "mmsi": 999000102,
+        "elapsed_s": 153.6779786133811,
+        "action_step": 31,
+        "scenario_seconds": 113.6779786133811,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -32.27113794800891,
+        "mmsi": 999000102,
+        "elapsed_s": 153.67820611190788,
+        "action_step": 31,
+        "scenario_seconds": 113.67820611190788,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "truth_with_reserve": {
+        "margin_m": -35.271050162432864,
+        "mmsi": 999000102,
+        "elapsed_s": 153.6779786133811,
+        "action_step": 31,
+        "scenario_seconds": 113.6779786133811,
+        "ais_mode": "fallback minimum-risk"
+      },
+      "projected_with_reserve": {
+        "margin_m": -35.27113794800891,
+        "mmsi": 999000102,
+        "elapsed_s": 153.67820611190788,
+        "action_step": 31,
+        "scenario_seconds": 113.67820611190788,
+        "ais_mode": "fallback minimum-risk"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 7,
+      "truth_full_uncertainty": 8,
+      "projected_full_uncertainty": 8,
+      "truth_with_reserve": 9,
+      "projected_with_reserve": 9
+    },
+    "ais_modes": {
+      "avoidance course": 1,
+      "fallback minimum-risk": 32,
+      "buffer maneuver": 27
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "live-prefix-only",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": null,
+    "replay_sha256": "601da7fd7f365c570af1b973ede2d61c9edf0208e37410107355b1756cbeaecc",
+    "history_sha256": "c792db250bda858c41eec0b83d339ff262f4b8e36be061e9895816e65932a689",
+    "audit_source_sha256": "9850a0991f84e16fe99a1f6fbddc2f7a27b0202d6a4afad12274f0b953897a5e",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  }
+]

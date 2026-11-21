@@ -1,0 +1,1448 @@
+{
+  "cases": [
+    {
+      "case": "crossing_fan__otranto_005__classical",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 135.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -17.271428334600607
+        },
+        "truth_full_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -14.271428334600607
+        },
+        "projected_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -17.46367150854352
+        },
+        "true_nominal_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -1.146428334600607
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -35.046281323660345,
+          "truth_full_m": -32.046281323660345,
+          "projected_with_reserve_m": -35.91846743925162,
+          "true_nominal_m": -18.921281323660345,
+          "true_hull_m": 6.078718676339655
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "bcaf503ab12456ca62737144f44932794b1b6c2eec628c2091a7d3e2e7dacdd2",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "2951aea16e73cccad7d8d6d5a1376a708b961715a0b72c4604f998a349c15bba"
+    },
+    {
+      "case": "crossing_fan__otranto_005__transformer",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 135.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -17.271428334600607
+        },
+        "truth_full_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -14.271428334600607
+        },
+        "projected_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -17.46367150854352
+        },
+        "true_nominal_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -1.146428334600607
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -35.046281323660345,
+          "truth_full_m": -32.046281323660345,
+          "projected_with_reserve_m": -35.91846743925162,
+          "true_nominal_m": -18.921281323660345,
+          "true_hull_m": 6.078718676339655
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "bcaf503ab12456ca62737144f44932794b1b6c2eec628c2091a7d3e2e7dacdd2",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "f293f59168cd913d66529e1325aa76fc3e08dfb09d2401ae53c1689c8249fb9d"
+    },
+    {
+      "case": "crossing_fan__otranto_355__classical",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 135.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -15.563332790640025
+        },
+        "truth_full_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -12.563332790640025
+        },
+        "projected_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -15.776746494310956
+        },
+        "true_nominal_m": {
+          "action_step": 27,
+          "mission_interval_s": [
+            130.0,
+            135.0
+          ],
+          "encounter_interval_s": [
+            90.0,
+            95.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -14.012210997923738
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -30.137210997923738,
+          "truth_full_m": -27.137210997923738,
+          "projected_with_reserve_m": -31.085871899428888,
+          "true_nominal_m": -14.012210997923738,
+          "true_hull_m": 10.987789002076262
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "06adca25c486e5996d80170b33f2a0cda965c9ae0729ff6e200c58e4a224f938",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "9341e7fd1165917ecb30e8fa3fbb0d577848b91629c638eb3fefd67d99b553cc"
+    },
+    {
+      "case": "crossing_fan__otranto_355__transformer",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 135.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100201,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100202,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100203,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 10.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -15.563332790640025
+        },
+        "truth_full_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -12.563332790640025
+        },
+        "projected_with_reserve_m": {
+          "action_step": 26,
+          "mission_interval_s": [
+            125.0,
+            130.0
+          ],
+          "encounter_interval_s": [
+            85.0,
+            90.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -15.776746494310956
+        },
+        "true_nominal_m": {
+          "action_step": 27,
+          "mission_interval_s": [
+            130.0,
+            135.0
+          ],
+          "encounter_interval_s": [
+            90.0,
+            95.0
+          ],
+          "contacts": [
+            998100201
+          ],
+          "minimum_in_interval_m": -14.012210997923738
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -30.137210997923738,
+          "truth_full_m": -27.137210997923738,
+          "projected_with_reserve_m": -31.085871899428888,
+          "true_nominal_m": -14.012210997923738,
+          "true_hull_m": 10.987789002076262
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "06adca25c486e5996d80170b33f2a0cda965c9ae0729ff6e200c58e4a224f938",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "ab533b413271cad0d938ca761070ed098b8355648b6693ae440ba60e0f9249ff"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__classical",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 120.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -6.764056636278852
+        },
+        "truth_full_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -3.764056636278852
+        },
+        "projected_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -6.764041023107779
+        },
+        "true_nominal_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -7.86561413654524
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -39.51321686661601,
+          "truth_full_m": -36.51321686661601,
+          "projected_with_reserve_m": -39.51326806396757,
+          "true_nominal_m": -23.388216866616013,
+          "true_hull_m": 1.6117831333839874
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "737f14899a62bc2223ac7903d149a9f11c1e153104fac09beacddf979681b55d",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "5ab89a688f43058d052473d66b696e34e72c8d7c12a81831b2467fd386bde565"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__transformer",
+      "status": "predicted_hull_contact",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 120.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": false,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        0.0,
+        0.0
+      ],
+      "any_drop_delivery_effect_experienced": false,
+      "maximum_applied_held_report_age_s": 25.0,
+      "full65s_age_peak_experienced": false,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": false
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 0.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": false
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -6.764056636278852
+        },
+        "truth_full_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -3.764056636278852
+        },
+        "projected_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -6.764041023107779
+        },
+        "true_nominal_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -7.86561413654524
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -39.51321686661601,
+          "truth_full_m": -36.51321686661601,
+          "projected_with_reserve_m": -39.51326806396757,
+          "true_nominal_m": -23.388216866616013,
+          "true_hull_m": 1.6117831333839874
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": null,
+          "truth_full_m": null,
+          "projected_with_reserve_m": null,
+          "true_nominal_m": null,
+          "true_hull_m": null
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "737f14899a62bc2223ac7903d149a9f11c1e153104fac09beacddf979681b55d",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "550086948e384bc06cdc036c09c39ac95b5e9ccf8f7f311a7b50eee160f1a142"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__classical",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 63200.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": true,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "any_drop_delivery_effect_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "full65s_age_peak_experienced": true,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -2.5945257515256657
+        },
+        "truth_full_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -14.833192801809275
+        },
+        "projected_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -2.5945332175688236
+        },
+        "true_nominal_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -1.7081928018092754
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -34.839826811318694,
+          "truth_full_m": -31.839826811318694,
+          "projected_with_reserve_m": -34.83996785598546,
+          "true_nominal_m": -18.72952876381266,
+          "true_hull_m": 6.2704712361873405
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": -63.08943265472541,
+          "truth_full_m": -60.08943265472541,
+          "projected_with_reserve_m": -63.08863449791774,
+          "true_nominal_m": -0.16443265472540247,
+          "true_hull_m": 24.835567345274598
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": -28.814758596529565,
+          "truth_full_m": -25.814758596529565,
+          "projected_with_reserve_m": -29.569702558792617,
+          "true_nominal_m": -12.700292465777764,
+          "true_hull_m": 12.299707534222234
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": -16.32648061266614,
+          "truth_full_m": -13.326480612666138,
+          "projected_with_reserve_m": -16.947880357398596,
+          "true_nominal_m": -0.20148061266613837,
+          "true_hull_m": 24.79851938733386
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 35.93310843000798,
+          "truth_full_m": 38.93310843000798,
+          "projected_with_reserve_m": 35.932701321293365,
+          "true_nominal_m": 49.13310843000798,
+          "true_hull_m": 74.13310843000798
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "d6dda8a2914ac8f6502623694b06fd5274c325dade69cbec026f88d52a2f0199",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "86077bac7cce2eff968e91ccd8ae73ec20ebb20dd0948e94959328942869b7aa"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__transformer",
+      "status": "completed",
+      "measurement_scope": "all-applied-actions",
+      "checkpoint_only": false,
+      "applied_duration_s": 62650.0,
+      "requested_checkpoint_s": 600.0,
+      "entire600s_checkpoint_experienced": true,
+      "initial20s_delay_present": true,
+      "scheduled40s_drop_delivery_effect_windows_mission_s": [
+        [
+          145.0,
+          185.0
+        ],
+        [
+          205.0,
+          245.0
+        ]
+      ],
+      "drop_delivery_effect_duration_experienced_s": [
+        40.0,
+        40.0
+      ],
+      "any_drop_delivery_effect_experienced": true,
+      "maximum_applied_held_report_age_s": 65.0,
+      "full65s_age_peak_experienced": true,
+      "per_target_ramp_exposure": [
+        {
+          "mmsi": 998100301,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": true
+        },
+        {
+          "mmsi": 998100302,
+          "physical_start_mission_s": 125.0,
+          "physical_end_mission_s": 165.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 185.0,
+          "changed_velocity_report_received": true
+        },
+        {
+          "mmsi": 998100303,
+          "physical_start_mission_s": 185.0,
+          "physical_end_mission_s": 225.0,
+          "physical_ramp_duration_experienced_s": 40.0,
+          "first_changed_velocity_report_delivery_mission_s": 245.0,
+          "changed_velocity_report_received": true
+        }
+      ],
+      "first_negative_intervals": {
+        "truth_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -2.5945257515256657
+        },
+        "truth_full_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -14.833192801809275
+        },
+        "projected_with_reserve_m": {
+          "action_step": 22,
+          "mission_interval_s": [
+            105.0,
+            110.0
+          ],
+          "encounter_interval_s": [
+            65.0,
+            70.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -2.5945332175688236
+        },
+        "true_nominal_m": {
+          "action_step": 23,
+          "mission_interval_s": [
+            110.0,
+            115.0
+          ],
+          "encounter_interval_s": [
+            70.0,
+            75.0
+          ],
+          "contacts": [
+            998100301
+          ],
+          "minimum_in_interval_m": -1.7081928018092754
+        },
+        "true_hull_m": null
+      },
+      "minimum_margins_by_delivery_phase": {
+        "before_first_lost_delivery": {
+          "truth_with_reserve_m": -34.839826811318694,
+          "truth_full_m": -31.839826811318694,
+          "projected_with_reserve_m": -34.83996785598546,
+          "true_nominal_m": -18.72952876381266,
+          "true_hull_m": 6.2704712361873405
+        },
+        "during_first_lost_delivery": {
+          "truth_with_reserve_m": -63.08943265472541,
+          "truth_full_m": -60.08943265472541,
+          "projected_with_reserve_m": -63.08863449791774,
+          "true_nominal_m": -0.16443265472540247,
+          "true_hull_m": 24.835567345274598
+        },
+        "between_lost_delivery_windows": {
+          "truth_with_reserve_m": -28.814758596529565,
+          "truth_full_m": -25.814758596529565,
+          "projected_with_reserve_m": -29.569702558792617,
+          "true_nominal_m": -12.700292465777764,
+          "true_hull_m": 12.299707534222234
+        },
+        "during_second_lost_delivery": {
+          "truth_with_reserve_m": -16.32648061266614,
+          "truth_full_m": -13.326480612666138,
+          "projected_with_reserve_m": -16.947880357398596,
+          "true_nominal_m": -0.20148061266613837,
+          "true_hull_m": 24.79851938733386
+        },
+        "after_second_loss": {
+          "truth_with_reserve_m": 35.93310843000798,
+          "truth_full_m": 38.93310843000798,
+          "projected_with_reserve_m": 35.932701321293365,
+          "true_nominal_m": 49.13310843000798,
+          "true_hull_m": 74.13310843000798
+        }
+      },
+      "delivery_phase_encounter_bounds_s": {
+        "before_first_lost_delivery": [
+          null,
+          105.0
+        ],
+        "during_first_lost_delivery": [
+          105.0,
+          145.0
+        ],
+        "between_lost_delivery_windows": [
+          145.0,
+          165.0
+        ],
+        "during_second_lost_delivery": [
+          165.0,
+          205.0
+        ],
+        "after_second_loss": [
+          205.0,
+          null
+        ]
+      },
+      "initial_full_reserve_failure_precedes_first_lost_delivery": true,
+      "history_sha256": "2e95011fba93030b8b1476d9230b21b254612448574393504eb3e56a66e834be",
+      "timing_scope": "First five-second command interval whose independently swept0.05s minimum is negative; not an exact buffer-entry timestamp.",
+      "causal_scope": "Observed phase associations only. No matched no-dropout counterfactual was run, and reception changes would alter the control trajectory.",
+      "replay_sha256": "7e5f80dc0a9f57dd15910b2593b94e44e92004e96be09eb2cef9725835f2c002"
+    }
+  ],
+  "all_cases_final": true,
+  "source_sha256": "9ca9c9814b8f30e6e1b783c1264324d6766a5ed04808fe30658e45be888ac21b",
+  "independent_sweep_sha256": "a108df52fd4cda2e6bf9375cbc86bc1b7c3348e9e89b9043ae5788012d182ebb",
+  "scope": "Observed exposure only. A fault in the frozen schedule is not counted as tested if navigation stopped before its delayed delivery effect. Velocity ramps are distinguished from reports revealing those ramps."
+}

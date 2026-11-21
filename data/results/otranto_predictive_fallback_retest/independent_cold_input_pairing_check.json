@@ -1,0 +1,94 @@
+{
+  "scope": "Only initial own state, received observation and recorded local chart; no selected controls or later state is used in cold worker.",
+  "all_available_initial_inputs_identical": true,
+  "cases": [
+    {
+      "case": "crossing_fan__otranto_005__classical",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/crossing_fan__otranto_005__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "8d63e0991f891f96a3ada4894598e7ea7834103ccb2850deb02450ee7fccbc9f"
+    },
+    {
+      "case": "crossing_fan__otranto_005__transformer",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/crossing_fan__otranto_005__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "8d63e0991f891f96a3ada4894598e7ea7834103ccb2850deb02450ee7fccbc9f"
+    },
+    {
+      "case": "crossing_fan__otranto_355__classical",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/crossing_fan__otranto_355__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "536c2225a9c8dfd4498a5871b623a2d4780767730370e4fd5a53557d5226d1a2"
+    },
+    {
+      "case": "crossing_fan__otranto_355__transformer",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/crossing_fan__otranto_355__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "536c2225a9c8dfd4498a5871b623a2d4780767730370e4fd5a53557d5226d1a2"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__classical",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/opposed_crossing__otranto_005__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "33205c75e1f742dc3b1de7a79198923dabc008295eef42d61dcd6a8bfc2d4aa9"
+    },
+    {
+      "case": "opposed_crossing__otranto_005__transformer",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/opposed_crossing__otranto_005__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "33205c75e1f742dc3b1de7a79198923dabc008295eef42d61dcd6a8bfc2d4aa9"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__classical",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/opposed_crossing__otranto_355__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "68550783abc1c80e3bc8d58229cdc44be6c729c22a351f78cd467a44f1c92330"
+    },
+    {
+      "case": "opposed_crossing__otranto_355__transformer",
+      "baseline_input_run": "data/results/otranto_fast_recovery_new_traffic/pilot_studies/c03_initial_step/runs/opposed_crossing__otranto_355__classical",
+      "current_run": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer",
+      "checks": {
+        "state": true,
+        "observation": true,
+        "grid": true
+      },
+      "canonical_initial_state_observation_chart_sha256": "68550783abc1c80e3bc8d58229cdc44be6c729c22a351f78cd467a44f1c92330"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "scenario": "otranto_short_test_loop__original__leg02__wind_005",
+    "traffic": "mixed_sharp_dropout",
+    "initial_bow_deg": 45.0,
+    "wind_from_deg": 5.0,
+    "wind_mps": 3.4752151117974885,
+    "current_to_en_mps": [
+      0.1959107627335147,
+      -0.2380993888473844
+    ],
+    "mark_en_m": [
+      565.9720401626732,
+      -185.32711882453012
+    ],
+    "data": {
+      "physics": {
+        "first_candidate_index": 1,
+        "first_end_bow_deg": 57.0,
+        "first_applied_report_margin_m": 56.47506125597758,
+        "recorded_time_s": 1176.4131045342904,
+        "recorded_outcome": "captured",
+        "closest_logged_fix_m": 50.000000078717754,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1176.4131045342904
+        }
+      },
+      "joint": {
+        "first_candidate_index": 15,
+        "first_end_bow_deg": 358.13868613138686,
+        "first_applied_report_margin_m": 62.81590139997289,
+        "recorded_time_s": 21600.0,
+        "recorded_outcome": "timeout",
+        "closest_logged_fix_m": 133.80504684143327,
+        "first_trim_then_physics": {
+          "status": "uncaptured",
+          "time_s": null
+        }
+      }
+    }
+  },
+  {
+    "scenario": "otranto_short_test_loop__original__leg02__wind_005",
+    "traffic": "overtaking",
+    "initial_bow_deg": 45.0,
+    "wind_from_deg": 5.0,
+    "wind_mps": 3.4752151117974885,
+    "current_to_en_mps": [
+      0.1959107627335147,
+      -0.2380993888473844
+    ],
+    "mark_en_m": [
+      565.9720401626732,
+      -185.32711882453012
+    ],
+    "data": {
+      "physics": {
+        "first_candidate_index": 1,
+        "first_end_bow_deg": 57.0,
+        "first_applied_report_margin_m": 73.37506125732966,
+        "recorded_time_s": 1169.652827781488,
+        "recorded_outcome": "captured",
+        "closest_logged_fix_m": 50.00000004894414,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1169.652827781488
+        }
+      },
+      "joint": {
+        "first_candidate_index": 17,
+        "first_end_bow_deg": 0.5844155844155878,
+        "first_applied_report_margin_m": 79.71590140132497,
+        "recorded_time_s": 21600.0,
+        "recorded_outcome": "timeout",
+        "closest_logged_fix_m": 172.90890180424162,
+        "first_trim_then_physics": {
+          "status": "uncaptured",
+          "time_s": null
+        }
+      }
+    }
+  },
+  {
+    "scenario": "otranto_short_test_loop__original__leg02__wind_355",
+    "traffic": "mixed_sharp_dropout",
+    "initial_bow_deg": 45.0,
+    "wind_from_deg": 355.0,
+    "wind_mps": 3.4752151117974885,
+    "current_to_en_mps": [
+      0.1959107627335147,
+      -0.2380993888473844
+    ],
+    "mark_en_m": [
+      565.9720401626732,
+      -185.32711882453012
+    ],
+    "data": {
+      "physics": {
+        "first_candidate_index": 1,
+        "first_end_bow_deg": 47.0,
+        "first_applied_report_margin_m": 57.13499947893436,
+        "recorded_time_s": 1104.565043604673,
+        "recorded_outcome": "captured",
+        "closest_logged_fix_m": 50.00000004004352,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1104.565043604673
+        }
+      },
+      "joint": {
+        "first_candidate_index": 15,
+        "first_end_bow_deg": 357.2448979591837,
+        "first_applied_report_margin_m": 62.81590139997289,
+        "recorded_time_s": 21600.0,
+        "recorded_outcome": "timeout",
+        "closest_logged_fix_m": 152.88751395234908,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1213.0777659901646
+        }
+      }
+    }
+  },
+  {
+    "scenario": "otranto_short_test_loop__original__leg02__wind_355",
+    "traffic": "overtaking",
+    "initial_bow_deg": 45.0,
+    "wind_from_deg": 355.0,
+    "wind_mps": 3.4752151117974885,
+    "current_to_en_mps": [
+      0.1959107627335147,
+      -0.2380993888473844
+    ],
+    "mark_en_m": [
+      565.9720401626732,
+      -185.32711882453012
+    ],
+    "data": {
+      "physics": {
+        "first_candidate_index": 1,
+        "first_end_bow_deg": 47.0,
+        "first_applied_report_margin_m": 74.03499948028644,
+        "recorded_time_s": 1105.4501838134029,
+        "recorded_outcome": "captured",
+        "closest_logged_fix_m": 50.00000003146151,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1105.4501838134029
+        }
+      },
+      "joint": {
+        "first_candidate_index": 15,
+        "first_end_bow_deg": 357.2448979591837,
+        "first_applied_report_margin_m": 79.71590140132497,
+        "recorded_time_s": 21600.0,
+        "recorded_outcome": "timeout",
+        "closest_logged_fix_m": 109.7498981659208,
+        "first_trim_then_physics": {
+          "status": "captured",
+          "time_s": 1217.6289493812335
+        }
+      }
+    }
+  }
+]

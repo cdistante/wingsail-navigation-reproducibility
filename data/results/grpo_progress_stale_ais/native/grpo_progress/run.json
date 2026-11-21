@@ -1,0 +1,35 @@
+{
+  "method": "grpo_progress",
+  "inputs_sha256": "4cd38a5f3ba844f8d51e04fc0ad48869794b114398e4599c93b82a3b2bbdfa6e",
+  "episodes_sha256": "b41a821c2683fa198cf7798c1323cb0b0a395712c4535698b9d9894de9300ba5",
+  "summary": {
+    "cases": 12,
+    "completed": 4,
+    "status": {
+      "no_safe_native_action": 8,
+      "captured": 4
+    },
+    "fully_audited_cases": 10,
+    "nonpositive_clearance_cases": 0,
+    "minimum_full_margin_m": 27.651355150619167,
+    "mean_penalized_s": 30071.980058883546,
+    "median_completed_s": 3830.440204377269,
+    "learned_changes": 4,
+    "maximum_decision_s": 0.0917366249996121,
+    "overruns_5s": 0
+  },
+  "trace_sha256es": {
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_oblique_fan__grpo_progress.json.gz": "4564da4f2fdee85e56cef8d7d0bede56254ba91c455c7cc357dcf4103b902d98",
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_raking_overtake__grpo_progress.json.gz": "91b24cb9ab7c26f0c575b54c8098865e2bb6dab35cfc3454486c12d3ef00fde0",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_oblique_fan__grpo_progress.json.gz": "9eb7fbe8de2a3d9b01124626e41d4cef288252889bfa7260c970ac35ab224a1c",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_raking_overtake__grpo_progress.json.gz": "3388fe9928622023070bbe9424495707d7bcafa4aade4b23eefc14c1275b138b",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_oblique_fan__grpo_progress.json.gz": "aca2e7655c96398981e929f79b10986beb2c1eb8581c86753c2a86e0601ed65b",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_raking_overtake__grpo_progress.json.gz": "3332380e98e36017b95be9069176698877a56e1ba86aa2ded7730ec4230b6c35",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_oblique_fan__grpo_progress.json.gz": "da25e2e6e80b83d559022675b28a3592d6b529f48ce547a13bf510d70d76196e",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_raking_overtake__grpo_progress.json.gz": "d696adbf0dc7e9df3e04322e8c2140c281c900863fead2cf130e6170ed71bb6b",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_oblique_fan__grpo_progress.json.gz": "ca6c1a1e88cd44fd4f56a9d20f87124ed1cfd8168d9e4268f34ef5766a789791",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_raking_overtake__grpo_progress.json.gz": "bbf155a4208001a865138ca1dd7bc2e6e49c851b7d14da1e8b015159c7977a9e",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_oblique_fan__grpo_progress.json.gz": "13462a59c68f903109bc1a57f640c5e1d65130b9de3ff4d0f8bc30af639ec46a",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_raking_overtake__grpo_progress.json.gz": "0b53515db5595a52a88a177c5da7b522f092eeac4de35b7fae7423e342856171"
+  }
+}

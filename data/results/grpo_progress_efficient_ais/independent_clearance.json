@@ -1,0 +1,1963 @@
+{
+  "status": "verified",
+  "scope": "Independent held-forcing Fossen re-integration at 0.05 s, analytical targets, derived report times, both original full envelopes and the expanded report guard. First logged forecast decisions were replayed without target truth or later observations.",
+  "manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "auditor_sha256": "d5d2e38a71f6f5f58975069a836412818657a53c436ca7b85680365aeed29412",
+  "geometry_and_receiver_auditor_sha256": "cf379d2b3bca800bf3675cd00642e18cd4ed9382071721d7b2a38de23a8601fd",
+  "guard_sha256": "861f45addc73fce78bab2d5d64821d5c1ac0f9e3beb2ca675c2c67fb90e96296",
+  "cases_per_arm": 12,
+  "applied_controls": 16523,
+  "integration_substeps": 1650925,
+  "first_forecast_decisions_replayed": 20,
+  "historical_breach_replay": {
+    "scenario": "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+    "trace_sha256": "f7e7e641a741abd245f14810f549f918403548cf8abfd370d5f892d8fe87e019",
+    "control_start_s": 165.0,
+    "control_end_s": 170.0,
+    "minimum_center_uncertainty_slack_m": 30.512579744373536,
+    "would_be_rejected": true,
+    "margins": {
+      "report": {
+        "margin_m": 0.1655857027509029,
+        "elapsed_s": 170.0,
+        "mmsi": 983244201,
+        "held_report_age_at_step_start_s": 45.0
+      },
+      "truth": {
+        "margin_m": -1.096235500118965,
+        "elapsed_s": 169.95,
+        "mmsi": 983244201,
+        "held_report_age_at_step_start_s": 45.0
+      },
+      "guard": {
+        "margin_m": -37.355007904292464,
+        "elapsed_s": 169.95,
+        "mmsi": 983244201,
+        "held_report_age_at_step_start_s": 45.0
+      }
+    }
+  },
+  "brindisi_003_overtake": {
+    "physics": {
+      "outcomes": {
+        "original": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3687.8498835234323,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3101.7759257105645,
+              "distance_m": 49.99999999966182
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3687.8498835234323,
+              "distance_m": 49.999999999608825
+            }
+          ],
+          "terminal_rejection": null
+        },
+        "robust_only": {
+          "status": "no_safe_native_action",
+          "completed": false,
+          "elapsed_s": 170.0,
+          "ordered_captures": [],
+          "terminal_rejection": {
+            "elapsed_s": 170.0,
+            "utc": "2026-10-14T12:02:50.000000000Z",
+            "goal": "002",
+            "applied": false,
+            "duration_s": 0.0,
+            "complete_control_seconds": 0.07585333399947558,
+            "reason": "no_safe_native_action"
+          }
+        },
+        "earlier_ais": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3935.807626476127,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3299.9230004217707,
+              "distance_m": 49.99999999998305
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3935.807626476127,
+              "distance_m": 49.99999999991308
+            }
+          ],
+          "terminal_rejection": null
+        },
+        "efficient_ais": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3632.686190337746,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3041.887926176365,
+              "distance_m": 49.99999999998808
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3632.686190337746,
+              "distance_m": 49.999999999626255
+            }
+          ],
+          "terminal_rejection": null
+        }
+      },
+      "seconds_saved_vs_earlier_ais_on_joint_finish": 303.1214361383809,
+      "first_actuator_difference_from_earlier_ais": {
+        "kind": "changed_command",
+        "elapsed_s": 135.0,
+        "before": {
+          "elapsed_s": 135.0,
+          "duration_s": 5.0,
+          "rudder_deg": -1.4462026014031766,
+          "flap_target_deg": 15.0,
+          "bow_deg": 121.4338044844248,
+          "goal": "002",
+          "choice_id": "mode_12",
+          "max_report_age_s": 20.0,
+          "dropped_report_epochs": 0,
+          "report_minimum_m": 67.02716593248141,
+          "truth_minimum_m": 67.02718349018409
+        },
+        "after": {
+          "elapsed_s": 135.0,
+          "duration_s": 5.0,
+          "rudder_deg": 13.553797398596824,
+          "flap_target_deg": 15.0,
+          "bow_deg": 56.4338044844248,
+          "goal": "002",
+          "choice_id": "mode_09",
+          "max_report_age_s": 20.0,
+          "dropped_report_epochs": 0,
+          "report_minimum_m": 67.16811803285731,
+          "truth_minimum_m": 67.16752031274018
+        }
+      },
+      "completion_retained_with_full_clearance": true,
+      "independent_swept_minima": {
+        "report": {
+          "margin_m": 62.69587684316106,
+          "elapsed_s": 167.79717687972672,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": 57.25941615473283,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 4.104355005411463,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 46.50987408238575,
+          "nominal_preview_m": -52.35645390244268,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 71.50987408238575,
+          "selected_preview_m": -38.37988485579595,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    },
+    "grpo_progress": {
+      "outcomes": {
+        "original": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3687.8498835234323,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3101.7759257105645,
+              "distance_m": 49.99999999966182
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3687.8498835234323,
+              "distance_m": 49.999999999608825
+            }
+          ],
+          "terminal_rejection": null
+        },
+        "robust_only": {
+          "status": "no_safe_native_action",
+          "completed": false,
+          "elapsed_s": 170.0,
+          "ordered_captures": [],
+          "terminal_rejection": {
+            "elapsed_s": 170.0,
+            "utc": "2026-10-14T12:02:50.000000000Z",
+            "goal": "002",
+            "applied": false,
+            "duration_s": 0.0,
+            "complete_control_seconds": 0.0728126659996633,
+            "reason": "no_safe_native_action"
+          }
+        },
+        "earlier_ais": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3935.807626476127,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3299.9230004217707,
+              "distance_m": 49.99999999998305
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3935.807626476127,
+              "distance_m": 49.99999999991308
+            }
+          ],
+          "terminal_rejection": null
+        },
+        "efficient_ais": {
+          "status": "captured",
+          "completed": true,
+          "elapsed_s": 3632.686190337746,
+          "ordered_captures": [
+            {
+              "name": "002",
+              "elapsed_s": 3041.887926176365,
+              "distance_m": 49.99999999998808
+            },
+            {
+              "name": "003",
+              "elapsed_s": 3632.686190337746,
+              "distance_m": 49.999999999626255
+            }
+          ],
+          "terminal_rejection": null
+        }
+      },
+      "seconds_saved_vs_earlier_ais_on_joint_finish": 303.1214361383809,
+      "first_actuator_difference_from_earlier_ais": {
+        "kind": "changed_command",
+        "elapsed_s": 135.0,
+        "before": {
+          "elapsed_s": 135.0,
+          "duration_s": 5.0,
+          "rudder_deg": -1.4462026014031766,
+          "flap_target_deg": 15.0,
+          "bow_deg": 121.4338044844248,
+          "goal": "002",
+          "choice_id": "mode_12",
+          "max_report_age_s": 20.0,
+          "dropped_report_epochs": 0,
+          "report_minimum_m": 67.02716593248141,
+          "truth_minimum_m": 67.02718349018409
+        },
+        "after": {
+          "elapsed_s": 135.0,
+          "duration_s": 5.0,
+          "rudder_deg": 13.553797398596824,
+          "flap_target_deg": 15.0,
+          "bow_deg": 56.4338044844248,
+          "goal": "002",
+          "choice_id": "mode_09",
+          "max_report_age_s": 20.0,
+          "dropped_report_epochs": 0,
+          "report_minimum_m": 67.16811803285731,
+          "truth_minimum_m": 67.16752031274018
+        }
+      },
+      "completion_retained_with_full_clearance": true,
+      "independent_swept_minima": {
+        "report": {
+          "margin_m": 62.69587684316106,
+          "elapsed_s": 167.79717687972672,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": 57.25941615473283,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 4.104355005411463,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 46.50987408238575,
+          "nominal_preview_m": -52.35645390244268,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 71.50987408238575,
+          "selected_preview_m": -38.37988485579595,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    }
+  },
+  "paired_clearance_flags": {
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan": {
+      "physics": "no_applied_path",
+      "grpo_progress": "no_applied_path"
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake": {
+      "physics": "no_applied_path",
+      "grpo_progress": "no_applied_path"
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake": {
+      "physics": "clear",
+      "grpo_progress": "clear"
+    }
+  },
+  "unsafe_applied_cases": [],
+  "cases": [
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 4320,
+      "integration_substeps": 432000,
+      "replayed_elapsed_s": 21600.0,
+      "trace_sha256": "394d80a30545d6adbdc3cb8e572a95a93406c08ed4a7ae6d77fd6aaba9fc8e6c",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 1.4042598195374012e-09
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.7684560368431494,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 80.68316919012805,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 80.62630988932598,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 20.70128765045328,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 4320,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 38
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-12T06:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_09",
+          "nominal_bow_deg": 34.47033918958061,
+          "nominal_preview_m": -26.243141074134996,
+          "selected_choice": "mode_12",
+          "selected_bow_deg": 99.47033918958061,
+          "selected_preview_m": 0.132310493239288,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-12T06:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 30,
+      "integration_substeps": 3000,
+      "replayed_elapsed_s": 150.0,
+      "trace_sha256": "48e081535e41ab4288631cf5d4c28480e348e2c2358c3f1f1542808565c6eff6",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199808370139234,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 34.723443933067614,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        },
+        "truth": {
+          "margin_m": 34.7231422910408,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        },
+        "guard": {
+          "margin_m": 18.02344393306761,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 30,
+        "maximum_verified_held_age_s": 25.0,
+        "anticipation_events_checked": 30
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-12T06:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_09",
+          "nominal_bow_deg": 34.47033918958061,
+          "nominal_preview_m": -155.4576970996438,
+          "selected_choice": "mode_12",
+          "selected_bow_deg": 99.47033918958061,
+          "selected_preview_m": -116.97714078848603,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-12T06:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 745,
+      "integration_substeps": 74376,
+      "replayed_elapsed_s": 3718.7999999999997,
+      "trace_sha256": "89df1ade93cf07d45c88f45bbaa69a0e7ebb817c3007350a109d56d71c2e2e5e",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 2.842170943040401e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.7685860735717975,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 144.3021585272602,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 144.30215969265925,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 117.14781122807568,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 745,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 4
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_06",
+          "nominal_bow_deg": 311.00987408238575,
+          "nominal_preview_m": -107.94390606087812,
+          "selected_choice": "mode_08",
+          "selected_bow_deg": 46.50987408238575,
+          "selected_preview_m": 40.03034555118734,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 728,
+      "integration_substeps": 72654,
+      "replayed_elapsed_s": 3632.7000000000003,
+      "trace_sha256": "32855142bf0cdd58cc34d3d42793cebf88b24886db5d9d76785d1a8129c28859",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 2.2737367544323206e-13,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.153574556480034,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 62.69587684316106,
+          "elapsed_s": 167.79717687972672,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": 57.25941615473283,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 4.104355005411463,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 728,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 37
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 46.50987408238575,
+          "nominal_preview_m": -52.35645390244268,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 71.50987408238575,
+          "selected_preview_m": -38.37988485579595,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 643,
+      "integration_substeps": 64058,
+      "replayed_elapsed_s": 3202.9,
+      "trace_sha256": "4fe8409cd46fea89c2085d6cddb53685a25fe8de1d83359f81327b7c2f5598c9",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768499255928205,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 89.40074304907439,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 89.35498326198031,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 29.42999405217492,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 643,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 37
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-16T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 69.33096955234458,
+          "nominal_preview_m": -0.36401809346085656,
+          "selected_choice": "mode_09",
+          "selected_bow_deg": 79.33096955234458,
+          "selected_preview_m": 20.175250537270642,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-16T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 32,
+      "integration_substeps": 3200,
+      "replayed_elapsed_s": 160.0,
+      "trace_sha256": "6cb345d3be6763c38755d5c1b1b3e61968baf5045b2fbb43ac289442175909dc",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199704082256527,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 36.03455980022295,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "truth": {
+          "margin_m": 35.961126753816785,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "guard": {
+          "margin_m": 10.234559800222954,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 32,
+        "maximum_verified_held_age_s": 35.0,
+        "anticipation_events_checked": 32
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-16T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 69.33096955234458,
+          "nominal_preview_m": -104.8147789594848,
+          "selected_choice": "mode_11",
+          "selected_bow_deg": 114.33096955234458,
+          "selected_preview_m": -57.99367412163515,
+          "allowed_now": 10,
+          "chart_admitted_previews": 10,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-16T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "edc382e47921c3ec11acf97e8df7be07590d29ac9aec031362efb4ab272f15b4",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": null,
+      "minimum_clearance": {
+        "report": null,
+        "truth": null,
+        "guard": null
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 0,
+        "maximum_verified_held_age_s": null,
+        "anticipation_events_checked": 0
+      },
+      "first_forecast_causal_replay": null
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "b10010d936170865f6bb1ee218d92920bfcc64dadab7ea8ee8fc3e1883970719",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": null,
+      "minimum_clearance": {
+        "report": null,
+        "truth": null,
+        "guard": null
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 0,
+        "maximum_verified_held_age_s": null,
+        "anticipation_events_checked": 0
+      },
+      "first_forecast_causal_replay": null
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 821,
+      "integration_substeps": 82012,
+      "replayed_elapsed_s": 4100.6,
+      "trace_sha256": "13c461ca6dd4094258fcc5c9b0d24d81e79cf368210722acac3a9d1ada19b77f",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 2.842170943040401e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768597754531587,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 128.81776216873968,
+          "elapsed_s": 115.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 128.8177529311649,
+          "elapsed_s": 115.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 85.22930345382872,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 821,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 5
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-13T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_06",
+          "nominal_bow_deg": 308.41339591896593,
+          "nominal_preview_m": -100.62866411888947,
+          "selected_choice": "mode_07",
+          "selected_bow_deg": 39.41339591896593,
+          "selected_preview_m": 22.185963606676154,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-13T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 24,
+      "integration_substeps": 2400,
+      "replayed_elapsed_s": 120.0,
+      "trace_sha256": "aa3359a6e0ea635e1eac3b114532276cc5e40d5ebff38dcd2a4854e204b4f1c4",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199650246869123,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 22.472932570739026,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 22.47294124577075,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 9.347932570739033,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 24,
+        "maximum_verified_held_age_s": 20.0,
+        "anticipation_events_checked": 24
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-13T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 39.41339591896593,
+          "nominal_preview_m": -82.74292765592423,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 68.91339591896593,
+          "selected_preview_m": -64.61822194247013,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-13T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "method": "physics",
+      "applied_controls": 894,
+      "integration_substeps": 89301,
+      "replayed_elapsed_s": 4465.049999999999,
+      "trace_sha256": "dd9714e8aadd1f58c11ef8a55d5ed96897a1a578c71b38d62772164d2195017a",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768492102529619,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 81.65490557551242,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 81.59932074343457,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 21.674338925926577,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 894,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 38
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-17T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 63.269412605676806,
+          "nominal_preview_m": -16.6779471883672,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 92.7694126056768,
+          "selected_preview_m": 6.324663676348223,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-17T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_raking_overtake",
+      "method": "physics",
+      "applied_controls": 28,
+      "integration_substeps": 2800,
+      "replayed_elapsed_s": 140.0,
+      "trace_sha256": "43ddd722f75242e694813943c338fa7150af6883c12fcbed4c6194f5d02d9b8c",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.19978454040334,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 16.324267624071716,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 16.32401248267289,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 3.199267624071723,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 28,
+        "maximum_verified_held_age_s": 20.0,
+        "anticipation_events_checked": 28
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-17T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 63.269412605676806,
+          "nominal_preview_m": -140.61256871019788,
+          "selected_choice": "mode_11",
+          "selected_bow_deg": 112.7694126056768,
+          "selected_preview_m": -95.39555192167109,
+          "allowed_now": 10,
+          "chart_admitted_previews": 10,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-17T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 4320,
+      "integration_substeps": 432000,
+      "replayed_elapsed_s": 21600.0,
+      "trace_sha256": "02075c1434aecf1e19593e7a010b6d97c906038ff2985502c5d4976918fd3ae9",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 1.4042598195374012e-09
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.7684560368431494,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 80.68316919012805,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 80.62630988932598,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 20.70128765045328,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 4320,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 38
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-12T06:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_09",
+          "nominal_bow_deg": 34.47033918958061,
+          "nominal_preview_m": -26.243141074134996,
+          "selected_choice": "mode_12",
+          "selected_bow_deg": 99.47033918958061,
+          "selected_preview_m": 0.132310493239288,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-12T06:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 30,
+      "integration_substeps": 3000,
+      "replayed_elapsed_s": 150.0,
+      "trace_sha256": "7fcb42d7e5497fe58b3f37cd59994ca6366ff2dd6b8b1322c8635dd3ad1fe1bb",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199808370139234,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 34.723443933067614,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        },
+        "truth": {
+          "margin_m": 34.7231422910408,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        },
+        "guard": {
+          "margin_m": 18.02344393306761,
+          "elapsed_s": 150.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 25.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 30,
+        "maximum_verified_held_age_s": 25.0,
+        "anticipation_events_checked": 30
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-12T06:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_09",
+          "nominal_bow_deg": 34.47033918958061,
+          "nominal_preview_m": -155.4576970996438,
+          "selected_choice": "mode_12",
+          "selected_bow_deg": 99.47033918958061,
+          "selected_preview_m": -116.97714078848603,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-12T06:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 745,
+      "integration_substeps": 74376,
+      "replayed_elapsed_s": 3718.7999999999997,
+      "trace_sha256": "6f125e1568ff048f0dcafe3e2d87a10827a696edb4da40ed387982b245b63d5c",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 2.842170943040401e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.7685860735717975,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 144.3021585272602,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 144.30215969265925,
+          "elapsed_s": 105.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 117.14781122807568,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 745,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 4
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_06",
+          "nominal_bow_deg": 311.00987408238575,
+          "nominal_preview_m": -107.94390606087812,
+          "selected_choice": "mode_08",
+          "selected_bow_deg": 46.50987408238575,
+          "selected_preview_m": 40.03034555118734,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 728,
+      "integration_substeps": 72654,
+      "replayed_elapsed_s": 3632.7000000000003,
+      "trace_sha256": "7a212f06e98de7cc2f305832b966068083737541c6ad282bdac9992221801a87",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 2.2737367544323206e-13,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.153574556480034,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 62.69587684316106,
+          "elapsed_s": 167.79717687972672,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 45.0
+        },
+        "truth": {
+          "margin_m": 57.25941615473283,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 4.104355005411463,
+          "elapsed_s": 184.95,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 728,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 37
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-14T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 46.50987408238575,
+          "nominal_preview_m": -52.35645390244268,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 71.50987408238575,
+          "selected_preview_m": -38.37988485579595,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-14T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 634,
+      "integration_substeps": 63206,
+      "replayed_elapsed_s": 3160.3,
+      "trace_sha256": "4b3f8e140e190a0bbc0176c0d7350e177ba74938b6538100110bf1b02bacf072",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768499255928205,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 89.40074304907439,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 89.35498326198031,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 29.42999405217492,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 634,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 37
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-16T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 69.33096955234458,
+          "nominal_preview_m": -0.36401809346085656,
+          "selected_choice": "mode_09",
+          "selected_bow_deg": 79.33096955234458,
+          "selected_preview_m": 20.175250537270642,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-16T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 32,
+      "integration_substeps": 3200,
+      "replayed_elapsed_s": 160.0,
+      "trace_sha256": "46157b43a01f2afda05c89ad5667fd40ea63533a9e35cd962234b930835edead",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199704082256527,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 36.03455980022295,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "truth": {
+          "margin_m": 35.961126753816785,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        },
+        "guard": {
+          "margin_m": 10.234559800222954,
+          "elapsed_s": 160.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 35.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 32,
+        "maximum_verified_held_age_s": 35.0,
+        "anticipation_events_checked": 32
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-16T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_08",
+          "nominal_bow_deg": 69.33096955234458,
+          "nominal_preview_m": -104.8147789594848,
+          "selected_choice": "mode_11",
+          "selected_bow_deg": 114.33096955234458,
+          "selected_preview_m": -57.99367412163515,
+          "allowed_now": 10,
+          "chart_admitted_previews": 10,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-16T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "296ba0a9e25eec12a0d70e61b89c776d92fd949af085f47329dfc2b998503b4e",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": null,
+      "minimum_clearance": {
+        "report": null,
+        "truth": null,
+        "guard": null
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 0,
+        "maximum_verified_held_age_s": null,
+        "anticipation_events_checked": 0
+      },
+      "first_forecast_causal_replay": null
+    },
+    {
+      "scenario": "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 0,
+      "integration_substeps": 0,
+      "replayed_elapsed_s": 0.0,
+      "trace_sha256": "8d42696109e348b9b6da43eafe5d950854b7d0585cba5d945460af0b315f1bb9",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 0.0,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": null,
+      "minimum_clearance": {
+        "report": null,
+        "truth": null,
+        "guard": null
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 0,
+        "maximum_verified_held_age_s": null,
+        "anticipation_events_checked": 0
+      },
+      "first_forecast_causal_replay": null
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 821,
+      "integration_substeps": 82012,
+      "replayed_elapsed_s": 4100.6,
+      "trace_sha256": "f7bac81ad53e06907bb7e4448b5f9819c2c34c2fd958a160c46764c44af16eaa",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 2.842170943040401e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768597754531587,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 128.81776216873968,
+          "elapsed_s": 115.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 128.8177529311649,
+          "elapsed_s": 115.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 85.22930345382872,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 821,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 5
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-13T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_06",
+          "nominal_bow_deg": 308.41339591896593,
+          "nominal_preview_m": -100.62866411888947,
+          "selected_choice": "mode_07",
+          "selected_bow_deg": 39.41339591896593,
+          "selected_preview_m": 22.185963606676154,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-13T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261013T1800Z__brindisi_003__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 24,
+      "integration_substeps": 2400,
+      "replayed_elapsed_s": 120.0,
+      "trace_sha256": "84a4df7ea261052c44b15963560307f3bb3cb478c979e4277017083f87a2dde0",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.199650246869123,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 22.472932570739026,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 22.47294124577075,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 9.347932570739033,
+          "elapsed_s": 120.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 24,
+        "maximum_verified_held_age_s": 20.0,
+        "anticipation_events_checked": 24
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-13T18:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 39.41339591896593,
+          "nominal_preview_m": -82.74292765592423,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 68.91339591896593,
+          "selected_preview_m": -64.61822194247013,
+          "allowed_now": 9,
+          "chart_admitted_previews": 9,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-13T18:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "method": "grpo_progress",
+      "applied_controls": 896,
+      "integration_substeps": 89476,
+      "replayed_elapsed_s": 4473.799999999999,
+      "trace_sha256": "302922147e94bf672fc8e330b3754c658b033a434b48269d194c1b9b5528d00a",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 1.1368683772161603e-13,
+        "truth": 1.4210854715202004e-14
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 7.768492102529619,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 81.65490557551242,
+          "elapsed_s": 180.0,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "truth": {
+          "margin_m": 81.59932074343457,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        },
+        "guard": {
+          "margin_m": 21.674338925926577,
+          "elapsed_s": 179.95,
+          "mmsi": 984770302,
+          "held_report_age_at_step_start_s": 60.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 896,
+        "maximum_verified_held_age_s": 60.0,
+        "anticipation_events_checked": 38
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-17T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 63.269412605676806,
+          "nominal_preview_m": -16.6779471883672,
+          "selected_choice": "mode_10",
+          "selected_bow_deg": 92.7694126056768,
+          "selected_preview_m": 6.324663676348223,
+          "allowed_now": 14,
+          "chart_admitted_previews": 14,
+          "reason": "ais_diversion",
+          "selection_rule": "forecast_clear_route_rank"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-17T12:00:00.000000000Z"
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_raking_overtake",
+      "method": "grpo_progress",
+      "applied_controls": 28,
+      "integration_substeps": 2800,
+      "replayed_elapsed_s": 140.0,
+      "trace_sha256": "66c2dccdb723c9bd40cee38486d8c5b5e8d3ea3c1ec1a205aa23903bf4150197",
+      "maximum_endpoint_error_m": 0.0,
+      "maximum_other_state_error": 0.0,
+      "maximum_clearance_error_m": {
+        "report": 5.684341886080802e-14,
+        "truth": 0.0
+      },
+      "nonpositive_control_intervals": {
+        "report": 0,
+        "truth": 0,
+        "guard": 0
+      },
+      "minimum_center_uncertainty_slack_m": 10.19978454040334,
+      "minimum_clearance": {
+        "report": {
+          "margin_m": 16.324267624071716,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "truth": {
+          "margin_m": 16.32401248267289,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        },
+        "guard": {
+          "margin_m": 3.199267624071723,
+          "elapsed_s": 140.0,
+          "mmsi": 983244201,
+          "held_report_age_at_step_start_s": 20.0
+        }
+      },
+      "receiver_check": {
+        "applied_intervals_checked": 28,
+        "maximum_verified_held_age_s": 20.0,
+        "anticipation_events_checked": 28
+      },
+      "first_forecast_causal_replay": {
+        "event": {
+          "elapsed_s": 0.0,
+          "utc": "2026-10-17T12:00:00.000000000Z",
+          "goal": "002",
+          "report_age_s": 20.0,
+          "forecast_horizon_s": 240.0,
+          "forecast_report_age_s": 65.0,
+          "nominal_choice": "mode_07",
+          "nominal_bow_deg": 63.269412605676806,
+          "nominal_preview_m": -140.61256871019788,
+          "selected_choice": "mode_11",
+          "selected_bow_deg": 112.7694126056768,
+          "selected_preview_m": -95.39555192167109,
+          "allowed_now": 10,
+          "chart_admitted_previews": 10,
+          "reason": "ais_diversion",
+          "selection_rule": "largest_preview_margin"
+        },
+        "matched_causal_replay": true,
+        "environment_requests": [
+          "observation",
+          "weather_history"
+        ],
+        "synthetic_truth_unavailable": true,
+        "latest_allowed_environment_utc": "2026-10-17T12:00:00.000000000Z"
+      }
+    }
+  ]
+}

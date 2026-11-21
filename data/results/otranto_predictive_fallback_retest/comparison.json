@@ -1,0 +1,2510 @@
+{
+  "departure_utc": "2026-09-30T23:50:00+00:00",
+  "encounter_utc": "2026-09-30T23:50:40+00:00",
+  "radius_m": 50.0,
+  "dt_s": 5,
+  "maximum_steps": 17280,
+  "wind_from_degrees": [
+    5,
+    355
+  ],
+  "scenario_ids": [
+    "crossing_fan",
+    "opposed_crossing"
+  ],
+  "marine_bounds": {
+    "latitude_bounds": [
+      39.5,
+      41.0
+    ],
+    "longitude_bounds": [
+      18.0,
+      19.5
+    ]
+  },
+  "runs": {
+    "crossing_fan__otranto_355__classical": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "no_full_clearance_action",
+      "steps": 35,
+      "elapsed_s": 175,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 175,
+        "segment_s": 175,
+        "segment_distance_m": 99.2498698250108,
+        "minimum_range_m": 466.33123214557077,
+        "terminal_range_m": 532.322981763843
+      },
+      "track_m": 99.2498698250108,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 35
+      },
+      "maximum_gpx_position_difference_m": 6.232588746059793e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 36,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3031085885823518,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "dab39ca38550f0d216117244202ca8688f1e8c92d409aff512854cd0b2e4b538",
+        "track.gpx": "eec1003bba13009a7dc1e99ca22ef12940774a88d02c35c9772659e50dcaee62",
+        "run.log": "bedf583c57085b60309d604e9c3cb4bcaf87ee48db8c18445b61747602581f86"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_355__classical",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 36,
+        "AIS_choose_applied_attempts": 35,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.2762226659979206,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "bedf583c57085b60309d604e9c3cb4bcaf87ee48db8c18445b61747602581f86",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/crossing_fan__otranto_355__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "14527e43585c61bb9956b88c500fbd8206c7453c5269f2f9b4ae24ee6943a60c",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 81.67179114041284,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6828368749993388
+          }
+        ],
+        "AIS_applied_decision_attempts": 36,
+        "AIS_applied_decision_applied_attempts": 35,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.2798632079793606,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "bedf583c57085b60309d604e9c3cb4bcaf87ee48db8c18445b61747602581f86",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/crossing_fan__otranto_355__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "be9617760e806830fe11abede68ccf2ed7b215f7d5abf52b65b21b3a71c9fcf0",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 81.67179114041284,
+            "prefer_starboard": true,
+            "wall_seconds": 0.711393333011074,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 35,
+        "frames": 36,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.6175987292507671,
+        "astern_action_count": 35,
+        "astern_control_boundary_count": 34,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 34,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 2.2737367544323206e-13,
+        "maximum_truth_outside_report_envelope_m": -7.9080463518034545,
+        "distinct_report_ages_s": [
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0
+        ],
+        "maximum_applied_held_report_age_s": 55.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 50.86539278253427,
+        "truth_minimum_nominal_m": 25.865392782534272,
+        "truth_centered_minimum_uncertainty_m": 13.126281334368059,
+        "configured_truth_centered_minimum_m": 10.126281334368059,
+        "model_minimum_uncertainty_m": 4.63394089885891,
+        "configured_model_minimum_m": 1.63394089885891,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 50.86539278253427,
+            "mmsi": 998100201,
+            "elapsed_s": 137.00821118995017,
+            "action_step": 28,
+            "scenario_seconds": 97.00821118995019,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 25.865392782534272,
+            "mmsi": 998100201,
+            "elapsed_s": 137.00821118995017,
+            "action_step": 28,
+            "scenario_seconds": 97.00821118995019,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 13.126281334368059,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 4.63394089885891,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 10.126281334368059,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 1.63394089885891,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 35
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 532.322981763843,
+        "replay_sha256": "dab39ca38550f0d216117244202ca8688f1e8c92d409aff512854cd0b2e4b538",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "bedf583c57085b60309d604e9c3cb4bcaf87ee48db8c18445b61747602581f86",
+        "history_sha256": "4567e0bf44b91a2ec6ec5ad8552891d1bdc32fec4d5a6380368d057c095ee4dc",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 35,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 35
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 35
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 36,
+        "search_total_seconds": 78.8739015859901,
+        "first_AIS_choose_seconds": 2.229552542004967,
+        "search_max_seconds": 2.2762226659979206,
+        "search_p95_seconds": 2.263308291992871,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 35,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "crossing_fan__otranto_355__transformer": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "no_full_clearance_action",
+      "steps": 35,
+      "elapsed_s": 175,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 175,
+        "segment_s": 175,
+        "segment_distance_m": 99.2498698250108,
+        "minimum_range_m": 466.33123214557077,
+        "terminal_range_m": 532.322981763843
+      },
+      "track_m": 99.2498698250108,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 35
+      },
+      "maximum_gpx_position_difference_m": 6.232588746059793e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 36,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3031085885823518,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "9ecd21d0682f9d01b76f515d0d5aeafb347c0791af217ef8396b21a820f5f469",
+        "track.gpx": "eec1003bba13009a7dc1e99ca22ef12940774a88d02c35c9772659e50dcaee62",
+        "run.log": "e0ca6c2be31c30c55e3e026cedfd3d5f8bf5af36f955aabdc6aff2875095f150"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_355__transformer",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 36,
+        "AIS_choose_applied_attempts": 35,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.2902261250128504,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "e0ca6c2be31c30c55e3e026cedfd3d5f8bf5af36f955aabdc6aff2875095f150",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/crossing_fan__otranto_355__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "9931ada60af946794f7c0c0641658165eb68cbd593b023f08a7b8974519e4aaa",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 81.67179114041284,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6940778339921962
+          }
+        ],
+        "AIS_applied_decision_attempts": 36,
+        "AIS_applied_decision_applied_attempts": 35,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.294077083002776,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "e0ca6c2be31c30c55e3e026cedfd3d5f8bf5af36f955aabdc6aff2875095f150",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/crossing_fan__otranto_355__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "336884073ce9d8e1f53526c110b9af6febdb1a04b67bd0054df153df1766ccf9",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 81.67179114041284,
+            "prefer_starboard": true,
+            "wall_seconds": 0.7209345419832971,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 35,
+        "frames": 36,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.6175987292507671,
+        "astern_action_count": 35,
+        "astern_control_boundary_count": 34,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 34,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 2.2737367544323206e-13,
+        "maximum_truth_outside_report_envelope_m": -7.9080463518034545,
+        "distinct_report_ages_s": [
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0
+        ],
+        "maximum_applied_held_report_age_s": 55.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 50.86539278253427,
+        "truth_minimum_nominal_m": 25.865392782534272,
+        "truth_centered_minimum_uncertainty_m": 13.126281334368059,
+        "configured_truth_centered_minimum_m": 10.126281334368059,
+        "model_minimum_uncertainty_m": 4.63394089885891,
+        "configured_model_minimum_m": 1.63394089885891,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 50.86539278253427,
+            "mmsi": 998100201,
+            "elapsed_s": 137.00821118995017,
+            "action_step": 28,
+            "scenario_seconds": 97.00821118995019,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 25.865392782534272,
+            "mmsi": 998100201,
+            "elapsed_s": 137.00821118995017,
+            "action_step": 28,
+            "scenario_seconds": 97.00821118995019,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 13.126281334368059,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 4.63394089885891,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 10.126281334368059,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 1.63394089885891,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 35
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 532.322981763843,
+        "replay_sha256": "9ecd21d0682f9d01b76f515d0d5aeafb347c0791af217ef8396b21a820f5f469",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_355__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "e0ca6c2be31c30c55e3e026cedfd3d5f8bf5af36f955aabdc6aff2875095f150",
+        "history_sha256": "4567e0bf44b91a2ec6ec5ad8552891d1bdc32fec4d5a6380368d057c095ee4dc",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 35,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 35,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 35
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS steering override": 35
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 36,
+        "search_total_seconds": 79.39189070701832,
+        "first_AIS_choose_seconds": 2.235822624992579,
+        "search_max_seconds": 2.2902261250128504,
+        "search_p95_seconds": 2.2852343750128057,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 35,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "crossing_fan__otranto_005__classical": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "no_full_clearance_action",
+      "steps": 35,
+      "elapsed_s": 175,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 175,
+        "segment_s": 175,
+        "segment_distance_m": 96.74986332705888,
+        "minimum_range_m": 466.33123214557077,
+        "terminal_range_m": 529.199970113682
+      },
+      "track_m": 96.74986332705888,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 35
+      },
+      "maximum_gpx_position_difference_m": 6.592842526427059e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 36,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3031085885823513,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "99ab9b9f3e80960362e87209f81d66f0e19d9b9234b81ff3bdd7c6ae0dbf4ced",
+        "track.gpx": "7acbba593c5ce0fe57afd6fa04dc65150affabd7ff701f13595498432397721e",
+        "run.log": "ded337f0ecb5aab83fa9ed4a5ea1dd15d983afc7f08fb1976a34fca18a73cddb"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_005__classical",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 36,
+        "AIS_choose_applied_attempts": 35,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.307588208001107,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "ded337f0ecb5aab83fa9ed4a5ea1dd15d983afc7f08fb1976a34fca18a73cddb",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/crossing_fan__otranto_005__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "f7918bcc2042ceb5809f0aee7a23815942471423b2664819edc072db8a4f08c1",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 87.51485215711844,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6762859169975854
+          }
+        ],
+        "AIS_applied_decision_attempts": 36,
+        "AIS_applied_decision_applied_attempts": 35,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.3112180000171065,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "ded337f0ecb5aab83fa9ed4a5ea1dd15d983afc7f08fb1976a34fca18a73cddb",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/crossing_fan__otranto_005__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "5640a2513ca3d06e1b47e19c8c63b151ab7f7f47b0e07665e1c83632e75c369f",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 87.51485215711844,
+            "prefer_starboard": true,
+            "wall_seconds": 0.7026783330074977,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 35,
+        "frames": 36,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.6176027472365929,
+        "astern_action_count": 35,
+        "astern_control_boundary_count": 34,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 34,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 8.526512829121202e-14,
+        "maximum_truth_outside_report_envelope_m": -7.908045018732913,
+        "distinct_report_ages_s": [
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0
+        ],
+        "maximum_applied_held_report_age_s": 55.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 47.38613790163667,
+        "truth_minimum_nominal_m": 22.386137901636673,
+        "truth_centered_minimum_uncertainty_m": 9.794955515655872,
+        "configured_truth_centered_minimum_m": 6.794955515655872,
+        "model_minimum_uncertainty_m": 6.174572620565371,
+        "configured_model_minimum_m": 3.174572620565371,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 47.38613790163667,
+            "mmsi": 998100201,
+            "elapsed_s": 137.30300197781622,
+            "action_step": 28,
+            "scenario_seconds": 97.30300197781621,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 22.386137901636673,
+            "mmsi": 998100201,
+            "elapsed_s": 137.30300197781622,
+            "action_step": 28,
+            "scenario_seconds": 97.30300197781621,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 9.794955515655872,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 6.174572620565371,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 6.794955515655872,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 3.174572620565371,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 35
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 529.199970113682,
+        "replay_sha256": "99ab9b9f3e80960362e87209f81d66f0e19d9b9234b81ff3bdd7c6ae0dbf4ced",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "ded337f0ecb5aab83fa9ed4a5ea1dd15d983afc7f08fb1976a34fca18a73cddb",
+        "history_sha256": "7592ee2b3f854e75880ceb3acda86629f0214b5682c21fe783dab07719925ab7",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 35,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 35
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 35
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 36,
+        "search_total_seconds": 79.7387947079842,
+        "first_AIS_choose_seconds": 2.245284917007666,
+        "search_max_seconds": 2.307588208001107,
+        "search_p95_seconds": 2.3003909999970347,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 35,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "crossing_fan__otranto_005__transformer": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "no_full_clearance_action",
+      "steps": 35,
+      "elapsed_s": 175,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 175,
+        "segment_s": 175,
+        "segment_distance_m": 96.74986332705888,
+        "minimum_range_m": 466.33123214557077,
+        "terminal_range_m": 529.199970113682
+      },
+      "track_m": 96.74986332705888,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 35
+      },
+      "maximum_gpx_position_difference_m": 6.592842526427059e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 36,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3031085885823513,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "f9c196fe1536a99d9c6ae9282744b51be6f4ea0f9c44c29b4adbfbffde72ffe3",
+        "track.gpx": "7acbba593c5ce0fe57afd6fa04dc65150affabd7ff701f13595498432397721e",
+        "run.log": "f4fdb3d2413ef939676d237a5abe270d80bb8e52f286802d4c710a404e7beac4"
+      },
+      "scenario_id": "crossing_fan",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "crossing_fan__otranto_005__transformer",
+        "encounter_id": "crossing_fan",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 36,
+        "AIS_choose_applied_attempts": 35,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.282211167010246,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "f4fdb3d2413ef939676d237a5abe270d80bb8e52f286802d4c710a404e7beac4",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/crossing_fan__otranto_005__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "e1d2c8d25771e4922da1114cee53eada51a83c70f855c43208e81f1265264c30",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 87.51485215711844,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6868898750108201
+          }
+        ],
+        "AIS_applied_decision_attempts": 36,
+        "AIS_applied_decision_applied_attempts": 35,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.2859433340199757,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "f4fdb3d2413ef939676d237a5abe270d80bb8e52f286802d4c710a404e7beac4",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/crossing_fan__otranto_005__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "78b24193e2f85849a3684818ca01059fa4e730e5d8d9b83b5cbdc209d7313c18",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 36,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:52:55.000000000",
+            "nominal_course_deg": 87.51485215711844,
+            "prefer_starboard": true,
+            "wall_seconds": 0.7166841660218779,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 35,
+        "frames": 36,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.6176027472365929,
+        "astern_action_count": 35,
+        "astern_control_boundary_count": 34,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 34,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 8.526512829121202e-14,
+        "maximum_truth_outside_report_envelope_m": -7.908045018732913,
+        "distinct_report_ages_s": [
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0
+        ],
+        "maximum_applied_held_report_age_s": 55.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 47.38613790163667,
+        "truth_minimum_nominal_m": 22.386137901636673,
+        "truth_centered_minimum_uncertainty_m": 9.794955515655872,
+        "configured_truth_centered_minimum_m": 6.794955515655872,
+        "model_minimum_uncertainty_m": 6.174572620565371,
+        "configured_model_minimum_m": 3.174572620565371,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 47.38613790163667,
+            "mmsi": 998100201,
+            "elapsed_s": 137.30300197781622,
+            "action_step": 28,
+            "scenario_seconds": 97.30300197781621,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 22.386137901636673,
+            "mmsi": 998100201,
+            "elapsed_s": 137.30300197781622,
+            "action_step": 28,
+            "scenario_seconds": 97.30300197781621,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 9.794955515655872,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 6.174572620565371,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 6.794955515655872,
+            "mmsi": 998100201,
+            "elapsed_s": 135.0,
+            "action_step": 27,
+            "scenario_seconds": 95.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 3.174572620565371,
+            "mmsi": 998100203,
+            "elapsed_s": 175.0,
+            "action_step": 35,
+            "scenario_seconds": 135.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 35
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 529.199970113682,
+        "replay_sha256": "f9c196fe1536a99d9c6ae9282744b51be6f4ea0f9c44c29b4adbfbffde72ffe3",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/crossing_fan__otranto_005__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "f4fdb3d2413ef939676d237a5abe270d80bb8e52f286802d4c710a404e7beac4",
+        "history_sha256": "7592ee2b3f854e75880ceb3acda86629f0214b5682c21fe783dab07719925ab7",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+        "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 35,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 35,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 35
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS steering override": 35
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 36,
+        "search_total_seconds": 79.17111853702227,
+        "first_AIS_choose_seconds": 2.2283142909873277,
+        "search_max_seconds": 2.282211167010246,
+        "search_p95_seconds": 2.2818173749838024,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 35,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "opposed_crossing__otranto_355__classical": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "no_full_clearance_action",
+      "steps": 21,
+      "elapsed_s": 105,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 105,
+        "segment_s": 105,
+        "segment_distance_m": 54.2275104244995,
+        "minimum_range_m": 462.7498434824489,
+        "terminal_range_m": 463.5072723203693
+      },
+      "track_m": 54.2275104244995,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 21
+      },
+      "maximum_gpx_position_difference_m": 5.6828882075832866e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 22,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3031085885823518,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "ebf16104fa1c0d5b05317c452691637f27051b51d7867887d44b229e05c6aadc",
+        "track.gpx": "d8a7082de7f027ffdbd63b94d20573c0b58f6f02f92fa0d7d5acb155589a013b",
+        "run.log": "c9da6a74f259c86a86e0b9a7bab93236f35726e47a57d4dc3d1314a1a56c5d32"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_355__classical",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 22,
+        "AIS_choose_applied_attempts": 21,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.407522749999771,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "c9da6a74f259c86a86e0b9a7bab93236f35726e47a57d4dc3d1314a1a56c5d32",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/opposed_crossing__otranto_355__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "82c813eaa99f2c3e367d70bf2082294d65bb5835463f86c63ac62b4b5657f12e",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 22,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:45.000000000",
+            "nominal_course_deg": 50.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6904277089925017
+          }
+        ],
+        "AIS_applied_decision_attempts": 22,
+        "AIS_applied_decision_applied_attempts": 21,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.4111858750111423,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "c9da6a74f259c86a86e0b9a7bab93236f35726e47a57d4dc3d1314a1a56c5d32",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/opposed_crossing__otranto_355__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "69c5004c249eda522f9ff2630f22e3983daddef51aa3eea29275ce61b5cca5aa",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 22,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:45.000000000",
+            "nominal_course_deg": 50.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.7105405420006718,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 21,
+        "frames": 22,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.039994727702965124,
+        "astern_action_count": 4,
+        "astern_control_boundary_count": 3,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 20,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+        "maximum_truth_outside_report_envelope_m": -10.19980142120853,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 57.450072291611065,
+        "truth_minimum_nominal_m": 32.450072291611065,
+        "truth_centered_minimum_uncertainty_m": 19.325072291611065,
+        "configured_truth_centered_minimum_m": 16.325072291611065,
+        "model_minimum_uncertainty_m": 19.325067251548376,
+        "configured_model_minimum_m": 16.325067251548376,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 57.450072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 32.450072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 19.325072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 19.325067251548376,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 16.325072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 16.325067251548376,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 21
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 463.5072723203693,
+        "replay_sha256": "ebf16104fa1c0d5b05317c452691637f27051b51d7867887d44b229e05c6aadc",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "c9da6a74f259c86a86e0b9a7bab93236f35726e47a57d4dc3d1314a1a56c5d32",
+        "history_sha256": "86a2dcc16195091b2208b764685dd71412845222fa1c61fdf2bfbb6b0b07aa69",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 21,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 21
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 21
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 22,
+        "search_total_seconds": 49.10794129394344,
+        "first_AIS_choose_seconds": 2.279054458020255,
+        "search_max_seconds": 2.407522749999771,
+        "search_p95_seconds": 2.38907800000743,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 21,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "opposed_crossing__otranto_355__transformer": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 355,
+      "status": "no_full_clearance_action",
+      "steps": 21,
+      "elapsed_s": 105,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 105,
+        "segment_s": 105,
+        "segment_distance_m": 54.2275104244995,
+        "minimum_range_m": 462.7498434824489,
+        "terminal_range_m": 463.5072723203693
+      },
+      "track_m": 54.2275104244995,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 21
+      },
+      "maximum_gpx_position_difference_m": 5.6828882075832866e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 22,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": 0.3031085885823518,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 355.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "8f5137bd106f1673e80e0df98175f01aa281a18ebb6bf37c66718e2769a33fca",
+        "track.gpx": "d8a7082de7f027ffdbd63b94d20573c0b58f6f02f92fa0d7d5acb155589a013b",
+        "run.log": "b75672698a30ab6cde5fbfff98f50251bcf085dba45091704398de475a6dd227"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_355__transformer",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 22,
+        "AIS_choose_applied_attempts": 21,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.3932698749995325,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "b75672698a30ab6cde5fbfff98f50251bcf085dba45091704398de475a6dd227",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/opposed_crossing__otranto_355__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "2b3fc2e7131a76fa802205b17af4967478ca52f40bfa604a057e7cbc55532453",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 22,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:45.000000000",
+            "nominal_course_deg": 50.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.700217083998723
+          }
+        ],
+        "AIS_applied_decision_attempts": 22,
+        "AIS_applied_decision_applied_attempts": 21,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.397037957998691,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "b75672698a30ab6cde5fbfff98f50251bcf085dba45091704398de475a6dd227",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/opposed_crossing__otranto_355__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "c8b3bf990241463ad35ed6ed8396f5312c9052cd6a05245e02643c232952f382",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 22,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:45.000000000",
+            "nominal_course_deg": 50.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.7196517090196721,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 355.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 21,
+        "frames": 22,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.039994727702965124,
+        "astern_action_count": 4,
+        "astern_control_boundary_count": 3,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 20,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+        "maximum_truth_outside_report_envelope_m": -10.19980142120853,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 57.450072291611065,
+        "truth_minimum_nominal_m": 32.450072291611065,
+        "truth_centered_minimum_uncertainty_m": 19.325072291611065,
+        "configured_truth_centered_minimum_m": 16.325072291611065,
+        "model_minimum_uncertainty_m": 19.325067251548376,
+        "configured_model_minimum_m": 16.325067251548376,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 57.450072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 32.450072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 19.325072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 19.325067251548376,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 16.325072291611065,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 16.325067251548376,
+            "mmsi": 998100301,
+            "elapsed_s": 105.0,
+            "action_step": 21,
+            "scenario_seconds": 65.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 21
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 463.5072723203693,
+        "replay_sha256": "8f5137bd106f1673e80e0df98175f01aa281a18ebb6bf37c66718e2769a33fca",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_355__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "b75672698a30ab6cde5fbfff98f50251bcf085dba45091704398de475a6dd227",
+        "history_sha256": "86a2dcc16195091b2208b764685dd71412845222fa1c61fdf2bfbb6b0b07aa69",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 21,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 21,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 21
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS steering override": 21
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 22,
+        "search_total_seconds": 49.00046487603686,
+        "first_AIS_choose_seconds": 2.28634887500084,
+        "search_max_seconds": 2.3932698749995325,
+        "search_p95_seconds": 2.387960457999725,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 21,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "opposed_crossing__otranto_005__classical": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "no_full_clearance_action",
+      "steps": 22,
+      "elapsed_s": 110,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 110,
+        "segment_s": 110,
+        "segment_distance_m": 56.550440585066944,
+        "minimum_range_m": 462.70561797438666,
+        "terminal_range_m": 463.9189632676537
+      },
+      "track_m": 56.550440585066944,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 22
+      },
+      "maximum_gpx_position_difference_m": 6.636047050188507e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 23,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3031085885823513,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "33344210d3f5aa8fde44510054a352c331b17ce58427a73f64dc2289b1aa4a28",
+        "track.gpx": "5f6b675854260180d39e108a8275247ed5f8f8d0c73d8396cd228ec0ec88d7af",
+        "run.log": "1bbcb37f7fbd8821499878f5e1e03a44bcb4bfef0fac7c628ab08c8d01bb6728"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "classical",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_005__classical",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 23,
+        "AIS_choose_applied_attempts": 22,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.4387578330060933,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "1bbcb37f7fbd8821499878f5e1e03a44bcb4bfef0fac7c628ab08c8d01bb6728",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/opposed_crossing__otranto_005__classical.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "347da674850e17f6887608d134aafd7b2074e1f1b0450bb1090abc1a0fecf524",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 23,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:50.000000000",
+            "nominal_course_deg": 60.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6810402919945773
+          }
+        ],
+        "AIS_applied_decision_attempts": 23,
+        "AIS_applied_decision_applied_attempts": 22,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.442795999988448,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "1bbcb37f7fbd8821499878f5e1e03a44bcb4bfef0fac7c628ab08c8d01bb6728",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/opposed_crossing__otranto_005__classical.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "09f8bc4309ed233ac02cc54d97aa72e1ee06029827d1af367e9475ba317ad4de",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 23,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:50.000000000",
+            "nominal_course_deg": 60.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6999855419853702,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 22,
+        "frames": 23,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.03978596205669764,
+        "astern_action_count": 4,
+        "astern_control_boundary_count": 3,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 21,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+        "maximum_truth_outside_report_envelope_m": -10.199791398017066,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 41.5811170561978,
+        "truth_minimum_nominal_m": 16.581117056197797,
+        "truth_centered_minimum_uncertainty_m": 3.4561170561977974,
+        "configured_truth_centered_minimum_m": 0.4561170561977974,
+        "model_minimum_uncertainty_m": 3.4560952735408534,
+        "configured_model_minimum_m": 0.45609527354085344,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 41.5811170561978,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 16.581117056197797,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 3.4561170561977974,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 3.4560952735408534,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 0.4561170561977974,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 0.45609527354085344,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 22
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 463.9189632676537,
+        "replay_sha256": "33344210d3f5aa8fde44510054a352c331b17ce58427a73f64dc2289b1aa4a28",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__classical/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "1bbcb37f7fbd8821499878f5e1e03a44bcb4bfef0fac7c628ab08c8d01bb6728",
+        "history_sha256": "4c3d176eeb5dcdc89d729d3e06985db5f1f0213487299a9ea01927800858f30e",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 22,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 0,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": null,
+          "action": null,
+          "updates": 22
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "none": 22
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 23,
+        "search_total_seconds": 51.67635262498516,
+        "first_AIS_choose_seconds": 2.3032857500074897,
+        "search_max_seconds": 2.4387578330060933,
+        "search_p95_seconds": 2.379352749994723,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 22,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    },
+    "opposed_crossing__otranto_005__transformer": {
+      "directory": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "wind_from_degrees": 5,
+      "status": "no_full_clearance_action",
+      "steps": 22,
+      "elapsed_s": 110,
+      "captures": [],
+      "unfinished_leg": {
+        "phase": "outbound",
+        "waypoint": "002",
+        "from_step": 0,
+        "elapsed_s": 110,
+        "segment_s": 110,
+        "segment_distance_m": 56.550440585066944,
+        "minimum_range_m": 462.70561797438666,
+        "terminal_range_m": 463.9189632676537
+      },
+      "track_m": 56.550440585066944,
+      "forecast_updates": 0,
+      "controller_outcomes": {
+        "AIS predictive fallback": 22
+      },
+      "maximum_gpx_position_difference_m": 6.636047050188507e-05,
+      "gpx_timestamp_count": 0,
+      "archive_checks_per_provider": 23,
+      "maximum_archive_value_difference": 2.842170943040401e-14,
+      "archive_scalar_crosschecks_per_provider": 2,
+      "maximum_archive_batch_scalar_difference": 8.881784197001252e-16,
+      "archive_native_coastal_fallback_counts": {
+        "wind": 0,
+        "wave": 0,
+        "current": 0
+      },
+      "departure_environment": {
+        "wind": {
+          "u": -0.3031085885823513,
+          "v": -3.464547020912445,
+          "speed": 3.4777810276936187,
+          "direction": 5.0
+        },
+        "wave": {
+          "height": 0.6137755946601563,
+          "direction": 5.2428727938281,
+          "peak_period": 4.23983353471461
+        },
+        "current": {
+          "u": 0.20146597130618213,
+          "v": -0.24832010611034305,
+          "speed": 0.31976774805004243,
+          "direction": 140.94704179745577,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "8233e51a7e5981426b66005fc0edd73a95d851e1d3aa5cb1a0309bda7c730ee4",
+        "track.gpx": "5f6b675854260180d39e108a8275247ed5f8f8d0c73d8396cd228ec0ec88d7af",
+        "run.log": "d5753bf373091aeddbee1f132090f7ecc15f9593b9d0d8b8ff011d5a7180503a"
+      },
+      "scenario_id": "opposed_crossing",
+      "method": "transformer",
+      "independent_clearance": {
+        "case": "opposed_crossing__otranto_005__transformer",
+        "encounter_id": "opposed_crossing",
+        "scope": "all-applied-actions",
+        "AIS_choose_attempts": 23,
+        "AIS_choose_applied_attempts": 22,
+        "AIS_choose_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_choose_s": 2.4216357079858426,
+        "AIS_choose_attempts_at_or_above_5s": 0,
+        "all_AIS_choose_attempts_below_5s": true,
+        "AIS_choose_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "AIS_choose_timing_measurement_log_sha256": "d5753bf373091aeddbee1f132090f7ecc15f9593b9d0d8b8ff011d5a7180503a",
+        "AIS_choose_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_decision_timing/opposed_crossing__otranto_005__transformer.csv",
+        "AIS_choose_attempt_timing_csv_sha256": "0b9e78e7871b76365e7b1f800c226b0c8a6c6f70edc0c53f79bbc112a2a816ba",
+        "AIS_choose_overrun_or_unapplied_timing_records": [
+          {
+            "step": 23,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:50.000000000",
+            "nominal_course_deg": 60.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6804786669963505
+          }
+        ],
+        "AIS_applied_decision_attempts": 23,
+        "AIS_applied_decision_applied_attempts": 22,
+        "AIS_applied_decision_unapplied_final_attempts": 1,
+        "maximum_complete_AIS_applied_decision_s": 2.425222624995513,
+        "AIS_applied_decision_attempts_at_or_above_5s": 0,
+        "all_AIS_applied_decision_attempts_below_5s": true,
+        "AIS_applied_decision_timing_measurement_log": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "AIS_applied_decision_timing_measurement_log_sha256": "d5753bf373091aeddbee1f132090f7ecc15f9593b9d0d8b8ff011d5a7180503a",
+        "AIS_applied_decision_attempt_timing_csv": "data/results/otranto_predictive_fallback_retest/independent_applied_decision_timing/opposed_crossing__otranto_005__transformer.csv",
+        "AIS_applied_decision_attempt_timing_csv_sha256": "40726fa430f73a101ac33b0e4f13502747b8ee6d2d89fe202aaa59e71ad07c3a",
+        "AIS_applied_decision_overrun_or_unapplied_timing_records": [
+          {
+            "step": 23,
+            "phase": "outbound",
+            "waypoint": "002",
+            "observation_utc": "2026-09-30T23:51:50.000000000",
+            "nominal_course_deg": 60.0,
+            "prefer_starboard": true,
+            "wall_seconds": 0.6992365829937626,
+            "applied": false
+          }
+        ],
+        "AIS_attempt_timing_scope": "Every complete AISBufferPlanner.choose and entire AIS selection-through-native-assessment attempt, including the final unapplied stop or exception. Both streams are matched to all applied replay timers; the applied-decision scope also includes controller/actuator selection and any fallback.",
+        "requested_checkpoint_seconds": null,
+        "closed_before_or_at_checkpoint": false,
+        "wind_from_degrees": 5.0,
+        "departure_utc": "2026-09-30T23:50:00Z",
+        "applied_actions": 22,
+        "frames": 23,
+        "integration_substep_seconds": 0.05,
+        "maximum_pose_reconstruction_error_m": 0.0,
+        "maximum_heading_reconstruction_error_deg": 0.0,
+        "minimum_native_integration_surge_mps": -0.03978596205669764,
+        "astern_action_count": 4,
+        "astern_control_boundary_count": 3,
+        "maximum_colreg_ground_velocity_error_mps": 0.0,
+        "colreg_fossen_velocity_checks": 21,
+        "colreg_legacy_sog_velocity_checks": 1,
+        "maximum_recorded_cog_error_deg": 0.0,
+        "maximum_runtime_margin_difference_m": 1.1368683772161603e-13,
+        "maximum_truth_outside_report_envelope_m": -10.199791398017066,
+        "distinct_report_ages_s": [
+          20.0
+        ],
+        "maximum_applied_held_report_age_s": 25.0,
+        "longest_fault_peak_experienced": false,
+        "truth_minimum_hull_m": 41.5811170561978,
+        "truth_minimum_nominal_m": 16.581117056197797,
+        "truth_centered_minimum_uncertainty_m": 3.4561170561977974,
+        "configured_truth_centered_minimum_m": 0.4561170561977974,
+        "model_minimum_uncertainty_m": 3.4560952735408534,
+        "configured_model_minimum_m": 0.45609527354085344,
+        "minimum_details": {
+          "true_hull": {
+            "margin_m": 41.5811170561978,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "true_nominal_25m": {
+            "margin_m": 16.581117056197797,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_full_uncertainty": {
+            "margin_m": 3.4561170561977974,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_full_uncertainty": {
+            "margin_m": 3.4560952735408534,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "truth_with_reserve": {
+            "margin_m": 0.4561170561977974,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          },
+          "projected_with_reserve": {
+            "margin_m": 0.45609527354085344,
+            "mmsi": 998100301,
+            "elapsed_s": 110.0,
+            "action_step": 22,
+            "scenario_seconds": 70.0,
+            "ais_mode": "predictive fallback"
+          }
+        },
+        "negative_action_counts": {
+          "true_hull": 0,
+          "true_nominal_25m": 0,
+          "truth_full_uncertainty": 0,
+          "projected_full_uncertainty": 0,
+          "truth_with_reserve": 0,
+          "projected_with_reserve": 0
+        },
+        "ais_modes": {
+          "predictive fallback": 22
+        },
+        "verified_constant_velocity_truth_extended_after_s": 600.0,
+        "mission_status": "no_full_clearance_action",
+        "strict_clearance_stop": true,
+        "waypoint_arrivals": [],
+        "goal_captures": [],
+        "final_goal_distance_m": 463.9189632676537,
+        "replay_sha256": "8233e51a7e5981426b66005fc0edd73a95d851e1d3aa5cb1a0309bda7c730ee4",
+        "replay_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer/navigation.jsonl.gz",
+        "run_log_measurement_path": "data/results/otranto_predictive_fallback_retest/runs/opposed_crossing__otranto_005__transformer/run.log",
+        "source_live_recording_path": null,
+        "checkpoint_inputs_frozen": false,
+        "run_log_sha256": "d5753bf373091aeddbee1f132090f7ecc15f9593b9d0d8b8ff011d5a7180503a",
+        "history_sha256": "4c3d176eeb5dcdc89d729d3e06985db5f1f0213487299a9ea01927800858f30e",
+        "audit_source_sha256": "bd337d0f858603d671dbf075b9a9adda8a9c1bac4f9c2eda134d8dc2f89fc198",
+        "truth_fixture_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+        "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a",
+        "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+        "radius_m": {
+          "nominal_clearance_beyond_combined_hulls": 25.0,
+          "initial_uncertainty": 5.0,
+          "linear_growth_mps": 0.05,
+          "acceleration_bound_mps2": 0.026,
+          "steering_reserve": 3.0
+        }
+      },
+      "arbitration": {
+        "colreg_active_updates": 22,
+        "accepted_policy_updates": 0,
+        "learned_source_updates": 0,
+        "learned_hold_updates": 0,
+        "learned_sail_updates": 0,
+        "accepted_hold_updates": 0,
+        "accepted_sail_updates": 0,
+        "physical_release_overrides": 0,
+        "learned_applied_with_colreg": 0,
+        "accepted_action_differs_classical": 0,
+        "AIS_encounter_deferrals": 0,
+        "AIS_steering_override_deferrals": 22,
+        "AIS_action_fallback_deferrals": 0,
+        "actual_drift_trim_updates": 0,
+        "holding_mode_updates": 0,
+        "recovering_mode_updates": 0,
+        "forecast_hold_reference_updates": 0,
+        "forecast_reference_updates": 0,
+        "AIS_buffer_maneuver_updates": 0,
+        "AIS_sustained_recovery_updates": 0,
+        "AIS_recovery_soft_colreg_override_updates": 0,
+        "AIS_fallback_updates": 0,
+        "native_NMPC_updates": 0,
+        "accepted_weather_windows": 0,
+        "raw_model_weather_windows": 0,
+        "model_proposal_events": 0,
+        "raw_hold_proposal_events": 0,
+        "raw_sail_proposal_events": 0,
+        "physical_release_proposal_events": 0,
+        "classically_vetoed_proposal_events": 0,
+        "actual_hold_seconds": 0
+      },
+      "first_accepted_policy_start_s": null,
+      "first_accepted_difference_from_classical_s": null,
+      "first_physical_release_override_start_s": null,
+      "arbitration_source_actions": [
+        {
+          "source": "classical fallback",
+          "action": "planner",
+          "updates": 22
+        }
+      ],
+      "arbitration_fallback_reasons": {
+        "AIS steering override": 22
+      },
+      "actual_hold_intervals": [],
+      "recovery_diagnostics": {
+        "recovery_applied_updates": 0,
+        "recovery_first_action_start_s": null,
+        "recovery_last_action_end_s": null,
+        "minimum_recorded_recovery_preview_margin_m": null,
+        "minimum_recorded_recovery_surge_mps": null,
+        "search_calls": 23,
+        "search_total_seconds": 51.66585116699571,
+        "first_AIS_choose_seconds": 2.2911088750115596,
+        "search_max_seconds": 2.4216357079858426,
+        "search_p95_seconds": 2.401962417003233,
+        "search_calls_exceeding_5s_interval": 0,
+        "recovery_cached_rechecks": 0,
+        "recovery_cached_recheck_max_seconds": null,
+        "recovery_cached_recheck_p95_seconds": null,
+        "recovery_backend_update_counts": {},
+        "fresh_recovery_search_profiles": [],
+        "timing_scope": "Wall time inside AISBufferPlanner.choose; includes cold construction and cached revalidation. Virtual simulation time does not advance during planning.",
+        "astern_scope": "Signed native water-relative surge at saved endpoints during recovery, not an injected velocity or a validated reverse-hydrodynamic sea trial.",
+        "applied_replay_search_calls": 22,
+        "unapplied_attempts": 1,
+        "attempt_timing_scope": "Every whole AIS choose attempt from finally-logged wall times, including unsuccessful/exceptional terminal attempts; applied-frame timers independently cross-checked."
+      },
+      "unapplied_COLREG_assessments": 1
+    }
+  },
+  "comparisons_by_wind": {
+    "crossing_fan__355": {
+      "classical_arm": "crossing_fan__otranto_355__classical",
+      "transformer_arm": "crossing_fan__otranto_355__transformer",
+      "paired_frames": 36,
+      "frame_counts_equal": true,
+      "states_identical": true,
+      "observations_identical": true,
+      "first_state_difference_at_step": null,
+      "first_observation_difference_at_step": null,
+      "first_applied_command_difference_at_step": null,
+      "first_applied_command_difference_start_s": null,
+      "applied_commands_identical": true,
+      "nominal_references_identical": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 0,
+      "both_completed": false,
+      "capture_deltas": []
+    },
+    "crossing_fan__005": {
+      "classical_arm": "crossing_fan__otranto_005__classical",
+      "transformer_arm": "crossing_fan__otranto_005__transformer",
+      "paired_frames": 36,
+      "frame_counts_equal": true,
+      "states_identical": true,
+      "observations_identical": true,
+      "first_state_difference_at_step": null,
+      "first_observation_difference_at_step": null,
+      "first_applied_command_difference_at_step": null,
+      "first_applied_command_difference_start_s": null,
+      "applied_commands_identical": true,
+      "nominal_references_identical": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 0,
+      "both_completed": false,
+      "capture_deltas": []
+    },
+    "opposed_crossing__355": {
+      "classical_arm": "opposed_crossing__otranto_355__classical",
+      "transformer_arm": "opposed_crossing__otranto_355__transformer",
+      "paired_frames": 22,
+      "frame_counts_equal": true,
+      "states_identical": true,
+      "observations_identical": true,
+      "first_state_difference_at_step": null,
+      "first_observation_difference_at_step": null,
+      "first_applied_command_difference_at_step": null,
+      "first_applied_command_difference_start_s": null,
+      "applied_commands_identical": true,
+      "nominal_references_identical": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 0,
+      "both_completed": false,
+      "capture_deltas": []
+    },
+    "opposed_crossing__005": {
+      "classical_arm": "opposed_crossing__otranto_005__classical",
+      "transformer_arm": "opposed_crossing__otranto_005__transformer",
+      "paired_frames": 23,
+      "frame_counts_equal": true,
+      "states_identical": true,
+      "observations_identical": true,
+      "first_state_difference_at_step": null,
+      "first_observation_difference_at_step": null,
+      "first_applied_command_difference_at_step": null,
+      "first_applied_command_difference_start_s": null,
+      "applied_commands_identical": true,
+      "nominal_references_identical": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "launch_time_world_sources_identical": true,
+      "transformer_minus_classical_elapsed_s": 0,
+      "both_completed": false,
+      "capture_deltas": []
+    }
+  },
+  "measurement": "First saved entry in each original 50 m GPX circle; geodesic chords between consecutive 5 s fixes. Incomplete tails are included in total distance.",
+  "forcing_audit": "All saved positions and timestamps resampled from native archive; wind speed preserved with declared controlled FROM bearing.",
+  "clearance_measurement": "Independent 0.05 s Fossen reconstruction against truth and report-projected full uncertainty with and without 3 m reserve.",
+  "policy_counting": "Applied updates counted after actuator arbitration; fresh model decisions deduplicated by decision UTC plus weather-window UTC; cached telemetry is reported separately.",
+  "classical_rule_diagnostic": "Each temporal classical_action is the rule evaluated at that decision's own state, retained with cached telemetry. It is distinct from the separate classical trajectory after paths diverge."
+}

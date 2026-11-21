@@ -1,0 +1,36 @@
+{
+  "method": "escape",
+  "inputs_sha256": "2bba8aeab259f9e7a04f7e00bd911d8f1420ca283c8ac0616fabdc5fd9a437a7",
+  "episodes_sha256": "e24c4134bddec3a7fd0f3e578a9a647d006d0a1ea87f62eaac2656071178fec4",
+  "summary": {
+    "cases": 12,
+    "completed": 5,
+    "status": {
+      "censored_cap": 1,
+      "no_safe_native_action": 6,
+      "captured": 5
+    },
+    "fully_audited_cases": 10,
+    "nonpositive_clearance_cases": 0,
+    "minimum_full_margin_m": 16.386657373039093,
+    "mean_penalized_s": 26825.32835845703,
+    "median_completed_s": 3784.474161081249,
+    "learned_changes": 3,
+    "maximum_decision_s": 0.5581174999970244,
+    "overruns_5s": 0
+  },
+  "trace_sha256es": {
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_oblique_fan__escape.json.gz": "36ae47da196b9acf5099427129e1cdceff51afa7eee7d5953b411edeee81a74e",
+    "telemetry/autumn__20261012T0600Z__brindisi_small__test_raking_overtake__escape.json.gz": "9f91bc381dcadfef3255173f16b8c15839fb2b7785d7978e4054e06a2993e6bb",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_oblique_fan__escape.json.gz": "17d0e02e380a9f4d0c89bb97907f367126b965288febfc6ed5e21a5950d51fce",
+    "telemetry/autumn__20261014T1200Z__brindisi_003__test_raking_overtake__escape.json.gz": "166fce1243d355133e44acbf4e039bbad0a705fcb679507af7d9d5e6b0c57cce",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_oblique_fan__escape.json.gz": "ece552c6c7570a43c4d7c993c750b11d0e9ffdc47938dff15354dff6f44ff076",
+    "telemetry/autumn__20261016T1800Z__brindisi_004__test_raking_overtake__escape.json.gz": "8dd82efd8c996ab407c5b768dd3f04ce6c2d1beb47e4596d8f48d16af3909067",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_oblique_fan__escape.json.gz": "d82d686bb2a257f29e4769c9e4443b5fb2643145385e273e32e56dbab3b0e01e",
+    "telemetry/autumn__20261018T0000Z__brindisi_small__test_raking_overtake__escape.json.gz": "99fd77d06ee2e02d2f9e0b5ffc2cef3441ca54983af00309a277c296e9b826da",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_oblique_fan__escape.json.gz": "035fd63f46a6a02557eef4f11b63e88c8e6589232b2bdf358e4caa9556d03941",
+    "telemetry/autumn__20261013T1800Z__brindisi_003__test_raking_overtake__escape.json.gz": "21122a28a3eb1fa5a2eda8b0759bf5847a6102a85faa0e261e531db79f0d569b",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_oblique_fan__escape.json.gz": "e7da2771714fe98f27eda83e719a3b7cc19d94aac39984e85db3f1065b09dd17",
+    "telemetry/autumn__20261017T1200Z__brindisi_004__test_raking_overtake__escape.json.gz": "f156c678c356171be2330f0dac6b03d9bd9cc6476925ff55a05f99ea317bcd36"
+  }
+}

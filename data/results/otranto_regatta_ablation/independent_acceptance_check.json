@@ -1,0 +1,328 @@
+{
+  "all_outcomes_retained": true,
+  "all_passed": true,
+  "cases": [
+    {
+      "case": "crossing_fan__otranto_005__classical__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_005__classical__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_005__transformer__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_005__transformer__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_355__classical__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_355__classical__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_355__transformer__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "crossing_fan__otranto_355__transformer__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_005__classical__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_005__classical__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_005__transformer__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_005__transformer__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_355__classical__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_355__classical__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_355__transformer__regatta_off",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    },
+    {
+      "case": "opposed_crossing__otranto_355__transformer__regatta_on",
+      "passed": true,
+      "checks": {
+        "normal_execution": true,
+        "capture_order_verified": true,
+        "complete_loop": true,
+        "truth_full_uncertainty_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "report_full_uncertainty_positive": true,
+        "report_full_plus_reserve_positive": true,
+        "all_clearance_violations_zero": true,
+        "both_65s_peaks_verified": true,
+        "new_contact_acquired_at_420s": true,
+        "all_gate_attempts_below_5s": true,
+        "all_choose_attempts_below_5s": true,
+        "all_complete_selection_attempts_below_5s": true,
+        "startup_displacement_within_observed_gate_tube": true
+      }
+    }
+  ],
+  "audit_failures": [],
+  "timing_scope": "Gate, complete AIS choose, and choice-through-action-acceptance timers checked separately against five seconds."
+}

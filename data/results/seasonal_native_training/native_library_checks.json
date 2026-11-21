@@ -1,0 +1,127 @@
+{
+  "matched_branch": {
+    "captures": [
+      {
+        "name": "test",
+        "index": 0,
+        "elapsed_s": 238.84133326652227,
+        "utc": "2026-01-12T06:03:58.841333267Z",
+        "latitude": 40.000030393143746,
+        "longitude": 18.00293233845148,
+        "distance_m": 49.99999999999892,
+        "integrator_elapsed_s": 238.85,
+        "scope": "great-circle native polyline"
+      }
+    ],
+    "identical_trace": true,
+    "three_episode_wall_s": 0.3078293330036104,
+    "summary": {
+      "success": true,
+      "status": "captured",
+      "elapsed_s": 238.85,
+      "final_state": {
+        "latitude": 40.000030396315665,
+        "longitude": 18.002932446873103,
+        "heading": 87.15626496916067,
+        "speed": 1.0675885640991767,
+        "rudder": 5.931291926390788,
+        "flap": 14.999999999999998,
+        "heel": 2.641892797661306,
+        "surge_speed": 0.9651609866043434,
+        "sway_speed": 0.05721239394965659,
+        "yaw_rate": -0.035970877611082995
+      },
+      "captures": [
+        {
+          "name": "test",
+          "index": 0,
+          "elapsed_s": 238.84133326652227,
+          "utc": "2026-01-12T06:03:58.841333267Z",
+          "latitude": 40.000030393143746,
+          "longitude": 18.00293233845148,
+          "distance_m": 49.99999999999892,
+          "integrator_elapsed_s": 238.85,
+          "scope": "great-circle native polyline"
+        }
+      ],
+      "report_minimum_m": Infinity,
+      "truth_minimum_m": Infinity,
+      "first_choice_requested": "mode_11",
+      "first_choice_applied": "mode_11",
+      "first_commit_requested_s": 120.0,
+      "first_commit_applied_s": 120.0,
+      "first_commit_completed": true,
+      "shield_overrides": 0,
+      "censored": false,
+      "closest_m": 49.99080957618276,
+      "trace_count": 48,
+      "controls_count": 48,
+      "control_attempts_count": 48,
+      "decisions_count": 2
+    }
+  },
+  "python_native_parity": {
+    "cases": 24,
+    "maximum_absolute_error": {
+      "latitude": 5.684341886080802e-14,
+      "longitude": 1.4210854715202004e-13,
+      "heading": 7.389644451905042e-13,
+      "speed": 7.216449660063518e-16,
+      "rudder": 3.552713678800501e-15,
+      "flap": 1.7763568394002505e-15,
+      "heel": 4.374278717023117e-14,
+      "surge_speed": 7.771561172376096e-16,
+      "sway_speed": 7.008282842946301e-16,
+      "yaw_rate": 7.632783294297951e-16
+    }
+  },
+  "causality": {
+    "features_identical_under_different_truth": true,
+    "admission_and_motion_identical": true,
+    "negative_truth_detected_offline": true,
+    "truth_queries_during_decision": 0,
+    "feature_width": 34
+  },
+  "strict_stop": {
+    "terminal_attempt_preserved": true,
+    "unsafe_actions_applied": 0
+  },
+  "passed": true,
+  "tests_run": 4,
+  "feature_names": [
+    "wind_speed_mps",
+    "wind_from_along_goal",
+    "wind_from_across_goal",
+    "current_along_goal_mps",
+    "current_across_goal_mps",
+    "wave_height_m",
+    "boat_speed_mps",
+    "boat_surge_mps",
+    "boat_sway_mps",
+    "boat_yaw_rate_rad_s",
+    "boat_rudder_deg",
+    "boat_flap_deg",
+    "course_along_goal",
+    "course_across_goal",
+    "bow_along_wind_from",
+    "bow_across_wind_from",
+    "bow_along_boat",
+    "bow_across_boat",
+    "goal_distance_m",
+    "native_predicted_capture",
+    "native_eta_or_horizon_s",
+    "native_predicted_closest_m",
+    "first_duration_s",
+    "following_course_along_goal",
+    "following_course_across_goal",
+    "steady_rudder_deg",
+    "steady_flap_deg",
+    "report_margin_m_clipped",
+    "max_report_age_s",
+    "reported_contact_count",
+    "allowed_fraction",
+    "colreg_active",
+    "native_schedule_class",
+    "switch_after_s"
+  ]
+}

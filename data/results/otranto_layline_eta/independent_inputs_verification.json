@@ -1,0 +1,34 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_eta": {
+      "case": "crossing_fan__otranto_005__layline_eta",
+      "mode": "eta",
+      "wind_from_degrees": 5,
+      "execution_return_code": 0,
+      "same_invocation_as_verified_off_apart_from_eta_flag_and_run_paths": true,
+      "same_forecast_archive_AIS_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "verified_baseline_case": "crossing_fan__otranto_005__layline_off",
+      "baseline_case_audit_sha256": "b2ec3c5eb17b2f7bd7399626f405408c3b3fddbf60949282f084f381adbb5167",
+      "baseline_execution_sha256": "5da1f4133241ff43c7fb89feb7a4813306951383b3e8a04d2ad617303fc1abaa",
+      "baseline_replay_sha256": "fb5f8f1105058b08b1e42361847061e95c4990109cfba14cd530ad679622624e",
+      "experiment_sha256": "473a0d758a091c4cb78fc7c801f78bf1f72e224a081c112927da2351da926b9e",
+      "execution_sha256": "f37b529cc2a2dcb93d3d6665168a19acb19f605dc1385b3860ef8647de183ef5"
+    },
+    "crossing_fan__otranto_355__layline_eta": {
+      "case": "crossing_fan__otranto_355__layline_eta",
+      "mode": "eta",
+      "wind_from_degrees": 355,
+      "execution_return_code": 0,
+      "same_invocation_as_verified_off_apart_from_eta_flag_and_run_paths": true,
+      "same_forecast_archive_AIS_initial_state_and_launch_clock": true,
+      "sources_bound_to_unchanged_execution_snapshot": true,
+      "verified_baseline_case": "crossing_fan__otranto_355__layline_off",
+      "baseline_case_audit_sha256": "048e9deadfc22a9fab152eecce6f36ff779161d78a521dfff335cade90eeff5d",
+      "baseline_execution_sha256": "523d96b0968056a64dc67fef6a4d62cbb3040d56d719d776196b60426911cfd6",
+      "baseline_replay_sha256": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+      "experiment_sha256": "3942000b7d640fd3cd000326caa4ad751ce462305998e6e6193d059820026201",
+      "execution_sha256": "e8e6c4f682908dafcc9b81ec2ee418d0c717f149d04c8d6379275ea73a27baa1"
+    }
+  }
+}

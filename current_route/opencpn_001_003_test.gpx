@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="maritime_world"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:opencpn="http://www.opencpn.org">
+  <rte>
+    <name>opencpn_001_003_test</name>
+    <extensions>
+      <opencpn:planned_speed>6.00</opencpn:planned_speed>
+      <opencpn:planned_departure>2026-10-31T13:06:57Z</opencpn:planned_departure>
+    </extensions>
+    <rtept lat="40.593333333" lon="18.193333333">
+      <name>001</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.600000000" lon="18.188333333">
+      <name>002</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.595000000" lon="18.186666667">
+      <name>003</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,1190 @@
+{
+  "status": "PASS",
+  "archives_verified": 4,
+  "physical_files_verified": 12,
+  "manifests": {
+    "manifest.json": {
+      "sha256": "ffa9fac6e7a664dbfca44296149e76eb48ef1dcd11cfe8934c34e5b8f894cefc",
+      "scenario_counts": {
+        "train": 8,
+        "validation": 3,
+        "test": 8
+      },
+      "route_families": {
+        "train": [
+          "otranto"
+        ],
+        "validation": [
+          "otranto"
+        ],
+        "test": [
+          "brindisi"
+        ]
+      },
+      "traffic_geometry_sha256": {
+        "train_crossing": "de1e562fd7d5a4d5ed9b52ab40324eb516beac41cef4010ddf723654e69071d4",
+        "train_opposed": "0f65602f559eb49cc0e3679afbbcf0693444a7b508b9bffb8379f201a36cf86c",
+        "validation_slanted": "aa24e43801ccd20ec8485f6cd4c40e748ff6ed115809b71064340715a10119ea",
+        "test_oblique_fan": "dc46c4b6f32ac075521c3038cd60b63996bcb51b94d5614280c33fb8669201ff",
+        "test_raking_overtake": "23d779ecea84204489f25bbccac2b5e39c1675f97bf1d20ccc44111a72b14e6e"
+      },
+      "test_route_time_groups": 4
+    },
+    "manifest_expanded.json": {
+      "sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+      "scenario_counts": {
+        "train": 16,
+        "validation": 6,
+        "test": 12
+      },
+      "route_families": {
+        "train": [
+          "otranto"
+        ],
+        "validation": [
+          "otranto"
+        ],
+        "test": [
+          "brindisi"
+        ]
+      },
+      "traffic_geometry_sha256": {
+        "train_crossing": "de1e562fd7d5a4d5ed9b52ab40324eb516beac41cef4010ddf723654e69071d4",
+        "train_opposed": "0f65602f559eb49cc0e3679afbbcf0693444a7b508b9bffb8379f201a36cf86c",
+        "validation_slanted": "aa24e43801ccd20ec8485f6cd4c40e748ff6ed115809b71064340715a10119ea",
+        "test_oblique_fan": "dc46c4b6f32ac075521c3038cd60b63996bcb51b94d5614280c33fb8669201ff",
+        "test_raking_overtake": "23d779ecea84204489f25bbccac2b5e39c1675f97bf1d20ccc44111a72b14e6e"
+      },
+      "test_route_time_groups": 6
+    }
+  },
+  "blocks": {
+    "winter": {
+      "coverage_first_utc": "2026-01-11T00:00:00Z",
+      "coverage_last_utc": "2026-01-20T23:00:00Z",
+      "acquisition_sha256": "1e278208df8a7c93648f24d01cbb050899b7eb7844c7e101dbed3e2a2078a7d3",
+      "sources": {
+        "wind": {
+          "normalized_sha256": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+          "provider": "ECMWF/Copernicus Climate Change Service ERA5 single-level reanalysis",
+          "model": "era5",
+          "grid_shape": [
+            240,
+            6,
+            8
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 2,
+          "provider_to_grid_cell_hours_verified": 11520,
+          "units_standard_names": {
+            "u10": [
+              "m s-1",
+              "eastward_wind"
+            ],
+            "v10": [
+              "m s-1",
+              "northward_wind"
+            ]
+          }
+        },
+        "current": {
+          "normalized_sha256": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+          "provider": "M\u00e9t\u00e9o-France SMOC total surface current (Eulerian, wave and tide components)",
+          "model": "meteofrance_currents",
+          "grid_shape": [
+            240,
+            14,
+            20
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 8,
+          "provider_to_grid_cell_hours_verified": 52560,
+          "units_standard_names": {
+            "water_u": [
+              "m s-1",
+              "eastward_sea_water_velocity"
+            ],
+            "water_v": [
+              "m s-1",
+              "northward_sea_water_velocity"
+            ]
+          }
+        },
+        "wave": {
+          "normalized_sha256": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3",
+          "provider": "ECMWF WAM archived forecast (approximately 9 km)",
+          "model": "ecmwf_wam",
+          "grid_shape": [
+            240,
+            14,
+            21
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 233,
+          "provider_to_grid_cell_hours_verified": 53760,
+          "units_standard_names": {
+            "VHM0": [
+              "m",
+              "sea_surface_wave_significant_height"
+            ],
+            "VMDR": [
+              "degree",
+              "sea_surface_wave_from_direction"
+            ],
+            "VTPK": [
+              "s",
+              "sea_surface_wave_period_at_variance_spectral_density_maximum"
+            ]
+          }
+        }
+      }
+    },
+    "spring": {
+      "coverage_first_utc": "2026-04-12T00:00:00Z",
+      "coverage_last_utc": "2026-04-21T23:00:00Z",
+      "acquisition_sha256": "a1f7d86889d6bd9229dbcf030fda0107ffdfaae019d176d326aa3d91c09434fd",
+      "sources": {
+        "wind": {
+          "normalized_sha256": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+          "provider": "ECMWF/Copernicus Climate Change Service ERA5 single-level reanalysis",
+          "model": "era5",
+          "grid_shape": [
+            240,
+            6,
+            8
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 2,
+          "provider_to_grid_cell_hours_verified": 11520,
+          "units_standard_names": {
+            "u10": [
+              "m s-1",
+              "eastward_wind"
+            ],
+            "v10": [
+              "m s-1",
+              "northward_wind"
+            ]
+          }
+        },
+        "current": {
+          "normalized_sha256": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+          "provider": "M\u00e9t\u00e9o-France SMOC total surface current (Eulerian, wave and tide components)",
+          "model": "meteofrance_currents",
+          "grid_shape": [
+            240,
+            14,
+            20
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 8,
+          "provider_to_grid_cell_hours_verified": 52560,
+          "units_standard_names": {
+            "water_u": [
+              "m s-1",
+              "eastward_sea_water_velocity"
+            ],
+            "water_v": [
+              "m s-1",
+              "northward_sea_water_velocity"
+            ]
+          }
+        },
+        "wave": {
+          "normalized_sha256": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b",
+          "provider": "ECMWF WAM archived forecast (approximately 9 km)",
+          "model": "ecmwf_wam",
+          "grid_shape": [
+            240,
+            14,
+            21
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 7,
+          "provider_to_grid_cell_hours_verified": 53760,
+          "units_standard_names": {
+            "VHM0": [
+              "m",
+              "sea_surface_wave_significant_height"
+            ],
+            "VMDR": [
+              "degree",
+              "sea_surface_wave_from_direction"
+            ],
+            "VTPK": [
+              "s",
+              "sea_surface_wave_period_at_variance_spectral_density_maximum"
+            ]
+          }
+        }
+      }
+    },
+    "summer": {
+      "coverage_first_utc": "2026-07-12T00:00:00Z",
+      "coverage_last_utc": "2026-07-21T23:00:00Z",
+      "acquisition_sha256": "6c53a5ec1203df56066489d1e07ab8caeab20382b74c924e7df765b5fdaebcd3",
+      "sources": {
+        "wind": {
+          "normalized_sha256": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+          "provider": "ECMWF/Copernicus Climate Change Service ERA5 single-level reanalysis",
+          "model": "era5",
+          "grid_shape": [
+            240,
+            6,
+            8
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 2,
+          "provider_to_grid_cell_hours_verified": 11520,
+          "units_standard_names": {
+            "u10": [
+              "m s-1",
+              "eastward_wind"
+            ],
+            "v10": [
+              "m s-1",
+              "northward_wind"
+            ]
+          }
+        },
+        "current": {
+          "normalized_sha256": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+          "provider": "M\u00e9t\u00e9o-France SMOC total surface current (Eulerian, wave and tide components)",
+          "model": "meteofrance_currents",
+          "grid_shape": [
+            240,
+            14,
+            20
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 8,
+          "provider_to_grid_cell_hours_verified": 52560,
+          "units_standard_names": {
+            "water_u": [
+              "m s-1",
+              "eastward_sea_water_velocity"
+            ],
+            "water_v": [
+              "m s-1",
+              "northward_sea_water_velocity"
+            ]
+          }
+        },
+        "wave": {
+          "normalized_sha256": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246",
+          "provider": "ECMWF WAM archived forecast (approximately 9 km)",
+          "model": "ecmwf_wam",
+          "grid_shape": [
+            240,
+            14,
+            21
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 7,
+          "provider_to_grid_cell_hours_verified": 53760,
+          "units_standard_names": {
+            "VHM0": [
+              "m",
+              "sea_surface_wave_significant_height"
+            ],
+            "VMDR": [
+              "degree",
+              "sea_surface_wave_from_direction"
+            ],
+            "VTPK": [
+              "s",
+              "sea_surface_wave_period_at_variance_spectral_density_maximum"
+            ]
+          }
+        }
+      }
+    },
+    "autumn": {
+      "coverage_first_utc": "2026-10-11T00:00:00Z",
+      "coverage_last_utc": "2026-10-20T23:00:00Z",
+      "acquisition_sha256": "ff6daaf66e47c2a545e222495f37eb6386ff16b766a6aca5e05c35602a6ae1ea",
+      "sources": {
+        "wind": {
+          "normalized_sha256": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+          "provider": "ECMWF/Copernicus Climate Change Service ERA5 single-level reanalysis",
+          "model": "era5",
+          "grid_shape": [
+            240,
+            6,
+            8
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 2,
+          "provider_to_grid_cell_hours_verified": 11520,
+          "units_standard_names": {
+            "u10": [
+              "m s-1",
+              "eastward_wind"
+            ],
+            "v10": [
+              "m s-1",
+              "northward_wind"
+            ]
+          }
+        },
+        "current": {
+          "normalized_sha256": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+          "provider": "M\u00e9t\u00e9o-France SMOC total surface current (Eulerian, wave and tide components)",
+          "model": "meteofrance_currents",
+          "grid_shape": [
+            240,
+            14,
+            20
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 8,
+          "provider_to_grid_cell_hours_verified": 52560,
+          "units_standard_names": {
+            "water_u": [
+              "m s-1",
+              "eastward_sea_water_velocity"
+            ],
+            "water_v": [
+              "m s-1",
+              "northward_sea_water_velocity"
+            ]
+          }
+        },
+        "wave": {
+          "normalized_sha256": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af",
+          "provider": "ECMWF WAM archived forecast (approximately 9 km)",
+          "model": "ecmwf_wam",
+          "grid_shape": [
+            240,
+            14,
+            21
+          ],
+          "buffered_hours": 240,
+          "core_hours": 168,
+          "raw_response_files": 7,
+          "provider_to_grid_cell_hours_verified": 53760,
+          "units_standard_names": {
+            "VHM0": [
+              "m",
+              "sea_surface_wave_significant_height"
+            ],
+            "VMDR": [
+              "degree",
+              "sea_surface_wave_from_direction"
+            ],
+            "VTPK": [
+              "s",
+              "sea_surface_wave_period_at_variance_spectral_density_maximum"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "expanded_cases_sampled": 34,
+  "planned_route_and_midpoint_forcing_samples": 632,
+  "sampling_scope": "Independent declared departures plus 0.5, 3, and 6 h, over stored GPX vertices and leg midpoints.",
+  "scenarios": {
+    "winter__20260112T0600Z__otranto_002__train_crossing": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          12.071709961217937,
+          14.037134714743999
+        ],
+        "current_mps": [
+          0.5487434108704046,
+          0.6324988937844478
+        ],
+        "wave_height_m": [
+          2.6650000813279417,
+          3.2545833289180552
+        ],
+        "wave_peak_period_s": [
+          7.369791617243526,
+          7.621484335590048
+        ]
+      }
+    },
+    "winter__20260114T1200Z__otranto_003__train_opposed": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          3.661838366968058,
+          4.740889202177342
+        ],
+        "current_mps": [
+          0.06452693449544934,
+          0.08731782727862696
+        ],
+        "wave_height_m": [
+          0.09333333141383744,
+          0.11069444433169519
+        ],
+        "wave_peak_period_s": [
+          4.5173177053511875,
+          4.622916658927716
+        ]
+      }
+    },
+    "winter__20260116T1800Z__otranto_002__train_opposed": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          3.5631959477051613,
+          5.850003592882692
+        ],
+        "current_mps": [
+          0.004600000108547059,
+          0.027650404219011836
+        ],
+        "wave_height_m": [
+          0.5770833394604649,
+          0.6355468873090833
+        ],
+        "wave_peak_period_s": [
+          4.292708369713473,
+          6.668749988079072
+        ]
+      }
+    },
+    "winter__20260118T0000Z__otranto_003__train_crossing": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          0.9726371401335924,
+          2.8945911044264325
+        ],
+        "current_mps": [
+          0.004620000108844918,
+          0.0354969750580071
+        ],
+        "wave_height_m": [
+          1.0580728789707896,
+          1.1220833360471758
+        ],
+        "wave_peak_period_s": [
+          6.50104173049235,
+          6.564583397990562
+        ]
+      }
+    },
+    "winter__20260113T0000Z__otranto_002__train_crossing": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          2.735133024986838,
+          3.4166002772305792
+        ],
+        "current_mps": [
+          0.23825761453517846,
+          0.28324632520924786
+        ],
+        "wave_height_m": [
+          0.49375000038815364,
+          0.9012499787069647
+        ],
+        "wave_peak_period_s": [
+          4.627083242395273,
+          5.498958219876177
+        ]
+      }
+    },
+    "winter__20260115T0600Z__otranto_003__train_opposed": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          6.122566467555856,
+          6.8184215156413694
+        ],
+        "current_mps": [
+          0.00709365924158237,
+          0.07059707189959659
+        ],
+        "wave_height_m": [
+          0.6900000105490728,
+          0.7570833216242501
+        ],
+        "wave_peak_period_s": [
+          3.5739583277895353,
+          3.9065971830487562
+        ]
+      }
+    },
+    "winter__20260117T1200Z__otranto_002__train_opposed": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          1.5416763551317276,
+          3.6626179326396913
+        ],
+        "current_mps": [
+          0.005397490860769666,
+          0.05117049406478821
+        ],
+        "wave_height_m": [
+          0.8037499800340917,
+          0.9275000095367436
+        ],
+        "wave_peak_period_s": [
+          6.387499920376255,
+          6.858593849617383
+        ]
+      }
+    },
+    "winter__20260118T0600Z__otranto_003__train_crossing": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          2.873802838751985,
+          5.075416798799502
+        ],
+        "current_mps": [
+          0.029823821972548122,
+          0.06815676443913163
+        ],
+        "wave_height_m": [
+          1.0790277758146727,
+          1.3099999651156584
+        ],
+        "wave_peak_period_s": [
+          6.523958296000391,
+          6.622916658927717
+        ]
+      }
+    },
+    "spring__20260414T0600Z__otranto_002__validation_slanted": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          9.107260613378939,
+          10.597335398058298
+        ],
+        "current_mps": [
+          0.2138389591315494,
+          0.374088869073437
+        ],
+        "wave_height_m": [
+          2.324739512191529,
+          2.7820833026685747
+        ],
+        "wave_peak_period_s": [
+          9.300000190734863,
+          9.492708305309499
+        ]
+      }
+    },
+    "spring__20260416T1200Z__otranto_003__validation_slanted": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          8.614355942974818,
+          9.197266794886133
+        ],
+        "current_mps": [
+          0.08295872087566465,
+          0.1835624545992795
+        ],
+        "wave_height_m": [
+          0.9523610968308119,
+          1.0262499749504246
+        ],
+        "wave_peak_period_s": [
+          6.122916773136985,
+          7.640624959638571
+        ]
+      }
+    },
+    "spring__20260418T1800Z__otranto_003__validation_slanted": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          5.610011620458705,
+          9.491836291477277
+        ],
+        "current_mps": [
+          0.1632767749804933,
+          0.265813660785171
+        ],
+        "wave_height_m": [
+          1.139861096830812,
+          1.1941667023621276
+        ],
+        "wave_peak_period_s": [
+          5.050000190734863,
+          5.345833480774791
+        ]
+      }
+    },
+    "spring__20260413T0000Z__otranto_002__validation_slanted": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          10.42592802698525,
+          10.74259806500818
+        ],
+        "current_mps": [
+          0.17869571384155666,
+          0.2548999321132368
+        ],
+        "wave_height_m": [
+          0.981093768061655,
+          1.2541666625263577
+        ],
+        "wave_peak_period_s": [
+          4.488541623164928,
+          5.665625065526048
+        ]
+      }
+    },
+    "spring__20260415T1800Z__otranto_003__validation_slanted": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          1.539740240022106,
+          6.569497860017119
+        ],
+        "current_mps": [
+          0.04222917882891712,
+          0.11085837062439485
+        ],
+        "wave_height_m": [
+          1.2483333345894563,
+          1.311666694629149
+        ],
+        "wave_peak_period_s": [
+          8.34375035766693,
+          8.57743085099045
+        ]
+      }
+    },
+    "spring__20260417T0600Z__otranto_003__validation_slanted": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          8.18909843067585,
+          8.700034504090395
+        ],
+        "current_mps": [
+          0.16621732860467422,
+          0.1997473445141085
+        ],
+        "wave_height_m": [
+          1.0344444374386812,
+          1.171666636911985
+        ],
+        "wave_peak_period_s": [
+          4.699999809265137,
+          4.803819613263507
+        ]
+      }
+    },
+    "summer__20260713T0600Z__otranto_002__train_opposed": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          7.369721581558235,
+          8.718915228020302
+        ],
+        "current_mps": [
+          0.29329033623784334,
+          0.3712980724130543
+        ],
+        "wave_height_m": [
+          0.7540103992972207,
+          0.9383333324708967
+        ],
+        "wave_peak_period_s": [
+          3.973958357960268,
+          4.261458376835073
+        ]
+      }
+    },
+    "summer__20260715T1200Z__otranto_003__train_opposed": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          0.9833963591957336,
+          3.565097958617806
+        ],
+        "current_mps": [
+          0.12499843442696036,
+          0.31834176293272387
+        ],
+        "wave_height_m": [
+          0.041093749112733155,
+          0.061527776378219136
+        ],
+        "wave_peak_period_s": [
+          3.0194010299701084,
+          3.45243056187065
+        ]
+      }
+    },
+    "summer__20260717T1800Z__otranto_002__train_crossing": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          0.9864216449253269,
+          3.4454299911039783
+        ],
+        "current_mps": [
+          0.1492726398503681,
+          0.32273225829845414
+        ],
+        "wave_height_m": [
+          0.2387499991664584,
+          0.35500000044703506
+        ],
+        "wave_peak_period_s": [
+          3.9510416838020443,
+          4.045833267059067
+        ]
+      }
+    },
+    "summer__20260719T0000Z__otranto_003__train_crossing": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          1.6689667314868688,
+          2.1564042085416655
+        ],
+        "current_mps": [
+          0.0482400005988305,
+          0.3229294005081445
+        ],
+        "wave_height_m": [
+          0.13069444337595862,
+          0.16791667122190843
+        ],
+        "wave_peak_period_s": [
+          2.2046875154197063,
+          3.02569449131935
+        ]
+      }
+    },
+    "summer__20260714T0000Z__otranto_002__train_opposed": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          6.443694545862012,
+          7.327514699524849
+        ],
+        "current_mps": [
+          0.25128122811721004,
+          0.38986610099218033
+        ],
+        "wave_height_m": [
+          0.8466666540343426,
+          1.2334375047423007
+        ],
+        "wave_peak_period_s": [
+          5.3833332065934245,
+          5.692708184113389
+        ]
+      }
+    },
+    "summer__20260716T0600Z__otranto_003__train_opposed": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          4.006276994783212,
+          5.646385324398772
+        ],
+        "current_mps": [
+          0.11491127305796486,
+          0.24678245531810167
+        ],
+        "wave_height_m": [
+          0.22666666416713205,
+          0.25249999316616195
+        ],
+        "wave_peak_period_s": [
+          2.1760417374071634,
+          2.796093705572824
+        ]
+      }
+    },
+    "summer__20260718T1200Z__otranto_002__train_crossing": {
+      "forcing_samples": 12,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 101,
+      "range": {
+        "wind_mps": [
+          2.0531846949077828,
+          5.715719735333762
+        ],
+        "current_mps": [
+          0.16282061089591243,
+          0.3723648996677454
+        ],
+        "wave_height_m": [
+          0.19750000351739772,
+          0.2708333295403345
+        ],
+        "wave_peak_period_s": [
+          2.0968749075737376,
+          2.4481771327034347
+        ]
+      }
+    },
+    "summer__20260719T0600Z__otranto_003__train_crossing": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          1.140619465102936,
+          2.54818909364521
+        ],
+        "current_mps": [
+          0.0482400005988305,
+          0.1845634423634801
+        ],
+        "wave_height_m": [
+          0.10291666670032924,
+          0.14000000059604648
+        ],
+        "wave_peak_period_s": [
+          2.9968750385308556,
+          3.2927082923951594
+        ]
+      }
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_oblique_fan": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          2.43278715155241,
+          3.1844825864658075
+        ],
+        "current_mps": [
+          0.16820966521128256,
+          0.24832420451377832
+        ],
+        "wave_height_m": [
+          0.49330813756139397,
+          0.7407401025508945
+        ],
+        "wave_peak_period_s": [
+          4.174604164268802,
+          4.29580310877805
+        ]
+      }
+    },
+    "autumn__20261012T0600Z__brindisi_small__test_raking_overtake": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          2.43278715155241,
+          3.1844825864658075
+        ],
+        "current_mps": [
+          0.16820966521128256,
+          0.24832420451377832
+        ],
+        "wave_height_m": [
+          0.49330813756139397,
+          0.7407401025508945
+        ],
+        "wave_peak_period_s": [
+          4.174604164268802,
+          4.29580310877805
+        ]
+      }
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_oblique_fan": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          7.651793903686019,
+          9.73484964531602
+        ],
+        "current_mps": [
+          0.2032877847381376,
+          0.26409054280395194
+        ],
+        "wave_height_m": [
+          1.8624999674518183,
+          2.1747916611099214
+        ],
+        "wave_peak_period_s": [
+          5.941145693366585,
+          6.692708184230577
+        ]
+      }
+    },
+    "autumn__20261014T1200Z__brindisi_003__test_raking_overtake": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          7.651793903686019,
+          9.73484964531602
+        ],
+        "current_mps": [
+          0.2032877847381376,
+          0.26409054280395194
+        ],
+        "wave_height_m": [
+          1.8624999674518183,
+          2.1747916611099214
+        ],
+        "wave_peak_period_s": [
+          5.941145693366585,
+          6.692708184230577
+        ]
+      }
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_oblique_fan": {
+      "forcing_samples": 28,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 303,
+      "range": {
+        "wind_mps": [
+          5.8223289968236065,
+          7.091306966491903
+        ],
+        "current_mps": [
+          0.027286389171220168,
+          0.10001995128990016
+        ],
+        "wave_height_m": [
+          1.3094444658432633,
+          1.9043228886969452
+        ],
+        "wave_peak_period_s": [
+          4.9641057658570045,
+          6.217013763299919
+        ]
+      }
+    },
+    "autumn__20261016T1800Z__brindisi_004__test_raking_overtake": {
+      "forcing_samples": 28,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 303,
+      "range": {
+        "wind_mps": [
+          5.8223289968236065,
+          7.091306966491903
+        ],
+        "current_mps": [
+          0.027286389171220168,
+          0.10001995128990016
+        ],
+        "wave_height_m": [
+          1.3094444658432633,
+          1.9043228886969452
+        ],
+        "wave_peak_period_s": [
+          4.9641057658570045,
+          6.217013763299919
+        ]
+      }
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_oblique_fan": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          0.6454465704168789,
+          1.5577624921444009
+        ],
+        "current_mps": [
+          0.010923975106812318,
+          0.05797383101401728
+        ],
+        "wave_height_m": [
+          0.11999999731779099,
+          0.2668123438330708
+        ],
+        "wave_peak_period_s": [
+          3.318847889048204,
+          3.9996988797083235
+        ]
+      }
+    },
+    "autumn__20261018T0000Z__brindisi_small__test_raking_overtake": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          0.6454465704168789,
+          1.5577624921444009
+        ],
+        "current_mps": [
+          0.010923975106812318,
+          0.05797383101401728
+        ],
+        "wave_height_m": [
+          0.11999999731779099,
+          0.2668123438330708
+        ],
+        "wave_peak_period_s": [
+          3.318847889048204,
+          3.9996988797083235
+        ]
+      }
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_oblique_fan": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          7.503780790208177,
+          8.2043815512415
+        ],
+        "current_mps": [
+          0.15478746259273082,
+          0.2152640737453202
+        ],
+        "wave_height_m": [
+          1.5854166599836226,
+          2.3054166556205034
+        ],
+        "wave_peak_period_s": [
+          5.699999809265137,
+          6.6500000953674325
+        ]
+      }
+    },
+    "autumn__20261013T1800Z__brindisi_003__test_raking_overtake": {
+      "forcing_samples": 20,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 202,
+      "range": {
+        "wind_mps": [
+          7.503780790208177,
+          8.2043815512415
+        ],
+        "current_mps": [
+          0.15478746259273082,
+          0.2152640737453202
+        ],
+        "wave_height_m": [
+          1.5854166599836226,
+          2.3054166556205034
+        ],
+        "wave_peak_period_s": [
+          5.699999809265137,
+          6.6500000953674325
+        ]
+      }
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_oblique_fan": {
+      "forcing_samples": 28,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 303,
+      "range": {
+        "wind_mps": [
+          1.3871851996149545,
+          4.757135680203008
+        ],
+        "current_mps": [
+          0.031185278145074092,
+          0.07904581289431215
+        ],
+        "wave_height_m": [
+          0.5556076454602211,
+          0.9743576465260669
+        ],
+        "wave_peak_period_s": [
+          4.717230882499987,
+          5.458333257588513
+        ]
+      }
+    },
+    "autumn__20261017T1200Z__brindisi_004__test_raking_overtake": {
+      "forcing_samples": 28,
+      "ais_delivery_checks": 8,
+      "geographic_chart_checks": 303,
+      "range": {
+        "wind_mps": [
+          1.3871851996149545,
+          4.757135680203008
+        ],
+        "current_mps": [
+          0.031185278145074092,
+          0.07904581289431215
+        ],
+        "wave_height_m": [
+          0.5556076454602211,
+          0.9743576465260669
+        ],
+        "wave_peak_period_s": [
+          4.717230882499987,
+          5.458333257588513
+        ]
+      }
+    }
+  },
+  "verifier_sha256": "a5b794682d3887cadd63e20d1dce427f47aaa4f22c228d8c4cffbf3e5b3da54a",
+  "scenario_environment_sha256": "22710e0fda7f71b678fde5355615fda162f8a45272826c9184139c856ddc13c7",
+  "gebco_chart": {
+    "path": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "sha256": "97af76b5bc06cbfd6cacd8c493c675d2a8e70a69a420f17e89ce152f93dfc410",
+    "minimum_depth_m": 2.0,
+    "station_checks": 6262
+  }
+}

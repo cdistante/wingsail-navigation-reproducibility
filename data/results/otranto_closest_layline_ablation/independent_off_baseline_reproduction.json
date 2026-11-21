@@ -1,0 +1,24 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_off": {
+      "received_AIS_reports_identical_at_all_common_times": true,
+      "common_frames": 9484,
+      "first_nominal_reference_difference_step": null,
+      "first_applied_command_difference_step": null,
+      "first_state_difference_step": null,
+      "historical_steps": 9483,
+      "fresh_steps": 9483,
+      "complete_off_baseline_reproduction": true
+    },
+    "crossing_fan__otranto_355__layline_off": {
+      "received_AIS_reports_identical_at_all_common_times": true,
+      "common_frames": 13108,
+      "first_nominal_reference_difference_step": null,
+      "first_applied_command_difference_step": null,
+      "first_state_difference_step": null,
+      "historical_steps": 13107,
+      "fresh_steps": 13107,
+      "complete_off_baseline_reproduction": true
+    }
+  }
+}

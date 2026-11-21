@@ -1,0 +1,846 @@
+[
+  {
+    "case": "otranto_005__classical",
+    "scope": "all-applied-actions",
+    "wind_from_degrees": 5.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 9707,
+    "frames": 9708,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.6908569145502336,
+    "astern_action_count": 82,
+    "astern_control_boundary_count": 75,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 9706,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 5.820766091346741e-11,
+    "maximum_truth_outside_report_envelope_m": -5.9917192212180295,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 56.668203551852336,
+    "truth_minimum_nominal_m": 31.668203551852343,
+    "truth_centered_minimum_uncertainty_m": 14.356910946120735,
+    "configured_truth_centered_minimum_m": 11.356910946120735,
+    "model_minimum_uncertainty_m": 14.357457482049313,
+    "configured_model_minimum_m": 11.357457482049313,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 56.668203551852336,
+        "mmsi": 999000102,
+        "elapsed_s": 164.18655295894365,
+        "action_step": 33,
+        "scenario_seconds": 124.18655295894365,
+        "ais_mode": "buffer maneuver"
+      },
+      "true_nominal_25m": {
+        "margin_m": 31.668203551852343,
+        "mmsi": 999000102,
+        "elapsed_s": 164.18655295894365,
+        "action_step": 33,
+        "scenario_seconds": 124.18655295894365,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 14.356910946120735,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 14.357457482049313,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_with_reserve": {
+        "margin_m": 11.356910946120735,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_with_reserve": {
+        "margin_m": 11.357457482049313,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 60,
+      "route": 9647
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 8344,
+        "distance_metres": 46.10326680453554
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 8442,
+        "distance_metres": 46.17700975206689
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 8598,
+        "distance_metres": 49.58678219687548
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 8909,
+        "distance_metres": 47.57261410466812
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 8986,
+        "distance_metres": 47.64585827425556
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 9414,
+        "distance_metres": 49.95591202831314
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 9620,
+        "distance_metres": 49.38096562747767
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 9707,
+        "distance_metres": 49.31674925095171
+      }
+    ],
+    "goal_captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 8344,
+        "distance_metres": 46.10326680453554
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 8442,
+        "distance_metres": 46.17700975206689
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 8598,
+        "distance_metres": 49.58678219687548
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 8909,
+        "distance_metres": 47.57261410466812
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 8986,
+        "distance_metres": 47.64585827425556
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 9414,
+        "distance_metres": 49.95591202831314
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 9620,
+        "distance_metres": 49.38096562747767
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 9707,
+        "distance_metres": 49.31674925095171
+      }
+    ],
+    "final_goal_distance_m": 49.31674925095171,
+    "replay_sha256": "e8d1adfdbd2859332bc44e5ebd462c2468a722edb35fdac9a3ae25a58d0e43e9",
+    "history_sha256": "a03d1a5e6ffc08349519175f174c8494596c6da2d658de781e60854ee42d630c",
+    "audit_source_sha256": "f8196b2d5763fe752562ca86e119660356674db22ca0d95a1a6722432903f437",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_005__transformer",
+    "scope": "all-applied-actions",
+    "wind_from_degrees": 5.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 9693,
+    "frames": 9694,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.9819550919818647,
+    "astern_action_count": 66,
+    "astern_control_boundary_count": 61,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 9692,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 4.3655745685100555e-11,
+    "maximum_truth_outside_report_envelope_m": -5.9917192212180295,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 56.668203551852336,
+    "truth_minimum_nominal_m": 31.668203551852343,
+    "truth_centered_minimum_uncertainty_m": 14.356910946120735,
+    "configured_truth_centered_minimum_m": 11.356910946120735,
+    "model_minimum_uncertainty_m": 14.357457482049313,
+    "configured_model_minimum_m": 11.357457482049313,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 56.668203551852336,
+        "mmsi": 999000102,
+        "elapsed_s": 164.18655295894365,
+        "action_step": 33,
+        "scenario_seconds": 124.18655295894365,
+        "ais_mode": "buffer maneuver"
+      },
+      "true_nominal_25m": {
+        "margin_m": 31.668203551852343,
+        "mmsi": 999000102,
+        "elapsed_s": 164.18655295894365,
+        "action_step": 33,
+        "scenario_seconds": 124.18655295894365,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 14.356910946120735,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 14.357457482049313,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_with_reserve": {
+        "margin_m": 11.356910946120735,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_with_reserve": {
+        "margin_m": 11.357457482049313,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 60,
+      "route": 9633
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 8324,
+        "distance_metres": 46.922353376943676
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 8422,
+        "distance_metres": 45.002786383798814
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 8587,
+        "distance_metres": 48.908854957329844
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 8909,
+        "distance_metres": 49.993159428574856
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 8983,
+        "distance_metres": 49.570439055028956
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 9407,
+        "distance_metres": 48.376494912149006
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 9606,
+        "distance_metres": 48.73400446835515
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 9693,
+        "distance_metres": 48.09775456177354
+      }
+    ],
+    "goal_captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 8324,
+        "distance_metres": 46.922353376943676
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 8422,
+        "distance_metres": 45.002786383798814
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 8587,
+        "distance_metres": 48.908854957329844
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 8909,
+        "distance_metres": 49.993159428574856
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 8983,
+        "distance_metres": 49.570439055028956
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 9407,
+        "distance_metres": 48.376494912149006
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 9606,
+        "distance_metres": 48.73400446835515
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 9693,
+        "distance_metres": 48.09775456177354
+      }
+    ],
+    "final_goal_distance_m": 48.09775456177354,
+    "replay_sha256": "2ed516e249af5164f14cab60c69382d100fd161781943096ab5f267ba243ec01",
+    "history_sha256": "f2cb9de2a33a5c4a9e355bed501b6740eaf65ac96de277745a98ae9e3994239f",
+    "audit_source_sha256": "f8196b2d5763fe752562ca86e119660356674db22ca0d95a1a6722432903f437",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_355__classical",
+    "scope": "all-applied-actions",
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 12982,
+    "frames": 12983,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.7020566173032021,
+    "astern_action_count": 330,
+    "astern_control_boundary_count": 323,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 12981,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 8.731149137020111e-11,
+    "maximum_truth_outside_report_envelope_m": -5.991719086773121,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 62.52917494711263,
+    "truth_minimum_nominal_m": 37.52917494711264,
+    "truth_centered_minimum_uncertainty_m": 18.666934782860636,
+    "configured_truth_centered_minimum_m": 15.666934782860636,
+    "model_minimum_uncertainty_m": 18.667458366225716,
+    "configured_model_minimum_m": 15.667458366225716,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 62.52917494711263,
+        "mmsi": 999000102,
+        "elapsed_s": 161.88903856598614,
+        "action_step": 33,
+        "scenario_seconds": 121.88903856598614,
+        "ais_mode": "buffer maneuver"
+      },
+      "true_nominal_25m": {
+        "margin_m": 37.52917494711264,
+        "mmsi": 999000102,
+        "elapsed_s": 161.88903856598614,
+        "action_step": 33,
+        "scenario_seconds": 121.88903856598614,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 18.666934782860636,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 18.667458366225716,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_with_reserve": {
+        "margin_m": 15.666934782860636,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_with_reserve": {
+        "margin_m": 15.667458366225716,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 60,
+      "route": 12922
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 11015,
+        "distance_metres": 48.89389591166391
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 11121,
+        "distance_metres": 47.38665415544422
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 11228,
+        "distance_metres": 48.90758517807335
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11731,
+        "distance_metres": 48.92782397166426
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11813,
+        "distance_metres": 49.884123174349526
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 12269,
+        "distance_metres": 49.41567621827282
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12853,
+        "distance_metres": 48.95576777001208
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 12982,
+        "distance_metres": 49.549983171427996
+      }
+    ],
+    "goal_captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 11015,
+        "distance_metres": 48.89389591166391
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 11121,
+        "distance_metres": 47.38665415544422
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 11228,
+        "distance_metres": 48.90758517807335
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11731,
+        "distance_metres": 48.92782397166426
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11813,
+        "distance_metres": 49.884123174349526
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 12269,
+        "distance_metres": 49.41567621827282
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12853,
+        "distance_metres": 48.95576777001208
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 12982,
+        "distance_metres": 49.549983171427996
+      }
+    ],
+    "final_goal_distance_m": 49.549983171427996,
+    "replay_sha256": "e6de28d3196ab33e610492e143dfc2b1b30f25ca9235cffbe09d53aff163a326",
+    "history_sha256": "30540c46f0fb59e06118f9ff5beeef47ffdb458e24c787ef94acd3da1e416f81",
+    "audit_source_sha256": "f8196b2d5763fe752562ca86e119660356674db22ca0d95a1a6722432903f437",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  },
+  {
+    "case": "otranto_355__transformer",
+    "scope": "all-applied-actions",
+    "wind_from_degrees": 355.0,
+    "departure_utc": "2026-09-30T23:50:00Z",
+    "applied_actions": 12639,
+    "frames": 12640,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_heading_reconstruction_error_deg": 0.0,
+    "minimum_native_integration_surge_mps": -0.5169066637803255,
+    "astern_action_count": 328,
+    "astern_control_boundary_count": 322,
+    "maximum_colreg_ground_velocity_error_mps": 0.0,
+    "colreg_fossen_velocity_checks": 12638,
+    "colreg_legacy_sog_velocity_checks": 1,
+    "maximum_recorded_cog_error_deg": 0.0,
+    "maximum_runtime_margin_difference_m": 8.731149137020111e-11,
+    "maximum_truth_outside_report_envelope_m": -5.991719086773121,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_hull_m": 62.52917494711263,
+    "truth_minimum_nominal_m": 37.52917494711264,
+    "truth_centered_minimum_uncertainty_m": 18.666934782860636,
+    "configured_truth_centered_minimum_m": 15.666934782860636,
+    "model_minimum_uncertainty_m": 18.667458366225716,
+    "configured_model_minimum_m": 15.667458366225716,
+    "minimum_details": {
+      "true_hull": {
+        "margin_m": 62.52917494711263,
+        "mmsi": 999000102,
+        "elapsed_s": 161.88903856598614,
+        "action_step": 33,
+        "scenario_seconds": 121.88903856598614,
+        "ais_mode": "buffer maneuver"
+      },
+      "true_nominal_25m": {
+        "margin_m": 37.52917494711264,
+        "mmsi": 999000102,
+        "elapsed_s": 161.88903856598614,
+        "action_step": 33,
+        "scenario_seconds": 121.88903856598614,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 18.666934782860636,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 18.667458366225716,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "truth_with_reserve": {
+        "margin_m": 15.666934782860636,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      },
+      "projected_with_reserve": {
+        "margin_m": 15.667458366225716,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0,
+        "action_step": 31,
+        "scenario_seconds": 115.0,
+        "ais_mode": "buffer maneuver"
+      }
+    },
+    "negative_action_counts": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 60,
+      "route": 12579
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 10781,
+        "distance_metres": 49.16129801361399
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 10888,
+        "distance_metres": 48.1450430568108
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 10989,
+        "distance_metres": 49.51571694622824
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11457,
+        "distance_metres": 49.219507081001694
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11535,
+        "distance_metres": 47.98536379785927
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 11995,
+        "distance_metres": 49.86844308265893
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12511,
+        "distance_metres": 49.896833249025995
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 12639,
+        "distance_metres": 47.16552632740808
+      }
+    ],
+    "goal_captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "step": 10781,
+        "distance_metres": 49.16129801361399
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "step": 10888,
+        "distance_metres": 48.1450430568108
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "step": 10989,
+        "distance_metres": 49.51571694622824
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "step": 11457,
+        "distance_metres": 49.219507081001694
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "step": 11535,
+        "distance_metres": 47.98536379785927
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "step": 11995,
+        "distance_metres": 49.86844308265893
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "step": 12511,
+        "distance_metres": 49.896833249025995
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "step": 12639,
+        "distance_metres": 47.16552632740808
+      }
+    ],
+    "final_goal_distance_m": 47.16552632740808,
+    "replay_sha256": "04bdd864d43298e154c771fcfe87570e9a60dbc2c097ae93883b90a192cbfd64",
+    "history_sha256": "5fbff05e9262273a80395c930bed5a7642315d337952094661e3bdb9517a4ce1",
+    "audit_source_sha256": "f8196b2d5763fe752562ca86e119660356674db22ca0d95a1a6722432903f437",
+    "truth_fixture_sha256": "a50d7e9195ebe575c1ee3bc9d2b7f395a588e54195aeba35863fd8dbe81cda4a",
+    "truth_trace_sha256": "fccbc06497ec590d01dbd1c869e41e73a1815a963d3313b91a98eb131a37dd6f",
+    "measurement": "Exact minima on relative-position and radius chords between 0.05 s plant integration samples; report- and truth-centered uncertainty are distinct.",
+    "radius_m": {
+      "nominal_clearance_beyond_combined_hulls": 25.0,
+      "initial_uncertainty": 5.0,
+      "linear_growth_mps": 0.05,
+      "acceleration_bound_mps2": 0.026,
+      "steering_reserve": 3.0
+    }
+  }
+]

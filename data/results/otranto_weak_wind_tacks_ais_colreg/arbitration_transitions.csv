@@ -1,0 +1,33 @@
+arm,step,action_start_s,source,action,raw_action,reason,COLREG_active,ais_mode,drift_mode,actual_drift_trim,phase,waypoint
+otranto_355__classical,1,0,,,,,3,avoidance course,,False,outbound,002
+otranto_355__classical,2,5,,,,,2,fallback minimum-risk,,False,outbound,002
+otranto_355__classical,34,165,,,,,2,buffer maneuver,,False,outbound,002
+otranto_355__classical,37,180,,,,,0,buffer maneuver,,False,outbound,002
+otranto_355__classical,70,345,,,,,0,route,,False,outbound,002
+otranto_355__classical,349,1740,,,,,0,route,holding,True,outbound,002
+otranto_355__classical,7081,35400,,,,,0,route,recovering,False,outbound,002
+otranto_355__classical,10842,54205,,,,,0,route,,False,outbound,003
+otranto_355__transformer,1,0,classical fallback,planner,,AIS steering override,3,avoidance course,,False,outbound,002
+otranto_355__transformer,2,5,classical fallback,planner,,AIS action fallback,2,fallback minimum-risk,,False,outbound,002
+otranto_355__transformer,34,165,classical fallback,planner,,AIS steering override,2,buffer maneuver,,False,outbound,002
+otranto_355__transformer,37,180,classical fallback,planner,,AIS steering override,0,buffer maneuver,,False,outbound,002
+otranto_355__transformer,70,345,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002
+otranto_355__transformer,349,1740,learned,hold,hold,,0,route,holding,True,outbound,002
+otranto_355__transformer,7141,35700,physical release,sail,hold,,0,route,recovering,False,outbound,002
+otranto_355__transformer,7201,36000,learned,sail,sail,,0,route,recovering,False,outbound,002
+otranto_355__transformer,10871,54350,learned,sail,sail,,0,route,,False,outbound,003
+otranto_005__classical,1,0,,,,,3,fallback minimum-risk,,False,outbound,002
+otranto_005__classical,34,165,,,,,3,buffer maneuver,,False,outbound,002
+otranto_005__classical,37,180,,,,,0,buffer maneuver,,False,outbound,002
+otranto_005__classical,70,345,,,,,0,route,,False,outbound,002
+otranto_005__classical,349,1740,,,,,0,route,holding,True,outbound,002
+otranto_005__classical,4261,21300,,,,,0,route,recovering,False,outbound,002
+otranto_005__classical,8288,41435,,,,,0,route,,False,outbound,003
+otranto_005__transformer,1,0,classical fallback,planner,,AIS action fallback,3,fallback minimum-risk,,False,outbound,002
+otranto_005__transformer,34,165,classical fallback,planner,,AIS steering override,3,buffer maneuver,,False,outbound,002
+otranto_005__transformer,37,180,classical fallback,planner,,AIS steering override,0,buffer maneuver,,False,outbound,002
+otranto_005__transformer,70,345,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002
+otranto_005__transformer,349,1740,learned,hold,hold,,0,route,holding,True,outbound,002
+otranto_005__transformer,4321,21600,physical release,sail,hold,,0,route,recovering,False,outbound,002
+otranto_005__transformer,4381,21900,learned,sail,sail,,0,route,recovering,False,outbound,002
+otranto_005__transformer,8253,41260,learned,sail,sail,,0,route,,False,outbound,003

@@ -1,0 +1,82 @@
+{
+  "study_id": "otranto_fast_recovery_new_traffic",
+  "design": "Two predefined traffic geometries x two controlled wind bearings x two frozen hold-guidance modes; all eight arms retained.",
+  "frozen_before_controller_outcomes_utc": "2026-11-19T12:15:17.812681+00:00",
+  "fixture_selection": "Both eligible definitions fixed before first new-encounter navigation output. No outcome-based retiming, geometry tuning or exclusion.",
+  "departure_utc": "2026-09-30T23:50:00Z",
+  "encounter_utc": "2026-09-30T23:50:40Z",
+  "launch_lead_s": 40,
+  "route_gpx": "current_route/otranto_short_test_loop.gpx",
+  "arrival_radius_m": 50,
+  "dt_s": 5,
+  "maximum_steps": 17280,
+  "cap_s": 86400,
+  "initial_state": {
+    "heading_deg": 45,
+    "speed_mps": 0,
+    "flap_deg": -10
+  },
+  "controlled_wind_from_deg": [
+    355,
+    5
+  ],
+  "guidance_modes": [
+    "classical",
+    "transformer"
+  ],
+  "nominal_guidance": "Gamma + Direct acados NMPC; unchanged forecast tacks, hold tacks, refined return and physical release guard.",
+  "reporting": {
+    "interval_s": 5,
+    "delay_s": 20,
+    "drop_emission_windows_s": [
+      [
+        85,
+        125
+      ],
+      [
+        145,
+        185
+      ]
+    ],
+    "preview_age_budget_s": 65,
+    "maximum_continuous_held_report_age_s": 65
+  },
+  "safety": {
+    "nominal_gap_m": 25,
+    "initial_uncertainty_m": 5,
+    "linear_age_growth_mps": 0.05,
+    "acceleration_bound_mps2": 0.026,
+    "additional_reserve_m": 3
+  },
+  "native_integration_step_s": 0.05,
+  "archive_crop": {
+    "latitude_bounds": [
+      39.5,
+      41.0
+    ],
+    "longitude_bounds": [
+      18.0,
+      19.5
+    ]
+  },
+  "encounters": {
+    "crossing_fan": {
+      "definition": "fixtures/crossing_fan/ground_truth.json",
+      "definition_sha256": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+      "truth_trace": "fixtures/crossing_fan/truth_trace.csv",
+      "truth_trace_sha256": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf"
+    },
+    "opposed_crossing": {
+      "definition": "fixtures/opposed_crossing/ground_truth.json",
+      "definition_sha256": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+      "truth_trace": "fixtures/opposed_crossing/truth_trace.csv",
+      "truth_trace_sha256": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a"
+    }
+  },
+  "fixture_eligibility_path": "fixture_eligibility.json",
+  "fixture_eligibility_sha256": "f7aeceb4892cdc784e9ff71991931e108ef2d71324a0321b25a45900826a14d5",
+  "runtime_traffic_input": "Analytical JSON parameters only; independently exported truth CSV is not read by the navigation runtime.",
+  "timing_scope": "Every complete AIS choose attempt, including lazy construction/search/dense checks and unsuccessful/exceptional final attempts, must be retained. Constructor time and fresh-process cold tests are reported separately.",
+  "outcome_scope": "Full uncertainty and reserve clearance, <=50m capture sequence, and <5s decision budget are separate checks. Retained early stops, rejected controls and deadline failures are not censored.",
+  "baseline_reference": "../otranto_weak_wind_ais_fast_recovery; archival conditions/tack plans/checkpoint unchanged, new traffic/faults deliberately differ."
+}

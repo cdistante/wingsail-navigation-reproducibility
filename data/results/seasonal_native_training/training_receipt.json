@@ -1,0 +1,152 @@
+{
+  "split_manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "forcing_sha256": {
+    "winter": {
+      "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+      "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+      "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+    },
+    "spring": {
+      "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+      "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+      "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+    },
+    "summer": {
+      "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+      "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+      "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+    },
+    "autumn": {
+      "wind": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+      "current": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+      "wave": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af"
+    }
+  },
+  "source_sha256": {
+    "run_seasonal.py": "30b9775384d0f3ec4e2e806b4cb1769f057b1ee1bd8925a9993a70fb5ef3dbdd",
+    "native_branches.py": "8e728b067ea728654266fb6cc2ef07493f52429f2655ba44e172fe70f37dfe0b",
+    "seasonal_environment.py": "0b32298911bd6545b8887193013236d682edc227d12d0c00c6c46700f8bf4e58",
+    "scenario_environment.py": "22710e0fda7f71b678fde5355615fda162f8a45272826c9184139c856ddc13c7",
+    "seasonal_ranker.py": "317d60539e93ec4c76d04568a44dde65587982aa63f47ea902066093c0969283",
+    "world/fossen.py": "e3ca63c8de309143f6e7c004e347d96eeb067802ff16a6b62a2223909c5de7f1",
+    "world/acados_fossen.py": "b0429914bfb56e0db6f0a301112ce48156f0c7c21eec718ca8dc0dc43e967f2e",
+    "world/forecast_tacks.py": "ee6f68c728d0f0f58937694fc079b6a62a7d442fe11c229162615099f0660753",
+    "world/ais_avoidance.py": "8aee42ba2f39ac8bb3577e63508e334c0727425c64877db47e91420ad4b8afac",
+    "world/synthetic_ais.py": "f0c50db19d2047193da25160cbb13de8bb654fc37cdb68b34b7ecad03b39a8b5",
+    "world/colreg.py": "d7888d0883e3f184f55896e0679742f50b64863b6f0d47b90585f46195f714bb",
+    "world/global_map.py": "4ab4b3ef8a79aa1d59d3faafe10ad38f1387c944aa4ca8769a3d906488412fbf",
+    "world/learned_tacks.py": "a1fe64d92a33b5fe96b52c3d2bcedd1807daba567cd73683172b9cc5f6d87747",
+    "weather_embedding.py": "92795ce1082c3fa7a2f36717fcb3f9d1d0b7154e46ee4e0bfc9bd86e004397d2"
+  },
+  "frozen_encoder_sha256": "cf467bcf85a08af99c9819f13b04e65b57f34006ff3957cc42646bba04bc0972",
+  "bathymetry_sha256": "97af76b5bc06cbfd6cacd8c493c675d2a8e70a69a420f17e89ce152f93dfc410",
+  "pairs": 191,
+  "independent_start_states": 45,
+  "ridge": 2.0,
+  "rmse_s": 94.89575935005516,
+  "mean_zero_residual_rmse_s": 479.15117653559247,
+  "training_target_clip_s": 1800.0,
+  "model_sha256": "5f7522b4c8808db85e28b882d315591b140d369c219aa69caadc2a02b1155028",
+  "labels_sha256": "ca4b1a1893ec32e02c27b5f1adbe1aed5c7dd9ce40c4e573eff880e55f562eee",
+  "training_cases": [
+    {
+      "scenario": "winter__20260112T0600Z__otranto_002__train_crossing",
+      "physics_status": "censored_cap",
+      "decision_states": 0,
+      "native_branches": 0
+    },
+    {
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 30
+    },
+    {
+      "scenario": "winter__20260116T1800Z__otranto_002__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 3,
+      "native_branches": 18
+    },
+    {
+      "scenario": "winter__20260118T0000Z__otranto_003__train_crossing",
+      "physics_status": "no_safe_native_action",
+      "decision_states": 0,
+      "native_branches": 0
+    },
+    {
+      "scenario": "winter__20260113T0000Z__otranto_002__train_crossing",
+      "physics_status": "censored_cap",
+      "decision_states": 0,
+      "native_branches": 0
+    },
+    {
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 30
+    },
+    {
+      "scenario": "winter__20260117T1200Z__otranto_002__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 3,
+      "native_branches": 18
+    },
+    {
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 30
+    },
+    {
+      "scenario": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 3,
+      "native_branches": 18
+    },
+    {
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 18
+    },
+    {
+      "scenario": "summer__20260717T1800Z__otranto_002__train_crossing",
+      "physics_status": "no_safe_native_action",
+      "decision_states": 0,
+      "native_branches": 0
+    },
+    {
+      "scenario": "summer__20260719T0000Z__otranto_003__train_crossing",
+      "physics_status": "censored_cap",
+      "decision_states": 0,
+      "native_branches": 0
+    },
+    {
+      "scenario": "summer__20260714T0000Z__otranto_002__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 3,
+      "native_branches": 11
+    },
+    {
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 23
+    },
+    {
+      "scenario": "summer__20260718T1200Z__otranto_002__train_crossing",
+      "physics_status": "captured",
+      "decision_states": 3,
+      "native_branches": 18
+    },
+    {
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "physics_status": "captured",
+      "decision_states": 5,
+      "native_branches": 22
+    }
+  ],
+  "training_examples": 236,
+  "closed_loop_forecast": "Causal persistence with latest observed forcing at the decision.",
+  "label_scope": "Native integration and AIS from matched starts through first waypoint entry or censoring."
+}

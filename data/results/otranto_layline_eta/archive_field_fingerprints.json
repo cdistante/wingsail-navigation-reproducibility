@@ -1,0 +1,267 @@
+{
+  "regional_bounds": {
+    "latitude_bounds": [
+      39.5,
+      41.0
+    ],
+    "longitude_bounds": [
+      18.0,
+      19.5
+    ]
+  },
+  "fields": {
+    "wind": {
+      "variables": {
+        "gribfile_projection": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "74999fd28ab18ccca2bee199f260d19764603a3c78353d773d16d215eebe8e19"
+        },
+        "heightAboveGround": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "24b1f4ef66b650ff816e519b01742ff1753733d36e1b4c3e3b52743168915b1f"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            7
+          ],
+          "dtype": "<f8",
+          "sha256": "178b1e9080ccb1d70ca42d15ce360ff35c1f8fe68ed92c045bdfcf23d7ae0432"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            7
+          ],
+          "dtype": "<f8",
+          "sha256": "bce81f814e32c4ac17d010c3e27af26b7aef10f19f965878a2e817fadbe78331"
+        },
+        "step": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<m8[ns]",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+        },
+        "time": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<M8[ns]",
+          "sha256": "c71ff4b6b4a1a3a2a9312730ccb96c9c628e20ef9edfb9c45960d86ca93f2617"
+        },
+        "u10": {
+          "dims": [
+            "valid_time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            83,
+            7,
+            7
+          ],
+          "dtype": "<f4",
+          "sha256": "5f901ee92321af7413ccd58ff93ae88b3f57eb79b1c547182c00fb6824f748f7"
+        },
+        "v10": {
+          "dims": [
+            "valid_time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            83,
+            7,
+            7
+          ],
+          "dtype": "<f4",
+          "sha256": "e10265d8cc7f968af3152bb28f418a12e66de4665f3c7b6d40009bd0e4367cd8"
+        },
+        "valid_time": {
+          "dims": [
+            "valid_time"
+          ],
+          "shape": [
+            83
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "b466a83355dd57db8fc42c8210658fa3716a9f39e275dd3416df3fc29dc8a60c"
+        }
+      },
+      "sha256": "833cb91cc3f7f108d29ab9eaff94b78d7250f81df6d836779dbe80fd9deffabb"
+    },
+    "current": {
+      "variables": {
+        "depth": {
+          "dims": [
+            "depth"
+          ],
+          "shape": [
+            1
+          ],
+          "dtype": "<f8",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            38
+          ],
+          "dtype": "<f8",
+          "sha256": "705cc856ed0f4a81c0be6a77753030371297d1414fdf758bb1bd91f23ab642f9"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            19
+          ],
+          "dtype": "<f8",
+          "sha256": "443b31fdce852cc724450003a5b818eaa9501cfbb41550d06bd0d033458425ab"
+        },
+        "time": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            73
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "e36670d03ecc84199f9e92daed4589cd48ff6574c26a56f84aabb5170d44b3ea"
+        },
+        "time_run": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            73
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "02267875979fe7b2881b1ca4c9359528488a877e06bd2855138d1c0254db1f1c"
+        },
+        "water_u": {
+          "dims": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            73,
+            1,
+            38,
+            19
+          ],
+          "dtype": "<f4",
+          "sha256": "4cc80d9d61a630cdda0396b850b7d4cf861682cae62dd551def4e0ff0ae970fa"
+        },
+        "water_v": {
+          "dims": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            73,
+            1,
+            38,
+            19
+          ],
+          "dtype": "<f4",
+          "sha256": "3ba2fedd2ecb2fdeaf461140f32de041b3bc15e68158697ecdd29f3dc880cb1c"
+        }
+      },
+      "sha256": "6066a415b4a9c6c89fb5e58933d8cb4b3b6233f3c323be4b17ff5d090edad480"
+    },
+    "wave": {
+      "variables": {
+        "VHM0": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "8329a64e386504c22278a74461e180bd08c59093467badf808e0cedf31337f9c"
+        },
+        "VMDR": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "955eac4e3bd49ef4741865dd05e2a048c9d12dc982efc198ebbf32991dba0f3d"
+        },
+        "VTPK": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "c605cc7f1173d30c88d758ac61f124e0cc84ba80df5ed86207b975ccd29a308d"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            36
+          ],
+          "dtype": "<f4",
+          "sha256": "432ad6c9e8ce69a3c890bec31ab0f5d3173141cd29d2043ea5c15e1b8fcce439"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            37
+          ],
+          "dtype": "<f4",
+          "sha256": "ffb10960dab9875ae8bf5a88f6498735c7482cd87369de8226a2e754f85e1f9c"
+        },
+        "time": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            227
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "0f2aef6bc44f92002c9f4fbae1d8e2b6db513a33f4ff12e5a774c5172a6f1453"
+        }
+      },
+      "sha256": "260e0099b877fcf11e1acd2e73e723b6f45cc322e8d5ad1837ddb686475df097"
+    }
+  },
+  "meaning": "All loaded regional archive variable arrays and coordinates, not only capture samples.",
+  "script_sha256": "db5103ff297db449a93e467503ea13a2bedeeed7fbbd72134c69585aec16e3ec"
+}

@@ -1,0 +1,32 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_off": {
+      "applied_reference_steps": 0,
+      "applied_reference_steps_by_leg_and_source": [],
+      "first_applied_reference": null,
+      "last_applied_reference": null,
+      "scope": "Replay references retained through AIS/controller admission. Repeated held references are included."
+    },
+    "crossing_fan__otranto_005__layline_on": {
+      "applied_reference_steps": 0,
+      "applied_reference_steps_by_leg_and_source": [],
+      "first_applied_reference": null,
+      "last_applied_reference": null,
+      "scope": "Replay references retained through AIS/controller admission. Repeated held references are included."
+    },
+    "crossing_fan__otranto_355__layline_off": {
+      "applied_reference_steps": 0,
+      "applied_reference_steps_by_leg_and_source": [],
+      "first_applied_reference": null,
+      "last_applied_reference": null,
+      "scope": "Replay references retained through AIS/controller admission. Repeated held references are included."
+    },
+    "crossing_fan__otranto_355__layline_on": {
+      "applied_reference_steps": 0,
+      "applied_reference_steps_by_leg_and_source": [],
+      "first_applied_reference": null,
+      "last_applied_reference": null,
+      "scope": "Replay references retained through AIS/controller admission. Repeated held references are included."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "route_points": 38,
+  "wet_drift_ring_points": 40,
+  "dry_ring_points": 8,
+  "drift_ring_metres": [
+    12500,
+    25000
+  ],
+  "seasons": {
+    "winter": {
+      "field_checks": {
+        "wind": {
+          "hours": 240,
+          "complete_cells": 48,
+          "cells_ever_valid": 48,
+          "fully_valid_distinct_native_locations": 48,
+          "variables": {
+            "u10": "m s-1",
+            "v10": "m s-1"
+          },
+          "raw_response_receipts": 2,
+          "source_sha256": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded"
+        },
+        "current": {
+          "hours": 240,
+          "complete_cells": 219,
+          "cells_ever_valid": 219,
+          "fully_valid_distinct_native_locations": 219,
+          "variables": {
+            "water_u": "m s-1",
+            "water_v": "m s-1"
+          },
+          "raw_response_receipts": 8,
+          "source_sha256": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0"
+        },
+        "wave": {
+          "hours": 240,
+          "complete_cells": 224,
+          "cells_ever_valid": 224,
+          "fully_valid_distinct_native_locations": 165,
+          "variables": {
+            "VHM0": "m",
+            "VMDR": "degree",
+            "VTPK": "s"
+          },
+          "raw_response_receipts": 233,
+          "source_sha256": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+        }
+      },
+      "query_times": 479,
+      "sample_positions": 78,
+      "interpolation_checks": 37362,
+      "range_sampled": {
+        "wind_speed_mps": [
+          0.06838234188006229,
+          14.786470307880254
+        ],
+        "current_speed_mps": [
+          0.0,
+          0.7012398667192379
+        ],
+        "significant_wave_height_m": [
+          0.05999999865889549,
+          3.365434818842065
+        ],
+        "wave_peak_period_s": [
+          1.4802708042186938,
+          11.991666634877522
+        ]
+      },
+      "nearest_wet_fallbacks": {
+        "wind": 0,
+        "current": 0,
+        "wave": 0
+      }
+    }
+  }
+}

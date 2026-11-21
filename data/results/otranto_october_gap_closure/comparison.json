@@ -1,0 +1,3118 @@
+{
+  "departure_utc": "2026-10-01T13:00:00+00:00",
+  "dt_s": 5,
+  "radius_m": 50.0,
+  "maximum_steps": 4600,
+  "marine_grid_bounds": {
+    "latitude_bounds": [
+      39.5,
+      41.0
+    ],
+    "longitude_bounds": [
+      18.0,
+      19.5
+    ]
+  },
+  "regional_archive_fingerprints": {
+    "wind": {
+      "variables": {
+        "gribfile_projection": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "74999fd28ab18ccca2bee199f260d19764603a3c78353d773d16d215eebe8e19"
+        },
+        "heightAboveGround": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<f8",
+          "sha256": "24b1f4ef66b650ff816e519b01742ff1753733d36e1b4c3e3b52743168915b1f"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            7
+          ],
+          "dtype": "<f8",
+          "sha256": "178b1e9080ccb1d70ca42d15ce360ff35c1f8fe68ed92c045bdfcf23d7ae0432"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            7
+          ],
+          "dtype": "<f8",
+          "sha256": "bce81f814e32c4ac17d010c3e27af26b7aef10f19f965878a2e817fadbe78331"
+        },
+        "step": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<m8[ns]",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+        },
+        "time": {
+          "dims": [],
+          "shape": [],
+          "dtype": "<M8[ns]",
+          "sha256": "c71ff4b6b4a1a3a2a9312730ccb96c9c628e20ef9edfb9c45960d86ca93f2617"
+        },
+        "u10": {
+          "dims": [
+            "valid_time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            83,
+            7,
+            7
+          ],
+          "dtype": "<f4",
+          "sha256": "5f901ee92321af7413ccd58ff93ae88b3f57eb79b1c547182c00fb6824f748f7"
+        },
+        "v10": {
+          "dims": [
+            "valid_time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            83,
+            7,
+            7
+          ],
+          "dtype": "<f4",
+          "sha256": "e10265d8cc7f968af3152bb28f418a12e66de4665f3c7b6d40009bd0e4367cd8"
+        },
+        "valid_time": {
+          "dims": [
+            "valid_time"
+          ],
+          "shape": [
+            83
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "b466a83355dd57db8fc42c8210658fa3716a9f39e275dd3416df3fc29dc8a60c"
+        }
+      },
+      "sha256": "833cb91cc3f7f108d29ab9eaff94b78d7250f81df6d836779dbe80fd9deffabb",
+      "meaning": "Loaded regional archive arrays, including all coordinates and valid times."
+    },
+    "wave": {
+      "variables": {
+        "VHM0": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "8329a64e386504c22278a74461e180bd08c59093467badf808e0cedf31337f9c"
+        },
+        "VMDR": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "955eac4e3bd49ef4741865dd05e2a048c9d12dc982efc198ebbf32991dba0f3d"
+        },
+        "VTPK": {
+          "dims": [
+            "time",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            227,
+            36,
+            37
+          ],
+          "dtype": "<f8",
+          "sha256": "c605cc7f1173d30c88d758ac61f124e0cc84ba80df5ed86207b975ccd29a308d"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            36
+          ],
+          "dtype": "<f4",
+          "sha256": "432ad6c9e8ce69a3c890bec31ab0f5d3173141cd29d2043ea5c15e1b8fcce439"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            37
+          ],
+          "dtype": "<f4",
+          "sha256": "ffb10960dab9875ae8bf5a88f6498735c7482cd87369de8226a2e754f85e1f9c"
+        },
+        "time": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            227
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "0f2aef6bc44f92002c9f4fbae1d8e2b6db513a33f4ff12e5a774c5172a6f1453"
+        }
+      },
+      "sha256": "260e0099b877fcf11e1acd2e73e723b6f45cc322e8d5ad1837ddb686475df097",
+      "meaning": "Loaded regional archive arrays, including all coordinates and valid times."
+    },
+    "current": {
+      "variables": {
+        "depth": {
+          "dims": [
+            "depth"
+          ],
+          "shape": [
+            1
+          ],
+          "dtype": "<f8",
+          "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+        },
+        "latitude": {
+          "dims": [
+            "latitude"
+          ],
+          "shape": [
+            38
+          ],
+          "dtype": "<f8",
+          "sha256": "705cc856ed0f4a81c0be6a77753030371297d1414fdf758bb1bd91f23ab642f9"
+        },
+        "longitude": {
+          "dims": [
+            "longitude"
+          ],
+          "shape": [
+            19
+          ],
+          "dtype": "<f8",
+          "sha256": "443b31fdce852cc724450003a5b818eaa9501cfbb41550d06bd0d033458425ab"
+        },
+        "time": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            73
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "e36670d03ecc84199f9e92daed4589cd48ff6574c26a56f84aabb5170d44b3ea"
+        },
+        "time_run": {
+          "dims": [
+            "time"
+          ],
+          "shape": [
+            73
+          ],
+          "dtype": "<M8[ns]",
+          "sha256": "02267875979fe7b2881b1ca4c9359528488a877e06bd2855138d1c0254db1f1c"
+        },
+        "water_u": {
+          "dims": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            73,
+            1,
+            38,
+            19
+          ],
+          "dtype": "<f4",
+          "sha256": "4cc80d9d61a630cdda0396b850b7d4cf861682cae62dd551def4e0ff0ae970fa"
+        },
+        "water_v": {
+          "dims": [
+            "time",
+            "depth",
+            "latitude",
+            "longitude"
+          ],
+          "shape": [
+            73,
+            1,
+            38,
+            19
+          ],
+          "dtype": "<f4",
+          "sha256": "3ba2fedd2ecb2fdeaf461140f32de041b3bc15e68158697ecdd29f3dc880cb1c"
+        }
+      },
+      "sha256": "6066a415b4a9c6c89fb5e58933d8cb4b3b6233f3c323be4b17ff5d090edad480",
+      "meaning": "Loaded regional archive arrays, including all coordinates and valid times."
+    }
+  },
+  "fresh_candidate_names": [
+    "diffusion_upwind_commit",
+    "gamma_gate_commit",
+    "gamma_gate_half",
+    "gamma_prior_control",
+    "gamma_upwind_commit"
+  ],
+  "baseline_manifest": {
+    "reference_grid": {
+      "directory": "data/results/otranto_october_refined_tacks/grid_mpc",
+      "sha256": {
+        "run.log": "29f206e4d7a7afadbe1d12437a8f5aba85aed73b70f252239887769b5c5d7eb9",
+        "navigation.jsonl.gz": "e717987652df4b293a8745683fb263b5106c4b8df1562a6c1e27056dabb751ad",
+        "track.gpx": "f6bd5717930a8277275f65c0695ac7809fc502b9ca6e30b6a9832bec80940a38"
+      }
+    },
+    "prior_best_gamma": {
+      "directory": "data/results/otranto_october_refined_tacks/gamma",
+      "sha256": {
+        "run.log": "a97b4a1cef1450b3029ac81ef85d840e42b72d58840eccfbd8a6cc4d4c4797b5",
+        "navigation.jsonl.gz": "3af6efa1a3449b0c0ac3d093488fcca72d4b9243d489e781dbdccdedccd0b727",
+        "track.gpx": "44ca34d0af85f78d0874b77160eb8a5d273cdac79a03b28420a3a78d450ff55b"
+      }
+    },
+    "prior_best_diffusion": {
+      "directory": "data/results/otranto_october_refined_tacks/diffusion",
+      "sha256": {
+        "run.log": "e44a68238fca4af9b4fecb8eb12bc4ea009887104893bae86629d76cca05e5b5",
+        "navigation.jsonl.gz": "dee13c529d2cf2491a06a13f112339970a6ee23f265cbbce2978a3b038fab04f",
+        "track.gpx": "85ccdc69bbccd6a3a196b2b9b556780fa005f0ddea181735dc032d856d9889e7"
+      }
+    },
+    "original_forecast": {
+      "directory": "data/results/otranto_october_forecast_tacks/gamma",
+      "sha256": {
+        "run.log": "2ac92f3770ae4707523b1cbcece0d810106f460c6ed3a7a49463fbb2fff179a5",
+        "navigation.jsonl.gz": "8193f77d8c1e11191ac7682467595e8d04cded6d360ecafbbe98d58da91c8cfe",
+        "track.gpx": "e0aa50136dadb43a26515b9b9e6399bdf79b0913490651f47eac3d5b16482ba3"
+      }
+    }
+  },
+  "reference_files_sha256": {
+    "current_route/otranto_short_test_loop.gpx": "7f10e7441acfa91bed78808ad8da456c062aa960ec1303e81161c434d6397415",
+    "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc": "97af76b5bc06cbfd6cacd8c493c675d2a8e70a69a420f17e89ce152f93dfc410",
+    "data/results/otranto_october_gap_closure/reproduce/run_archive.py": "950608893237a8de75fb322894b026d965c86e0d4e52f72a0a7d0a7fbefe68ef",
+    "data/results/otranto_october_gap_closure/reproduce/audit.py": "d4269a01b69ad19ed86e0f4dd25b2235e5776c771e4d775adcdda7e8ce93d269",
+    "data/results/otranto_october_gap_closure/reproduce/audit_reference.py": "e2e1228ca4f726162ac4a11de3d3d1b9dad1f563e133c46cfce75eb97235fdd0"
+  },
+  "runs": {
+    "reference_grid": {
+      "directory": "data/results/otranto_october_refined_tacks/grid_mpc",
+      "planner": "gamma",
+      "controller": "grid-mpc",
+      "status": "completed",
+      "steps": 1904,
+      "elapsed_s": 9520,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 434,
+          "distance_metres": 49.4090995754439,
+          "elapsed_s": 2170,
+          "segment_s": 2170,
+          "segment_distance_m": 1420.2040454412645,
+          "utc": "2026-10-01T13:36:10+00:00",
+          "latitude": 40.22801364190455,
+          "longitude": 18.750404217635378,
+          "state_at_capture": {
+            "latitude": 40.22801364190455,
+            "longitude": 18.750404217635378,
+            "heading": 298.60852427726815,
+            "speed": 0.5762575240814202,
+            "rudder": -9.0,
+            "flap": -15.0,
+            "heel": -7.034493934819095,
+            "surge_speed": 0.7544994644403136,
+            "sway_speed": -0.1002438433817091,
+            "yaw_rate": -0.003766363836135885
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 535,
+          "distance_metres": 47.09137021854828,
+          "elapsed_s": 2675,
+          "segment_s": 505,
+          "segment_distance_m": 521.1125618526428,
+          "utc": "2026-10-01T13:44:35+00:00",
+          "latitude": 40.226769562740415,
+          "longitude": 18.756128599028216,
+          "state_at_capture": {
+            "latitude": 40.226769562740415,
+            "longitude": 18.756128599028216,
+            "heading": 91.04145855019519,
+            "speed": 1.1176476432267595,
+            "rudder": 0.0,
+            "flap": 15.0,
+            "heel": -0.0024500773807997357,
+            "surge_speed": 0.9585905407541331,
+            "sway_speed": -2.5837704428488783e-05,
+            "yaw_rate": -2.891940081868324e-05
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 639,
+          "distance_metres": 46.70971684369647,
+          "elapsed_s": 3195,
+          "segment_s": 520,
+          "segment_distance_m": 514.3727693958347,
+          "utc": "2026-10-01T13:53:15+00:00",
+          "latitude": 40.22347663644638,
+          "longitude": 18.752183830148454,
+          "state_at_capture": {
+            "latitude": 40.22347663644638,
+            "longitude": 18.752183830148454,
+            "heading": 238.07542279822542,
+            "speed": 1.043614763146333,
+            "rudder": 0.0,
+            "flap": -15.0,
+            "heel": -0.002158573517131681,
+            "surge_speed": 0.9567020577632819,
+            "sway_speed": -2.277237120218787e-05,
+            "yaw_rate": -2.55109000490383e-05
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1133,
+          "distance_metres": 49.60750402776733,
+          "elapsed_s": 5665,
+          "segment_s": 2470,
+          "segment_distance_m": 1571.16452943063,
+          "utc": "2026-10-01T14:34:25+00:00",
+          "latitude": 40.22630139649465,
+          "longitude": 18.751331179290986,
+          "state_at_capture": {
+            "latitude": 40.22630139649465,
+            "longitude": 18.751331179290986,
+            "heading": 35.28313907750694,
+            "speed": 0.7141080226534087,
+            "rudder": 7.5,
+            "flap": 15.0,
+            "heel": 6.144022866300412,
+            "surge_speed": 0.8279374860735154,
+            "sway_speed": 0.08984504267876238,
+            "yaw_rate": -0.00204422046500295
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1207,
+          "distance_metres": 46.028693538432584,
+          "elapsed_s": 6035,
+          "segment_s": 370,
+          "segment_distance_m": 301.2891742773826,
+          "utc": "2026-10-01T14:40:35+00:00",
+          "latitude": 40.22373378179494,
+          "longitude": 18.751529356658693,
+          "state_at_capture": {
+            "latitude": 40.22373378179494,
+            "longitude": 18.751529356658693,
+            "heading": 181.388711525294,
+            "speed": 0.8453862699518021,
+            "rudder": 7.5,
+            "flap": -10.0,
+            "heel": 3.6868466298457534,
+            "surge_speed": 0.5726358275973945,
+            "sway_speed": 0.056767224320017885,
+            "yaw_rate": -2.4062891331359457e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1382,
+          "distance_metres": 49.97525018162559,
+          "elapsed_s": 6910,
+          "segment_s": 875,
+          "segment_distance_m": 555.4583479422228,
+          "utc": "2026-10-01T14:55:10+00:00",
+          "latitude": 40.22627254383749,
+          "longitude": 18.756383743073428,
+          "state_at_capture": {
+            "latitude": 40.22627254383749,
+            "longitude": 18.756383743073428,
+            "heading": 30.664237338370185,
+            "speed": 0.6643999778001596,
+            "rudder": 8.0,
+            "flap": 15.0,
+            "heel": 6.442717262714424,
+            "surge_speed": 0.8101922797510982,
+            "sway_speed": 0.09290140371365063,
+            "yaw_rate": -0.002006914296942233
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1819,
+          "distance_metres": 48.8203167449546,
+          "elapsed_s": 9095,
+          "segment_s": 2185,
+          "segment_distance_m": 1366.8847261597293,
+          "utc": "2026-10-01T15:31:35+00:00",
+          "latitude": 40.228146914032436,
+          "longitude": 18.750520656249307,
+          "state_at_capture": {
+            "latitude": 40.228146914032436,
+            "longitude": 18.750520656249307,
+            "heading": 292.1807891759848,
+            "speed": 0.6401463738733134,
+            "rudder": -9.0,
+            "flap": -15.0,
+            "heel": -6.448448692854939,
+            "surge_speed": 0.7019854215483731,
+            "sway_speed": -0.0904389446181582,
+            "yaw_rate": -0.0034716827441172555
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1904,
+          "distance_metres": 49.93615716483807,
+          "elapsed_s": 9520,
+          "segment_s": 425,
+          "segment_distance_m": 434.8214686122651,
+          "utc": "2026-10-01T15:38:40+00:00",
+          "latitude": 40.2251929303217,
+          "longitude": 18.747197806370735,
+          "state_at_capture": {
+            "latitude": 40.2251929303217,
+            "longitude": 18.747197806370735,
+            "heading": 234.10270177779663,
+            "speed": 1.0275827660225798,
+            "rudder": 0.0,
+            "flap": -15.0,
+            "heel": 0.0031024913655392844,
+            "surge_speed": 0.8775227169696043,
+            "sway_speed": 3.288327518115522e-05,
+            "yaw_rate": 3.728953536193726e-05
+          }
+        }
+      ],
+      "forecast_updates": 0,
+      "controller_outcomes": null,
+      "maximum_gpx_position_difference_m": 6.93138601292381e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "e717987652df4b293a8745683fb263b5106c4b8df1562a6c1e27056dabb751ad",
+        "track.gpx": "f6bd5717930a8277275f65c0695ac7809fc502b9ca6e30b6a9832bec80940a38",
+        "run.log": "29f206e4d7a7afadbe1d12437a8f5aba85aed73b70f252239887769b5c5d7eb9"
+      },
+      "forecast_tack_refinement": false,
+      "forecast_tracking_feedback": false,
+      "forecast_tack_step_seconds": null,
+      "forecast_refinement_phase": null,
+      "forecast_gate_aim_fraction": 0.0,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "grid-mpc",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_refined_tacks/grid_mpc",
+        "--output-gpx",
+        "data/results/otranto_october_refined_tacks/grid_mpc/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_refined_tacks/grid_mpc/navigation.jsonl.gz"
+      ],
+      "fresh_candidate": false
+    },
+    "prior_best_gamma": {
+      "directory": "data/results/otranto_october_refined_tacks/gamma",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1835,
+      "elapsed_s": 9175,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.7728039063666,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.05463011979094,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378014831004,
+          "longitude": 18.751631596659564,
+          "state_at_capture": {
+            "latitude": 40.22378014831004,
+            "longitude": 18.751631596659564,
+            "heading": 216.40296405651733,
+            "speed": 1.0104471289968728,
+            "rudder": 1.7097560122917146,
+            "flap": -12.02612619129085,
+            "heel": 1.5217673667255978,
+            "surge_speed": 0.8131222569361871,
+            "sway_speed": 0.023701294337640687,
+            "yaw_rate": 0.0029389576709183585
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1301,
+          "distance_metres": 49.20395223940654,
+          "elapsed_s": 6505,
+          "segment_s": 825,
+          "segment_distance_m": 537.3456582333287,
+          "utc": "2026-10-01T14:48:25+00:00",
+          "latitude": 40.22622533601555,
+          "longitude": 18.756624545589432,
+          "state_at_capture": {
+            "latitude": 40.22622533601555,
+            "longitude": 18.756624545589432,
+            "heading": 37.89500462552109,
+            "speed": 0.7403184942176828,
+            "rudder": 6.506632683527436,
+            "flap": 14.999999999999881,
+            "heel": 5.691428429506913,
+            "surge_speed": 0.8561975547397541,
+            "sway_speed": 0.08302439785291729,
+            "yaw_rate": -3.2528761737025966e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1753,
+          "distance_metres": 49.92031719958232,
+          "elapsed_s": 8765,
+          "segment_s": 2260,
+          "segment_distance_m": 1478.1865387636594,
+          "utc": "2026-10-01T15:26:05+00:00",
+          "latitude": 40.22798418823825,
+          "longitude": 18.750369650453138,
+          "state_at_capture": {
+            "latitude": 40.22798418823825,
+            "longitude": 18.750369650453138,
+            "heading": 290.1046842548242,
+            "speed": 0.6707803596529106,
+            "rudder": -8.821575456559172,
+            "flap": -14.99999999999658,
+            "heel": -6.439990929443041,
+            "surge_speed": 0.7234723349023773,
+            "sway_speed": -0.09096063349880065,
+            "yaw_rate": -0.0017926526747908131
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1835,
+          "distance_metres": 48.0802801501175,
+          "elapsed_s": 9175,
+          "segment_s": 410,
+          "segment_distance_m": 414.3993601808619,
+          "utc": "2026-10-01T15:32:55+00:00",
+          "latitude": 40.22536228233228,
+          "longitude": 18.746975824766338,
+          "state_at_capture": {
+            "latitude": 40.22536228233228,
+            "longitude": 18.746975824766338,
+            "heading": 245.81567577841133,
+            "speed": 0.9692531793233545,
+            "rudder": -1.7872555519844344,
+            "flap": -13.4959915133677,
+            "heel": -1.2742206388305195,
+            "surge_speed": 0.8575857602155499,
+            "sway_speed": -0.02185666092311705,
+            "yaw_rate": 0.0019924967537629274
+          }
+        }
+      ],
+      "forecast_updates": 1835,
+      "controller_outcomes": {
+        "acados": 1835
+      },
+      "maximum_gpx_position_difference_m": 6.848142804121215e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "3af6efa1a3449b0c0ac3d093488fcca72d4b9243d489e781dbdccdedccd0b727",
+        "track.gpx": "44ca34d0af85f78d0874b77160eb8a5d273cdac79a03b28420a3a78d450ff55b",
+        "run.log": "a97b4a1cef1450b3029ac81ef85d840e42b72d58840eccfbd8a6cc4d4c4797b5"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.0,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_refined_tacks/gamma",
+        "--output-gpx",
+        "data/results/otranto_october_refined_tacks/gamma/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_refined_tacks/gamma/navigation.jsonl.gz"
+      ],
+      "fresh_candidate": false
+    },
+    "prior_best_diffusion": {
+      "directory": "data/results/otranto_october_refined_tacks/diffusion",
+      "planner": "diffusion",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1835,
+      "elapsed_s": 9175,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.7728039063666,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.05463011979094,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378014831004,
+          "longitude": 18.751631596659564,
+          "state_at_capture": {
+            "latitude": 40.22378014831004,
+            "longitude": 18.751631596659564,
+            "heading": 216.40296405651733,
+            "speed": 1.0104471289968728,
+            "rudder": 1.7097560122917146,
+            "flap": -12.02612619129085,
+            "heel": 1.5217673667255978,
+            "surge_speed": 0.8131222569361871,
+            "sway_speed": 0.023701294337640687,
+            "yaw_rate": 0.0029389576709183585
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1301,
+          "distance_metres": 49.20395223940654,
+          "elapsed_s": 6505,
+          "segment_s": 825,
+          "segment_distance_m": 537.3456582333287,
+          "utc": "2026-10-01T14:48:25+00:00",
+          "latitude": 40.22622533601555,
+          "longitude": 18.756624545589432,
+          "state_at_capture": {
+            "latitude": 40.22622533601555,
+            "longitude": 18.756624545589432,
+            "heading": 37.89500462552109,
+            "speed": 0.7403184942176828,
+            "rudder": 6.506632683527436,
+            "flap": 14.999999999999881,
+            "heel": 5.691428429506913,
+            "surge_speed": 0.8561975547397541,
+            "sway_speed": 0.08302439785291729,
+            "yaw_rate": -3.2528761737025966e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1753,
+          "distance_metres": 49.92031719958232,
+          "elapsed_s": 8765,
+          "segment_s": 2260,
+          "segment_distance_m": 1478.1865387636594,
+          "utc": "2026-10-01T15:26:05+00:00",
+          "latitude": 40.22798418823825,
+          "longitude": 18.750369650453138,
+          "state_at_capture": {
+            "latitude": 40.22798418823825,
+            "longitude": 18.750369650453138,
+            "heading": 290.1046842548242,
+            "speed": 0.6707803596529106,
+            "rudder": -8.821575456559172,
+            "flap": -14.99999999999658,
+            "heel": -6.439990929443041,
+            "surge_speed": 0.7234723349023773,
+            "sway_speed": -0.09096063349880065,
+            "yaw_rate": -0.0017926526747908131
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1835,
+          "distance_metres": 48.0802801501175,
+          "elapsed_s": 9175,
+          "segment_s": 410,
+          "segment_distance_m": 414.3993601808619,
+          "utc": "2026-10-01T15:32:55+00:00",
+          "latitude": 40.22536228233228,
+          "longitude": 18.746975824766338,
+          "state_at_capture": {
+            "latitude": 40.22536228233228,
+            "longitude": 18.746975824766338,
+            "heading": 245.81567577841133,
+            "speed": 0.9692531793233545,
+            "rudder": -1.7872555519844344,
+            "flap": -13.4959915133677,
+            "heel": -1.2742206388305195,
+            "surge_speed": 0.8575857602155499,
+            "sway_speed": -0.02185666092311705,
+            "yaw_rate": 0.0019924967537629274
+          }
+        }
+      ],
+      "forecast_updates": 1835,
+      "controller_outcomes": {
+        "acados": 1835
+      },
+      "maximum_gpx_position_difference_m": 6.848142804121215e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "dee13c529d2cf2491a06a13f112339970a6ee23f265cbbce2978a3b038fab04f",
+        "track.gpx": "85ccdc69bbccd6a3a196b2b9b556780fa005f0ddea181735dc032d856d9889e7",
+        "run.log": "e44a68238fca4af9b4fecb8eb12bc4ea009887104893bae86629d76cca05e5b5"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.0,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "diffusion",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_refined_tacks/diffusion",
+        "--output-gpx",
+        "data/results/otranto_october_refined_tacks/diffusion/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_refined_tacks/diffusion/navigation.jsonl.gz"
+      ],
+      "fresh_candidate": false
+    },
+    "original_forecast": {
+      "directory": "data/results/otranto_october_forecast_tacks/gamma",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1845,
+      "elapsed_s": 9225,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.770386575840924,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.0537939346491,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378013013611,
+          "longitude": 18.751631675520855,
+          "state_at_capture": {
+            "latitude": 40.22378013013611,
+            "longitude": 18.751631675520855,
+            "heading": 216.37948277880693,
+            "speed": 1.0106311142650728,
+            "rudder": 1.7137274072691573,
+            "flap": -12.032872846484578,
+            "heel": 1.524932504366737,
+            "surge_speed": 0.8132441096128273,
+            "sway_speed": 0.023751899452786284,
+            "yaw_rate": 0.002936773501179723
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1301,
+          "distance_metres": 49.55690123274632,
+          "elapsed_s": 6505,
+          "segment_s": 825,
+          "segment_distance_m": 530.7026444615466,
+          "utc": "2026-10-01T14:48:25+00:00",
+          "latitude": 40.22623456824629,
+          "longitude": 18.756523686040794,
+          "state_at_capture": {
+            "latitude": 40.22623456824629,
+            "longitude": 18.756523686040794,
+            "heading": 37.70933070044902,
+            "speed": 0.7377001538056224,
+            "rudder": 6.532658123590402,
+            "flap": 14.999999999999993,
+            "heel": 5.713132522084528,
+            "surge_speed": 0.8542636403385362,
+            "sway_speed": 0.08322813208594784,
+            "yaw_rate": 0.0001299758824532002
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1763,
+          "distance_metres": 49.50554305542129,
+          "elapsed_s": 8815,
+          "segment_s": 2310,
+          "segment_distance_m": 1538.4576757190773,
+          "utc": "2026-10-01T15:26:55+00:00",
+          "latitude": 40.22796805764894,
+          "longitude": 18.750333390614713,
+          "state_at_capture": {
+            "latitude": 40.22796805764894,
+            "longitude": 18.750333390614713,
+            "heading": 293.0794370341264,
+            "speed": 0.637057830125934,
+            "rudder": -9.780256830779397,
+            "flap": -14.999999999999993,
+            "heel": -6.686466104248508,
+            "surge_speed": 0.6992265957185387,
+            "sway_speed": -0.09458942310529497,
+            "yaw_rate": 0.00018192547033686805
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1845,
+          "distance_metres": 47.34742730600396,
+          "elapsed_s": 9225,
+          "segment_s": 410,
+          "segment_distance_m": 413.3402492622697,
+          "utc": "2026-10-01T15:33:45+00:00",
+          "latitude": 40.22527279298512,
+          "longitude": 18.747094880360976,
+          "state_at_capture": {
+            "latitude": 40.22527279298512,
+            "longitude": 18.747094880360976,
+            "heading": 217.07513669273305,
+            "speed": 0.95183677952933,
+            "rudder": 1.5193199979924625,
+            "flap": -11.406898417381157,
+            "heel": 1.2602907744308247,
+            "surge_speed": 0.7431949834231681,
+            "sway_speed": 0.01931803087808829,
+            "yaw_rate": 0.00306477658674039
+          }
+        }
+      ],
+      "forecast_updates": 1845,
+      "controller_outcomes": {
+        "acados": 1845
+      },
+      "maximum_gpx_position_difference_m": 6.889298689971895e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "8193f77d8c1e11191ac7682467595e8d04cded6d360ecafbbe98d58da91c8cfe",
+        "track.gpx": "e0aa50136dadb43a26515b9b9e6399bdf79b0913490651f47eac3d5b16482ba3",
+        "run.log": "2ac92f3770ae4707523b1cbcece0d810106f460c6ed3a7a49463fbb2fff179a5"
+      },
+      "forecast_tack_refinement": false,
+      "forecast_tracking_feedback": false,
+      "forecast_tack_step_seconds": 120.0,
+      "forecast_refinement_phase": "all",
+      "forecast_gate_aim_fraction": 0.0,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_forecast_tacks/gamma",
+        "--output-gpx",
+        "data/results/otranto_october_forecast_tacks/gamma/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_forecast_tacks/gamma/navigation.jsonl.gz"
+      ],
+      "fresh_candidate": false
+    },
+    "diffusion_upwind_commit": {
+      "directory": "data/results/otranto_october_gap_closure/diffusion_upwind_commit",
+      "planner": "diffusion",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1816,
+      "elapsed_s": 9080,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.7728039063666,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.05463011979094,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378014831004,
+          "longitude": 18.751631596659564,
+          "state_at_capture": {
+            "latitude": 40.22378014831004,
+            "longitude": 18.751631596659564,
+            "heading": 216.40296405651733,
+            "speed": 1.0104471289968728,
+            "rudder": 1.7097560122917146,
+            "flap": -12.02612619129085,
+            "heel": 1.5217673667255978,
+            "surge_speed": 0.8131222569361871,
+            "sway_speed": 0.023701294337640687,
+            "yaw_rate": 0.0029389576709183585
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1309,
+          "distance_metres": 49.74242364432612,
+          "elapsed_s": 6545,
+          "segment_s": 865,
+          "segment_distance_m": 518.7585303330053,
+          "utc": "2026-10-01T14:49:05+00:00",
+          "latitude": 40.22637626492193,
+          "longitude": 18.756220995279563,
+          "state_at_capture": {
+            "latitude": 40.22637626492193,
+            "longitude": 18.756220995279563,
+            "heading": 23.83966147837478,
+            "speed": 0.5864617219966455,
+            "rudder": 9.913286354003924,
+            "flap": 14.99999999999957,
+            "heel": 7.198413583125435,
+            "surge_speed": 0.7454356676766601,
+            "sway_speed": 0.10239512309354112,
+            "yaw_rate": -0.0028117099189720373
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1734,
+          "distance_metres": 48.57441858628974,
+          "elapsed_s": 8670,
+          "segment_s": 2125,
+          "segment_distance_m": 1396.6584006405144,
+          "utc": "2026-10-01T15:24:30+00:00",
+          "latitude": 40.227992373508236,
+          "longitude": 18.750357685356676,
+          "state_at_capture": {
+            "latitude": 40.227992373508236,
+            "longitude": 18.750357685356676,
+            "heading": 288.50615524654125,
+            "speed": 0.6931467012262251,
+            "rudder": -8.660758438543716,
+            "flap": -14.999999999988125,
+            "heel": -6.347481850032572,
+            "surge_speed": 0.7398956049904051,
+            "sway_speed": -0.09052508499297948,
+            "yaw_rate": 0.00016488032979973755
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1816,
+          "distance_metres": 47.17374858084504,
+          "elapsed_s": 9080,
+          "segment_s": 410,
+          "segment_distance_m": 415.18162081649933,
+          "utc": "2026-10-01T15:31:20+00:00",
+          "latitude": 40.225330988183686,
+          "longitude": 18.747014251017447,
+          "state_at_capture": {
+            "latitude": 40.225330988183686,
+            "longitude": 18.747014251017447,
+            "heading": 216.70295129097215,
+            "speed": 0.945928765628395,
+            "rudder": 1.4318525079187212,
+            "flap": -11.449342339903902,
+            "heel": 1.2958628047506988,
+            "surge_speed": 0.7353478101716918,
+            "sway_speed": 0.019304184338311107,
+            "yaw_rate": 0.004485393547369566
+          }
+        }
+      ],
+      "forecast_updates": 1816,
+      "controller_outcomes": {
+        "acados": 1816
+      },
+      "maximum_gpx_position_difference_m": 6.856051301984712e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "e78a9bda932532ef2a211944e3a1a8a227c63e7e12fce892679d464dab9fcff0",
+        "track.gpx": "ee29c11d3cbd0d7118daedbfc65712649af7428cd2c2afd7ff4d17f04a595bd9",
+        "run.log": "b8990d21ed5d76a5a90834ddd88413432d7b165b6826b79e24a718d8c7e13ace"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.5,
+      "forecast_gate_aim_upwind_angle_deg": 60.0,
+      "forecast_maneuver_commit_seconds": 60.0,
+      "runner_arguments": [
+        "--planner",
+        "diffusion",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_gap_closure/diffusion_upwind_commit",
+        "--output-gpx",
+        "data/results/otranto_october_gap_closure/diffusion_upwind_commit/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_gap_closure/diffusion_upwind_commit/navigation.jsonl.gz",
+        "--forecast-gate-aim-fraction",
+        "0.5",
+        "--forecast-maneuver-commit-seconds",
+        "60",
+        "--forecast-gate-aim-upwind-angle",
+        "60"
+      ],
+      "fresh_candidate": true
+    },
+    "gamma_gate_commit": {
+      "directory": "data/results/otranto_october_gap_closure/gamma_gate_commit",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1821,
+      "elapsed_s": 9105,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1137,
+          "distance_metres": 48.87588708304883,
+          "elapsed_s": 5685,
+          "segment_s": 345,
+          "segment_distance_m": 285.0944730357705,
+          "utc": "2026-10-01T14:34:45+00:00",
+          "latitude": 40.22376052858444,
+          "longitude": 18.75180219991438,
+          "state_at_capture": {
+            "latitude": 40.22376052858444,
+            "longitude": 18.75180219991438,
+            "heading": 182.47849883091143,
+            "speed": 0.852143749033699,
+            "rudder": 6.903936190721405,
+            "flap": -10.022627242267884,
+            "heel": 3.6260728851447133,
+            "surge_speed": 0.5811880207599295,
+            "sway_speed": 0.055355361260007487,
+            "yaw_rate": 0.0022938889170780945
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1307,
+          "distance_metres": 48.32590015627947,
+          "elapsed_s": 6535,
+          "segment_s": 850,
+          "segment_distance_m": 494.5231777200624,
+          "utc": "2026-10-01T14:48:55+00:00",
+          "latitude": 40.226336285938714,
+          "longitude": 18.75629683699964,
+          "state_at_capture": {
+            "latitude": 40.226336285938714,
+            "longitude": 18.75629683699964,
+            "heading": 23.61526810695142,
+            "speed": 0.5802392711497405,
+            "rudder": 9.738096774493425,
+            "flap": 14.999999999999769,
+            "heel": 7.2135173645652575,
+            "surge_speed": 0.7396455841427534,
+            "sway_speed": 0.10162535641096312,
+            "yaw_rate": -3.793658437752867e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1738,
+          "distance_metres": 49.33496179226315,
+          "elapsed_s": 8690,
+          "segment_s": 2155,
+          "segment_distance_m": 1406.9683741577192,
+          "utc": "2026-10-01T15:24:50+00:00",
+          "latitude": 40.2280375260454,
+          "longitude": 18.75043312362277,
+          "state_at_capture": {
+            "latitude": 40.2280375260454,
+            "longitude": 18.75043312362277,
+            "heading": 289.5216383056563,
+            "speed": 0.6810774283928197,
+            "rudder": -8.901628769851218,
+            "flap": -14.999999999999993,
+            "heel": -6.4324669559429255,
+            "surge_speed": 0.7312035026630258,
+            "sway_speed": -0.09155015514254843,
+            "yaw_rate": 0.0001584272802715755
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1821,
+          "distance_metres": 49.59567421524507,
+          "elapsed_s": 9105,
+          "segment_s": 415,
+          "segment_distance_m": 420.9251805678276,
+          "utc": "2026-10-01T15:31:45+00:00",
+          "latitude": 40.225373507491916,
+          "longitude": 18.746985956963357,
+          "state_at_capture": {
+            "latitude": 40.225373507491916,
+            "longitude": 18.746985956963357,
+            "heading": 245.4865820286603,
+            "speed": 0.9817818037214823,
+            "rudder": -1.7277503898058013,
+            "flap": -13.804424754271825,
+            "heel": -1.2743725467301283,
+            "surge_speed": 0.8689298804218578,
+            "sway_speed": -0.021718338130417604,
+            "yaw_rate": 0.0016869192378494754
+          }
+        }
+      ],
+      "forecast_updates": 1821,
+      "controller_outcomes": {
+        "acados": 1821
+      },
+      "maximum_gpx_position_difference_m": 6.972378485937737e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "a5f8f9b607300a610bfd24a314cdfc7914c48f3795e116380fc7256d58a1ec13",
+        "track.gpx": "33679fa0a998ac7c2fb631358889436db17640becdb91f7d8515334bf3d04f3b",
+        "run.log": "0d8c250f25a3a094c60fdd83c1fa199b863ae7568823d676a21f68185ac090a0"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.5,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 60.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_gap_closure/gamma_gate_commit",
+        "--output-gpx",
+        "data/results/otranto_october_gap_closure/gamma_gate_commit/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_gap_closure/gamma_gate_commit/navigation.jsonl.gz",
+        "--forecast-gate-aim-fraction",
+        "0.5",
+        "--forecast-maneuver-commit-seconds",
+        "60"
+      ],
+      "fresh_candidate": true
+    },
+    "gamma_gate_half": {
+      "directory": "data/results/otranto_october_gap_closure/gamma_gate_half",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1856,
+      "elapsed_s": 9280,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1137,
+          "distance_metres": 48.87588708304883,
+          "elapsed_s": 5685,
+          "segment_s": 345,
+          "segment_distance_m": 285.0944730357705,
+          "utc": "2026-10-01T14:34:45+00:00",
+          "latitude": 40.22376052858444,
+          "longitude": 18.75180219991438,
+          "state_at_capture": {
+            "latitude": 40.22376052858444,
+            "longitude": 18.75180219991438,
+            "heading": 182.47849883091143,
+            "speed": 0.852143749033699,
+            "rudder": 6.903936190721405,
+            "flap": -10.022627242267884,
+            "heel": 3.6260728851447133,
+            "surge_speed": 0.5811880207599295,
+            "sway_speed": 0.055355361260007487,
+            "yaw_rate": 0.0022938889170780945
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1326,
+          "distance_metres": 49.55913165637593,
+          "elapsed_s": 6630,
+          "segment_s": 945,
+          "segment_distance_m": 530.8579792102857,
+          "utc": "2026-10-01T14:50:30+00:00",
+          "latitude": 40.22624381503957,
+          "longitude": 18.756482178507298,
+          "state_at_capture": {
+            "latitude": 40.22624381503957,
+            "longitude": 18.756482178507298,
+            "heading": 23.355963047777387,
+            "speed": 0.5774327384265315,
+            "rudder": 9.763052199972684,
+            "flap": 14.999999999999996,
+            "heel": 7.2259478740713545,
+            "surge_speed": 0.7388332290200922,
+            "sway_speed": 0.10172117714948437,
+            "yaw_rate": -2.722514599449771e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1772,
+          "distance_metres": 48.923183668983086,
+          "elapsed_s": 8860,
+          "segment_s": 2230,
+          "segment_distance_m": 1448.1375264134676,
+          "utc": "2026-10-01T15:27:40+00:00",
+          "latitude": 40.228033092826436,
+          "longitude": 18.750421246856973,
+          "state_at_capture": {
+            "latitude": 40.228033092826436,
+            "longitude": 18.750421246856973,
+            "heading": 289.81579772466915,
+            "speed": 0.6746512799723022,
+            "rudder": -8.892105227605395,
+            "flap": -14.99999999996161,
+            "heel": -6.372601956388689,
+            "surge_speed": 0.7270251472293318,
+            "sway_speed": -0.0907714208823084,
+            "yaw_rate": 0.0001567600348307456
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1856,
+          "distance_metres": 46.885450788010886,
+          "elapsed_s": 9280,
+          "segment_s": 420,
+          "segment_distance_m": 423.63527212308577,
+          "utc": "2026-10-01T15:34:40+00:00",
+          "latitude": 40.22528645050181,
+          "longitude": 18.747071913711125,
+          "state_at_capture": {
+            "latitude": 40.22528645050181,
+            "longitude": 18.747071913711125,
+            "heading": 217.23350068858858,
+            "speed": 0.9488175756809365,
+            "rudder": 1.4963736455909633,
+            "flap": -11.357444538998804,
+            "heel": 1.2441996128038022,
+            "surge_speed": 0.7407261519461553,
+            "sway_speed": 0.01904185780514601,
+            "yaw_rate": 0.003118061662610816
+          }
+        }
+      ],
+      "forecast_updates": 1856,
+      "controller_outcomes": {
+        "acados": 1856
+      },
+      "maximum_gpx_position_difference_m": 6.848364701831203e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "7d7fd39f53f6ba74c0b7f6cb823d9277e9a5f1c65d344b37c3f79a68066fa37b",
+        "track.gpx": "bc0d51ae4491379bf7ea676eb7f4c579a906bbdb7c95f129473f1bf7a1c1f2c6",
+        "run.log": "b49dac8fefa8602984d51c4e01ba7a5fdb918b18f47d5fc4cf822c00c7d89086"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.5,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_gap_closure/gamma_gate_half",
+        "--output-gpx",
+        "data/results/otranto_october_gap_closure/gamma_gate_half/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_gap_closure/gamma_gate_half/navigation.jsonl.gz",
+        "--forecast-gate-aim-fraction",
+        "0.5"
+      ],
+      "fresh_candidate": true
+    },
+    "gamma_prior_control": {
+      "directory": "data/results/otranto_october_gap_closure/gamma_prior_control",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1835,
+      "elapsed_s": 9175,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.7728039063666,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.05463011979094,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378014831004,
+          "longitude": 18.751631596659564,
+          "state_at_capture": {
+            "latitude": 40.22378014831004,
+            "longitude": 18.751631596659564,
+            "heading": 216.40296405651733,
+            "speed": 1.0104471289968728,
+            "rudder": 1.7097560122917146,
+            "flap": -12.02612619129085,
+            "heel": 1.5217673667255978,
+            "surge_speed": 0.8131222569361871,
+            "sway_speed": 0.023701294337640687,
+            "yaw_rate": 0.0029389576709183585
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1301,
+          "distance_metres": 49.20395223940654,
+          "elapsed_s": 6505,
+          "segment_s": 825,
+          "segment_distance_m": 537.3456582333287,
+          "utc": "2026-10-01T14:48:25+00:00",
+          "latitude": 40.22622533601555,
+          "longitude": 18.756624545589432,
+          "state_at_capture": {
+            "latitude": 40.22622533601555,
+            "longitude": 18.756624545589432,
+            "heading": 37.89500462552109,
+            "speed": 0.7403184942176828,
+            "rudder": 6.506632683527436,
+            "flap": 14.999999999999881,
+            "heel": 5.691428429506913,
+            "surge_speed": 0.8561975547397541,
+            "sway_speed": 0.08302439785291729,
+            "yaw_rate": -3.2528761737025966e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1753,
+          "distance_metres": 49.92031719958232,
+          "elapsed_s": 8765,
+          "segment_s": 2260,
+          "segment_distance_m": 1478.1865387636594,
+          "utc": "2026-10-01T15:26:05+00:00",
+          "latitude": 40.22798418823825,
+          "longitude": 18.750369650453138,
+          "state_at_capture": {
+            "latitude": 40.22798418823825,
+            "longitude": 18.750369650453138,
+            "heading": 290.1046842548242,
+            "speed": 0.6707803596529106,
+            "rudder": -8.821575456559172,
+            "flap": -14.99999999999658,
+            "heel": -6.439990929443041,
+            "surge_speed": 0.7234723349023773,
+            "sway_speed": -0.09096063349880065,
+            "yaw_rate": -0.0017926526747908131
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1835,
+          "distance_metres": 48.0802801501175,
+          "elapsed_s": 9175,
+          "segment_s": 410,
+          "segment_distance_m": 414.3993601808619,
+          "utc": "2026-10-01T15:32:55+00:00",
+          "latitude": 40.22536228233228,
+          "longitude": 18.746975824766338,
+          "state_at_capture": {
+            "latitude": 40.22536228233228,
+            "longitude": 18.746975824766338,
+            "heading": 245.81567577841133,
+            "speed": 0.9692531793233545,
+            "rudder": -1.7872555519844344,
+            "flap": -13.4959915133677,
+            "heel": -1.2742206388305195,
+            "surge_speed": 0.8575857602155499,
+            "sway_speed": -0.02185666092311705,
+            "yaw_rate": 0.0019924967537629274
+          }
+        }
+      ],
+      "forecast_updates": 1835,
+      "controller_outcomes": {
+        "acados": 1835
+      },
+      "maximum_gpx_position_difference_m": 6.848142804121215e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "eab9cd2f569f9502f8d55cb5b1a6f1464e46f77680be6ae835bece4b81f9bf0c",
+        "track.gpx": "44ca34d0af85f78d0874b77160eb8a5d273cdac79a03b28420a3a78d450ff55b",
+        "run.log": "ee3503e51f45b297fbb387fe9f41fe82f0ceae688f18c1c934d23828c00d790e"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.0,
+      "forecast_gate_aim_upwind_angle_deg": 180.0,
+      "forecast_maneuver_commit_seconds": 0.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_gap_closure/gamma_prior_control",
+        "--output-gpx",
+        "data/results/otranto_october_gap_closure/gamma_prior_control/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_gap_closure/gamma_prior_control/navigation.jsonl.gz"
+      ],
+      "fresh_candidate": true
+    },
+    "gamma_upwind_commit": {
+      "directory": "data/results/otranto_october_gap_closure/gamma_upwind_commit",
+      "planner": "gamma",
+      "controller": "acados-direct",
+      "status": "completed",
+      "steps": 1816,
+      "elapsed_s": 9080,
+      "captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "step": 458,
+          "distance_metres": 48.06450736699206,
+          "elapsed_s": 2290,
+          "segment_s": 2290,
+          "segment_distance_m": 1365.2066482848404,
+          "utc": "2026-10-01T13:38:10+00:00",
+          "latitude": 40.22803693765769,
+          "longitude": 18.75041210320964,
+          "state_at_capture": {
+            "latitude": 40.22803693765769,
+            "longitude": 18.75041210320964,
+            "heading": 286.3074454080442,
+            "speed": 0.6764877397794054,
+            "rudder": -6.249588603645007,
+            "flap": -13.888498221660553,
+            "heel": -5.364898370578868,
+            "surge_speed": 0.8075709229584267,
+            "sway_speed": -0.07854656397029448,
+            "yaw_rate": -0.004914429936279544
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "step": 576,
+          "distance_metres": 46.4323176820383,
+          "elapsed_s": 2880,
+          "segment_s": 590,
+          "segment_distance_m": 593.4884302438604,
+          "utc": "2026-10-01T13:48:00+00:00",
+          "latitude": 40.226711060427164,
+          "longitude": 18.75612284072571,
+          "state_at_capture": {
+            "latitude": 40.226711060427164,
+            "longitude": 18.75612284072571,
+            "heading": 77.66141729859042,
+            "speed": 1.0092350113196282,
+            "rudder": 1.9219133072317016,
+            "flap": 12.802593155779258,
+            "heel": 1.412933492624992,
+            "surge_speed": 0.9004213626229243,
+            "sway_speed": 0.02504441422149094,
+            "yaw_rate": -0.0024514551195791846
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "step": 680,
+          "distance_metres": 47.83116359192371,
+          "elapsed_s": 3400,
+          "segment_s": 520,
+          "segment_distance_m": 509.2308432137388,
+          "utc": "2026-10-01T13:56:40+00:00",
+          "latitude": 40.22369918923125,
+          "longitude": 18.75196296973857,
+          "state_at_capture": {
+            "latitude": 40.22369918923125,
+            "longitude": 18.75196296973857,
+            "heading": 220.5161211903521,
+            "speed": 0.9820857398377897,
+            "rudder": 1.7219101257304328,
+            "flap": -12.165619257766497,
+            "heel": 1.5566050772314501,
+            "surge_speed": 0.8178341791944005,
+            "sway_speed": 0.024380510282192822,
+            "yaw_rate": 0.0032810280874638513
+          }
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "step": 1068,
+          "distance_metres": 49.43671013557646,
+          "elapsed_s": 5340,
+          "segment_s": 1940,
+          "segment_distance_m": 1178.6004521833172,
+          "utc": "2026-10-01T14:29:00+00:00",
+          "latitude": 40.226225342879005,
+          "longitude": 18.75173716575867,
+          "state_at_capture": {
+            "latitude": 40.226225342879005,
+            "longitude": 18.75173716575867,
+            "heading": 30.013938101552093,
+            "speed": 0.6530437189333406,
+            "rudder": 8.631501809240007,
+            "flap": 14.999999999999993,
+            "heel": 6.760163034714268,
+            "surge_speed": 0.7780198817649655,
+            "sway_speed": 0.09677600516020156,
+            "yaw_rate": -1.2980355468027847e-05
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "step": 1136,
+          "distance_metres": 49.7728039063666,
+          "elapsed_s": 5680,
+          "segment_s": 340,
+          "segment_distance_m": 286.05463011979094,
+          "utc": "2026-10-01T14:34:40+00:00",
+          "latitude": 40.22378014831004,
+          "longitude": 18.751631596659564,
+          "state_at_capture": {
+            "latitude": 40.22378014831004,
+            "longitude": 18.751631596659564,
+            "heading": 216.40296405651733,
+            "speed": 1.0104471289968728,
+            "rudder": 1.7097560122917146,
+            "flap": -12.02612619129085,
+            "heel": 1.5217673667255978,
+            "surge_speed": 0.8131222569361871,
+            "sway_speed": 0.023701294337640687,
+            "yaw_rate": 0.0029389576709183585
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "step": 1309,
+          "distance_metres": 49.74242364432612,
+          "elapsed_s": 6545,
+          "segment_s": 865,
+          "segment_distance_m": 518.7585303330053,
+          "utc": "2026-10-01T14:49:05+00:00",
+          "latitude": 40.22637626492193,
+          "longitude": 18.756220995279563,
+          "state_at_capture": {
+            "latitude": 40.22637626492193,
+            "longitude": 18.756220995279563,
+            "heading": 23.83966147837478,
+            "speed": 0.5864617219966455,
+            "rudder": 9.913286354003924,
+            "flap": 14.99999999999957,
+            "heel": 7.198413583125435,
+            "surge_speed": 0.7454356676766601,
+            "sway_speed": 0.10239512309354112,
+            "yaw_rate": -0.0028117099189720373
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "step": 1734,
+          "distance_metres": 48.57441858628974,
+          "elapsed_s": 8670,
+          "segment_s": 2125,
+          "segment_distance_m": 1396.6584006405144,
+          "utc": "2026-10-01T15:24:30+00:00",
+          "latitude": 40.227992373508236,
+          "longitude": 18.750357685356676,
+          "state_at_capture": {
+            "latitude": 40.227992373508236,
+            "longitude": 18.750357685356676,
+            "heading": 288.50615524654125,
+            "speed": 0.6931467012262251,
+            "rudder": -8.660758438543716,
+            "flap": -14.999999999988125,
+            "heel": -6.347481850032572,
+            "surge_speed": 0.7398956049904051,
+            "sway_speed": -0.09052508499297948,
+            "yaw_rate": 0.00016488032979973755
+          }
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "step": 1816,
+          "distance_metres": 47.17374858084504,
+          "elapsed_s": 9080,
+          "segment_s": 410,
+          "segment_distance_m": 415.18162081649933,
+          "utc": "2026-10-01T15:31:20+00:00",
+          "latitude": 40.225330988183686,
+          "longitude": 18.747014251017447,
+          "state_at_capture": {
+            "latitude": 40.225330988183686,
+            "longitude": 18.747014251017447,
+            "heading": 216.70295129097215,
+            "speed": 0.945928765628395,
+            "rudder": 1.4318525079187212,
+            "flap": -11.449342339903902,
+            "heel": 1.2958628047506988,
+            "surge_speed": 0.7353478101716918,
+            "sway_speed": 0.019304184338311107,
+            "yaw_rate": 0.004485393547369566
+          }
+        }
+      ],
+      "forecast_updates": 1816,
+      "controller_outcomes": {
+        "acados": 1816
+      },
+      "maximum_gpx_position_difference_m": 6.856051301984712e-05,
+      "archive_checks_per_provider": 9,
+      "maximum_archive_value_difference": 0.0,
+      "departure_environment": {
+        "wind": {
+          "u": 1.5047211683796833,
+          "v": -8.057043286469213,
+          "speed": 8.196348718460467,
+          "direction": 349.4213932020583
+        },
+        "wave": {
+          "height": 0.5180241869859771,
+          "direction": 329.883732642732,
+          "peak_period": 4.736000224947929
+        },
+        "current": {
+          "u": 0.18130524732930364,
+          "v": -0.2867860846007233,
+          "speed": 0.33929021652525315,
+          "direction": 147.69905641589804,
+          "depth": 0.0
+        }
+      },
+      "sha256": {
+        "navigation.jsonl.gz": "2b8dad20d2336363f2b78a7f3b512d86109960d538a74b9a58973066e94a0010",
+        "track.gpx": "fb4f258641cc1729b0b7aecfdab12f8129c4024211ccb399a6fd2706206b5912",
+        "run.log": "7e763b85700f7c9e25b2fc78cb1c216a794683f975efac7eb781ab7eee075ea1"
+      },
+      "forecast_tack_refinement": true,
+      "forecast_tracking_feedback": true,
+      "forecast_tack_step_seconds": 60.0,
+      "forecast_refinement_phase": "return",
+      "forecast_gate_aim_fraction": 0.5,
+      "forecast_gate_aim_upwind_angle_deg": 60.0,
+      "forecast_maneuver_commit_seconds": 60.0,
+      "runner_arguments": [
+        "--planner",
+        "gamma",
+        "--controller",
+        "acados-direct",
+        "--acados-build-dir",
+        "<temporary-build-path>",
+        "--forecast-tacks",
+        "--forecast-tack-refinement",
+        "--forecast-tracking-feedback",
+        "--forecast-tack-step",
+        "60",
+        "--forecast-refinement-phase",
+        "return",
+        "--dynamics",
+        "fossen",
+        "--environment",
+        "marine",
+        "--route-gpx",
+        "current_route/otranto_short_test_loop.gpx",
+        "--return-to-start",
+        "--arrival-radius",
+        "50",
+        "--dt",
+        "5",
+        "--heading",
+        "45",
+        "--flap=-10",
+        "--time",
+        "2026-10-01T13:00:00Z",
+        "--steps",
+        "4600",
+        "--plot-every",
+        "0",
+        "--live-plot-radius",
+        "2000",
+        "--live-plot-boat-scale",
+        "4",
+        "--gpx-checkpoint-every",
+        "100",
+        "--output-dir",
+        "data/results/otranto_october_gap_closure/gamma_upwind_commit",
+        "--output-gpx",
+        "data/results/otranto_october_gap_closure/gamma_upwind_commit/track.gpx",
+        "--record-replay",
+        "data/results/otranto_october_gap_closure/gamma_upwind_commit/navigation.jsonl.gz",
+        "--forecast-gate-aim-fraction",
+        "0.5",
+        "--forecast-maneuver-commit-seconds",
+        "60",
+        "--forecast-gate-aim-upwind-angle",
+        "60"
+      ],
+      "fresh_candidate": true
+    }
+  },
+  "trajectory_comparisons": {
+    "diffusion_upwind_commit_vs_reference_grid": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 1055.124002127901
+    },
+    "diffusion_upwind_commit_vs_prior_best_gamma": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1137,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 98.76700832068234
+    },
+    "diffusion_upwind_commit_vs_original_forecast": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1069,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 147.96014213006316
+    },
+    "gamma_gate_commit_vs_reference_grid": {
+      "paired_frames": 1822,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 1055.124002127901
+    },
+    "gamma_gate_commit_vs_prior_best_gamma": {
+      "paired_frames": 1822,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1129,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 69.74949003509467
+    },
+    "gamma_gate_commit_vs_original_forecast": {
+      "paired_frames": 1822,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1069,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 118.80783997745118
+    },
+    "gamma_gate_half_vs_reference_grid": {
+      "paired_frames": 1857,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 1055.124002127901
+    },
+    "gamma_gate_half_vs_prior_best_gamma": {
+      "paired_frames": 1836,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1129,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 104.71722673135422
+    },
+    "gamma_gate_half_vs_original_forecast": {
+      "paired_frames": 1846,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1069,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 79.95720843374411
+    },
+    "gamma_prior_control_vs_reference_grid": {
+      "paired_frames": 1836,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 1055.124002127901
+    },
+    "gamma_prior_control_vs_prior_best_gamma": {
+      "paired_frames": 1836,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0
+    },
+    "gamma_prior_control_vs_original_forecast": {
+      "paired_frames": 1836,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1069,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 69.61919650710526
+    },
+    "gamma_upwind_commit_vs_reference_grid": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 1055.124002127901
+    },
+    "gamma_upwind_commit_vs_prior_best_gamma": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1137,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 98.76700832068234
+    },
+    "gamma_upwind_commit_vs_original_forecast": {
+      "paired_frames": 1817,
+      "frame_counts_equal": false,
+      "first_state_difference_at_step": 1069,
+      "paired_navigation_matches_excluding_solve_time": false,
+      "maximum_coincident_position_difference_m": 147.96014213006316
+    }
+  },
+  "outbound_parity": {
+    "diffusion_upwind_commit_vs_prior_best_gamma": {
+      "paired_frames": 1069,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "gamma_gate_commit_vs_prior_best_gamma": {
+      "paired_frames": 1069,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "gamma_gate_half_vs_prior_best_gamma": {
+      "paired_frames": 1069,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "gamma_prior_control_vs_prior_best_gamma": {
+      "paired_frames": 1069,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "gamma_upwind_commit_vs_prior_best_gamma": {
+      "paired_frames": 1069,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    }
+  },
+  "selected_verification": {
+    "gamma": "gamma_upwind_commit",
+    "diffusion": "diffusion_upwind_commit",
+    "gamma_diffusion_parity": {
+      "paired_frames": 1817,
+      "frame_counts_equal": true,
+      "first_state_difference_at_step": null,
+      "paired_navigation_matches_excluding_solve_time": true,
+      "maximum_coincident_position_difference_m": 0.0,
+      "observations_identical": true
+    },
+    "outcomes": {
+      "gamma_upwind_commit": {
+        "return_003_002_s": 2125,
+        "return_004_003_002_s": 2990,
+        "whole_loop_s": 9080,
+        "minus_grid_s": {
+          "return_003_002_s": -60,
+          "return_004_003_002_s": -70,
+          "whole_loop_s": -440
+        },
+        "minus_prior_best_s": {
+          "return_003_002_s": -135,
+          "return_004_003_002_s": -95,
+          "whole_loop_s": -95
+        }
+      },
+      "diffusion_upwind_commit": {
+        "return_003_002_s": 2125,
+        "return_004_003_002_s": 2990,
+        "whole_loop_s": 9080,
+        "minus_grid_s": {
+          "return_003_002_s": -60,
+          "return_004_003_002_s": -70,
+          "whole_loop_s": -440
+        },
+        "minus_prior_best_s": {
+          "return_003_002_s": -135,
+          "return_004_003_002_s": -95,
+          "whole_loop_s": -95
+        }
+      }
+    }
+  },
+  "measurement": "Consecutive 5 s geodesic ground-track chords between recorded ordered captures; each arm uses its own capture fix."
+}

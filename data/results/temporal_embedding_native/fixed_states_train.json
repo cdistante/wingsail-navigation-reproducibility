@@ -1,0 +1,4261 @@
+{
+  "states": 61,
+  "eligible_states": 61,
+  "eligible_alternative_pairs": 153,
+  "states_with_oracle_safe_gain_gt_25": 12,
+  "incumbent_outcomes": {
+    "safe_capture": 53,
+    "timeout": 8
+  },
+  "eligible_alternative_outcomes": {
+    "safe_capture": 141,
+    "timeout": 12
+  },
+  "arms": {
+    "physics": {
+      "scored_states": 0,
+      "predicted_crossings": 0,
+      "decidable_crossings": 0,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 0,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {},
+      "selected_outcomes": {
+        "safe_capture": 53,
+        "timeout": 8
+      },
+      "gate_precision_on_safe_pairs": null,
+      "observed_safe_win_fraction_of_crossings": null,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": null,
+      "observed_oracle_regret_states": 53,
+      "mean_observed_oracle_regret_s": 55.48796326122356,
+      "safe_eta_states": 53,
+      "safe_eta_pairs": 141,
+      "state_weighted_pair_mae_s": 100.14482416666313,
+      "state_weighted_pair_bias_s": -71.27708932793104
+    },
+    "explicit": {
+      "scored_states": 61,
+      "predicted_crossings": 14,
+      "decidable_crossings": 12,
+      "observed_safe_gain_gt_25_crossings": 6,
+      "observed_safe_gain_le_25_crossings": 6,
+      "crossings_without_paired_safe_eta": 2,
+      "crossing_outcomes": {
+        "safe_capture": 12,
+        "timeout": 2
+      },
+      "selected_outcomes": {
+        "safe_capture": 53,
+        "timeout": 8
+      },
+      "gate_precision_on_safe_pairs": 0.5,
+      "observed_safe_win_fraction_of_crossings": 0.42857142857142855,
+      "oracle_opportunity_recall": 0.5,
+      "mean_observed_crossing_gain_s": 176.67017377605467,
+      "observed_oracle_regret_states": 53,
+      "mean_observed_oracle_regret_s": 15.487169198720615,
+      "safe_eta_states": 53,
+      "safe_eta_pairs": 141,
+      "state_weighted_pair_mae_s": 72.93869657276913,
+      "state_weighted_pair_bias_s": -50.411663972840415
+    },
+    "temporal": {
+      "scored_states": 61,
+      "predicted_crossings": 16,
+      "decidable_crossings": 14,
+      "observed_safe_gain_gt_25_crossings": 8,
+      "observed_safe_gain_le_25_crossings": 6,
+      "crossings_without_paired_safe_eta": 2,
+      "crossing_outcomes": {
+        "safe_capture": 14,
+        "timeout": 2
+      },
+      "selected_outcomes": {
+        "safe_capture": 53,
+        "timeout": 8
+      },
+      "gate_precision_on_safe_pairs": 0.5714285714285714,
+      "observed_safe_win_fraction_of_crossings": 0.5,
+      "oracle_opportunity_recall": 0.6666666666666666,
+      "mean_observed_crossing_gain_s": 164.53222501912884,
+      "observed_oracle_regret_states": 53,
+      "mean_observed_oracle_regret_s": 12.026620803340467,
+      "safe_eta_states": 53,
+      "safe_eta_pairs": 141,
+      "state_weighted_pair_mae_s": 44.85902127264981,
+      "state_weighted_pair_bias_s": -23.62615537641572
+    },
+    "snapshot": {
+      "scored_states": 61,
+      "predicted_crossings": 16,
+      "decidable_crossings": 14,
+      "observed_safe_gain_gt_25_crossings": 7,
+      "observed_safe_gain_le_25_crossings": 7,
+      "crossings_without_paired_safe_eta": 2,
+      "crossing_outcomes": {
+        "safe_capture": 14,
+        "timeout": 2
+      },
+      "selected_outcomes": {
+        "safe_capture": 53,
+        "timeout": 8
+      },
+      "gate_precision_on_safe_pairs": 0.5,
+      "observed_safe_win_fraction_of_crossings": 0.4375,
+      "oracle_opportunity_recall": 0.5833333333333334,
+      "mean_observed_crossing_gain_s": 156.41333071704472,
+      "observed_oracle_regret_states": 53,
+      "mean_observed_oracle_regret_s": 14.171234392570241,
+      "safe_eta_states": 53,
+      "safe_eta_pairs": 141,
+      "state_weighted_pair_mae_s": 47.48663906509841,
+      "state_weighted_pair_bias_s": -25.730256686173234
+    }
+  },
+  "state_records": [
+    {
+      "state_id": "summer__20260713T0600Z__otranto_002__train_opposed/0",
+      "scenario": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -10.51386073492472
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -52.39139428124315
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 4.916898428921286
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -23.03679422011237
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -14.887484548799534
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260713T0600Z__otranto_002__train_opposed/240",
+      "scenario": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -6.086947457946394
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -29.720958563602494
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 3.1424790328314884,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 9.229426490777882
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -10.153799203981066
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -3.6139470763821464
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260713T0600Z__otranto_002__train_opposed/480",
+      "scenario": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -4.291781466931582
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -13.576516507117788
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 2.43899367729432,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 6.730775144225902
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.217957105819551
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1.411529684614834
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260713T0600Z__otranto_002__train_opposed/720",
+      "scenario": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -1.0360442079719974
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -2.0968625037880884
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 0.9259411256092562
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -17.777354077234577
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -11.979790455330374
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260714T0000Z__otranto_002__train_opposed/3625",
+      "scenario": "summer__20260714T0000Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -3.4050146485445794
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -94.69863752249842
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -66.57992403040816
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -92.76221824577908
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -79.82326005653579
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260714T0000Z__otranto_002__train_opposed/4225",
+      "scenario": "summer__20260714T0000Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -11.74507615813053
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -4.530786568792109
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 0.36909136399918907
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 40.85788575249251,
+          "actual_selected_gain_s": -11.74507615813053,
+          "observed_oracle_regret_s": 11.74507615813053,
+          "paired_prediction_errors_s": {
+            "1": 52.60296191062304
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 31.32559340872524,
+          "actual_selected_gain_s": -11.74507615813053,
+          "observed_oracle_regret_s": 11.74507615813053,
+          "paired_prediction_errors_s": {
+            "1": 43.07066956685577
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260714T0000Z__otranto_002__train_opposed/4465",
+      "scenario": "summer__20260714T0000Z__otranto_002__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -7.866447708185291,
+        "2": -3.999577363929717
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -3.482841520568982,
+            "2": -0.019555610398910517
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 7.63770810189078,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -24.012636569737623,
+            "2": 11.637285465820497
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 2.566256266278799,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -11.00667433625776,
+            "2": 6.565833630208516
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.28346974336056974,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.57091746987723,
+            "2": 4.283047107290287
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/0",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -270.33458317323834,
+        "2": -224.85151110915467
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 160.00585785687213,
+            "2": 159.6466946317621
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -29.84329394766928,
+            "2": 38.65557801831801
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -94.99901733840693,
+            "2": -48.527096170440245
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -107.88246548472966,
+            "2": -52.61602615338802
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/240",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -259.2866264364916,
+        "2": -215.93468320240504
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 166.7914789698059,
+            "2": 168.97659582937627
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -19.46544894864269,
+            "2": 52.17269612472069
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 30.34007361126237,
+            "2": 45.206495371232904
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 32.02611776257436,
+            "2": 52.255260979892
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/480",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -260.7343775847927,
+        "2": -216.83028943230158
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 177.99924635899208,
+            "2": 179.41080135257414
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -18.55596359675826,
+            "2": 54.10072243337697
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 36.37231666194032,
+            "2": 53.741688817937415
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 37.49347383281622,
+            "2": 58.28449221809126
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/960",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -2.8473431303980306
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -61.085987086123964
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -49.167166851732134
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -28.472029618377462
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.643047471806938
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/1200",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -1.4456884251441835,
+        "2": -27.4927224915009
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1.5580114494860453,
+            "2": -31.108491011902544
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 46.73470901198047,
+          "actual_selected_gain_s": -1.4456884251441835,
+          "observed_oracle_regret_s": 1.4456884251441835,
+          "paired_prediction_errors_s": {
+            "1": 48.180397437124654,
+            "2": -21.897921230135637
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 34.980480260511285,
+          "actual_selected_gain_s": -1.4456884251441835,
+          "observed_oracle_regret_s": 1.4456884251441835,
+          "paired_prediction_errors_s": {
+            "1": 36.42616868565547,
+            "2": 18.71143982301487
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 39.36999453837731,
+          "actual_selected_gain_s": -1.4456884251441835,
+          "observed_oracle_regret_s": 1.4456884251441835,
+          "paired_prediction_errors_s": {
+            "1": 40.815682963521496,
+            "2": 15.27788458351182
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/3470.15",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 314.31740760738035,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": -29.443843560979985,
+        "2": 314.31740760738035
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 314.31740760738035,
+          "paired_prediction_errors_s": {
+            "1": -82.33960389280628,
+            "2": -450.46885814394204
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 123.64254183708681,
+          "actual_selected_gain_s": 314.31740760738035,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -67.4396366330343,
+            "2": -190.67486577029354
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 197.87556589811447,
+          "actual_selected_gain_s": 314.31740760738035,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -80.9987821262057,
+            "2": -116.44184170926587
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 148.19304247202945,
+          "actual_selected_gain_s": 314.31740760738035,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -79.1700608472679,
+            "2": -166.1243651353509
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/3710.15",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 251.73305235044108,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": -20.77499315785235,
+        "2": 251.73305235044108,
+        "3": 250.05849557981128
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 251.73305235044108,
+          "paired_prediction_errors_s": {
+            "1": -9.344449107974015,
+            "2": -392.6737629072463,
+            "3": -384.32423594967213
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 172.17780499418268,
+          "actual_selected_gain_s": 250.05849557981128,
+          "observed_oracle_regret_s": 1.6745567706298061,
+          "paired_prediction_errors_s": {
+            "1": -20.336655325192396,
+            "2": -106.80115257781108,
+            "3": -77.8806905856286
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 193.43025237498705,
+          "actual_selected_gain_s": 250.05849557981128,
+          "observed_oracle_regret_s": 1.6745567706298061,
+          "paired_prediction_errors_s": {
+            "1": -20.75872318667507,
+            "2": -79.47565940879781,
+            "3": -56.62824320482423
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 239.21048460694715,
+          "actual_selected_gain_s": 250.05849557981128,
+          "observed_oracle_regret_s": 1.6745567706298061,
+          "paired_prediction_errors_s": {
+            "1": -26.934368409734134,
+            "2": -37.52022091776371,
+            "3": -10.848010972864131
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260715T1200Z__otranto_003__train_opposed/3950.15",
+      "scenario": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 124.52259035436441,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": -20.972501817543616,
+        "2": 121.8234721418703,
+        "3": 124.52259035436441
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 124.52259035436441,
+          "paired_prediction_errors_s": {
+            "1": -27.048720897326575,
+            "2": -258.7916564861507,
+            "3": -252.632446855446
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 227.7746437270605,
+          "actual_selected_gain_s": 124.52259035436441,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -15.838558130131332,
+            "2": 81.65684820258548,
+            "3": 103.25205337269608
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 265.6923388390617,
+          "actual_selected_gain_s": 124.52259035436441,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -34.79826333949973,
+            "2": 121.21888640483712,
+            "3": 141.16974848469727
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 271.2123203578585,
+          "actual_selected_gain_s": 124.52259035436441,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -35.25960784958215,
+            "2": 123.57131443421076,
+            "3": 146.6897300034941
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/2000",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 127.97701834394866,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 127.97701834394866
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.97701834394866,
+          "paired_prediction_errors_s": {
+            "1": -270.5821204360168
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.97701834394866,
+          "paired_prediction_errors_s": {
+            "1": -232.60861976492833
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.97701834394866,
+          "paired_prediction_errors_s": {
+            "1": -156.64535717757417
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.97701834394866,
+          "paired_prediction_errors_s": {
+            "1": -178.5767381700325
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/2240",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 126.92226020970838,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 126.92226020970838
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 126.92226020970838,
+          "paired_prediction_errors_s": {
+            "1": -253.3736289376934
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 126.92226020970838,
+          "paired_prediction_errors_s": {
+            "1": -219.33004533111807
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 126.92226020970838,
+          "paired_prediction_errors_s": {
+            "1": -141.99044596379736
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 126.92226020970838,
+          "paired_prediction_errors_s": {
+            "1": -162.93590170654988
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/2480",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 127.88701238723002,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 127.88701238723002
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.88701238723002,
+          "paired_prediction_errors_s": {
+            "1": -223.85229604542633
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.88701238723002,
+          "paired_prediction_errors_s": {
+            "1": -197.90138291402036
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 7.869741012068516,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.88701238723002,
+          "paired_prediction_errors_s": {
+            "1": -120.0172713751615
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 127.88701238723002,
+          "paired_prediction_errors_s": {
+            "1": -139.45346346000656
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/2720",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 130.75621006446886,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 130.75621006446886
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 130.75621006446886,
+          "paired_prediction_errors_s": {
+            "1": -188.2329463596268
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 130.75621006446886,
+          "paired_prediction_errors_s": {
+            "1": -169.98744802865895
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 37.23763637891466,
+          "actual_selected_gain_s": 130.75621006446886,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -93.5185736855542
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 19.774713830140627,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 130.75621006446886,
+          "paired_prediction_errors_s": {
+            "1": -110.98149623432823
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/2960",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 129.65888861189592,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 129.65888861189592
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 129.65888861189592,
+          "paired_prediction_errors_s": {
+            "1": -175.31345603281807
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 129.65888861189592,
+          "paired_prediction_errors_s": {
+            "1": -159.57271917253547
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 44.45872018982777,
+          "actual_selected_gain_s": 129.65888861189592,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -85.20016842206815
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 27.337403578647127,
+          "actual_selected_gain_s": 129.65888861189592,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -102.32148503324879
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/3200",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -8.058034260734075
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -13.198908638265948
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -3.2109712836384006
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 60.25728148394569,
+          "actual_selected_gain_s": -8.058034260734075,
+          "observed_oracle_regret_s": 8.058034260734075,
+          "paired_prediction_errors_s": {
+            "1": 68.31531574467976
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 45.61036745242927,
+          "actual_selected_gain_s": -8.058034260734075,
+          "observed_oracle_regret_s": 8.058034260734075,
+          "paired_prediction_errors_s": {
+            "1": 53.66840171316335
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/3560",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -7.937860726495273
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -61.79867985430769
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -32.04261357366272
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -22.948515796105767
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -23.423104771712815
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260716T0600Z__otranto_003__train_opposed/3800",
+      "scenario": "summer__20260716T0600Z__otranto_003__train_opposed",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -12.501615261367988
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -76.4148869024674
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -91.9272397024755
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -25.605866816477715
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -42.69904654039988
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260718T1200Z__otranto_002__train_crossing/140",
+      "scenario": "summer__20260718T1200Z__otranto_002__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -103.40492104018341
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -44.96512491393992
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 25.436415869778727
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -21.67304978527079
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -17.076882907693005
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260718T1200Z__otranto_002__train_crossing/380",
+      "scenario": "summer__20260718T1200Z__otranto_002__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -20.818959572375775
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -127.6598474340883
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 0.9561865947233059
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 4.996032389924721
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 13.907782892031321
+          }
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/2280",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/2520",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 118.61998211315677,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 175.27495296974485,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/2760",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 21.483812525694702,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 22.938145829414225,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/3000",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 27.205800423906794,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 198.4419503239908,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 188.89949811660017,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/3240",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/3480",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/3720",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "summer__20260719T0600Z__otranto_003__train_crossing/3960",
+      "scenario": "summer__20260719T0600Z__otranto_003__train_crossing",
+      "block": "summer",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "timeout",
+      "oracle_safe_gain_s": null,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {},
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 39.79081737088404,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "timeout",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": null,
+          "observed_oracle_regret_s": null,
+          "paired_prediction_errors_s": {}
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/0",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 74.36184477722259,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 14.04845084646945,
+        "2": 74.36184477722259,
+        "3": 31.723160906939256
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 74.36184477722259,
+          "paired_prediction_errors_s": {
+            "1": -14.46442892263076,
+            "2": -104.61541579795494,
+            "3": -92.76669582392242
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 35.762531070767864,
+          "actual_selected_gain_s": 14.04845084646945,
+          "observed_oracle_regret_s": 60.313393930753136,
+          "paired_prediction_errors_s": {
+            "1": 21.714080224298414,
+            "2": -87.01649120960633,
+            "3": -235.90378527522307
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 74.36184477722259,
+          "paired_prediction_errors_s": {
+            "1": -21.15920217377834,
+            "2": -98.61778449968187,
+            "3": -46.81460395745944
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 5.403610204987444,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 74.36184477722259,
+          "paired_prediction_errors_s": {
+            "1": -8.644840641482006,
+            "2": -95.02637221811051,
+            "3": -48.18286212457838
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/240",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 18.189133082306853,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -31.483854403218857,
+        "2": 18.189133082306853,
+        "3": 16.072746861958876
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 18.189133082306853,
+          "paired_prediction_errors_s": {
+            "1": -20.090915313999403,
+            "2": -91.81222144106118,
+            "3": -31.074274854905525
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 18.189133082306853,
+          "paired_prediction_errors_s": {
+            "1": -21.269689373913025,
+            "2": -223.32526543801237,
+            "3": -18.28698759792428
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 10.466077963412545,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 18.189133082306853,
+          "paired_prediction_errors_s": {
+            "1": -12.47614668666779,
+            "2": -7.723055118894308,
+            "3": -12.71037664062169
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 4.38809601201865,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 18.189133082306853,
+          "paired_prediction_errors_s": {
+            "1": -13.196237977784449,
+            "2": -13.801037070288203,
+            "3": -13.702434755850163
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/480",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 13.444001648481844,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -32.35736912696166,
+        "2": 13.444001648481844,
+        "3": 12.319357964862093
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.444001648481844,
+          "paired_prediction_errors_s": {
+            "1": -14.558711562204735,
+            "2": -88.87989515490244,
+            "3": -29.220216071728146
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.444001648481844,
+          "paired_prediction_errors_s": {
+            "1": 6.124350884816749,
+            "2": -220.35150004010723,
+            "3": -16.716231084582432
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.444001648481844,
+          "paired_prediction_errors_s": {
+            "1": 4.260979884676544,
+            "2": -16.11487392479944,
+            "3": -19.050214487652283
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.444001648481844,
+          "paired_prediction_errors_s": {
+            "1": 1.1940669811328917,
+            "2": -18.225484103637655,
+            "3": -16.500512768156113
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/720",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 8.336835029907434,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -33.24803368427092,
+        "2": 5.522684065019575,
+        "3": 8.336835029907434
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.336835029907434,
+          "paired_prediction_errors_s": {
+            "1": -33.444343512422165,
+            "2": -83.03748375854843,
+            "3": -27.438257151972493
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.336835029907434,
+          "paired_prediction_errors_s": {
+            "1": -52.90823632521142,
+            "2": -212.09802622103086,
+            "3": -13.134512519131022
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.336835029907434,
+          "paired_prediction_errors_s": {
+            "1": -35.85999696845511,
+            "2": -20.248408375848612,
+            "3": -23.3946599281403
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 8.336835029907434,
+          "paired_prediction_errors_s": {
+            "1": -40.05228493163963,
+            "2": -20.625053191684174,
+            "3": -19.06056788658225
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/960",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 3.9388569179805017,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -34.09726653100233,
+        "2": 2.251812122471165,
+        "3": 3.9388569179805017
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.9388569179805017,
+          "paired_prediction_errors_s": {
+            "1": 14.088370607195657,
+            "2": -81.42964306545491,
+            "3": -24.504058865842353
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.9388569179805017,
+          "paired_prediction_errors_s": {
+            "1": -6.413348718356701,
+            "2": -203.28844778726193,
+            "3": -36.00919423328685
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.9388569179805017,
+          "paired_prediction_errors_s": {
+            "1": 21.862880706505848,
+            "2": -30.7105698140723,
+            "3": -34.81435274867965
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.9388569179805017,
+          "paired_prediction_errors_s": {
+            "1": 9.141514558058361,
+            "2": -28.96232354494998,
+            "3": -33.17440237975666
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/1200",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -34.58531419534711,
+        "2": -1.0108857905609057,
+        "3": -0.14776500752202537
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -8.524936502789387,
+            "2": -78.86819476378435,
+            "3": -13.599652647386733
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -57.77051042960534,
+            "2": -181.85897754306836,
+            "3": -11.390519422190835
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -17.139870802139285,
+            "2": -43.80615159990259,
+            "3": -27.67930269520957
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -25.426925671826893,
+            "2": -40.0939161084749,
+            "3": -25.90512013245643
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/1440",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 13.565377688466128,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 13.565377688466128,
+        "2": 6.015288268192705,
+        "3": -16.093846584588732
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.565377688466128,
+          "paired_prediction_errors_s": {
+            "1": -52.592517484169036,
+            "2": -125.26932193289451,
+            "3": -102.16002257842604
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 13.565377688466128,
+          "paired_prediction_errors_s": {
+            "1": -46.46399580122065,
+            "2": -167.98387740439057,
+            "3": -144.63209155617483
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 62.11452083419232,
+          "actual_selected_gain_s": 13.565377688466128,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 48.54914314572619,
+            "2": -30.191876779527092,
+            "3": 8.35825915126793
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 73.97120617812158,
+          "actual_selected_gain_s": 13.565377688466128,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 60.40582848965545,
+            "2": -21.917643940666096,
+            "3": 25.133670181130242
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260114T1200Z__otranto_003__train_opposed/1680",
+      "scenario": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -55.92255516480655,
+        "2": -64.93129847078818,
+        "3": -28.83130581942386
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -89.30002391712652,
+            "2": -39.73745235556862,
+            "3": 7.155329949530511
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 101.8794749950951,
+          "actual_selected_gain_s": -28.83130581942386,
+          "observed_oracle_regret_s": 28.83130581942386,
+          "paired_prediction_errors_s": {
+            "1": 25.57809433274619,
+            "2": 6.685438780342139,
+            "3": 130.71078081451896
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 60.52540369282826,
+          "actual_selected_gain_s": -64.93129847078818,
+          "observed_oracle_regret_s": 64.93129847078818,
+          "paired_prediction_errors_s": {
+            "1": 33.80138041009353,
+            "2": 125.45670216361644,
+            "3": -20.31404549429486
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 55.43789972646891,
+          "actual_selected_gain_s": -64.93129847078818,
+          "observed_oracle_regret_s": 64.93129847078818,
+          "paired_prediction_errors_s": {
+            "1": 11.2347903431547,
+            "2": 120.36919819725709,
+            "3": -27.281231712097096
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/130",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 719.1387159357896,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 712.3622291152367,
+        "2": 719.1387159357896,
+        "3": 447.57523761983043
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 719.1387159357896,
+          "paired_prediction_errors_s": {
+            "1": -794.8296133496067,
+            "2": -753.0895205123303,
+            "3": -482.52347066309915
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 438.7172363362545,
+          "actual_selected_gain_s": 719.1387159357896,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -346.94199519251083,
+            "2": -280.42147959953513,
+            "3": -201.57691424682173
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 702.7447093546297,
+          "actual_selected_gain_s": 712.3622291152367,
+          "observed_oracle_regret_s": 6.776486820552918,
+          "paired_prediction_errors_s": {
+            "1": -9.617519760607024,
+            "2": -33.906772521635276,
+            "3": -112.16764536579444
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 696.1694067192434,
+          "actual_selected_gain_s": 712.3622291152367,
+          "observed_oracle_regret_s": 6.776486820552918,
+          "paired_prediction_errors_s": {
+            "1": -16.19282239599329,
+            "2": -45.813985790838046,
+            "3": -104.26470006817101
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/370",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 479.1084503050311,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 479.1084503050311,
+        "2": 478.95856052285524,
+        "3": 231.2454669829574
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 479.1084503050311,
+          "paired_prediction_errors_s": {
+            "1": -584.3348751829228,
+            "2": -531.7475547428627,
+            "3": -263.18789894979625
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 416.88719145799064,
+          "actual_selected_gain_s": 478.95856052285524,
+          "observed_oracle_regret_s": 0.149889782175876,
+          "paired_prediction_errors_s": {
+            "1": -127.56721972754514,
+            "2": -62.0713690648646,
+            "3": 19.288479827918536
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 458.9277611354529,
+          "actual_selected_gain_s": 479.1084503050311,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -20.180689169578216,
+            "2": -39.76445550173162,
+            "3": 2.36133432939414
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 460.6363635353583,
+          "actual_selected_gain_s": 479.1084503050311,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -18.472086769672785,
+            "2": -41.33888180217514,
+            "3": 6.776413817221965
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/610",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 255.6575727391289,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 255.6575727391289,
+        "2": -56.239179172332
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 255.6575727391289,
+          "paired_prediction_errors_s": {
+            "1": -290.904613574093,
+            "2": -49.51121875492959
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 95.6050930627049,
+          "actual_selected_gain_s": 255.6575727391289,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -160.052479676424,
+            "2": -145.04541393063357
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 191.34538700501287,
+          "actual_selected_gain_s": 255.6575727391289,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -64.31218573411604,
+            "2": -161.56589930753546
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 183.19878999069158,
+          "actual_selected_gain_s": 255.6575727391289,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -72.45878274843733,
+            "2": -157.18848967854092
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/1330",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -1.6155739125213593,
+        "2": -4.2154427688219585,
+        "3": -11.574115987832194
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -2.7700250232986896,
+            "2": -0.2367311653217996,
+            "3": -4.753706042713194
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -8.415796052449476,
+            "2": -53.894327009608446,
+            "3": -92.52279093294865
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -21.125379615189143,
+            "2": -43.366440234945344,
+            "3": -94.72700408589006
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.121720158413037,
+            "2": -36.67231341981754,
+            "3": -79.61945054375141
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/1355.15",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 3.756865032471296,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 3.756865032471296,
+        "2": -1.279879791673693
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.756865032471296,
+          "paired_prediction_errors_s": {
+            "1": -142.35301783086948,
+            "2": -141.77824445420265
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.756865032471296,
+          "paired_prediction_errors_s": {
+            "1": -98.8714731776621,
+            "2": -92.77453785830676
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.756865032471296,
+          "paired_prediction_errors_s": {
+            "1": -16.11922121673024,
+            "2": -12.879511982060421
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 3.756865032471296,
+          "paired_prediction_errors_s": {
+            "1": -26.362409067401927,
+            "2": -25.69827743948349
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/1595.15",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 7,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 5.3431071729748965,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -4.204731047991686,
+        "2": 5.3431071729748965,
+        "3": -1.083443658601027,
+        "4": -18.39495643051339,
+        "5": -68.59111639171601,
+        "6": -111.65714066764338,
+        "7": -241.34282741090283
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.3431071729748965,
+          "paired_prediction_errors_s": {
+            "1": -54.391334412021706,
+            "2": -28.49144408030793,
+            "3": -26.285810772518175,
+            "4": -19.86958432908375,
+            "5": 12.038933555317612,
+            "6": 30.15853919126937,
+            "7": 115.0837436138313
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 8,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.3431071729748965,
+          "paired_prediction_errors_s": {
+            "1": -41.52624502533854,
+            "2": -169.1317300469899,
+            "3": -161.04315045774206,
+            "4": -145.59363554471747,
+            "5": -109.1574013491711,
+            "6": -97.47059604851643,
+            "7": -30.7039234885483
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 8,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.3431071729748965,
+          "paired_prediction_errors_s": {
+            "1": -55.06822670508268,
+            "2": -73.44378421246495,
+            "3": -69.04053795466166,
+            "4": -61.073618255337465,
+            "5": -35.02370351659613,
+            "6": -37.75480631250457,
+            "7": 0.04205522366385139
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 8,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.3431071729748965,
+          "paired_prediction_errors_s": {
+            "1": -57.69571776875898,
+            "2": -44.529546270763035,
+            "3": -39.66352082538003,
+            "4": -32.228914820762725,
+            "5": -10.945541123403018,
+            "6": -26.662044712219654,
+            "7": -17.801902670994423
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/1835.15",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 8,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 6.590254949359178,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -30.486228725186038,
+        "2": 2.223737353202864,
+        "3": 6.590254949359178,
+        "4": -1.887843818671513,
+        "5": -18.11748337111203,
+        "6": -67.98024002022578,
+        "7": -107.54561711591668,
+        "8": -239.95235332930463
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 6.590254949359178,
+          "paired_prediction_errors_s": {
+            "1": -110.02568019879448,
+            "2": -44.005283944658004,
+            "3": -26.50878970700012,
+            "4": -22.12089187042386,
+            "5": -16.680265311738708,
+            "6": 14.565925815473634,
+            "7": 27.699880333751253,
+            "8": 101.95754624103688
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 9,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 6.590254949359178,
+          "paired_prediction_errors_s": {
+            "1": -109.82639657522071,
+            "2": -37.229739352900026,
+            "3": -160.0295497723028,
+            "4": -149.690336527704,
+            "5": -135.13524148327843,
+            "6": -99.45015664431475,
+            "7": -93.24424546243216,
+            "8": -36.45196442027981
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 9,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 6.590254949359178,
+          "paired_prediction_errors_s": {
+            "1": -132.47352332718447,
+            "2": -49.04967014069496,
+            "3": -30.658751839832348,
+            "4": -22.493655943338922,
+            "5": -12.536384807468494,
+            "6": 15.740326011555567,
+            "7": 8.720511783855386,
+            "8": 31.32015834869935
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 9,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 6.590254949359178,
+          "paired_prediction_errors_s": {
+            "1": -144.3471060814992,
+            "2": -51.84614759682597,
+            "3": -11.068701098430097,
+            "4": -2.678134430032401,
+            "5": 6.316828310613005,
+            "6": 29.45809972720292,
+            "7": 9.513969797270988,
+            "8": 4.539426302693869
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260115T0600Z__otranto_003__train_opposed/2075.15",
+      "scenario": "winter__20260115T0600Z__otranto_003__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 7,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 5.580173055443424,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -23.776320657541532,
+        "2": -12.896618731715705,
+        "3": 5.580173055443424,
+        "4": -3.204757904715393,
+        "5": -20.37597448318263,
+        "6": -68.15669375769795,
+        "7": -107.95099192814666
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.580173055443424,
+          "paired_prediction_errors_s": {
+            "1": -60.57852387686188,
+            "2": -12.135415909741539,
+            "3": -22.99215078292542,
+            "4": -18.176009895503057,
+            "5": -11.697036239608622,
+            "6": 17.1550758562571,
+            "7": 29.056694943644004
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 8,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 5.580173055443424,
+          "paired_prediction_errors_s": {
+            "1": -72.3592390543717,
+            "2": -12.019715795679588,
+            "3": -124.25039696626163,
+            "4": -113.137030782502,
+            "5": -96.99908152516946,
+            "6": -63.55397642207976,
+            "7": -59.64657957759442
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 8,
+          "selected_index": 5,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 87.4467616900373,
+          "actual_selected_gain_s": -20.37597448318263,
+          "observed_oracle_regret_s": 25.956147538626055,
+          "paired_prediction_errors_s": {
+            "1": -98.8116019143032,
+            "2": -23.434595643579314,
+            "3": 76.59083853343384,
+            "4": 89.17122375501492,
+            "5": 107.82273617321994,
+            "6": 141.67668493990982,
+            "7": 136.7739231453919
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 8,
+          "selected_index": 4,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 83.62747423247248,
+          "actual_selected_gain_s": -3.204757904715393,
+          "observed_oracle_regret_s": 8.784930960158817,
+          "paired_prediction_errors_s": {
+            "1": -109.63897941336933,
+            "2": -26.199233404779307,
+            "3": 74.87528639276229,
+            "4": 86.83223213718787,
+            "5": 102.81775555589394,
+            "6": 129.5492981577836,
+            "7": 110.33852188610098
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260116T1800Z__otranto_002__train_opposed/480",
+      "scenario": "winter__20260116T1800Z__otranto_002__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -11.424034476012451
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -8.33424509453235
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -69.97021912989456
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.087359073908544
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -28.184199464320457
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260117T1200Z__otranto_002__train_opposed/480",
+      "scenario": "winter__20260117T1200Z__otranto_002__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.3203476605239075
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -19.97740313841655
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -20.72340804725843
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -20.545426128481154
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -19.173844012892687
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260117T1200Z__otranto_002__train_opposed/720",
+      "scenario": "winter__20260117T1200Z__otranto_002__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.31552969679472653
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -2.940356793594731
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -12.637936543680667
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -12.255752486575204
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.399176802320312
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260117T1200Z__otranto_002__train_opposed/960",
+      "scenario": "winter__20260117T1200Z__otranto_002__train_opposed",
+      "block": "winter",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.9262599219684375,
+        "2": -12.670620644453436,
+        "3": -34.670255257049575,
+        "4": -46.510549595020706
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -0.185568590962518,
+            "2": -3.3242443191307984,
+            "3": -7.792711074334193,
+            "4": -16.64423760900138
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -17.928536352013154,
+            "2": -36.80848995877935,
+            "3": -53.321265581384324,
+            "4": -61.971775233508595
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -17.924836701008942,
+            "2": -5.108295362319026,
+            "3": -7.080378289189937,
+            "4": -12.815051576890212
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -10.237900989389729,
+            "2": -19.06298816410495,
+            "3": -30.319158807627687,
+            "4": -40.045965591141126
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/1440",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -49.7779369251337
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -92.65948716083585
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -28.889707941347126
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -28.894800718512386
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -60.196259242703164
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/1604.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 6,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -145.00045103493608,
+        "2": -146.38374205470313,
+        "3": -148.27802477462683,
+        "4": -163.54415109655815,
+        "5": -194.35185965168057,
+        "6": -189.30795398294003
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 66.65347564622175,
+            "2": 65.48666878469635,
+            "3": 58.86576762044706,
+            "4": 57.162416895725755,
+            "5": 64.16781466064867,
+            "6": 45.28467702799662
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 41.32713498041653,
+            "2": 49.118398511822534,
+            "3": 53.00395841103614,
+            "4": 55.36738775261233,
+            "5": 58.87292251366853,
+            "6": 92.08749593011703
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.497376303618921,
+            "2": -5.323095439558301,
+            "3": -7.46671942389321,
+            "4": -5.131651768460188,
+            "5": 6.914135071508099,
+            "6": 39.39283061642254
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -15.414529491821213,
+            "2": -11.02861174075224,
+            "3": -7.964114562548048,
+            "4": 2.547221809979419,
+            "5": 25.323912934424925,
+            "6": 80.4341904802834
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/1844.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -128.20945834217127,
+        "2": -132.28447404284952,
+        "3": -139.25385289718406,
+        "4": -154.06365963295093
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 24.994729875986422,
+            "2": 27.14413606064977,
+            "3": 26.284357044502485,
+            "4": 23.56446978643794
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 18.835788455020975,
+            "2": 30.33446989769186,
+            "3": 40.937507892182566,
+            "4": 43.810200222633966
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -43.21983645626574,
+            "2": -38.58677481144446,
+            "3": -36.96634305924999,
+            "4": -38.79364153432584
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -56.09257566324163,
+            "2": -49.43731086511025,
+            "3": -42.95592873383043,
+            "4": -36.924471038069214
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/2084.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 5,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.30692766788411063,
+        "2": -130.16818844913496,
+        "3": -134.10976371041033,
+        "4": -141.2141410149634,
+        "5": -159.54136408976046
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -90.03540036962931,
+            "2": 33.839143904926004,
+            "3": 35.997920014010106,
+            "4": 35.42668476284189,
+            "5": 36.089988135805015
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -5.655693333972295,
+            "2": 29.994409988424195,
+            "3": 41.487332120402016,
+            "4": 52.34358523257197,
+            "5": 58.505289257170034
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -53.40516771046305,
+            "2": -21.74193872552496,
+            "3": -16.776591807521072,
+            "4": -14.30196280195355,
+            "5": -12.323706052301077
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -49.314044486736975,
+            "2": -39.635145555847885,
+            "3": -32.77306639320159,
+            "4": -25.651461193364412,
+            "5": -15.959857912490406
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/2324.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 6,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.15332101783712915,
+        "2": -134.41835570440162,
+        "3": -135.9778159649809,
+        "4": -143.25366258913414,
+        "5": -162.03708204412828,
+        "6": -190.2528740016278
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.26927580331187,
+            "2": 46.444900966710975,
+            "3": 46.365543825229906,
+            "4": 46.11908925426087,
+            "5": 47.10088353245146,
+            "6": 46.30631777629878
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 7,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 64.15098144317062,
+          "actual_selected_gain_s": -0.15332101783712915,
+          "observed_oracle_regret_s": 0.15332101783712915,
+          "paired_prediction_errors_s": {
+            "1": 64.30430246100775,
+            "2": 46.54898644134414,
+            "3": 55.82180366380544,
+            "4": 67.01348999451966,
+            "5": 73.3942792774344,
+            "6": 70.53277874920013
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 4.413559865783327,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 4.566880883620456,
+            "2": -11.923327321631632,
+            "3": -8.196260389641111,
+            "4": -2.9502499317384263,
+            "5": 3.452390124380827,
+            "6": 9.146278511034097
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 13.877909621680374,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 14.031230639517503,
+            "2": -15.779129044707815,
+            "3": -10.857955544342303,
+            "4": -2.884829441600459,
+            "5": 7.535320926719578,
+            "6": 18.039311298393613
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/2564.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 6,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.07642458084740156,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.07642458084740156,
+        "2": -5.719133491604566,
+        "3": -136.39921176540668,
+        "4": -137.89775063010165,
+        "5": -145.37908184388652,
+        "6": -164.65972575317141
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.07642458084740156,
+          "paired_prediction_errors_s": {
+            "1": -18.14297097474946,
+            "2": -69.53715751393906,
+            "3": 41.25993811011267,
+            "4": 41.262207432737455,
+            "5": 41.37144043775049,
+            "6": 42.71147794797082
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.07642458084740156,
+          "paired_prediction_errors_s": {
+            "1": -91.43739477298504,
+            "2": -36.13709595598891,
+            "3": -24.64051485712912,
+            "4": -15.191606434984237,
+            "5": -3.5193892780134775,
+            "6": 3.1434834935313347
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.07642458084740156,
+          "paired_prediction_errors_s": {
+            "1": -41.701034142152366,
+            "2": -55.01287904243679,
+            "3": -35.47328363995655,
+            "4": -30.612670648037238,
+            "5": -22.579204698086187,
+            "6": -12.067076746355724
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.07642458084740156,
+          "paired_prediction_errors_s": {
+            "1": -51.951746310830686,
+            "2": -51.991875320235295,
+            "3": -36.53764176698303,
+            "4": -31.04190853163368,
+            "5": -21.84030942790241,
+            "6": -10.37945378268114
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/2804.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 6,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -0.07952674317641595,
+        "2": -5.98129369060041,
+        "3": -138.4636696697795,
+        "4": -140.616328222584,
+        "5": -149.01103344070725,
+        "6": -167.73259182889012
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -2.0689911053411834,
+            "2": -37.127416752808244,
+            "3": 25.336639380372958,
+            "4": 25.331850629852056,
+            "5": 25.641788270578786,
+            "6": 27.02348796279034
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 7,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 56.65256019276433,
+          "actual_selected_gain_s": -0.07952674317641595,
+          "observed_oracle_regret_s": 0.07952674317641595,
+          "paired_prediction_errors_s": {
+            "1": 56.73208693594074,
+            "2": 61.16865144305109,
+            "3": 51.92736182080523,
+            "4": 61.69085362247131,
+            "5": 73.96823314491326,
+            "6": 80.51169425850298
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 17.66457213524859,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 17.744098878425007,
+            "2": -1.9019788820796748,
+            "3": 3.6348040649028235,
+            "4": 9.871040321740566,
+            "5": 20.85427232933671,
+            "6": 34.592210222733684
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 7,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 26.402058605559432,
+          "actual_selected_gain_s": -0.07952674317641595,
+          "observed_oracle_regret_s": 0.07952674317641595,
+          "paired_prediction_errors_s": {
+            "1": 26.481585348735848,
+            "2": 11.318363766393645,
+            "3": 7.215940026995781,
+            "4": 13.35309419311443,
+            "5": 23.835924208266647,
+            "6": 36.018880095831946
+          }
+        }
+      }
+    },
+    {
+      "state_id": "winter__20260118T0600Z__otranto_003__train_crossing/3044.45",
+      "scenario": "winter__20260118T0600Z__otranto_003__train_crossing",
+      "block": "winter",
+      "eligible_alternatives": 6,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -30.774023223400576,
+        "2": -0.9159364675404618,
+        "3": -6.1498662675614355,
+        "4": -143.22560137910767,
+        "5": -146.2021441424149,
+        "6": -155.69671030380994
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -90.60110915464767,
+            "2": -1.2036170944475657,
+            "3": -10.066736294018256,
+            "4": 14.121370191389985,
+            "5": 14.450382737666189,
+            "6": 15.326176106597813
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 7,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 48.72465114716948,
+          "actual_selected_gain_s": -6.1498662675614355,
+          "observed_oracle_regret_s": 6.1498662675614355,
+          "paired_prediction_errors_s": {
+            "1": -17.412296108518746,
+            "2": 38.56051897922288,
+            "3": 54.87451741473092,
+            "4": 73.50038353521438,
+            "5": 84.4167762947987,
+            "6": 98.58829271278034
+          }
+        },
+        "temporal": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 18.495686671984913,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 49.26970989538549,
+            "2": 11.384842619417839,
+            "3": 11.969742329737585,
+            "4": 49.4856589530346,
+            "5": 59.32817195535756,
+            "6": 77.71707123309096
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 7,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 24.80689830063875,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 55.580921524039326,
+            "2": 20.87229035112324,
+            "3": 25.865968431949568,
+            "4": 64.60202280103061,
+            "5": 73.40869973575536,
+            "6": 88.85253850456303
+          }
+        }
+      }
+    }
+  ]
+}

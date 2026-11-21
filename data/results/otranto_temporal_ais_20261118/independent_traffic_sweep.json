@@ -1,0 +1,144 @@
+[
+  {
+    "case": "20_classical_mixed_colreg_combined",
+    "applied_actions": 495,
+    "frames": 496,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_runtime_margin_difference_m": 1.8189894035458565e-12,
+    "maximum_truth_outside_report_envelope_m": -5.9917189050729505,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_nominal_m": 57.137824986604656,
+    "truth_centered_minimum_uncertainty_m": 42.18447243353931,
+    "configured_truth_centered_minimum_m": 39.18447243353931,
+    "model_minimum_uncertainty_m": 39.98616152937507,
+    "configured_model_minimum_m": 36.98616152937507,
+    "minimum_details": {
+      "true_nominal_25m": {
+        "margin_m": 57.137824986604656,
+        "mmsi": 999000101,
+        "elapsed_s": 127.44502810930632
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 42.18447243353931,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 39.98616152937507,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "truth_with_reserve": {
+        "margin_m": 39.18447243353931,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0
+      },
+      "projected_with_reserve": {
+        "margin_m": 36.98616152937507,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      }
+    },
+    "negative_action_counts": {
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 57,
+      "route": 438
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [],
+    "goal_captures": [
+      {
+        "waypoint": "001",
+        "step": 495,
+        "distance_metres": 48.68335263309398
+      }
+    ],
+    "final_goal_distance_m": 48.68335263309398,
+    "replay_sha256": "2a64061d5e674071473a72327e0e459d7c8c5bead266b675e079cd26ea8bb372"
+  },
+  {
+    "case": "20_transformer_mixed_colreg_combined",
+    "applied_actions": 494,
+    "frames": 495,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_runtime_margin_difference_m": 1.8189894035458565e-12,
+    "maximum_truth_outside_report_envelope_m": -5.991718905107159,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_nominal_m": 57.141142855574174,
+    "truth_centered_minimum_uncertainty_m": 42.18411410837952,
+    "configured_truth_centered_minimum_m": 39.18411410837952,
+    "model_minimum_uncertainty_m": 39.9894969299194,
+    "configured_model_minimum_m": 36.9894969299194,
+    "minimum_details": {
+      "true_nominal_25m": {
+        "margin_m": 57.141142855574174,
+        "mmsi": 999000101,
+        "elapsed_s": 127.4611864010093
+      },
+      "truth_full_uncertainty": {
+        "margin_m": 42.18411410837952,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0
+      },
+      "projected_full_uncertainty": {
+        "margin_m": 39.9894969299194,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "truth_with_reserve": {
+        "margin_m": 39.18411410837952,
+        "mmsi": 999000102,
+        "elapsed_s": 155.0
+      },
+      "projected_with_reserve": {
+        "margin_m": 36.9894969299194,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      }
+    },
+    "negative_action_counts": {
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "ais_modes": {
+      "buffer maneuver": 57,
+      "route": 437
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "completed",
+    "waypoint_arrivals": [],
+    "goal_captures": [
+      {
+        "waypoint": "001",
+        "step": 494,
+        "distance_metres": 49.864432703217986
+      }
+    ],
+    "final_goal_distance_m": 49.864432703217986,
+    "replay_sha256": "aa3356bc25d32a1312dad935b8749911a429b2348f766f706d4ba3b9906fd0e7"
+  }
+]

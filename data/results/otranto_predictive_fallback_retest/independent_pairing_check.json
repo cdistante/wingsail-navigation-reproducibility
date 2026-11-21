@@ -1,0 +1,96 @@
+{
+  "scope": "First600s when available; entire shorter stopped trajectories otherwise. Timing fields and method-label headers are deliberately excluded from physical equality.",
+  "all_pairs_identical": true,
+  "no_applied_model_or_guard_during_AIS_priority": true,
+  "cases": [
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 355,
+      "cases": [
+        "crossing_fan__otranto_355__classical",
+        "crossing_fan__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        36,
+        36
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/crossing_fan__otranto_355__classical/navigation.jsonl.gz": "dab39ca38550f0d216117244202ca8688f1e8c92d409aff512854cd0b2e4b538",
+        "runs/crossing_fan__otranto_355__transformer/navigation.jsonl.gz": "9ecd21d0682f9d01b76f515d0d5aeafb347c0791af217ef8396b21a820f5f469"
+      }
+    },
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 5,
+      "cases": [
+        "crossing_fan__otranto_005__classical",
+        "crossing_fan__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        36,
+        36
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/crossing_fan__otranto_005__classical/navigation.jsonl.gz": "99ab9b9f3e80960362e87209f81d66f0e19d9b9234b81ff3bdd7c6ae0dbf4ced",
+        "runs/crossing_fan__otranto_005__transformer/navigation.jsonl.gz": "f9c196fe1536a99d9c6ae9282744b51be6f4ea0f9c44c29b4adbfbffde72ffe3"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 355,
+      "cases": [
+        "opposed_crossing__otranto_355__classical",
+        "opposed_crossing__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        22,
+        22
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/opposed_crossing__otranto_355__classical/navigation.jsonl.gz": "ebf16104fa1c0d5b05317c452691637f27051b51d7867887d44b229e05c6aadc",
+        "runs/opposed_crossing__otranto_355__transformer/navigation.jsonl.gz": "8f5137bd106f1673e80e0df98175f01aa281a18ebb6bf37c66718e2769a33fca"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 5,
+      "cases": [
+        "opposed_crossing__otranto_005__classical",
+        "opposed_crossing__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        23,
+        23
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/opposed_crossing__otranto_005__classical/navigation.jsonl.gz": "33344210d3f5aa8fde44510054a352c331b17ce58427a73f64dc2289b1aa4a28",
+        "runs/opposed_crossing__otranto_005__transformer/navigation.jsonl.gz": "8233e51a7e5981426b66005fc0edd73a95d851e1d3aa5cb1a0309bda7c730ee4"
+      }
+    }
+  ],
+  "source_sha256": "dad0a9e9d8c8a35b214d39db3163c0cfbad71ff072bc7d97750d9e2cf75c1b6e"
+}

@@ -1,0 +1,47 @@
+{
+  "sign_convention": "Hybrid minus physics; negative is faster.",
+  "pairs": [
+    {
+      "wind_from_degrees": 5,
+      "physics_case": "crossing_fan__otranto_005__physics",
+      "hybrid_case": "crossing_fan__otranto_005__hybrid",
+      "normalized_inputs_and_common_source_identical": true,
+      "received_AIS_reports_identical_at_all_common_times": true,
+      "common_frames": 9484,
+      "first_applied_command_difference_step": null,
+      "first_state_difference_step": null,
+      "physics_status": "completed",
+      "hybrid_status": "completed",
+      "physics_navigation_s": 47415,
+      "hybrid_navigation_s": 47415,
+      "hybrid_minus_physics_navigation_s": 0,
+      "physics_wp002_s": 40835,
+      "hybrid_wp002_s": 40835,
+      "frame_counts_equal": true,
+      "complete_physical_states_identical": true,
+      "complete_applied_commands_identical": true,
+      "hybrid_minus_physics_wp002_s": 0
+    },
+    {
+      "wind_from_degrees": 355,
+      "physics_case": "crossing_fan__otranto_355__physics",
+      "hybrid_case": "crossing_fan__otranto_355__hybrid",
+      "normalized_inputs_and_common_source_identical": true,
+      "received_AIS_reports_identical_at_all_common_times": true,
+      "common_frames": 13108,
+      "first_applied_command_difference_step": null,
+      "first_state_difference_step": null,
+      "physics_status": "completed",
+      "hybrid_status": "completed",
+      "physics_navigation_s": 65535,
+      "hybrid_navigation_s": 65535,
+      "hybrid_minus_physics_navigation_s": 0,
+      "physics_wp002_s": 55175,
+      "hybrid_wp002_s": 55175,
+      "frame_counts_equal": true,
+      "complete_physical_states_identical": true,
+      "complete_applied_commands_identical": true,
+      "hybrid_minus_physics_wp002_s": 0
+    }
+  ]
+}

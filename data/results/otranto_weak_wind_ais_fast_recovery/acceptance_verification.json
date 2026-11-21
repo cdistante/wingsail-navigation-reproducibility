@@ -1,0 +1,91 @@
+{
+  "scope": "Measured full-loop AIS choose calls, route order and independently reconstructed clearance. Not a universal hard-real-time or physical validation guarantee.",
+  "radius_m": 50,
+  "numeric_comparison_tolerance_m": 0.001,
+  "cases": [
+    {
+      "arm": "otranto_355__classical",
+      "checks": {
+        "completed": true,
+        "ordered_captures": true,
+        "all_capture_ranges_within_50m": true,
+        "truth_nominal_clearance_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "reported_full_plus_reserve_positive": true,
+        "no_loss_of_truth_clearance_within_1mm_numeric_tolerance": true,
+        "all_measured_AIS_choose_calls_below_5s": true
+      },
+      "passed": true,
+      "elapsed_s": 62870,
+      "max_AIS_choose_wall_s": 4.320211542013567,
+      "truth_full_plus_reserve_m": 15.689668897776372,
+      "slow_truth_full_plus_reserve_m": 15.666934782860636,
+      "margin_change_m": 0.022734114915735404,
+      "replay_sha256": "8449cb3f577dbf6a49967cc67b28908ec4fbb65d3a9c60f1f7922f7e18e39315"
+    },
+    {
+      "arm": "otranto_355__transformer",
+      "checks": {
+        "completed": true,
+        "ordered_captures": true,
+        "all_capture_ranges_within_50m": true,
+        "truth_nominal_clearance_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "reported_full_plus_reserve_positive": true,
+        "no_loss_of_truth_clearance_within_1mm_numeric_tolerance": true,
+        "all_measured_AIS_choose_calls_below_5s": true
+      },
+      "passed": true,
+      "elapsed_s": 62795,
+      "max_AIS_choose_wall_s": 4.297535749996314,
+      "truth_full_plus_reserve_m": 15.689668897776372,
+      "slow_truth_full_plus_reserve_m": 15.666934782860636,
+      "margin_change_m": 0.022734114915735404,
+      "replay_sha256": "b491fa0cb6e96ffaa64fea604e3e01385eb2f30155eb9f6121c90b586ecf2d3c"
+    },
+    {
+      "arm": "otranto_005__classical",
+      "checks": {
+        "completed": true,
+        "ordered_captures": true,
+        "all_capture_ranges_within_50m": true,
+        "truth_nominal_clearance_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "reported_full_plus_reserve_positive": true,
+        "no_loss_of_truth_clearance_within_1mm_numeric_tolerance": true,
+        "all_measured_AIS_choose_calls_below_5s": true
+      },
+      "passed": true,
+      "elapsed_s": 47975,
+      "max_AIS_choose_wall_s": 4.299709291983163,
+      "truth_full_plus_reserve_m": 11.529076170866105,
+      "slow_truth_full_plus_reserve_m": 11.356910946120735,
+      "margin_change_m": 0.17216522474537044,
+      "replay_sha256": "1f01e2e9c5c7dd7b82f9713ece7dbe0ddf896f52a395fc200957d606bfa2b42b"
+    },
+    {
+      "arm": "otranto_005__transformer",
+      "checks": {
+        "completed": true,
+        "ordered_captures": true,
+        "all_capture_ranges_within_50m": true,
+        "truth_nominal_clearance_positive": true,
+        "truth_full_plus_reserve_positive": true,
+        "reported_full_plus_reserve_positive": true,
+        "no_loss_of_truth_clearance_within_1mm_numeric_tolerance": true,
+        "all_measured_AIS_choose_calls_below_5s": true
+      },
+      "passed": true,
+      "elapsed_s": 47860,
+      "max_AIS_choose_wall_s": 4.2962260839995,
+      "truth_full_plus_reserve_m": 11.529076170866105,
+      "slow_truth_full_plus_reserve_m": 11.356910946120735,
+      "margin_change_m": 0.17216522474537044,
+      "replay_sha256": "14af4f6267c2db66b4a9c84c0faf90474a772392086eaf5467675876865ce5d6"
+    }
+  ],
+  "all_passed": true,
+  "comparison_sha256": "07ec00450190e48988a5e52d1e8747b1db576abbf250fbfa266f87c5e70fb324",
+  "preserved_safe_baseline_comparison_sha256": "cacf8825a7dd531546501130654fb2142532a1a33def7ec0ae442abbafddaa3d",
+  "script_sha256": "07e6e4dec890384c1ebf39822e71535237344e0c7001f6e40a1238cbc112a39b"
+}

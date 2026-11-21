@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+.netrc
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+c_generated_code/
+repro-output/
+*.pem
+*.key

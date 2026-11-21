@@ -1,0 +1,27 @@
+arm,step,action_start_s,source,action,raw_action,reason,COLREG_active,ais_mode,drift_mode,actual_drift_trim,phase,waypoint
+otranto_355__classical,1,0,,,,,3,buffer maneuver,,False,outbound,002
+otranto_355__classical,30,145,,,,,0,buffer maneuver,,False,outbound,002
+otranto_355__classical,61,300,,,,,0,route,,False,outbound,002
+otranto_355__classical,364,1815,,,,,0,route,holding,True,outbound,002
+otranto_355__classical,7201,36000,,,,,0,route,recovering,False,outbound,002
+otranto_355__classical,10745,53720,,,,,0,route,,False,outbound,003
+otranto_355__transformer,1,0,classical fallback,planner,,AIS steering override,3,buffer maneuver,,False,outbound,002
+otranto_355__transformer,30,145,classical fallback,planner,,AIS steering override,0,buffer maneuver,,False,outbound,002
+otranto_355__transformer,61,300,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002
+otranto_355__transformer,364,1815,learned,hold,hold,,0,route,holding,True,outbound,002
+otranto_355__transformer,7261,36300,physical release,sail,hold,,0,route,recovering,False,outbound,002
+otranto_355__transformer,7321,36600,learned,sail,sail,,0,route,recovering,False,outbound,002
+otranto_355__transformer,10783,53910,learned,sail,sail,,0,route,,False,outbound,003
+otranto_005__classical,1,0,,,,,3,buffer maneuver,,False,outbound,002
+otranto_005__classical,36,175,,,,,0,buffer maneuver,,False,outbound,002
+otranto_005__classical,61,300,,,,,0,route,,False,outbound,002
+otranto_005__classical,363,1810,,,,,0,route,holding,True,outbound,002
+otranto_005__classical,4261,21300,,,,,0,route,recovering,False,outbound,002
+otranto_005__classical,8258,41285,,,,,0,route,,False,outbound,003
+otranto_005__transformer,1,0,classical fallback,planner,,AIS steering override,3,buffer maneuver,,False,outbound,002
+otranto_005__transformer,36,175,classical fallback,planner,,AIS steering override,0,buffer maneuver,,False,outbound,002
+otranto_005__transformer,61,300,classical fallback,planner,,AIS encounter,0,route,,False,outbound,002
+otranto_005__transformer,363,1810,learned,hold,hold,,0,route,holding,True,outbound,002
+otranto_005__transformer,4321,21600,physical release,sail,hold,,0,route,recovering,False,outbound,002
+otranto_005__transformer,4381,21900,learned,sail,sail,,0,route,recovering,False,outbound,002
+otranto_005__transformer,8296,41475,learned,sail,sail,,0,route,,False,outbound,003

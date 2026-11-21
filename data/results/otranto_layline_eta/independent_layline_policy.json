@@ -1,0 +1,170 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_eta": {
+      "applied_reference_steps": 676,
+      "applied_reference_steps_by_leg_and_source": [
+        {
+          "phase": "outbound",
+          "waypoint": "002",
+          "source": "direct gate approach",
+          "steps": 381
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003",
+          "source": "direct gate approach",
+          "steps": 88
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "source": "direct gate approach",
+          "steps": 44
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "source": "closest reachable tack",
+          "steps": 2
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "source": "direct gate approach",
+          "steps": 18
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "source": "closest reachable tack",
+          "steps": 1
+        },
+        {
+          "phase": "return",
+          "waypoint": "003",
+          "source": "closest reachable tack",
+          "steps": 34
+        },
+        {
+          "phase": "return",
+          "waypoint": "002",
+          "source": "direct gate approach",
+          "steps": 107
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "source": "direct gate approach",
+          "steps": 1
+        }
+      ],
+      "all_applied_laylines_beat_finite_forecast_eta_at_50m": true,
+      "minimum_applied_eta_advantage_s": 4.394626496662113e-05,
+      "maximum_applied_eta_advantage_s": 227.02108077744072,
+      "first_applied_reference": {
+        "step": 7673,
+        "phase": "outbound",
+        "waypoint": "002",
+        "heading_reference_deg": 302.8233012978787,
+        "bow_reference_deg": 318.375,
+        "waypoint_layline_source": "direct gate approach",
+        "waypoint_layline_distance_m": 940.3719387358418,
+        "waypoint_layline_second_bow_deg": null,
+        "waypoint_layline_eta_s": 2587.9345478027794,
+        "waypoint_layline_forecast_eta_s": 2626.196980616074,
+        "waypoint_layline_eta_advantage_s": 38.26243281329471,
+        "waypoint_layline_comparison_radius_m": 50.0,
+        "waypoint_layline_steady_eta_s": 2849.6722313374194,
+        "fix_utc": "2026-10-01T10:34:15.000000000"
+      },
+      "last_applied_reference": {
+        "step": 9307,
+        "phase": "return",
+        "waypoint": "001",
+        "heading_reference_deg": 228.27103470253024,
+        "bow_reference_deg": 247.5,
+        "waypoint_layline_source": "direct gate approach",
+        "waypoint_layline_distance_m": 432.6315305070549,
+        "waypoint_layline_second_bow_deg": null,
+        "waypoint_layline_eta_s": 457.82039044151605,
+        "waypoint_layline_forecast_eta_s": 491.0741288770457,
+        "waypoint_layline_eta_advantage_s": 33.25373843552967,
+        "waypoint_layline_comparison_radius_m": 50.0,
+        "waypoint_layline_steady_eta_s": 540.9980471885723,
+        "fix_utc": "2026-10-01T12:50:25.000000000"
+      },
+      "scope": "Retained replay commands after AIS admission, verifying reported ETA comparisons for the 50 m gate."
+    },
+    "crossing_fan__otranto_355__layline_eta": {
+      "applied_reference_steps": 420,
+      "applied_reference_steps_by_leg_and_source": [
+        {
+          "phase": "outbound",
+          "waypoint": "004",
+          "source": "direct gate approach",
+          "steps": 96
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "source": "closest reachable tack",
+          "steps": 66
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "005",
+          "source": "direct gate approach",
+          "steps": 92
+        },
+        {
+          "phase": "return",
+          "waypoint": "004",
+          "source": "direct gate approach",
+          "steps": 58
+        },
+        {
+          "phase": "return",
+          "waypoint": "001",
+          "source": "direct gate approach",
+          "steps": 108
+        }
+      ],
+      "all_applied_laylines_beat_finite_forecast_eta_at_50m": true,
+      "minimum_applied_eta_advantage_s": 0.00013206178373081912,
+      "maximum_applied_eta_advantage_s": 192.1594650099737,
+      "first_applied_reference": {
+        "step": 11144,
+        "phase": "outbound",
+        "waypoint": "004",
+        "heading_reference_deg": 230.51269897396327,
+        "bow_reference_deg": 245.0,
+        "waypoint_layline_source": "direct gate approach",
+        "waypoint_layline_distance_m": 486.2929425959244,
+        "waypoint_layline_second_bow_deg": null,
+        "waypoint_layline_eta_s": 563.1971468736127,
+        "waypoint_layline_forecast_eta_s": 701.2170150014587,
+        "waypoint_layline_eta_advantage_s": 138.01986812784594,
+        "waypoint_layline_comparison_radius_m": 50.0,
+        "waypoint_layline_steady_eta_s": 662.5076998523697,
+        "fix_utc": "2026-10-01T15:23:30.000000000"
+      },
+      "last_applied_reference": {
+        "step": 13034,
+        "phase": "return",
+        "waypoint": "001",
+        "heading_reference_deg": 216.21415715704578,
+        "bow_reference_deg": 237.5,
+        "waypoint_layline_source": "direct gate approach",
+        "waypoint_layline_distance_m": 30.419393224951992,
+        "waypoint_layline_second_bow_deg": null,
+        "waypoint_layline_eta_s": 1.8345186524983959,
+        "waypoint_layline_forecast_eta_s": 1.8346507142821267,
+        "waypoint_layline_eta_advantage_s": 0.00013206178373081912,
+        "waypoint_layline_comparison_radius_m": 50.0,
+        "waypoint_layline_steady_eta_s": 43.98040462403085,
+        "fix_utc": "2026-10-01T18:01:00.000000000"
+      },
+      "scope": "Retained replay commands after AIS admission, verifying reported ETA comparisons for the 50 m gate."
+    }
+  }
+}

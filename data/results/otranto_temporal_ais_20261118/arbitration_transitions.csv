@@ -1,0 +1,8 @@
+run_id,first_control_s,source,hold_gate_action,reason,colreg_active_contacts,ais_mode,gate_range_m,p_hold
+20_classical_mixed_colreg_combined,0.0,,,,3,buffer maneuver,995.7251971927958,
+20_classical_mixed_colreg_combined,135.0,,,,0,buffer maneuver,1030.6178391224505,
+20_classical_mixed_colreg_combined,285.0,,,,0,route,1113.0771086372397,
+20_transformer_mixed_colreg_combined,0.0,classical fallback,planner,AIS encounter,3,buffer maneuver,995.7251085071439,
+20_transformer_mixed_colreg_combined,135.0,classical fallback,planner,AIS encounter,0,buffer maneuver,1030.6113161917483,
+20_transformer_mixed_colreg_combined,285.0,classical fallback,planner,AIS encounter,0,route,1113.081689402929,
+20_transformer_mixed_colreg_combined,760.0,learned,sail,,0,route,842.7748231949162,1.0111299530990436e-07

@@ -1,0 +1,96 @@
+{
+  "scope": "First600s when available; entire shorter stopped trajectories otherwise. Timing fields and method-label headers are deliberately excluded from physical equality.",
+  "all_pairs_identical": true,
+  "no_applied_model_or_guard_during_AIS_priority": true,
+  "cases": [
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 355,
+      "cases": [
+        "crossing_fan__otranto_355__classical",
+        "crossing_fan__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        121,
+        121
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "independent_checkpoint_inputs/crossing_fan__otranto_355__classical/navigation_600s.jsonl.gz": "ef3917860ce081ab6bfdc046a577dce35f86687446acabc65925709c33d9a948",
+        "independent_checkpoint_inputs/crossing_fan__otranto_355__transformer/navigation_600s.jsonl.gz": "6fc28e29cfee9982f6d0164b099873b26faa81af0f723f0681b6f919036475ea"
+      }
+    },
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 5,
+      "cases": [
+        "crossing_fan__otranto_005__classical",
+        "crossing_fan__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        121,
+        121
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "independent_checkpoint_inputs/crossing_fan__otranto_005__classical/navigation_600s.jsonl.gz": "66c4e4150b1cb224882fee0e2cbcce1ff04bbfa013672690d77be2a0fbc915f3",
+        "independent_checkpoint_inputs/crossing_fan__otranto_005__transformer/navigation_600s.jsonl.gz": "c68e01ac47c2d33634f1eabbe51c10ce30fe7aa42a6637b725a012213a43fb09"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 355,
+      "cases": [
+        "opposed_crossing__otranto_355__classical",
+        "opposed_crossing__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        121,
+        121
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "independent_checkpoint_inputs/opposed_crossing__otranto_355__classical/navigation_600s.jsonl.gz": "744bb05a8a13e7278b6e534d9e7fda6ef10b1e51d3e5c57a3a07f0f38d4a1169",
+        "independent_checkpoint_inputs/opposed_crossing__otranto_355__transformer/navigation_600s.jsonl.gz": "28709c1cb62de1a6f62b6eb83e5ae833193c0051361e1d8bd1804c5c741855b6"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 5,
+      "cases": [
+        "opposed_crossing__otranto_005__classical",
+        "opposed_crossing__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        121,
+        121
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "independent_checkpoint_inputs/opposed_crossing__otranto_005__classical/navigation_600s.jsonl.gz": "a04f12b5b690ab50c8e5cb231cfd748673316610723c071863dc1ef4af406d6d",
+        "independent_checkpoint_inputs/opposed_crossing__otranto_005__transformer/navigation_600s.jsonl.gz": "7ca2374c784f56a7ea98ee5bf50b17ec801f36ee62f82fe41e3d071aaebd21fa"
+      }
+    }
+  ],
+  "source_sha256": "dad0a9e9d8c8a35b214d39db3163c0cfbad71ff072bc7d97750d9e2cf75c1b6e"
+}

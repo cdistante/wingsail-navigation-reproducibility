@@ -1,0 +1,3242 @@
+[
+  {
+    "run_id": "brindisi_short__000-05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 461,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 141552,
+      "sha256": "d3fc579637d2dd6af2f9d920f098d1ad212fd00a6c667e638ef134abed74f509"
+    },
+    "track": {
+      "path": "runs/brindisi_short__000-05__arrival_no_transition/track.gpx",
+      "bytes": 21916,
+      "sha256": "202a9b8ebe44358ad1c2fb1e74c8e0ab66eac8d97e1df0c1423e2914e3fd24cd"
+    },
+    "log": {
+      "path": "runs/brindisi_short__000-05__arrival_no_transition/run.log",
+      "bytes": 62349,
+      "sha256": "e1c9868cd4e6edef0f8677e3e53b27e77b4164c8a21b31084ca18aa77ff44399"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__000-05__arrival_no_transition/experiment.json",
+      "bytes": 649,
+      "sha256": "5ebc56314436cdc64da19e4daaa56f32e7f25961a7b13fb587eb48af18d6451e"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__000-05__arrival_no_transition/execution.json",
+      "bytes": 707,
+      "sha256": "7b00de58e3f50d42e72c608e7b0f7f2d5da637d0bc51c1194e26d67d2d36c27a"
+    }
+  },
+  {
+    "run_id": "brindisi_short__000+05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 477,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 146496,
+      "sha256": "aec1b4f5ffd3e001791569805463ef980591d7ded38702f38becd7985e0018bc"
+    },
+    "track": {
+      "path": "runs/brindisi_short__000+05__arrival_no_transition/track.gpx",
+      "bytes": 22668,
+      "sha256": "a9309767f7f58748284b5cf1d88c26c6f6dee5d3323a693a39f9dc1e798d34c9"
+    },
+    "log": {
+      "path": "runs/brindisi_short__000+05__arrival_no_transition/run.log",
+      "bytes": 64459,
+      "sha256": "8e6ae6c0f107d49e9768d2420d521a005ccf9645c413e3c72af0b0e30bcec36d"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__000+05__arrival_no_transition/experiment.json",
+      "bytes": 646,
+      "sha256": "e4d4c39dccd80093b629d2b798f40112260e5c8f9487b6bcf24a15c7e66e580b"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__000+05__arrival_no_transition/execution.json",
+      "bytes": 703,
+      "sha256": "e10634cfdde9915ccf4011c229603526d150b0e3d7cb4639f319f83fc639495c"
+    }
+  },
+  {
+    "run_id": "brindisi_short__090-05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 294,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 91549,
+      "sha256": "5525e8cac941cd4d91438771839539e5bc4800914b95438400ac2ab96ba9b68e"
+    },
+    "track": {
+      "path": "runs/brindisi_short__090-05__arrival_no_transition/track.gpx",
+      "bytes": 14067,
+      "sha256": "b5491f1f7063d22b11dc4dcb9984ab118cd444b9f68ce1dde0653d9316c3087b"
+    },
+    "log": {
+      "path": "runs/brindisi_short__090-05__arrival_no_transition/run.log",
+      "bytes": 40303,
+      "sha256": "4f54dab6d62a5e99472a819893b1375ef60bb357a9739c8024a730e31a1bb21c"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__090-05__arrival_no_transition/experiment.json",
+      "bytes": 649,
+      "sha256": "54111590d9c4660d41ba13203cb87325047df7d46afbc589fa5340e897933d0e"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__090-05__arrival_no_transition/execution.json",
+      "bytes": 706,
+      "sha256": "7eb469f1360d231e6a2e159374417a45fcf233c609b7bc2e2e26e3cda6a0c9d8"
+    }
+  },
+  {
+    "run_id": "brindisi_short__090+05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 219,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 68062,
+      "sha256": "249e06ee2f569d512c40915d8f5a79f0c2d5982f81821db8e1582c9015f585b0"
+    },
+    "track": {
+      "path": "runs/brindisi_short__090+05__arrival_no_transition/track.gpx",
+      "bytes": 10542,
+      "sha256": "d73c5fd655cdba25ea0b2bd04247050c364f8945f9516c6efa192b66191a545d"
+    },
+    "log": {
+      "path": "runs/brindisi_short__090+05__arrival_no_transition/run.log",
+      "bytes": 30403,
+      "sha256": "510de0964354228531326905e318433cf9f9d805358925dbe27a4602afb2b9d0"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__090+05__arrival_no_transition/experiment.json",
+      "bytes": 648,
+      "sha256": "717b4af107d5dcef7bcc500686320950d3009a517046663fc637ee13904c41b1"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__090+05__arrival_no_transition/execution.json",
+      "bytes": 706,
+      "sha256": "48e45f0c761d452612c380210cbdaa58edad0f2a10087a0983241489692fc93c"
+    }
+  },
+  {
+    "run_id": "brindisi_short__180-05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 344,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 108564,
+      "sha256": "648c1ad2cc758e4b065ff2596235636dd735f80c4dbae3501d700243f5b08320"
+    },
+    "track": {
+      "path": "runs/brindisi_short__180-05__arrival_no_transition/track.gpx",
+      "bytes": 16417,
+      "sha256": "28b95fce892167c898b5900cc5a09eab7ba7ecc772a7fc5277b4d682f06163bf"
+    },
+    "log": {
+      "path": "runs/brindisi_short__180-05__arrival_no_transition/run.log",
+      "bytes": 46907,
+      "sha256": "247880f44940afd90962c633cb6178b82df0c198a1e5ee81480f9211b8de0e9e"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__180-05__arrival_no_transition/experiment.json",
+      "bytes": 651,
+      "sha256": "c45a8c0c28cb1d0ce366f6e9485d511a0e632e06f5c0a66950ee06e2b98f1fd7"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__180-05__arrival_no_transition/execution.json",
+      "bytes": 709,
+      "sha256": "ab23c3a07012042c2d3816ef0846b78ef947971bf4ee6c50d30a3236b01a93e5"
+    }
+  },
+  {
+    "run_id": "brindisi_short__180+05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 334,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 103718,
+      "sha256": "fec03b7c1b5b4d7b5cad211b2544c7fa7e185d2a5ce0a8adae4c341c83ba7c45"
+    },
+    "track": {
+      "path": "runs/brindisi_short__180+05__arrival_no_transition/track.gpx",
+      "bytes": 15947,
+      "sha256": "465f28db1bd5ef03caa511a9a7f8088c216d6b2bab87defff8a11ffe1f415da9"
+    },
+    "log": {
+      "path": "runs/brindisi_short__180+05__arrival_no_transition/run.log",
+      "bytes": 45584,
+      "sha256": "5ccc6ec0471a45c6bbb08b0bb5f156f7d0d0d87326a00dcb61c9d43333fdc690"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__180+05__arrival_no_transition/experiment.json",
+      "bytes": 650,
+      "sha256": "e224aa34cf17e54fa33240472128085431f9fa3ab8f74f55e81f7df8ac26a8bc"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__180+05__arrival_no_transition/execution.json",
+      "bytes": 707,
+      "sha256": "75708b1221e47755473e4909526f21d9e2d7417e829958ff1f730b064c9279f3"
+    }
+  },
+  {
+    "run_id": "brindisi_short__270-05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 218,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 67770,
+      "sha256": "f4d6665c92a77f53c0ad9513db5e040b42d57b050eeee919bbbc8d066954653d"
+    },
+    "track": {
+      "path": "runs/brindisi_short__270-05__arrival_no_transition/track.gpx",
+      "bytes": 10495,
+      "sha256": "822adf4bc224c11a7b5a1ccebec1b4df19bdaa13ab487dffbf86abc2a1343a76"
+    },
+    "log": {
+      "path": "runs/brindisi_short__270-05__arrival_no_transition/run.log",
+      "bytes": 30275,
+      "sha256": "2fea738d8ac365e112ba328fc1fe3d902abd969acbfe9c0b02ac418b0816a360"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__270-05__arrival_no_transition/experiment.json",
+      "bytes": 651,
+      "sha256": "630fb9ef4446d5e9870d653404b853581a48e50016c1d22cb872bf6d6778ee4d"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__270-05__arrival_no_transition/execution.json",
+      "bytes": 709,
+      "sha256": "07da393e39ab8994668156f4bfcb9c6c361a99e81cdc1032d45a03b5de750eed"
+    }
+  },
+  {
+    "run_id": "brindisi_short__270+05__arrival_no_transition",
+    "route": "brindisi_short",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/small route.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 213,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_short__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 65288,
+      "sha256": "07aa64be1df9504d20c838d7381331d0326dc3a059dd60c29e0c8dc88d9ac1f8"
+    },
+    "track": {
+      "path": "runs/brindisi_short__270+05__arrival_no_transition/track.gpx",
+      "bytes": 10260,
+      "sha256": "42b74c4c893434a0ae8cb2ec76dfbb3d07acbdec0f31bb31f95975eb6ed7506b"
+    },
+    "log": {
+      "path": "runs/brindisi_short__270+05__arrival_no_transition/run.log",
+      "bytes": 29612,
+      "sha256": "aa4b32805755a5a08309ea64aa15cc3cb4d2bf29942a7a8a9a44af7842c8baf5"
+    },
+    "metadata": {
+      "path": "runs/brindisi_short__270+05__arrival_no_transition/experiment.json",
+      "bytes": 650,
+      "sha256": "75f5f8cb578bcb15dae44a194b9451bba5235103b32c52a52fd56acf022e3a2e"
+    },
+    "execution": {
+      "path": "runs/brindisi_short__270+05__arrival_no_transition/execution.json",
+      "bytes": 708,
+      "sha256": "3a673cadf3bf316d4c68e476e7b766686b2a0e5b0f27881418455f3d4396ad60"
+    }
+  },
+  {
+    "run_id": "brindisi_003__000-05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 864,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 265601,
+      "sha256": "7c5f970f28a1582a8e19374502a8a3ab079d77452bbc1ad06e247130fdb49d2f"
+    },
+    "track": {
+      "path": "runs/brindisi_003__000-05__arrival_no_transition/track.gpx",
+      "bytes": 40857,
+      "sha256": "509ea237408098dc63ce364e2788cdaf959cb9d277c666293013928b9f02acc5"
+    },
+    "log": {
+      "path": "runs/brindisi_003__000-05__arrival_no_transition/run.log",
+      "bytes": 115551,
+      "sha256": "4117cfb29cc6885ab712f7080aed9c7913fe746d4527ad9c77f76539d2852b35"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__000-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "8cef1de0d260c66e146bc5745c842b850e56b5fcf41728944f563e59e6d5a1c3"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__000-05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "820362e964a145aff1c096c03b722db56a029d3135d398a0325a18c5a9d278fd"
+    }
+  },
+  {
+    "run_id": "brindisi_003__000+05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 793,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 242519,
+      "sha256": "b123e0232b837165a66b2587dbc0892e5f3a68b96c45fca5ce8f9b96ea2fec3e"
+    },
+    "track": {
+      "path": "runs/brindisi_003__000+05__arrival_no_transition/track.gpx",
+      "bytes": 37520,
+      "sha256": "a75f04da974e98710b3fb089e60becc663b7d0088493e70ee88e7844724fc92b"
+    },
+    "log": {
+      "path": "runs/brindisi_003__000+05__arrival_no_transition/run.log",
+      "bytes": 106178,
+      "sha256": "5e34d357cb77758646292947c3d073378c60228d08d863d395dc668297ef406a"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__000+05__arrival_no_transition/experiment.json",
+      "bytes": 651,
+      "sha256": "caa3961f382217dfa9ca8346d69c6995a775fc38abc47e36c6264a77d8859a44"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__000+05__arrival_no_transition/execution.json",
+      "bytes": 709,
+      "sha256": "3e1036401df9a09304f95f79f40308c08f6851df013b87b4c0add3b25223ce81"
+    }
+  },
+  {
+    "run_id": "brindisi_003__090-05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 489,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 148539,
+      "sha256": "6b080e5c2197d74aa3a4544c1b855b93482bdb597eb49b35e2baceebf678b28d"
+    },
+    "track": {
+      "path": "runs/brindisi_003__090-05__arrival_no_transition/track.gpx",
+      "bytes": 23232,
+      "sha256": "f27afeb090c244f330a360e4fd352c7e2d78d50bc497993ae812318f15575bd1"
+    },
+    "log": {
+      "path": "runs/brindisi_003__090-05__arrival_no_transition/run.log",
+      "bytes": 66051,
+      "sha256": "c2619bc88982cd23205789f68e304fdc644617690cce16ad9c8bb860e75178ab"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__090-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "968681a9856effce411184822ff41186518a6d243ee08d463ce4f6c08580a49f"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__090-05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "9509c6719ae373c377531c76490bba17b9284d4c9f173316f2653d96376c1a94"
+    }
+  },
+  {
+    "run_id": "brindisi_003__090+05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 449,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 135672,
+      "sha256": "869be1accb19327ec6430e5f12c66a2b0a8140a7b05c2869da1dd68493b709ee"
+    },
+    "track": {
+      "path": "runs/brindisi_003__090+05__arrival_no_transition/track.gpx",
+      "bytes": 21352,
+      "sha256": "5b7288cfdec0ab1086cc7b20bac9126dce4decffb1a43e2914cf5689ed022e4a"
+    },
+    "log": {
+      "path": "runs/brindisi_003__090+05__arrival_no_transition/run.log",
+      "bytes": 60772,
+      "sha256": "56bdf83a3b1cc3ddb3ab59ea71b835c70f56e1babf26880cf6fb88fb10290311"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__090+05__arrival_no_transition/experiment.json",
+      "bytes": 653,
+      "sha256": "b41010533127f3c54a29093d1b1c3cbe9d4430215437ef49cd83b432c6c313fb"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__090+05__arrival_no_transition/execution.json",
+      "bytes": 710,
+      "sha256": "cb269153de89c520ba6b0d0882a611c22c44a9faebf702c2cb7671cca19fad0e"
+    }
+  },
+  {
+    "run_id": "brindisi_003__180-05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 697,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 216014,
+      "sha256": "5e0f49cb6e3aec5fdc83f5b5000e52776de524fe671be859c74b4dc220c7eeaa"
+    },
+    "track": {
+      "path": "runs/brindisi_003__180-05__arrival_no_transition/track.gpx",
+      "bytes": 33008,
+      "sha256": "f28bd88ef76597cbcba1ea4c0c751aaa4ba96b819855be70c21f26eb708c6bad"
+    },
+    "log": {
+      "path": "runs/brindisi_003__180-05__arrival_no_transition/run.log",
+      "bytes": 93509,
+      "sha256": "50101134c8550fff7921b76504b5ce9508c1c9ac719f648be6349cb43802dfdb"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__180-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "8d19cde78e9190be280873df2449b7fe095accc3297fd8db6922e085b155d177"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__180-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "c0038b8958f0111ee552af2346720153b95bdd8f260bf651bdc9570c67c5b694"
+    }
+  },
+  {
+    "run_id": "brindisi_003__180+05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 940,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 292748,
+      "sha256": "254573ec55592729a282136896b34aa1254eacd35f5c85df63e4028b17b876e1"
+    },
+    "track": {
+      "path": "runs/brindisi_003__180+05__arrival_no_transition/track.gpx",
+      "bytes": 44429,
+      "sha256": "b2e438257ca25c77c368bc5c96015e543d4121a5e158013e1445ca0b2a7d6ffc"
+    },
+    "log": {
+      "path": "runs/brindisi_003__180+05__arrival_no_transition/run.log",
+      "bytes": 125584,
+      "sha256": "46ac0ff622d6ca1c7a678402d4e00c55564e8751939a45897c3248a05e248220"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__180+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "b2e81b31918fdafa278f7de469f96ac5c498851a71186244683d2a23430818ca"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__180+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "56c3417285f6bdb4475827bbff23285384b666a61f530328d6d80628aa744cf8"
+    }
+  },
+  {
+    "run_id": "brindisi_003__270-05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 514,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 155233,
+      "sha256": "995e054409b3de506108b69e9f9041a9f624fcdcc015ceb7a3b5a701ee93b19f"
+    },
+    "track": {
+      "path": "runs/brindisi_003__270-05__arrival_no_transition/track.gpx",
+      "bytes": 24407,
+      "sha256": "91d9adcd13986d0002f37412bee57c75819e61fbcd6223f99109a88ba6ef03b1"
+    },
+    "log": {
+      "path": "runs/brindisi_003__270-05__arrival_no_transition/run.log",
+      "bytes": 69350,
+      "sha256": "0c285106902cbc083466ac52724619e1ac387bad3ab40a39198ef1e2a8e7d0de"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__270-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "7c861a6ba48dcd891965b63271a2241c578f11691133debd39d8ee29fe9a7a0e"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__270-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "a3a6fcd4c1c5cc64c25a4bcc0b659c18803f0c05428a1713245304c4d1eb1165"
+    }
+  },
+  {
+    "run_id": "brindisi_003__270+05__arrival_no_transition",
+    "route": "brindisi_003",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_003_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 482,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_003__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 146116,
+      "sha256": "dbef8725ae9689f2320cbd8be7eafd196b76a4f50a2d4d89898cd946a6125e2b"
+    },
+    "track": {
+      "path": "runs/brindisi_003__270+05__arrival_no_transition/track.gpx",
+      "bytes": 22903,
+      "sha256": "1ed9eb48ef5b66873a945925212f3f81f5d9fd9ea0958deac71d26e964700cf6"
+    },
+    "log": {
+      "path": "runs/brindisi_003__270+05__arrival_no_transition/run.log",
+      "bytes": 65129,
+      "sha256": "8db9333f3bca22b70d3ef446e3f0eff3e3f03f265ac78ac3648833dd72554ffa"
+    },
+    "metadata": {
+      "path": "runs/brindisi_003__270+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "ad6eb2966c9e7971417fb98e8a3768fba4137fdc8df1b5c541f50f2c134034c3"
+    },
+    "execution": {
+      "path": "runs/brindisi_003__270+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "0fb4aa94b4c8cad0d566bf35f3d59b306ea1945586accc8c399d9945de148e20"
+    }
+  },
+  {
+    "run_id": "brindisi_004__000-05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 894,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 273474,
+      "sha256": "9a822b6e7b828efc27e3bb5db5b758a095f30e72a72999b1f2af522bed66a1a1"
+    },
+    "track": {
+      "path": "runs/brindisi_004__000-05__arrival_no_transition/track.gpx",
+      "bytes": 42267,
+      "sha256": "852a52c4145a568f52c2371ec008d9c13e3a034a22a2706b0111e4f2ab6fd4c6"
+    },
+    "log": {
+      "path": "runs/brindisi_004__000-05__arrival_no_transition/run.log",
+      "bytes": 119651,
+      "sha256": "9e9903ef9d61499808abaf02751a42e7ce5c7a50231c0427c0774d502d285b8a"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__000-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "405069e259e68e3177f1d69b5d5961f3af1016cff31b761c6e266cbd1027b48d"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__000-05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "0579ef43101f97e53995eb4f6c21d694bc3cee222a9975b719d0a456dbcdff39"
+    }
+  },
+  {
+    "run_id": "brindisi_004__000+05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 864,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 263627,
+      "sha256": "6f6b0bc2c0420fdde04a0fcb520571552ec793df60a7fc0c342a7c4f7e772c2f"
+    },
+    "track": {
+      "path": "runs/brindisi_004__000+05__arrival_no_transition/track.gpx",
+      "bytes": 40857,
+      "sha256": "340ef9343a44fac3b162307f30df7f94549256ec3a17dc13aee60173f713a1f8"
+    },
+    "log": {
+      "path": "runs/brindisi_004__000+05__arrival_no_transition/run.log",
+      "bytes": 115688,
+      "sha256": "f90f0ed47f60cfc22898bcac21ecc7988fec8153094e901f5d67dae7c4d63660"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__000+05__arrival_no_transition/experiment.json",
+      "bytes": 651,
+      "sha256": "5eb86a2e22ed4a5051b98f3fbef0e6489da47a8799593fb1243e93aa19746177"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__000+05__arrival_no_transition/execution.json",
+      "bytes": 709,
+      "sha256": "ab57355ede9c21f6fbaa5fd740a4a1118b5fe94dba17a6342ed96e4c8b4c5ca0"
+    }
+  },
+  {
+    "run_id": "brindisi_004__090-05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 547,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 167425,
+      "sha256": "7d06479b9ac3bfb88cecdc5c6014f9385c531f6e3a5a72778f95573b143cbdad"
+    },
+    "track": {
+      "path": "runs/brindisi_004__090-05__arrival_no_transition/track.gpx",
+      "bytes": 25958,
+      "sha256": "fa0130b2721e7ae9e727f2cc1bd8598252f1de02bb0b1833ecf6b7cc67d4d4f3"
+    },
+    "log": {
+      "path": "runs/brindisi_004__090-05__arrival_no_transition/run.log",
+      "bytes": 73847,
+      "sha256": "11d5780687c8e1bf1fb278054a6dc75f44c4ee2ca5d40bf579a6be169c6ce159"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__090-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "2d2c080e83288160703e114f45f459f1cb6840fe8f1a8a3d6577a5f57d55eae0"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__090-05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "689a3707c76d2c1e90685b9fe5fd56768a0a58b287fae33fa2efeb00f6a7fca3"
+    }
+  },
+  {
+    "run_id": "brindisi_004__090+05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 628,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 191706,
+      "sha256": "b2340340fc4c5e3153aedd76ddbb0bdd4e08f0e6025c8708b6d762e58805e3ad"
+    },
+    "track": {
+      "path": "runs/brindisi_004__090+05__arrival_no_transition/track.gpx",
+      "bytes": 29765,
+      "sha256": "ee2b824210e4cb760fb42382a3197a0beb44000e7406a1949497c7b0cf0f52ef"
+    },
+    "log": {
+      "path": "runs/brindisi_004__090+05__arrival_no_transition/run.log",
+      "bytes": 84538,
+      "sha256": "77eb09635119270183102051482df8fdb40724a00009acfcd465020cb97acdd0"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__090+05__arrival_no_transition/experiment.json",
+      "bytes": 653,
+      "sha256": "1f29dcdb29492e31c4a3f13f8dc1e0f27bbd334f259e5e7c84124c7fda544d12"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__090+05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "e1662e893ee63e9f3cc44f38475f285cb4c727b5f98388620c9ccbadaf87cf82"
+    }
+  },
+  {
+    "run_id": "brindisi_004__180-05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 617,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 187303,
+      "sha256": "ed21be793f32177c7edc94a449ccc6f5f7a2c04f304b1c005926713ba7197b78"
+    },
+    "track": {
+      "path": "runs/brindisi_004__180-05__arrival_no_transition/track.gpx",
+      "bytes": 29248,
+      "sha256": "ebd394195c30eda740b22762d76712e1ff829be596e761a34354fbb85664dae7"
+    },
+    "log": {
+      "path": "runs/brindisi_004__180-05__arrival_no_transition/run.log",
+      "bytes": 83090,
+      "sha256": "5b15251b4ec469336ae52bee5d29f41e93c79b7c3ec8d6da5fbff4070bdbd63a"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__180-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "717dc88fef5412bd9a45fdb8f6c20c3089569c7178def1d2484a097dc8fcf5e8"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__180-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "64a0dd78f889addf9bd89b5721b7fc409d4249ad15e72d35064c5cfe6b2d2952"
+    }
+  },
+  {
+    "run_id": "brindisi_004__180+05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 660,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 200486,
+      "sha256": "e845b970a6e73c26ffd80fc1a006768cdf930fba5b48cc15b766ebdf3bed02ba"
+    },
+    "track": {
+      "path": "runs/brindisi_004__180+05__arrival_no_transition/track.gpx",
+      "bytes": 31269,
+      "sha256": "aa6d47c463ea45539ef72ec279507a0e50a190ccf120d86bfed94754bff4d854"
+    },
+    "log": {
+      "path": "runs/brindisi_004__180+05__arrival_no_transition/run.log",
+      "bytes": 88762,
+      "sha256": "bd9349407d88fb63f8592539eb08a8fbfbb3920e8b304ba097f4844583623ccf"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__180+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "2647fdc93754688aef6451918c3afe52223f01e8a90d41e2c6985ddf8d5678cf"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__180+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "eee31d7cc058f6a92f82901cf5143393372cbdf170cb660b77b7c88172d8d346"
+    }
+  },
+  {
+    "run_id": "brindisi_004__270-05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 602,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 183887,
+      "sha256": "2389ff07d8f2fbdc3fbdb925f0bb26a2e0a65dc9b71e504adfb2c36f0b9eec11"
+    },
+    "track": {
+      "path": "runs/brindisi_004__270-05__arrival_no_transition/track.gpx",
+      "bytes": 28543,
+      "sha256": "43781e5e171b5cbb0ffd0d68e52844e20178ed61495b948a0b04c7fb8a08dc15"
+    },
+    "log": {
+      "path": "runs/brindisi_004__270-05__arrival_no_transition/run.log",
+      "bytes": 81109,
+      "sha256": "34fa30eca2317ad34d1018b38289dd91b64f93b2647c5772fbc46742b31877e4"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__270-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "c741d57e536d7b2b1e02f92ca1e510d6af2b39f5adc5acfcbd33df811ed6817a"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__270-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "051845b9fa4f1a06ea28bab7e7eac165a8ff19e2f56a57f52b33554e5477ec1d"
+    }
+  },
+  {
+    "run_id": "brindisi_004__270+05__arrival_no_transition",
+    "route": "brindisi_004",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/opencpn_001_004_test.gpx",
+    "departure": "2026-10-01T13:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 616,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/brindisi_004__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 188582,
+      "sha256": "f33717f4639ecba55dc883424263914bb3332f069a03bf677b4d8d95bbcedca3"
+    },
+    "track": {
+      "path": "runs/brindisi_004__270+05__arrival_no_transition/track.gpx",
+      "bytes": 29201,
+      "sha256": "3079328d50ce4ce7aa165d986ce22f5a172685ef608330ab7d3d5bfc7a8ad9b0"
+    },
+    "log": {
+      "path": "runs/brindisi_004__270+05__arrival_no_transition/run.log",
+      "bytes": 82955,
+      "sha256": "18d053fb6db0b14ddd95bac418e1938cdfe4997c6e776cb24b3902fa2752b089"
+    },
+    "metadata": {
+      "path": "runs/brindisi_004__270+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "fe0a4e967b15c6161740849700f4abcec394e802a8b422cd82a2472b57dafcc8"
+    },
+    "execution": {
+      "path": "runs/brindisi_004__270+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "551e56215c091d66c1f3793b095eefdc8a11c01917a2b0bcd39b97e40a75467d"
+    }
+  },
+  {
+    "run_id": "costiera__000-05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 364995,
+      "sha256": "8964af4a5364c7b2ce5de058a0848bd049170256c2293615f61d558b6d23e2fd"
+    },
+    "track": {
+      "path": "runs/costiera__000-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "8086901ded1ab8ce6d511fb863a8bae1d2d84bfeb8e9f2d91c8aa3e207769a08"
+    },
+    "log": {
+      "path": "runs/costiera__000-05__arrival_no_transition/run.log",
+      "bytes": 160158,
+      "sha256": "307f814adf4164b1d39be9185ca5e7d8346d6b20e8c756d4dac3abd611b1949f"
+    },
+    "metadata": {
+      "path": "runs/costiera__000-05__arrival_no_transition/experiment.json",
+      "bytes": 634,
+      "sha256": "74dff442971d50a53a7fc2f5cb2a8831d413178ae824bf2b6de7b204bea5b98b"
+    },
+    "execution": {
+      "path": "runs/costiera__000-05__arrival_no_transition/execution.json",
+      "bytes": 691,
+      "sha256": "2e75ac3dc3a1573bfad7ed7f5fa9834db034b610ba382965dfd69c32e33e2564"
+    }
+  },
+  {
+    "run_id": "costiera__000+05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 360504,
+      "sha256": "209839d12f2020b162e2a09aac4cba0514a46967bddfc9c57a0d21762abe6091"
+    },
+    "track": {
+      "path": "runs/costiera__000+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "4d4bf7ca0f218b40c41c179de39c14fccac55b5e60a278e3929c29a75e64eb32"
+    },
+    "log": {
+      "path": "runs/costiera__000+05__arrival_no_transition/run.log",
+      "bytes": 160155,
+      "sha256": "02cb11bc39ebd642b6ef9e167f34b6524e214cb532ffe503914f051d3bce237f"
+    },
+    "metadata": {
+      "path": "runs/costiera__000+05__arrival_no_transition/experiment.json",
+      "bytes": 631,
+      "sha256": "4bf06c7707160cec368bd8a8a13e53d0c81b62fe578b1c8b3aea991718d9c9e3"
+    },
+    "execution": {
+      "path": "runs/costiera__000+05__arrival_no_transition/execution.json",
+      "bytes": 688,
+      "sha256": "ab3374b31f443f22ad40029572e8542ed0b3a6b3ac4940212a970a5de58ce66d"
+    }
+  },
+  {
+    "run_id": "costiera__090-05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 359638,
+      "sha256": "5033f9bfb193738cd52cf3d7d336e9d27e8a6f0a63472e05a62d91e7494a9941"
+    },
+    "track": {
+      "path": "runs/costiera__090-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "f04583135b9fc9d6258426f658069e8c223fb161959488f67e23b3027b74f0ff"
+    },
+    "log": {
+      "path": "runs/costiera__090-05__arrival_no_transition/run.log",
+      "bytes": 160157,
+      "sha256": "4932454530fad3ac3b8f42588f6c8c19e6a08be672080bd6669ca8bc67ef457c"
+    },
+    "metadata": {
+      "path": "runs/costiera__090-05__arrival_no_transition/experiment.json",
+      "bytes": 634,
+      "sha256": "184ad77a119f61899dfe194c1f51f1893dfe4aba6fe82438f0656b39a87bf370"
+    },
+    "execution": {
+      "path": "runs/costiera__090-05__arrival_no_transition/execution.json",
+      "bytes": 691,
+      "sha256": "b2b79b286a8942b9e22747a786da436e9c994578011064b31e1107facdd31cd2"
+    }
+  },
+  {
+    "run_id": "costiera__090+05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 358239,
+      "sha256": "a5b70441d2d504cacfef948ad724810905a5c3be444de095e92f7ca37a6fdfcb"
+    },
+    "track": {
+      "path": "runs/costiera__090+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "3d7df21c148525ec21086f6b52179ff9e7cc9b5b88ba5ba052403966a279359f"
+    },
+    "log": {
+      "path": "runs/costiera__090+05__arrival_no_transition/run.log",
+      "bytes": 160156,
+      "sha256": "a41c0f89da2bb990ec266a481437ce43a059c432db11e098eb6db3cf78c59a26"
+    },
+    "metadata": {
+      "path": "runs/costiera__090+05__arrival_no_transition/experiment.json",
+      "bytes": 633,
+      "sha256": "d0cf6e2a9823f827dd2505a4d84112fa566abf9388bd22ace228d33e0fd214df"
+    },
+    "execution": {
+      "path": "runs/costiera__090+05__arrival_no_transition/execution.json",
+      "bytes": 690,
+      "sha256": "bc5fe862d30e64c14cd59962d500d0b1bbda7dde101669e5eb88a4497c08b590"
+    }
+  },
+  {
+    "run_id": "costiera__180-05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 366844,
+      "sha256": "059ac90bc807f3928219c417f7b6168bf3dd76e635a7b8a477241161122f18a1"
+    },
+    "track": {
+      "path": "runs/costiera__180-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "79561b6b4ad3ecbf6b8d0b602735b4d7132266d725075c9f86613835d4d8d99d"
+    },
+    "log": {
+      "path": "runs/costiera__180-05__arrival_no_transition/run.log",
+      "bytes": 160160,
+      "sha256": "e613b5aea8aa0c044cb0608a479465f1375f97799fd8220e34ff1210a22839e0"
+    },
+    "metadata": {
+      "path": "runs/costiera__180-05__arrival_no_transition/experiment.json",
+      "bytes": 636,
+      "sha256": "a2c36b55b747598ccfa4ae4a4041da8909507c7c9c2d2e9babe562f69c921705"
+    },
+    "execution": {
+      "path": "runs/costiera__180-05__arrival_no_transition/execution.json",
+      "bytes": 693,
+      "sha256": "f481bc58950ee24c9369dd86068b541d80585a666e60c634477b49d8cd3543d4"
+    }
+  },
+  {
+    "run_id": "costiera__180+05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 365172,
+      "sha256": "c0e057112edcfec22df8d52aa6a2b9b2eed16160bfbe2bc7148665b553e0ae96"
+    },
+    "track": {
+      "path": "runs/costiera__180+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "bfaf7b32751366f31a28199e2fb4befcdd4ebd3cc275802ecba90de683ae8456"
+    },
+    "log": {
+      "path": "runs/costiera__180+05__arrival_no_transition/run.log",
+      "bytes": 160158,
+      "sha256": "4074605fcedd2fe409437dc3d506b6eca283572ce5ce3e667eae16a3400768c4"
+    },
+    "metadata": {
+      "path": "runs/costiera__180+05__arrival_no_transition/experiment.json",
+      "bytes": 635,
+      "sha256": "c88b97d483e51d207fcb183ef4934fa6dadaa9ef27bcc4b08c2d52fb5f2d0a7a"
+    },
+    "execution": {
+      "path": "runs/costiera__180+05__arrival_no_transition/execution.json",
+      "bytes": 693,
+      "sha256": "f010d2e2a9f093f3f17a4b795dd3e20b85b0194df0b1607c5131a8ae8ad7e8d1"
+    }
+  },
+  {
+    "run_id": "costiera__270-05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 361318,
+      "sha256": "12b16ae84c73f6d8fe8827cfb68dd16ed861950cb46b8fcaef83cc3e0b05baf8"
+    },
+    "track": {
+      "path": "runs/costiera__270-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "51161149e8313cf878e834b9bb8bedbfbecca01977ea5f1af9dc66b23e185367"
+    },
+    "log": {
+      "path": "runs/costiera__270-05__arrival_no_transition/run.log",
+      "bytes": 160159,
+      "sha256": "1aca27803b404dcafa2ab39815a18ce8dd0113952745b7170831af2f30e3d6c9"
+    },
+    "metadata": {
+      "path": "runs/costiera__270-05__arrival_no_transition/experiment.json",
+      "bytes": 636,
+      "sha256": "a68716d7c6ae39fc7fbf814dbcb7440f9fb0df5cd603657e06faf0e4af2b621c"
+    },
+    "execution": {
+      "path": "runs/costiera__270-05__arrival_no_transition/execution.json",
+      "bytes": 693,
+      "sha256": "73557f97c92cfc6be0d97fc2a6d9b46e3b812d33c486cb6276fe210aaa29afec"
+    }
+  },
+  {
+    "run_id": "costiera__270+05__arrival_no_transition",
+    "route": "costiera",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/costiera.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/costiera__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 358605,
+      "sha256": "5fbc3f3a714561c68c1de61484b6a9654610629fb85c014ae017d4e585989485"
+    },
+    "track": {
+      "path": "runs/costiera__270+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "5c2193731596429bfe470a7d78da2ddc50c5a5ae7d481c23d30f161bf67512a7"
+    },
+    "log": {
+      "path": "runs/costiera__270+05__arrival_no_transition/run.log",
+      "bytes": 160158,
+      "sha256": "a550395bb97794539349047fc22e800275c6cf23461943db64f09e3e1c5b03e3"
+    },
+    "metadata": {
+      "path": "runs/costiera__270+05__arrival_no_transition/experiment.json",
+      "bytes": 635,
+      "sha256": "aaaf4d7295ffbedd6e0cda70f57eaabdb6a496f7ce43abb45a1d3df3311c6bf3"
+    },
+    "execution": {
+      "path": "runs/costiera__270+05__arrival_no_transition/execution.json",
+      "bytes": 692,
+      "sha256": "11bd41efa5e4d638a4ce65b43d664adf50aca63029c3be256e9615ed705b7426"
+    }
+  },
+  {
+    "run_id": "otranto_gate__000-05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 375671,
+      "sha256": "f3043f70c1dcf419da00146a9bc6930628b8b4da73419a7d872ac79b678e0482"
+    },
+    "track": {
+      "path": "runs/otranto_gate__000-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "ad2fd2ddf00638220040bc00ad586a54b38a7fb2a8af899d9d71138e33b72329"
+    },
+    "log": {
+      "path": "runs/otranto_gate__000-05__arrival_no_transition/run.log",
+      "bytes": 159724,
+      "sha256": "4b25b20d1a6a3cbb66d34b39d032ae6d5e6211b9a1d8c230ae7ba1a4d8ecd5b5"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__000-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "1643d7cce6b43bf6ef6d35b08dc37afa9e70a51f733bca9d57acc4d12f3b23ec"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__000-05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "795aa6301444179279c8674800b5fd9064853469eade4f879569293b2c3e5b3b"
+    }
+  },
+  {
+    "run_id": "otranto_gate__000+05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 372319,
+      "sha256": "d677e95ed578a61fa509747bf9d5a98c08596549e05d1fec4914fcebabd795a6"
+    },
+    "track": {
+      "path": "runs/otranto_gate__000+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "d21fc93990fae7581723137977fafe62624df18381d4d28411eca204585614ea"
+    },
+    "log": {
+      "path": "runs/otranto_gate__000+05__arrival_no_transition/run.log",
+      "bytes": 159722,
+      "sha256": "bfa60c7930299b741194ddb5f79b025d38e65d92c5f35e317072ff14b6c1c014"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__000+05__arrival_no_transition/experiment.json",
+      "bytes": 651,
+      "sha256": "0169c1dfd4f4cb2b74f37a42c5cad03d887cf67d17436b1b93bee0f8acfebf26"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__000+05__arrival_no_transition/execution.json",
+      "bytes": 708,
+      "sha256": "e8982121fb3a73586b137868b36b2dacdd8aa51d27e1c33e3d7a0936bdd4f3b1"
+    }
+  },
+  {
+    "run_id": "otranto_gate__090-05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 174,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 55451,
+      "sha256": "355083024ec33bef0f10715d6771cdf134873b91af5b9a1c1a5253d5edd2b540"
+    },
+    "track": {
+      "path": "runs/otranto_gate__090-05__arrival_no_transition/track.gpx",
+      "bytes": 8427,
+      "sha256": "2001d804a0b41cc501916f6e545263f0186fe94d28f5b41c87eca1bb726162f0"
+    },
+    "log": {
+      "path": "runs/otranto_gate__090-05__arrival_no_transition/run.log",
+      "bytes": 24333,
+      "sha256": "b47e4e6f9c05671711d79b7b71043e16ac5267833320bf02fd81ca5da85f896e"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__090-05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "28231c388a89a33bc468f6b20c0423b81dfc154cd412e1367161773df383bdda"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__090-05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "4b2ac4066a17ca621f0ac0cfc1c2f22418954dfef356ca48f942e0914c508b71"
+    }
+  },
+  {
+    "run_id": "otranto_gate__090+05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 164,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 51407,
+      "sha256": "b03f66927e3e0dbed9dba80b4cd9a3ffbe6c22a00f10163dab874edd27002613"
+    },
+    "track": {
+      "path": "runs/otranto_gate__090+05__arrival_no_transition/track.gpx",
+      "bytes": 7957,
+      "sha256": "2096ce1e7b688c8ad7711c7d7375210cbf41aa6dfffee8a41ff18d47dda0425c"
+    },
+    "log": {
+      "path": "runs/otranto_gate__090+05__arrival_no_transition/run.log",
+      "bytes": 23012,
+      "sha256": "bb64f588a49ab12445ac1c1148b276dfc28d56637132e3e3c3d70231ef4205d8"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__090+05__arrival_no_transition/experiment.json",
+      "bytes": 653,
+      "sha256": "ea3f688381bb7bc8945cb75597da28e2e2b4f366b96eeaa2759337c08ea94ceb"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__090+05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "bcb543e286a32db774527b39719f82a43b840555621365e4f8ab9b3c07f24cc8"
+    }
+  },
+  {
+    "run_id": "otranto_gate__180-05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 582,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 183332,
+      "sha256": "6925842eec32ed3c378f109797b0bbb36e8189cd0652eff089ffb6406af489b7"
+    },
+    "track": {
+      "path": "runs/otranto_gate__180-05__arrival_no_transition/track.gpx",
+      "bytes": 27603,
+      "sha256": "7c11aa2d780959f8b55b7cfd0fd6e7245a97f76edfc8371d8fc44d44f747bb2f"
+    },
+    "log": {
+      "path": "runs/otranto_gate__180-05__arrival_no_transition/run.log",
+      "bytes": 78191,
+      "sha256": "399e464542dc79f5c84914b997d9d28c81b62663014524388016183e11b90865"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__180-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "cea80a677f332a10e8be0bae4bab9d029c9229ae3d864c10f59d35e88c4e7209"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__180-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "e8a939743f015c095a0c6fda45a1203dea27816d4ceb8de7cc27ed148021f912"
+    }
+  },
+  {
+    "run_id": "otranto_gate__180+05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 446,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 139243,
+      "sha256": "6d686b618494128a261ada1f362edaf1042fa5466a836bef0afec957e4e98b2b"
+    },
+    "track": {
+      "path": "runs/otranto_gate__180+05__arrival_no_transition/track.gpx",
+      "bytes": 21211,
+      "sha256": "03a996a5eb015607ee7f16cdd48ac751ccb9ffb261495a1f0556a71f5a024154"
+    },
+    "log": {
+      "path": "runs/otranto_gate__180+05__arrival_no_transition/run.log",
+      "bytes": 60236,
+      "sha256": "fe36fe6e06ceafb5da103382ac75a17c8ae874a7daed5b37f55a39226c44095a"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__180+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "e88254ec3bf2909649cd2f5e9d9526a5c89d9a0c3de568a55894fe2f0587e679"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__180+05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "c68133c4062dd898cb7bc38840fc0e971984444fbb107584bed0f1ba36de0487"
+    }
+  },
+  {
+    "run_id": "otranto_gate__270-05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 221,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 68918,
+      "sha256": "3a5525a9e9aa63622430464eebb28c845fe43764eb184ff35e895991e5753014"
+    },
+    "track": {
+      "path": "runs/otranto_gate__270-05__arrival_no_transition/track.gpx",
+      "bytes": 10636,
+      "sha256": "086b334d2b2c69dc183d40cdfa36ec21e445f01e9afd04446fac9815fcb5e12b"
+    },
+    "log": {
+      "path": "runs/otranto_gate__270-05__arrival_no_transition/run.log",
+      "bytes": 30537,
+      "sha256": "ab6c6ba00b89dc5e26eb9ec75001cee0d836c0b7d631e3dce76d9b8295e0571a"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__270-05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "4bb612f79be6bb1bb475fb024e4bad177fe6965237c29ba29ebca70351772f94"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__270-05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "16634114541ac39ea674a1191f9b51e43676d9526732371c8e044a31abab798d"
+    }
+  },
+  {
+    "run_id": "otranto_gate__270+05__arrival_no_transition",
+    "route": "otranto_gate",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_001_002_test.gpx",
+    "departure": "2026-09-30T03:00:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 180,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_gate__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 55925,
+      "sha256": "4eb8b874f711e71377da782fe9b08942e84cb680805bc28b93e0eecc411bf13d"
+    },
+    "track": {
+      "path": "runs/otranto_gate__270+05__arrival_no_transition/track.gpx",
+      "bytes": 8709,
+      "sha256": "dfe8ec36eb4a67fb96043e52dea477349e2faa6ecc297a9a1be74613c9894879"
+    },
+    "log": {
+      "path": "runs/otranto_gate__270+05__arrival_no_transition/run.log",
+      "bytes": 25124,
+      "sha256": "189ec9d0412bd516b8c6be9b5d18adf03f1002fc7829e766391137034f4f50b6"
+    },
+    "metadata": {
+      "path": "runs/otranto_gate__270+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "1477f9f9c39bcac881d7411ce6ce14ed7ca250db1f65c07baded2a3b9a7eeb5a"
+    },
+    "execution": {
+      "path": "runs/otranto_gate__270+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "d83df1b72868d5e38312ef86cc1462af9f718066917aa832b310884ce8903f22"
+    }
+  },
+  {
+    "run_id": "otranto_003__000-05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 373879,
+      "sha256": "14d24e961c7c0a00a67a85ad75a9731d5bd0540059c7b765f99d2de8321dfb2a"
+    },
+    "track": {
+      "path": "runs/otranto_003__000-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "64f74b2a9033ed540692b0b70aa9f2d44f0500f2beb431040fbe415703ef51e7"
+    },
+    "log": {
+      "path": "runs/otranto_003__000-05__arrival_no_transition/run.log",
+      "bytes": 159742,
+      "sha256": "a689315c8e3c93f9bf0df70f29b7dd7a10f740f82ba30a8a7c7e0e6064ea383a"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__000-05__arrival_no_transition/experiment.json",
+      "bytes": 658,
+      "sha256": "af2a3f6cc052787dcca623498eec312a42aaf8e68e4c171eb8925c110a54f336"
+    },
+    "execution": {
+      "path": "runs/otranto_003__000-05__arrival_no_transition/execution.json",
+      "bytes": 715,
+      "sha256": "1fd7abe77f297d939c711dbe8366fb2cf9c5a44a93dfd00f7f3f450e36a9357b"
+    }
+  },
+  {
+    "run_id": "otranto_003__000+05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 738,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 229356,
+      "sha256": "310c561a07840aa494ed0c1a314262213c86c813365518d9ed63babb07bbed80"
+    },
+    "track": {
+      "path": "runs/otranto_003__000+05__arrival_no_transition/track.gpx",
+      "bytes": 34935,
+      "sha256": "66f7823a0c3e00326c168a217eb9fa637d81af7e3e21d52eda3a39bcf9e1be8e"
+    },
+    "log": {
+      "path": "runs/otranto_003__000+05__arrival_no_transition/run.log",
+      "bytes": 98925,
+      "sha256": "fbc6ee55cfadd6f56983e2ea1d5188a5d0d84716bbcb780166b18304b508c3cd"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__000+05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "10ff23aeb1965bf782ec7ce998cd0d278a7632a064660587a99c26939b901086"
+    },
+    "execution": {
+      "path": "runs/otranto_003__000+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "c640b5af5685ca632a0d2633b9ac5d83d10b0ce8a6d167ee0cc5558d0953bcaa"
+    }
+  },
+  {
+    "run_id": "otranto_003__090-05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 419,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 131279,
+      "sha256": "dd23847e4906181b8ef2985893e30657bfa1330c53b723659bdd1cd0316f689f"
+    },
+    "track": {
+      "path": "runs/otranto_003__090-05__arrival_no_transition/track.gpx",
+      "bytes": 19942,
+      "sha256": "f03d60247bb8f7d812809e9eeb5fd245f624599abdefb9ccacf350440271d87f"
+    },
+    "log": {
+      "path": "runs/otranto_003__090-05__arrival_no_transition/run.log",
+      "bytes": 56825,
+      "sha256": "515bafd729add3b0d88897de890405ca10c8cdaa2d88d4455f88105a389f65f2"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__090-05__arrival_no_transition/experiment.json",
+      "bytes": 658,
+      "sha256": "5f80e08a588f61fadcd59f092c22710209dc2e1e5f5c69a24a6f051e826b50ce"
+    },
+    "execution": {
+      "path": "runs/otranto_003__090-05__arrival_no_transition/execution.json",
+      "bytes": 716,
+      "sha256": "d0662b5af487ccf30698fd33c091f30d77704dde495803572935e272a5e6f188"
+    }
+  },
+  {
+    "run_id": "otranto_003__090+05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 404,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 125513,
+      "sha256": "2a77d4b50856ccbbd247040e66d525348fd84e7490de5fcbbc37d2199aa48976"
+    },
+    "track": {
+      "path": "runs/otranto_003__090+05__arrival_no_transition/track.gpx",
+      "bytes": 19237,
+      "sha256": "3fa73c1b6627004171456bc7f9c764f1032dc495ba2c75f5e1cbc7971dcd1f12"
+    },
+    "log": {
+      "path": "runs/otranto_003__090+05__arrival_no_transition/run.log",
+      "bytes": 54839,
+      "sha256": "ff17a9bdcdc22f88cc76ba273f5b5d8c1e4221b977c7339e8a6edb7a53965b98"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__090+05__arrival_no_transition/experiment.json",
+      "bytes": 657,
+      "sha256": "a821e5e394c8435de4ec577d99995f42606f7ceaf34b22975d8fdda3d02bbb6e"
+    },
+    "execution": {
+      "path": "runs/otranto_003__090+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "2181c17ae6c247f1ddb7f1bfcea3db2fede6c8e4c6b1935589430a275d6f1bb8"
+    }
+  },
+  {
+    "run_id": "otranto_003__180-05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1032,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 328024,
+      "sha256": "1dcee680ec84dabf8c651ac700547183572effd2815b20a417fdf0b9a7480ed5"
+    },
+    "track": {
+      "path": "runs/otranto_003__180-05__arrival_no_transition/track.gpx",
+      "bytes": 48753,
+      "sha256": "6c0de898939dd6fe342de803cb9bfae85677b21847940939e812aef9cd46ea94"
+    },
+    "log": {
+      "path": "runs/otranto_003__180-05__arrival_no_transition/run.log",
+      "bytes": 137746,
+      "sha256": "39a9d1c3e6afc2a8b002be538c866a5e5408bf9d7e7249b807858b11926f25ec"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__180-05__arrival_no_transition/experiment.json",
+      "bytes": 660,
+      "sha256": "c24f8c26c7e48bb73ba65d2829b537d59c8dbd7b21b29fbe3d3ba926e1430e87"
+    },
+    "execution": {
+      "path": "runs/otranto_003__180-05__arrival_no_transition/execution.json",
+      "bytes": 718,
+      "sha256": "2700d18e90aa09a181747e95f3cc3889c401818e0d4d92f4dd1b838cdd559df0"
+    }
+  },
+  {
+    "run_id": "otranto_003__180+05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 729,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 229611,
+      "sha256": "7dbaafc135eb15d3a1b1a7e6c1f76af50f520ff670f890d30e15d13b8dd2d5b2"
+    },
+    "track": {
+      "path": "runs/otranto_003__180+05__arrival_no_transition/track.gpx",
+      "bytes": 34512,
+      "sha256": "325397045e4a9a818c16f1c02050adf3c37bffab69bd93103ba44cce982f5636"
+    },
+    "log": {
+      "path": "runs/otranto_003__180+05__arrival_no_transition/run.log",
+      "bytes": 97746,
+      "sha256": "dee5b3b0ed39bd43b8b7a0af709370439b323e49587ad7c34ba9c58da53f567e"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__180+05__arrival_no_transition/experiment.json",
+      "bytes": 659,
+      "sha256": "236f05a58985f6c95949c843ce1300ef752f596897488dda45ee2dbbc9babcb7"
+    },
+    "execution": {
+      "path": "runs/otranto_003__180+05__arrival_no_transition/execution.json",
+      "bytes": 717,
+      "sha256": "8fea00e10f2828ab5864a06cd45312819eaecb736bbffa89b34a5951d2737971"
+    }
+  },
+  {
+    "run_id": "otranto_003__270-05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 461,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 145827,
+      "sha256": "cac8f1cd05e15255699f3880d0d7c12eaf8611988d92640f905faba510d93b50"
+    },
+    "track": {
+      "path": "runs/otranto_003__270-05__arrival_no_transition/track.gpx",
+      "bytes": 21916,
+      "sha256": "e35c33beebb1ec93c74f0c7f1b12b5f53db85da1ea2b2110b64d3da209165c32"
+    },
+    "log": {
+      "path": "runs/otranto_003__270-05__arrival_no_transition/run.log",
+      "bytes": 62370,
+      "sha256": "c864d20a3b2242880273b950220dca0ab982dddc63d23ffa37db984838a02e89"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__270-05__arrival_no_transition/experiment.json",
+      "bytes": 660,
+      "sha256": "3093f182a433a37effa6ff07769231f6e70440dbcee19eade3d8782418e539a4"
+    },
+    "execution": {
+      "path": "runs/otranto_003__270-05__arrival_no_transition/execution.json",
+      "bytes": 718,
+      "sha256": "98728074973f310ffe673412fde3d9daad593cca00cc8ab7ab7442b7c2be1df5"
+    }
+  },
+  {
+    "run_id": "otranto_003__270+05__arrival_no_transition",
+    "route": "otranto_003",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_001_003_loop.gpx",
+    "departure": "2026-09-30T02:40:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 423,
+    "mission_status": "completed",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_003__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 131250,
+      "sha256": "eebda39f9a809bd3d1e0d2f2b97221fb2648bb0dd2f7e067a6f910444d6b8e8f"
+    },
+    "track": {
+      "path": "runs/otranto_003__270+05__arrival_no_transition/track.gpx",
+      "bytes": 20130,
+      "sha256": "da444fdf72225cdd554a27af077659ac1d4847536477511983412b38442af55a"
+    },
+    "log": {
+      "path": "runs/otranto_003__270+05__arrival_no_transition/run.log",
+      "bytes": 57349,
+      "sha256": "2b06ab7792487c9a4d30ac53e538fd71800b38d1bb7b6bf926bbdd7785087912"
+    },
+    "metadata": {
+      "path": "runs/otranto_003__270+05__arrival_no_transition/experiment.json",
+      "bytes": 659,
+      "sha256": "53fe0f71bb3988e62f9c8647da09032532bb5071c5d6fb9fb71c8d8c54affd89"
+    },
+    "execution": {
+      "path": "runs/otranto_003__270+05__arrival_no_transition/execution.json",
+      "bytes": 717,
+      "sha256": "023f217623f0f6080b715600ad45ef750087731e25271315a229e8ce7bcc8c6e"
+    }
+  },
+  {
+    "run_id": "otranto_005__000-05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 370990,
+      "sha256": "19066acc818e343d94e0153b8925e7a58000fc66135952d16b30be4e29aa48d9"
+    },
+    "track": {
+      "path": "runs/otranto_005__000-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "64dff4a14dc9bf24557c5436ead86172e8e76b1f1f0f22abc05168ce6a29aa48"
+    },
+    "log": {
+      "path": "runs/otranto_005__000-05__arrival_no_transition/run.log",
+      "bytes": 159743,
+      "sha256": "fa2b60ec452ec3d49f1f446e0395a171a2a42eee09c315c74771b1da8e14e4af"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__000-05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "9125de7358a769b3b657a39fad3803cc820735fd9e1498bf4af37ebd9aac2b1c"
+    },
+    "execution": {
+      "path": "runs/otranto_005__000-05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "5bc8a004a5848693d2edeab12163bf6340571ef743f07a187bba13a2f877972a"
+    }
+  },
+  {
+    "run_id": "otranto_005__000+05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 371833,
+      "sha256": "a7ba693888f0dfaf9e220a1c97c497db7b1a0200e219bc01da20b2fb7342cde5"
+    },
+    "track": {
+      "path": "runs/otranto_005__000+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "b42810bbf1725b8cd6ae14b3a03bffe2708b64d7bf68d6ca91359ead1001ede7"
+    },
+    "log": {
+      "path": "runs/otranto_005__000+05__arrival_no_transition/run.log",
+      "bytes": 159740,
+      "sha256": "a29f956a3a72a0b6913ac2f0477cf94520e3f962573fd84595dcd1eff5a0e824"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__000+05__arrival_no_transition/experiment.json",
+      "bytes": 652,
+      "sha256": "9d4d5728d1e9a29aa208401b5d6aa21fe148efdd7bfa43fda309a862b1411fae"
+    },
+    "execution": {
+      "path": "runs/otranto_005__000+05__arrival_no_transition/execution.json",
+      "bytes": 710,
+      "sha256": "fad1e751db4b5233d00b447f885b187d7a7ed620ce2334e39461a5eae4b52eea"
+    }
+  },
+  {
+    "run_id": "otranto_005__090-05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 374743,
+      "sha256": "a832869cf716d42bbb9c9f38561465a875b460c73dbc6f7406b39977d7225bcb"
+    },
+    "track": {
+      "path": "runs/otranto_005__090-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "dee9f565ecf2270d2dae6f599937053827710ee967e1a1fcb68f064ca95c172e"
+    },
+    "log": {
+      "path": "runs/otranto_005__090-05__arrival_no_transition/run.log",
+      "bytes": 159743,
+      "sha256": "be74b1c7d79501f11e916bc409535d3469c91754b104752b864c126c28f13167"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__090-05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "df867ec82f8f5f7a9f35e94048366a37ee3b7aa7e7d788d449a1096b83d3d520"
+    },
+    "execution": {
+      "path": "runs/otranto_005__090-05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "940db9b29d6920cf180e73c5ebb8a87f3962ea2346e98dfe04e78fbd341e6341"
+    }
+  },
+  {
+    "run_id": "otranto_005__090+05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 382892,
+      "sha256": "aa3560e55c1bbf4b4b8f28f3ccf8f651c7f10e82be847fe3b6d660f0ddc258bf"
+    },
+    "track": {
+      "path": "runs/otranto_005__090+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "0b54577e44b258796a18fa3048cb656dec61bfcaf5dc4c6dca8e449f092de5aa"
+    },
+    "log": {
+      "path": "runs/otranto_005__090+05__arrival_no_transition/run.log",
+      "bytes": 159741,
+      "sha256": "25d46888464d676b988bea5c9c46705aa8dce5db54b85bbabc00060fc08922d5"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__090+05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "24ca8ed6af84bb53b33623ec792c198cd8fd12305a99b77ee6ca4c7f2f3d9180"
+    },
+    "execution": {
+      "path": "runs/otranto_005__090+05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "a70fa0550d15704e417cb1b88b4217d658a32159d6bb7a46c34c93c8fa244d1f"
+    }
+  },
+  {
+    "run_id": "otranto_005__180-05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 374710,
+      "sha256": "0866a7b32221a3dd2b2ef914a5d5da08f07a2d9fe683a9281ed2f2f4af2d2b38"
+    },
+    "track": {
+      "path": "runs/otranto_005__180-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "526d21bef09f86487dc4e2d079b7bacd8f0785286d2494982bbab2bcf4564bf8"
+    },
+    "log": {
+      "path": "runs/otranto_005__180-05__arrival_no_transition/run.log",
+      "bytes": 159745,
+      "sha256": "6c8c4e7770d642194dde812416df198ea61defd3ff9924e4657d55a2a23cfe1a"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__180-05__arrival_no_transition/experiment.json",
+      "bytes": 657,
+      "sha256": "42902853345a2c64a2d2869d894811c367ab981937cc8434955682c93f044459"
+    },
+    "execution": {
+      "path": "runs/otranto_005__180-05__arrival_no_transition/execution.json",
+      "bytes": 714,
+      "sha256": "f9ef4d713cacd793c571c1f087ecfb6fc0b3b9039747316049f4fed70e63771b"
+    }
+  },
+  {
+    "run_id": "otranto_005__180+05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 374837,
+      "sha256": "6d4724eb8e045dbcf9b4f97d45d7c771f611643fc3ee81fb73ed168c88946dea"
+    },
+    "track": {
+      "path": "runs/otranto_005__180+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "cc46f0c847b26eb6d7367314af69adaaf7c073e540b80f0a5e34754359e56c00"
+    },
+    "log": {
+      "path": "runs/otranto_005__180+05__arrival_no_transition/run.log",
+      "bytes": 159743,
+      "sha256": "c1245279bf771035a342fd0d4836277dd34aa6b1eb9dc2fdf698bfc297160f52"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__180+05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "26267317183a68e09c70e3fc8d43aa6ac2d57dd6c6cb20cdd094ec204268154a"
+    },
+    "execution": {
+      "path": "runs/otranto_005__180+05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "a4ba2a0525473bcbac36efddeba832be31a31e9a7a32b16b287f21cb7502bd30"
+    }
+  },
+  {
+    "run_id": "otranto_005__270-05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 370975,
+      "sha256": "76df32789b99b97a30107be96b55201e524792e30cc7e23239dedda3ebd35ccb"
+    },
+    "track": {
+      "path": "runs/otranto_005__270-05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "a1658c9e374dd3ffecf831d7e42663999e6dd8cd53a4c904807b7d91801d16e2"
+    },
+    "log": {
+      "path": "runs/otranto_005__270-05__arrival_no_transition/run.log",
+      "bytes": 160008,
+      "sha256": "347f193014c60bdabf5ccc3b63b231fb7c21fa38f5d362cd3342f1ec8feb5c99"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__270-05__arrival_no_transition/experiment.json",
+      "bytes": 657,
+      "sha256": "68ebf24647add92b8b2f504c346f9cc64e88c9e03697443e47464164bf37a77a"
+    },
+    "execution": {
+      "path": "runs/otranto_005__270-05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "01587e8c06ca38573d41d72c1478eb4595c06788d88dd6591bc20e4c12ef7342"
+    }
+  },
+  {
+    "run_id": "otranto_005__270+05__arrival_no_transition",
+    "route": "otranto_005",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 6000.0,
+    "radius_m": 50.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/otranto_short_test_loop.gpx",
+    "departure": "2026-09-30T23:50:00Z",
+    "scope": "full_route",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 1201,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/otranto_005__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 369498,
+      "sha256": "304c2000d02887572a24093547ac921feda0c969d1f54b85cd43eba93540c7dd"
+    },
+    "track": {
+      "path": "runs/otranto_005__270+05__arrival_no_transition/track.gpx",
+      "bytes": 56696,
+      "sha256": "2ca2c1a3defdc8e91cce3bf420a61d03d72262fc130251ce41e9053814e5ff5d"
+    },
+    "log": {
+      "path": "runs/otranto_005__270+05__arrival_no_transition/run.log",
+      "bytes": 159743,
+      "sha256": "181f917a265d33d727fd2849d5113bf84e64ce3a1dc0fd320b41660ba6336fb3"
+    },
+    "metadata": {
+      "path": "runs/otranto_005__270+05__arrival_no_transition/experiment.json",
+      "bytes": 656,
+      "sha256": "4fa1d88185c3c6c34dc6b148174b4655a9c67f84258f01fbc8b550de39362166"
+    },
+    "execution": {
+      "path": "runs/otranto_005__270+05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "52dacf5b08d058ba3e4d006723a1250600be28ceb59fc49894575827059dd35c"
+    }
+  },
+  {
+    "run_id": "naples__000-05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 654175,
+      "sha256": "dac580abc2154c74246548830b79ad9e9633400fa3db7979a322b80b8e1b2344"
+    },
+    "track": {
+      "path": "runs/naples__000-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "e0186e75a2169456612e518eb07512aa9a7d99b84bd85704b940bed7c363d03d"
+    },
+    "log": {
+      "path": "runs/naples__000-05__arrival_no_transition/run.log",
+      "bytes": 286417,
+      "sha256": "6c11921e207ed177efb05ac66bbd2607fed1c2a67a3316281e2f624d6d7e1830"
+    },
+    "metadata": {
+      "path": "runs/naples__000-05__arrival_no_transition/experiment.json",
+      "bytes": 653,
+      "sha256": "1f9a69bf7a077c42e1e6e06df60a86eedcafbc5221ce343fcf7130fb15dd7ceb"
+    },
+    "execution": {
+      "path": "runs/naples__000-05__arrival_no_transition/execution.json",
+      "bytes": 710,
+      "sha256": "d31ea7b14b4671d1f11ea2300a065ded2ca231a75e77dbfde7007861a0ce310c"
+    }
+  },
+  {
+    "run_id": "naples__000+05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 669663,
+      "sha256": "33185d53b567d9f7383c44215c8e15258e499cd2122ae7ad6b470bd8df059dd9"
+    },
+    "track": {
+      "path": "runs/naples__000+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "065443c37b7b12ce3982590a037d54f3b9fe066bd13537003664e97fe58af387"
+    },
+    "log": {
+      "path": "runs/naples__000+05__arrival_no_transition/run.log",
+      "bytes": 286415,
+      "sha256": "7fd1b1f4b13dadcd741d201b006b77e6abf7887acf3947de7f3b50e96e665ef8"
+    },
+    "metadata": {
+      "path": "runs/naples__000+05__arrival_no_transition/experiment.json",
+      "bytes": 650,
+      "sha256": "6186e221ccde1ca966594165c163e2bff2771f3d51d5ddfa9707a0935afd50b7"
+    },
+    "execution": {
+      "path": "runs/naples__000+05__arrival_no_transition/execution.json",
+      "bytes": 707,
+      "sha256": "0ec0fadb9bd49979b153ba5a30ebec5bab539c3546776e42e84c186c85a780d8"
+    }
+  },
+  {
+    "run_id": "naples__090-05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 671410,
+      "sha256": "2b69e204e21cc44cf15101c53b483124a2d4e021651e8c71e8521b0cd9a375ba"
+    },
+    "track": {
+      "path": "runs/naples__090-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "e3e32444dd4c1442c302bf7b202b0693010b87cf78eec9e6488c6834a11a188e"
+    },
+    "log": {
+      "path": "runs/naples__090-05__arrival_no_transition/run.log",
+      "bytes": 286550,
+      "sha256": "155144c8ca6048d227769878dc244611a9aca3c3fce736d6b9205842604fd7cc"
+    },
+    "metadata": {
+      "path": "runs/naples__090-05__arrival_no_transition/experiment.json",
+      "bytes": 653,
+      "sha256": "0e9397764b5c87a83109d9e6d4145b03ee8b4d737f251c38633c0449d3e65904"
+    },
+    "execution": {
+      "path": "runs/naples__090-05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "de45686884d137b17daa676601ad0e04637f20ffc0febea0b3ae60b98571ec56"
+    }
+  },
+  {
+    "run_id": "naples__090+05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 691949,
+      "sha256": "97e38ad690b20f4e8c3d57c4a137398b5400a2f5d2f526532678897af7417eba"
+    },
+    "track": {
+      "path": "runs/naples__090+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "ecd44cf5232474ce2c84b1ee32efb8d5e130630a2eabfcc218d87edb30259941"
+    },
+    "log": {
+      "path": "runs/naples__090+05__arrival_no_transition/run.log",
+      "bytes": 286416,
+      "sha256": "43b65cb53a217f5c78f38f117fd30e7d1d2102501d86618d7ada2c5b5297d345"
+    },
+    "metadata": {
+      "path": "runs/naples__090+05__arrival_no_transition/experiment.json",
+      "bytes": 652,
+      "sha256": "788f15a000eb23d00116f5168f9ca209e9fccdddefc22bda44fbe9b9c31f5b05"
+    },
+    "execution": {
+      "path": "runs/naples__090+05__arrival_no_transition/execution.json",
+      "bytes": 710,
+      "sha256": "03562ec4ae2c09d04437fbf2bb1477afac7a22c09a1255f85f720d594d1a2a04"
+    }
+  },
+  {
+    "run_id": "naples__180-05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 691946,
+      "sha256": "7c628530f03d1aa8ce1afc5af92e7271b235e06f1ac0d9a7a9b5b511efe56b4f"
+    },
+    "track": {
+      "path": "runs/naples__180-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "c3b0a61e336f0725a2b90f864c0fc21ad3e8812d3c24c729bd1077d651a954a7"
+    },
+    "log": {
+      "path": "runs/naples__180-05__arrival_no_transition/run.log",
+      "bytes": 286418,
+      "sha256": "5f0915a3c81256a0e6f28211e3621f013b3a29345f28d86c87597bcd804bf8f4"
+    },
+    "metadata": {
+      "path": "runs/naples__180-05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "25832da6bf9b01a11e429121c3cf25c65fa5a8116f213dc0769dabed83c69cc6"
+    },
+    "execution": {
+      "path": "runs/naples__180-05__arrival_no_transition/execution.json",
+      "bytes": 713,
+      "sha256": "9837941792f409cee02968340935e1cafad9bc0ebab1ee481b475491c8d0d66c"
+    }
+  },
+  {
+    "run_id": "naples__180+05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 670833,
+      "sha256": "8bcaee162b733d2c5637839580dcbb58c44f6b9ecfec1e6bcd9fb14a67966454"
+    },
+    "track": {
+      "path": "runs/naples__180+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "fd326c8e4279c459b882a69623b9d3008ffb25a65078426e0917da55aa562479"
+    },
+    "log": {
+      "path": "runs/naples__180+05__arrival_no_transition/run.log",
+      "bytes": 286552,
+      "sha256": "2ec8b2b65da1809489d0fc0b5e2805e3a0280dbcceed64adc127d69f5960eb74"
+    },
+    "metadata": {
+      "path": "runs/naples__180+05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "535869b6114d60fb3668571d534ce965512010d0a67bcea69146931c295e6e78"
+    },
+    "execution": {
+      "path": "runs/naples__180+05__arrival_no_transition/execution.json",
+      "bytes": 711,
+      "sha256": "fdf1d87e5e9e32572bf6c4f11b7c08cc959b5cd17873f1baa067333bfc1496d6"
+    }
+  },
+  {
+    "run_id": "naples__270-05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 673756,
+      "sha256": "8a3b1fa26f70b5f4875cc22180364836163ad7fed97e9448136a4f1429af3557"
+    },
+    "track": {
+      "path": "runs/naples__270-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "c7ee6c68c6448fb798e43e9f9a3e962e344e7ebe030e90fc94bace17ca979151"
+    },
+    "log": {
+      "path": "runs/naples__270-05__arrival_no_transition/run.log",
+      "bytes": 286419,
+      "sha256": "ff3c610f42ce376673436e528dab5b79d14f6e8b4c8eba78a336a2b1a16c86bf"
+    },
+    "metadata": {
+      "path": "runs/naples__270-05__arrival_no_transition/experiment.json",
+      "bytes": 655,
+      "sha256": "cbe29f7b37e8a29a0d7bd737adcac94de06eb41f0a294fdf28e6370a2035ab94"
+    },
+    "execution": {
+      "path": "runs/naples__270-05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "af180bfd1bb6b315788c7462d2a7fd366e28dc08a2a011bb87f2a392e449b405"
+    }
+  },
+  {
+    "run_id": "naples__270+05__arrival_no_transition",
+    "route": "naples",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/naples_8_8nm_round_trip.gpx",
+    "departure": "2026-09-30T13:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/naples__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 670052,
+      "sha256": "1056d6f044e96a40e796f94b5025106aa5bd8d8aacc60d8263d6cf82e20fa04e"
+    },
+    "track": {
+      "path": "runs/naples__270+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "8af8ebe6691fca5cce325f18fe0f62336dffd1c8d745f231156df2712f25cd72"
+    },
+    "log": {
+      "path": "runs/naples__270+05__arrival_no_transition/run.log",
+      "bytes": 286418,
+      "sha256": "a54f2e8105ab4f7917a6e96374ae23f2ecb16c03538b94e999d296e8c142bc04"
+    },
+    "metadata": {
+      "path": "runs/naples__270+05__arrival_no_transition/experiment.json",
+      "bytes": 654,
+      "sha256": "65dc853f440196ff229537914664c12c400c0c76be606ecfb9164d1ccad8cfd4"
+    },
+    "execution": {
+      "path": "runs/naples__270+05__arrival_no_transition/execution.json",
+      "bytes": 712,
+      "sha256": "9ee7e023ecf84c1986e0743b9c0b166f5ac34043cebb8bea37d13847e670d450"
+    }
+  },
+  {
+    "run_id": "corfu__000-05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": -5.0,
+    "wind_from": 355.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__000-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 637535,
+      "sha256": "d3b72864c6b821dd74686c58b5aa38efe65af5111e8fa2f4dcafab7f23fae7a2"
+    },
+    "track": {
+      "path": "runs/corfu__000-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "3e2d62253c1c8207044bcae71adc9400651171fc39272ecc3f3fa387a99cb98a"
+    },
+    "log": {
+      "path": "runs/corfu__000-05__arrival_no_transition/run.log",
+      "bytes": 286435,
+      "sha256": "a9826c943fdcf1efee33bc585fcd4f4321bfabd55a387af5e1989cc5dd5b8c5e"
+    },
+    "metadata": {
+      "path": "runs/corfu__000-05__arrival_no_transition/experiment.json",
+      "bytes": 644,
+      "sha256": "2b015a885ee5e6dc5ece2634560a68ac588b616ea4daa4580fd1cf43949b2f8a"
+    },
+    "execution": {
+      "path": "runs/corfu__000-05__arrival_no_transition/execution.json",
+      "bytes": 701,
+      "sha256": "bd954943f9cf0e545994fa43120d515095cf7e86e1002642bc352270824b324c"
+    }
+  },
+  {
+    "run_id": "corfu__000+05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 0.0,
+    "offset": 5.0,
+    "wind_from": 5.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__000+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 633303,
+      "sha256": "d23c394eeaac1ee780d8a5fce892325f485a16f20138806f75454728ec791761"
+    },
+    "track": {
+      "path": "runs/corfu__000+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "c3fa957699370e2c57371ac34d2e0a3298783c9831f5f999ecd9f721bcece732"
+    },
+    "log": {
+      "path": "runs/corfu__000+05__arrival_no_transition/run.log",
+      "bytes": 286432,
+      "sha256": "cba5df0e26c825145875c2a20fa6eeeb2f43a124c93dfb6dc6ce0dc8f39c9059"
+    },
+    "metadata": {
+      "path": "runs/corfu__000+05__arrival_no_transition/experiment.json",
+      "bytes": 641,
+      "sha256": "a707f8e72cebbef345951856929e5939ee3a9444462770cd58bd049f0023493f"
+    },
+    "execution": {
+      "path": "runs/corfu__000+05__arrival_no_transition/execution.json",
+      "bytes": 699,
+      "sha256": "26a3b70a6a002aff25cd56f8e9861763a6c808ef5582fe769d2e2fbf5c2bb6a6"
+    }
+  },
+  {
+    "run_id": "corfu__090-05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": -5.0,
+    "wind_from": 85.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__090-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 660980,
+      "sha256": "063675c77ae443b74697a18dccd44630b66a248c188c07a4042fc9b303c6c4b6"
+    },
+    "track": {
+      "path": "runs/corfu__090-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "7534576e17b648f7839455304481acf6658c457102db3e7027d7005c4e432a61"
+    },
+    "log": {
+      "path": "runs/corfu__090-05__arrival_no_transition/run.log",
+      "bytes": 286435,
+      "sha256": "f4f7ee71e16a521e1ced01371139c7896e6f873d60eacc7bff2a9734affea1f6"
+    },
+    "metadata": {
+      "path": "runs/corfu__090-05__arrival_no_transition/experiment.json",
+      "bytes": 644,
+      "sha256": "e60bff18e360954002b84095fc02f47f7c682223cd428fbe920ff90365a99352"
+    },
+    "execution": {
+      "path": "runs/corfu__090-05__arrival_no_transition/execution.json",
+      "bytes": 701,
+      "sha256": "0b79e50c071b07b25278a536dece1e40f7174243bd0db61b59b7e8f77ef28d14"
+    }
+  },
+  {
+    "run_id": "corfu__090+05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 90.0,
+    "offset": 5.0,
+    "wind_from": 95.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__090+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 630580,
+      "sha256": "d5a579c7ec1b2a4e13a1f31e020f2f492fe1239151abaffe66d27fd64b7d2b6b"
+    },
+    "track": {
+      "path": "runs/corfu__090+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "d3b69fe04701bea4871bf46d8db4d9c9bf95d76759ee4132dae8c30046dd637f"
+    },
+    "log": {
+      "path": "runs/corfu__090+05__arrival_no_transition/run.log",
+      "bytes": 286434,
+      "sha256": "e9116fdb852248c29ed8b6d30eb2ceccea3440fb964f045b0aee680e4bf5f34f"
+    },
+    "metadata": {
+      "path": "runs/corfu__090+05__arrival_no_transition/experiment.json",
+      "bytes": 643,
+      "sha256": "6be46d5fa033632f1120a47d2902f1988209567217b1124097db21e612b0fdd5"
+    },
+    "execution": {
+      "path": "runs/corfu__090+05__arrival_no_transition/execution.json",
+      "bytes": 701,
+      "sha256": "51b3028b8a05e6de971a37c796543ac92d85aaa934b00be2861781eba28fac9e"
+    }
+  },
+  {
+    "run_id": "corfu__180-05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": -5.0,
+    "wind_from": 175.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__180-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 635192,
+      "sha256": "66f4c38c2a10c26cf415a0bb81e347a34b8057671e822380c9ad8aca16e1193e"
+    },
+    "track": {
+      "path": "runs/corfu__180-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "4574781a3586799295f9486b530e9a9a4318c6266be116459044b1dc9be7d151"
+    },
+    "log": {
+      "path": "runs/corfu__180-05__arrival_no_transition/run.log",
+      "bytes": 286437,
+      "sha256": "d742ac04757b85eee07367a8d4cfa72a45c7d9b1b5ab66b9f2f2cd74bcc53425"
+    },
+    "metadata": {
+      "path": "runs/corfu__180-05__arrival_no_transition/experiment.json",
+      "bytes": 646,
+      "sha256": "0d4fabbeab7132b120b0db82ab8adb831862155d6222d4ea7e532ab3eb2b8531"
+    },
+    "execution": {
+      "path": "runs/corfu__180-05__arrival_no_transition/execution.json",
+      "bytes": 703,
+      "sha256": "c4f48437fce463fb704bd84e9c6edc935c15333fdce4f6592855f854455be02a"
+    }
+  },
+  {
+    "run_id": "corfu__180+05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 180.0,
+    "offset": 5.0,
+    "wind_from": 185.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__180+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 636286,
+      "sha256": "4a7a37de1a66157196a5c0a8aa72bf1cc124a81e0c04230ebc06e9155357de31"
+    },
+    "track": {
+      "path": "runs/corfu__180+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "e7814dd347a310427ce2cd27f77127fb787d16d2a4fa0f5576288c65310b2ff2"
+    },
+    "log": {
+      "path": "runs/corfu__180+05__arrival_no_transition/run.log",
+      "bytes": 286436,
+      "sha256": "96197a07dde49097b75427be294239ac63e3fe68e74c7744df125312e7f7f1f9"
+    },
+    "metadata": {
+      "path": "runs/corfu__180+05__arrival_no_transition/experiment.json",
+      "bytes": 645,
+      "sha256": "2baacc8fa8dfe52733ca66016273421f2c084a10a3ce0d2f83d9b1001aef59df"
+    },
+    "execution": {
+      "path": "runs/corfu__180+05__arrival_no_transition/execution.json",
+      "bytes": 702,
+      "sha256": "39c94051bdffb9cd94c0ea467c2023ea6512fd2613a03216be632091a1b57473"
+    }
+  },
+  {
+    "run_id": "corfu__270-05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": -5.0,
+    "wind_from": 265.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__270-05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 653372,
+      "sha256": "2bc3b7a5a5db42a7327343de31712f9ad589ca6f78559e6c1db0b4425cb36e17"
+    },
+    "track": {
+      "path": "runs/corfu__270-05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "9bd583220dcf63bf87e7163215f6b12bd01be7751153701d63cd10afc4017fa9"
+    },
+    "log": {
+      "path": "runs/corfu__270-05__arrival_no_transition/run.log",
+      "bytes": 286437,
+      "sha256": "1d3d1b49bb48f631afa0d5184ef99432ac7d8ebf9783833295ec51ede48604f9"
+    },
+    "metadata": {
+      "path": "runs/corfu__270-05__arrival_no_transition/experiment.json",
+      "bytes": 646,
+      "sha256": "88d6853b618663008c9e62183610ce031ea93ba34ff0a74432cd25211b293d6b"
+    },
+    "execution": {
+      "path": "runs/corfu__270-05__arrival_no_transition/execution.json",
+      "bytes": 702,
+      "sha256": "12b9a22e868b2747d34afb6831f96be14b7344c61563d10b029780eeb6b2ba72"
+    }
+  },
+  {
+    "run_id": "corfu__270+05__arrival_no_transition",
+    "route": "corfu",
+    "method": "arrival_no_transition",
+    "base_wind": 270.0,
+    "offset": 5.0,
+    "wind_from": 275.0,
+    "cap_s": 10800.0,
+    "radius_m": 100.0,
+    "dt_s": 5.0,
+    "route_file": "current_route/rotta_corfu_nord.gpx",
+    "departure": "2026-09-30T00:00:00Z",
+    "scope": "bounded_progress",
+    "return_to_start": false,
+    "chart": "data/bathymetry/gebco_2026_n44.0_s37.0_w14.0_e22.0.nc",
+    "reference_kernels": false,
+    "frames": 2161,
+    "mission_status": "step_limit",
+    "runner_return_code": 0,
+    "replay": {
+      "path": "runs/corfu__270+05__arrival_no_transition/navigation.jsonl.gz",
+      "bytes": 654027,
+      "sha256": "579fd79fc8206ec019df3da76b988ec9b0b437192eb08351f7766de8ff9d9a6d"
+    },
+    "track": {
+      "path": "runs/corfu__270+05__arrival_no_transition/track.gpx",
+      "bytes": 101816,
+      "sha256": "5c61cc3208ef91b04f01151fc97ca1b362579db275cf2943017f81a723b9932c"
+    },
+    "log": {
+      "path": "runs/corfu__270+05__arrival_no_transition/run.log",
+      "bytes": 286436,
+      "sha256": "d4ad12629b3a74b466f1f012a26b2e84884114570e03b7489ce5e8c6699a5e34"
+    },
+    "metadata": {
+      "path": "runs/corfu__270+05__arrival_no_transition/experiment.json",
+      "bytes": 645,
+      "sha256": "35fed06483cf5c9e6a88376245ff955068559719431f1d25529379472ad83227"
+    },
+    "execution": {
+      "path": "runs/corfu__270+05__arrival_no_transition/execution.json",
+      "bytes": 701,
+      "sha256": "24e6e6d52de689ccdbe3dcc0869e8e17bc8582ed2d087d993e5120ebd8fdb0a7"
+    }
+  }
+]

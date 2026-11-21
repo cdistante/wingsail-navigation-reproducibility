@@ -1,0 +1,10 @@
+arm,status,captures,elapsed_s,track_distance_m,forecast_tack_refinement,forecast_tracking_feedback,forecast_tack_step_seconds,forecast_refinement_phase,forecast_gate_aim_fraction,forecast_gate_aim_upwind_angle_deg,forecast_maneuver_commit_seconds
+reference_grid,completed,8,9520,6685.307623111972,False,False,,,0.0,180.0,0.0
+prior_best_gamma,completed,8,9175,6362.512561223398,True,True,60.0,return,0.0,180.0,0.0
+prior_best_diffusion,completed,8,9175,6362.512561223398,True,True,60.0,return,0.0,180.0,0.0
+original_forecast,completed,8,9225,6415.080737303299,False,False,120.0,all,0.0,180.0,0.0
+diffusion_upwind_commit,completed,8,9080,6263.179555835567,True,True,60.0,return,0.5,60.0,60.0
+gamma_gate_commit,completed,8,9105,6254.037579407137,True,True,60.0,return,0.5,180.0,60.0
+gamma_gate_half,completed,8,9280,6334.251624708367,True,True,60.0,return,0.5,180.0,0.0
+gamma_prior_control,completed,8,9175,6362.512561223398,True,True,60.0,return,0.0,180.0,0.0
+gamma_upwind_commit,completed,8,9080,6263.179555835567,True,True,60.0,return,0.5,60.0,60.0

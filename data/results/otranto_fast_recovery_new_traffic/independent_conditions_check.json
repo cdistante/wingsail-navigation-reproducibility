@@ -1,0 +1,106 @@
+{
+  "all_current_and_snapshot_inputs_match": true,
+  "same_archived_fields_route_initial_own_state_checkpoint": true,
+  "new_traffic_and_longer_faults_are_explicit_controls": true,
+  "paired_prefixes": {
+    "crossing_fan__355": {
+      "identical_initial_physical_fixes": 28,
+      "maximum_prefix_requested_s": 600
+    },
+    "crossing_fan__005": {
+      "identical_initial_physical_fixes": 28,
+      "maximum_prefix_requested_s": 600
+    },
+    "opposed_crossing__355": {
+      "identical_initial_physical_fixes": 121,
+      "maximum_prefix_requested_s": 600
+    },
+    "opposed_crossing__005": {
+      "identical_initial_physical_fixes": 25,
+      "maximum_prefix_requested_s": 600
+    }
+  },
+  "cases": [
+    {
+      "arm": "crossing_fan__otranto_355__classical",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "9341e7fd1165917ecb30e8fa3fbb0d577848b91629c638eb3fefd67d99b553cc",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "crossing_fan__otranto_355__transformer",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "ab533b413271cad0d938ca761070ed098b8355648b6693ae440ba60e0f9249ff",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "crossing_fan__otranto_005__classical",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "2951aea16e73cccad7d8d6d5a1376a708b961715a0b72c4604f998a349c15bba",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "crossing_fan__otranto_005__transformer",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "f293f59168cd913d66529e1325aa76fc3e08dfb09d2401ae53c1689c8249fb9d",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "opposed_crossing__otranto_355__classical",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "86077bac7cce2eff968e91ccd8ae73ec20ebb20dd0948e94959328942869b7aa",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "opposed_crossing__otranto_355__transformer",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "7e5f80dc0a9f57dd15910b2593b94e44e92004e96be09eb2cef9725835f2c002",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "opposed_crossing__otranto_005__classical",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "5ab89a688f43058d052473d66b696e34e72c8d7c12a81831b2467fd386bde565",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    },
+    {
+      "arm": "opposed_crossing__otranto_005__transformer",
+      "return_code": 0,
+      "source_files_verified": 81,
+      "replay_sha256": "550086948e384bc06cdc036c09c39ac95b5e9ccf8f7f311a7b50eee160f1a142",
+      "initial_own_state_and_archive_equal_original": true,
+      "all_current_and_snapshot_inputs_match": true,
+      "traffic_and_faults_intentionally_changed": true,
+      "protocol_sha256": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e"
+    }
+  ],
+  "script_sha256": "59a2e03aad37574dec173bf2095a6202916b1cf2a9d10612ce5868433e74a03f"
+}

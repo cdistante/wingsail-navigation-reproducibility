@@ -1,0 +1,170 @@
+{
+  "study_id": "otranto_underway_ais_retest",
+  "base_study": "data/results/otranto_ais_departure_retest",
+  "candidate_status": "Regatta core and underway fixtures frozen; full launch authorized conditional on CLI/two gate-only smoke checks",
+  "controller_cli_additions": [
+    "--ais-predictive-fallback",
+    "--ais-departure-gate",
+    "--underway-traffic-fixture"
+  ],
+  "controller_mode": "Received-AIS departure gate plus receding-horizon fallback with strict applied clearance",
+  "immutable_base_inputs_sha256": {
+    "protocol.json": "9d7e5142deb2c10bae87b7babcadffc7365b18ea466eaf6b818dd0b04acf238e",
+    "fixture_eligibility.json": "f7aeceb4892cdc784e9ff71991931e108ef2d71324a0321b25a45900826a14d5",
+    "fixtures/crossing_fan/ground_truth.json": "7d8aff6a2b3357a579403111a01e4831d8a92d6e9352c4bc5ca704878ae89080",
+    "fixtures/crossing_fan/truth_trace.csv": "965cb4c3868935bbefcd9d5bee3c309d3dc9221693070925ddd386e7ed650dbf",
+    "fixtures/opposed_crossing/ground_truth.json": "83133d93f653d32409a3dde32e024406577ced221421bd31604c3d6bb32cb218",
+    "fixtures/opposed_crossing/truth_trace.csv": "a8d58051594de52efdfd9832f6025e75e908d01b0c85e68e09e50c6c8df5b99a"
+  },
+  "requested_departure_utc": "2026-09-30T23:50:00Z",
+  "fixed_encounter_utc": "2026-09-30T23:50:40Z",
+  "fixed_drop_emission_utc_windows": [
+    [
+      "2026-09-30T23:52:05Z",
+      "2026-09-30T23:52:45Z"
+    ],
+    [
+      "2026-09-30T23:53:05Z",
+      "2026-09-30T23:53:45Z"
+    ]
+  ],
+  "waiting_model": "Sheltered monitoring in a shielded berth outside modeled open water before launch. No physically simulated afloat station keeping or prelaunch open-water clearance claim.",
+  "actual_departure": "Determined by received reports; absolute traffic epoch and original report fault anchors remain fixed. Record selected departure and elapsed waiting separately.",
+  "launch_authorization": "Root authorizes8fullconcurrent arms after CLI support and two gate-only smoke checks, with live prefix audit instead of duplicated standalone pilot",
+  "parallelism": {
+    "workers": 8,
+    "numerical_threads_per_worker": 1,
+    "logical_cpus": 18,
+    "memory_capacity_bytes": 137438953472,
+    "memory_pressure_reported_free_percent": 95,
+    "selection": "One eight-worker wave, with all measured timing attempts retained under this loading. No duplicated full-route pilot restart."
+  },
+  "underway_encounters": {
+    "crossing_fan": {
+      "definition": "underway_fixtures/crossing_fan/ground_truth.json",
+      "definition_sha256": "46d8b151fc85e1b9572aea08c305e8bd87b0f9f927cc5943bccdc448c5203291",
+      "truth_trace": "underway_fixtures/crossing_fan/truth_trace.csv",
+      "truth_trace_sha256": "9d30d28602d6ad05d67766b5ddafa363987b634b38ca331c8a0fa31481afeff5"
+    },
+    "opposed_crossing": {
+      "definition": "underway_fixtures/opposed_crossing/ground_truth.json",
+      "definition_sha256": "75e4fadac4c0694e6ab6809c1e819929772245a8e17119fcd30d1ed558e2db98",
+      "truth_trace": "underway_fixtures/opposed_crossing/truth_trace.csv",
+      "truth_trace_sha256": "664efb45c19f224d1eebbd20916e4c7d938b10f5df0f08caf6453fd1df31b723"
+    }
+  },
+  "underway_anchor_elapsed_s": 560,
+  "underway_first_emission_s": 400,
+  "underway_first_delivery_s": 420,
+  "underway_drop_emission_windows_s": [
+    [
+      645,
+      685
+    ],
+    [
+      705,
+      745
+    ]
+  ],
+  "underway_frame_retention_original_epoch_s": [
+    420,
+    900
+  ],
+  "underway_anchor_utc": "2026-10-01T00:00:00Z",
+  "underway_drop_emission_utc_windows": [
+    [
+      "2026-10-01T00:01:25Z",
+      "2026-10-01T00:02:05Z"
+    ],
+    [
+      "2026-10-01T00:02:25Z",
+      "2026-10-01T00:03:05Z"
+    ]
+  ],
+  "runtime_support_files": [],
+  "extra_guidance_cli": [
+    "--regatta-time-to-mark"
+  ],
+  "guidance_label": "Gamma + Direct acados NMPC; regatta time-to-mark tacking",
+  "guidance_objective": "Regatta time to next mark with existing AIS/chart hard checks retained",
+  "freeze_utc": "2026-11-19T14:39:51.757919+00:00",
+  "regatta_description": "10h receding projected first mark entry for light-wind trims and refined one-tack search, with velocity feedback and side commitment on both legs; independent applied AIS/chart checks retained",
+  "frozen_runtime_sha256": {
+    "world/acados_nmpc.py": "377afa467fab724b3166db7ccbd4c5102c50eda3ead6a21ad4e15afca7f88fb3",
+    "world/generate_marine_controller_dataset.py": "e9e4ab85b1214f974651626dd6061a4db00fb573ba7fdc72c1a8c1da64b20ea7",
+    "world/train_marine_controller.py": "361f0ccbee4dce873c450218ddcda02da7a076cfc8fa31fb74d7b0cdb207418a",
+    "world/acados_fossen.py": "b0429914bfb56e0db6f0a301112ce48156f0c7c21eec718ca8dc0dc43e967f2e",
+    "world/ais_guidance.py": "6a039fc695d4a9c49329babc30f5196142e695f90a133de3e9fcf4b53fb7edc2",
+    "world/world.py": "dda412c8c8d0f597366758f27a9d813475cb0cd906ed9e5afb0cc71118c0f1ab",
+    "world/animate_episode.py": "56d184cb488357e91c7e1777a9eeba3c510979c6afa48223f7ade435e1a101f9",
+    "world/nmea.py": "66cf8389cd6a40103892d1a1d1051bff51498d27f8432492928c209251a44523",
+    "world/learned_tack_arrival.py": "b78c6d15b19abe938b404e916a08b1da4f35d1016f3437f44c968ae4d494a918",
+    "world/forecast_hold.py": "87e71476f4d87d1da1e107b864d43d0755db36e91f191133c2bd4cf8042bbdd2",
+    "world/ais_fast_recovery.py": "5b996f265ff24c284115bfcf3f9f2b1edd50ae00a161b148f1c0419a16b24e75",
+    "world/planner_visualization.py": "1441e5659a8f701596b645817c24486d9299e1d340bf83659faa9a70668a0b1e",
+    "world/learned_tacks.py": "a1fe64d92a33b5fe96b52c3d2bcedd1807daba567cd73683172b9cc5f6d87747",
+    "world/train_ais_course_transformer.py": "843101b5c0a0000ea76d7aeec7cc48bb564df61ef6658f2ed7df276189f280a9",
+    "world/train_vit_policy.py": "a0d3b28d6c3c94e1a8bb39ab2ce358c0afc6e99d2630a3b3e0554408b393f106",
+    "world/transformer_direction_policy.py": "77ea4932f13cc78d0507cc4d588e14dff5ec63a66ec9e7973d8b87394670ed59",
+    "world/vit_experiment.py": "7b146176ec25f768e1145d671bce8cc0e7b89c1c0d5a4821f1e3b6bcb4b5287a",
+    "world/predict_ais_course.py": "72213b52868190221da4c3cbdd335f2748c510ae0c6d2fd12079e492275c7725",
+    "world/occupancy.py": "0e14a9f513017e05431522ad34eba8f58b5e89b03e276304e7f7e05802d186a5",
+    "world/marine_controller.py": "2e5bed6df6e6014849fbb32ab1f02829122c42ea9c9243858d0b1257afbabbd5",
+    "world/weather.py": "f75ecf2b985a8d702a880ba31f6af8bcc6fb21290f8801fb5a6706428fecdc95",
+    "world/vit_inference.py": "ef63f8fc16757b947b36eb33e6aba0e0e28fd2ef32a003119d3e88c8f42f1151",
+    "world/harmonic_planner.py": "bc8f6454976cc354122a4bd496e0c7688c6ad8dfecfb92f9c831cd1032cdae44",
+    "world/ais_course_transformer.py": "2429688dbbc84ed70b977a7f8f8c6fd5b4056e12f4f66bf812010311402365e9",
+    "world/__init__.py": "bfb95e7af845c6069e9c0986a7543f2be6f25cf20b65739a41f89de118e25ced",
+    "world/_netcdf.py": "d7d06ddaa64b637fe02b7f76d8cb675505d9fdfa29fa02eeaea95fd776113979",
+    "world/saildrone.py": "b5e100b6a5de5ba86020d98ab735f49d70f85352bbe2e75415dd1c20056b1ffb",
+    "world/ais_departure_gate.py": "2ef3f0fb6979b4edc9ccb97e99a442d6a213b2263d873db2e242b2e262fc83a5",
+    "world/temporal_recovery.py": "9052183ef35e08352753490d9b2ce347455d2066e7097f5a1e15460fc9abcc35",
+    "world/ais_buffer_maneuver.py": "2add2c098a48c3fc7a2076d0cd4b876ccff2094741b036a999f1f1e863c63c6f",
+    "world/evaluate_ais_course_transformer.py": "5669adba42169ff9e73cf81bf6a74433f294377688b6cc1f724cafe116d9e44b",
+    "world/global_map.py": "4ab4b3ef8a79aa1d59d3faafe10ad38f1387c944aa4ca8769a3d906488412fbf",
+    "world/run_legacy_fossen.py": "b8f884bcf1462245ab4a3781cb19f8dbb97606e42b30d0f217474fd9f52d8027",
+    "world/currents.py": "01446aa61559c313527c4cb76eb27772446d89bbd5831487c665268b089ebb0f",
+    "world/enc.py": "38b799c0dae352d8ccb920fd274b469d1f2d5bab2d465b3c5ba934e3ab8e857f",
+    "world/live_ais.py": "9033e9571a49b7baf4d32aceed86546aafda5dd0c8237618f7abb42345aaf8e5",
+    "world/synthetic_ais.py": "f0c50db19d2047193da25160cbb13de8bb654fc37cdb68b34b7ecad03b39a8b5",
+    "world/local_map.py": "0ba9c69322624bf7b078d46fdbabfd396f5d55f00fe43753825dbf024ed41721",
+    "world/vit_dataset.py": "537297fe553371d3877bf15f1b54c165624cc78842af2c4af97216e9d95dfb46",
+    "world/legacy_planner_adapter.py": "8e900869b00632791517ad4200bdb7d60fa3048e1091990659eeffc45dd51dc4",
+    "world/scenario.py": "2466abc85a5b46216a954a1ed652ea434c801bdd117f2ffa552ad56741caf6f1",
+    "world/fossen.py": "e3ca63c8de309143f6e7c004e347d96eeb067802ff16a6b62a2223909c5de7f1",
+    "world/boat.py": "52e3e8be78f714682828ecbf2e4ac702ca69facfd6b1e69c617ef8745c0ff168",
+    "world/ais_avoidance.py": "8aee42ba2f39ac8bb3577e63508e334c0727425c64877db47e91420ad4b8afac",
+    "world/sample.py": "b3a5ff1da791591755875b93c2553c67559f7d0bced8188f4cf0e9130fe66ad7",
+    "world/drift_guidance.py": "9dcbbfbad29c5d7a31eb09fa0d910692fbab7e29bd7d31a9ae215bbdf86cb353",
+    "world/ais.py": "6c5ae2737da08938a29b1b5476655a966df35d8cd394a282834e63b6b8859088",
+    "world/simulate_vit_policy.py": "11c03535c45332e70162c20403ad302a39cd8b37b2888513cbbd036572428831",
+    "world/plot_marine_controller_training.py": "74068a429c4befd8f2d865305262665627277809581344ecfb06df79ead975eb",
+    "world/waves.py": "a250d692de513a8e3b749e90dbb6ac6c8dff9593a555b1309be031b87dc575fe",
+    "world/vit_policy.py": "8eb0adad74d36dace1b660786d879a85de0f0f1bbf9ff1320b6c2ef07f29a90b",
+    "world/_geo.py": "c1595d37b31e88de1f1890e58dafc10e47b53388534d9f8883cfa240235f06cd",
+    "world/navigation_replay.py": "97d2de6beab6e5112319cc93520754758af9ea8e7823238ed5d76fd7d092b09d",
+    "world/init.py": "fdde736d8df7ba0c9753555e9a6a48652f973016ba4058b8d57437c961a23e7f",
+    "world/forecast_tacks.py": "ee6f68c728d0f0f58937694fc079b6a62a7d442fe11c229162615099f0660753",
+    "world/plot_episode.py": "b299e4633327f7ecc27b2f460196b7404db597bf5b7e43da7616e8de8a39f685",
+    "world/tack_plan_replay.py": "0fada8e717fef1c70137715080367453876d0d5460d0973d9541017df8d6df42",
+    "world/animate_legacy_fossen.py": "b2a911ec5a6fa275cdcb334dbc74d98d0d42838dd6306b756aaa89cc8fc51261",
+    "world/mpc.py": "2fa81f5c57d1288953f239c8498472819d1d6bf383d486514215fa5124b66eac",
+    "world/guidance.py": "7b498106281c6d438b90e5cb7712869988811526e78b79f9098a160ffe3cda57",
+    "world/animate_occupancy.py": "7257f716a0ef4f22ebbc311c2ed7ad1fbe45eb607d05e047b8bebf4f9242febc",
+    "world/ais_clearance_refinement.py": "e87f85c8acb17dc733dd72b937a417b31fd7d4c1746f3de56eaf9d67811a6dd0",
+    "world/ais_predictive_fallback.py": "d1dd32f63b6759f0af1291ad90d540b65abbb8812d3023980b88438d5e1ae12f",
+    "world/regatta_guidance.py": "a088222e5d9b8b3ae2ab4bee0fc1a78f0fe39f9e30a1a6a0e46ec289fe064769",
+    "world/colreg.py": "d7888d0883e3f184f55896e0679742f50b64863b6f0d47b90585f46195f714bb",
+    "world/stream_opencpn.py": "a190468d78eb0db9b719993b05610b1f374abb932ee5b87a92f075791c8a15b1",
+    "world/bathymetry.py": "f2458068f502b5304e4bfb8636e77a14352ad2885cfacfb28de9afc1b219a88b",
+    "world/coastline.py": "fc55fccf09cab684c87a787940dd78f3b1358dad2c1fb5efeeb42631ab19be00",
+    "world/legacy_planners/harmonic_gamma.py": "886a33391ce611ed86eae2ba396f00412671acfdb4f421ccd3c6740bd8e397b3",
+    "world/legacy_planners/harmonic_diffusion.py": "410990011d7d29d3b591c9eeae11c3d90f3df2931e5dc0894c1abbee880ef54e",
+    "world/legacy_planners/tacking.py": "43512f17d6384fde4b32d2804832aadd953a316b21fa8fc4c0461e4adc29dee6",
+    "world/legacy_planners/constants.py": "0d160c76d710aa0301905a50e16abed132f8875637127fb5c54712b31c4d8b06",
+    "world/legacy_planners/__init__.py": "a7e0bc338ee458299bcc53e32c245bd861dccdb28c73d59b724fc486b36cc83c",
+    "world/legacy_planners/harmonic.py": "ab2e57f5445efbd35140a74e79e523e0948df62e9945e565fe2f0c04797bce84",
+    "data/results/otranto_underway_ais_retest/reproduce/run_archive.py": "c26452af5517787e8054f1ea5917e2aaa47ad12cd117f2fc24c688749865d4c7",
+    "data/results/otranto_underway_ais_retest/reproduce/traffic_fixture.py": "c0bee662143ac8a3ed01ef54a7eb03aefd53598f5817622f711f6446ffabf73b"
+  }
+}

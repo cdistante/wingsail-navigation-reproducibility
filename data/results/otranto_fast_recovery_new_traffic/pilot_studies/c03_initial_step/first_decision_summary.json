@@ -1,0 +1,182 @@
+{
+  "phase": "Fresh first-step baseline screen only; not a complete encounter or waypoint evaluation. No deadline censoring or omitted cases.",
+  "all_outcomes_retained": true,
+  "cases": [
+    {
+      "arm": "crossing_fan__otranto_005__classical",
+      "scenario_id": "crossing_fan",
+      "wind_from_degrees": 5,
+      "source_hash_count": 81,
+      "sources_unchanged": true,
+      "decision_attempts": [
+        {
+          "step": 1,
+          "wall_seconds": 70.17479462502524,
+          "phase": "outbound",
+          "waypoint": "002",
+          "observation_utc": "2026-09-30T23:50:00.000000000",
+          "nominal_course_deg": 60.0,
+          "prefer_starboard": true
+        }
+      ],
+      "all_attempts_below5s": false,
+      "navigation": {
+        "ais_mode": "buffer maneuver",
+        "ais_course_margin_m": -59.041372134005826,
+        "ais_25m_margin_m": 3.883627865994171,
+        "ais_refresh_margin_m": null,
+        "ais_control": "refined maneuver",
+        "ais_maneuver_search_seconds": 70.17479462502524,
+        "ais_recovery_search_profile": {
+          "feedback_candidates": 540,
+          "feedback_local_evaluations": 300,
+          "feedback_batch_seconds": 0.9089366249972954,
+          "feedback_local_seconds": 0.9891480000223964,
+          "feedback_total_seconds": 1.8980847080238163,
+          "feedback_preview_margin_m": -37.719062578710805,
+          "native_polish_seconds": 1.755435208993731,
+          "native_polish_iteration_limit": 15,
+          "slow_recovery_fallback": 1
+        },
+        "ais_colreg_active_contacts": 3,
+        "ais_oldest_report_s": 20.0,
+        "ais_step_report_age_s": 20.0,
+        "ais_step_margin_m": 471.01106196630406,
+        "ais_step_reserve_margin_m": 468.01106196630406
+      },
+      "replay_sha256": "13e07da3eedd467128d1d50eeea388b2bb949212592a04fbe4c02007e2029388",
+      "execution_sha256": "20ce7ca7fa3870770cad532eff27abaece5d9e52f0b20b6f94c686310e65277a"
+    },
+    {
+      "arm": "crossing_fan__otranto_355__classical",
+      "scenario_id": "crossing_fan",
+      "wind_from_degrees": 355,
+      "source_hash_count": 81,
+      "sources_unchanged": true,
+      "decision_attempts": [
+        {
+          "step": 1,
+          "wall_seconds": 70.06547337499796,
+          "phase": "outbound",
+          "waypoint": "002",
+          "observation_utc": "2026-09-30T23:50:00.000000000",
+          "nominal_course_deg": 50.0,
+          "prefer_starboard": true
+        }
+      ],
+      "all_attempts_below5s": false,
+      "navigation": {
+        "ais_mode": "buffer maneuver",
+        "ais_course_margin_m": -30.47150730254178,
+        "ais_25m_margin_m": 32.45349269745822,
+        "ais_refresh_margin_m": null,
+        "ais_control": "refined maneuver",
+        "ais_maneuver_search_seconds": 70.06547337499796,
+        "ais_recovery_search_profile": {
+          "feedback_candidates": 540,
+          "feedback_local_evaluations": 300,
+          "feedback_batch_seconds": 0.9088937920168974,
+          "feedback_local_seconds": 0.9926049579808023,
+          "feedback_total_seconds": 1.9014988749986514,
+          "feedback_preview_margin_m": -36.36701552018958,
+          "native_polish_seconds": 1.7630571659829002,
+          "native_polish_iteration_limit": 15,
+          "slow_recovery_fallback": 1
+        },
+        "ais_colreg_active_contacts": 3,
+        "ais_oldest_report_s": 20.0,
+        "ais_step_report_age_s": 20.0,
+        "ais_step_margin_m": 470.9787607538012,
+        "ais_step_reserve_margin_m": 467.9787607538012
+      },
+      "replay_sha256": "c14bd11a50ad2178f4bc8c0b497f190b4706a725a2edbbba1fa90c31198457ff",
+      "execution_sha256": "7fdaa98d4c090288790fddaa4537b4ec2bf1fea53a801150623d8171f18443ab"
+    },
+    {
+      "arm": "opposed_crossing__otranto_005__classical",
+      "scenario_id": "opposed_crossing",
+      "wind_from_degrees": 5,
+      "source_hash_count": 81,
+      "sources_unchanged": true,
+      "decision_attempts": [
+        {
+          "step": 1,
+          "wall_seconds": 61.95114637500956,
+          "phase": "outbound",
+          "waypoint": "002",
+          "observation_utc": "2026-09-30T23:50:00.000000000",
+          "nominal_course_deg": 60.0,
+          "prefer_starboard": true
+        }
+      ],
+      "all_attempts_below5s": false,
+      "navigation": {
+        "ais_mode": "fallback minimum-risk",
+        "ais_course_margin_m": -52.7215688833831,
+        "ais_maneuver_search_seconds": 61.95114637500956,
+        "ais_recovery_search_profile": {
+          "feedback_candidates": 540,
+          "feedback_local_evaluations": 300,
+          "feedback_batch_seconds": 0.9032457919965964,
+          "feedback_local_seconds": 0.9951419999997597,
+          "feedback_total_seconds": 1.8983878339931834,
+          "feedback_preview_margin_m": -80.09269934029717,
+          "native_polish_seconds": 1.7527486250037327,
+          "native_polish_iteration_limit": 15,
+          "slow_recovery_fallback": 1
+        },
+        "ais_colreg_active_contacts": 3,
+        "ais_oldest_report_s": 20.0,
+        "ais_step_report_age_s": 20.0,
+        "ais_escape_heading_deg": 60.0,
+        "ais_step_margin_m": 392.2733110812367,
+        "ais_step_reserve_margin_m": 389.2733110812367
+      },
+      "replay_sha256": "341a8cb204da1e173a4bed468134b39d69027f3d64f6a399f092e20f906d1c06",
+      "execution_sha256": "3c6d1d08da486b10666be4746dc700f653b81f21a6b015fedecd6ce0ebb44191"
+    },
+    {
+      "arm": "opposed_crossing__otranto_355__classical",
+      "scenario_id": "opposed_crossing",
+      "wind_from_degrees": 355,
+      "source_hash_count": 81,
+      "sources_unchanged": true,
+      "decision_attempts": [
+        {
+          "step": 1,
+          "wall_seconds": 62.02016579199699,
+          "phase": "outbound",
+          "waypoint": "002",
+          "observation_utc": "2026-09-30T23:50:00.000000000",
+          "nominal_course_deg": 50.0,
+          "prefer_starboard": true
+        }
+      ],
+      "all_attempts_below5s": false,
+      "navigation": {
+        "ais_mode": "fallback minimum-risk",
+        "ais_course_margin_m": -66.88038543753783,
+        "ais_maneuver_search_seconds": 62.02016579199699,
+        "ais_recovery_search_profile": {
+          "feedback_candidates": 540,
+          "feedback_local_evaluations": 300,
+          "feedback_batch_seconds": 0.9115219580125995,
+          "feedback_local_seconds": 1.0030664580117445,
+          "feedback_total_seconds": 1.9145885000179987,
+          "feedback_preview_margin_m": -76.40578385459224,
+          "native_polish_seconds": 1.8196989169809967,
+          "native_polish_iteration_limit": 15,
+          "slow_recovery_fallback": 1
+        },
+        "ais_colreg_active_contacts": 3,
+        "ais_oldest_report_s": 20.0,
+        "ais_step_report_age_s": 20.0,
+        "ais_escape_heading_deg": 65.0,
+        "ais_step_margin_m": 392.26652646793355,
+        "ais_step_reserve_margin_m": 389.26652646793355
+      },
+      "replay_sha256": "f2a893b3ed1ea91346a501086e7b588c93d4d1be443145c3aa029464918aef1e",
+      "execution_sha256": "47850bcbabc18c4018fb29fe0007992f4b3d6840fb2aebf57e589ce729f04e53"
+    }
+  ]
+}

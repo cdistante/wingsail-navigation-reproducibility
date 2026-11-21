@@ -1,0 +1,1152 @@
+{
+  "leg_count": 9,
+  "leg_positions": [
+    {
+      "name": "otranto_002:001\u2013002",
+      "family": "otranto",
+      "origin": [
+        40.225,
+        18.746666667
+      ],
+      "goal": [
+        40.228333333,
+        18.75
+      ],
+      "axis": [
+        283.31468604446417,
+        371.06662956005493
+      ]
+    },
+    {
+      "name": "otranto_003:002\u2013003",
+      "family": "otranto",
+      "origin": [
+        40.228333333,
+        18.75
+      ],
+      "goal": [
+        40.226666667,
+        18.756666667
+      ],
+      "axis": [
+        566.6015737367549,
+        -185.53325911982512
+      ]
+    },
+    {
+      "name": "brindisi_small:001\u2013002",
+      "family": "brindisi",
+      "origin": [
+        40.593730886,
+        18.192885376
+      ],
+      "goal": [
+        40.595546735,
+        18.195317283
+      ],
+      "axis": [
+        205.56911823687386,
+        202.14031067957762
+      ]
+    },
+    {
+      "name": "brindisi_small:002\u2013003",
+      "family": "brindisi",
+      "origin": [
+        40.595546735,
+        18.195317283
+      ],
+      "goal": [
+        40.598778207,
+        18.194506647
+      ],
+      "axis": [
+        -68.52120662060811,
+        359.7274630403413
+      ]
+    },
+    {
+      "name": "brindisi_003:001\u2013002",
+      "family": "brindisi",
+      "origin": [
+        40.593333333,
+        18.193333333
+      ],
+      "goal": [
+        40.6,
+        18.188333333
+      ],
+      "axis": [
+        -422.6525531223653,
+        742.1333704405146
+      ]
+    },
+    {
+      "name": "brindisi_003:002\u2013003",
+      "family": "brindisi",
+      "origin": [
+        40.6,
+        18.188333333
+      ],
+      "goal": [
+        40.595,
+        18.186666667
+      ],
+      "axis": [
+        -140.8700802066114,
+        -556.6000000002848
+      ]
+    },
+    {
+      "name": "brindisi_004:001\u2013002",
+      "family": "brindisi",
+      "origin": [
+        40.593333333,
+        18.193333333
+      ],
+      "goal": [
+        40.598333333,
+        18.196666667
+      ],
+      "axis": [
+        281.7684251013213,
+        556.6000000002848
+      ]
+    },
+    {
+      "name": "brindisi_004:002\u2013003",
+      "family": "brindisi",
+      "origin": [
+        40.598333333,
+        18.196666667
+      ],
+      "goal": [
+        40.601666667,
+        18.19
+      ],
+      "axis": [
+        -563.4946229280924,
+        371.06674088045963
+      ]
+    },
+    {
+      "name": "brindisi_004:003\u2013004",
+      "family": "brindisi",
+      "origin": [
+        40.601666667,
+        18.19
+      ],
+      "goal": [
+        40.6,
+        18.188333333
+      ],
+      "axis": [
+        -140.86665247355327,
+        -185.53337044022982
+      ]
+    }
+  ],
+  "thresholds": {
+    "opposing_current_mps": -0.15,
+    "weak_wind_mps": 4.0,
+    "headwind_to_bearing_cosine_at_most": -0.5
+  },
+  "blocks": {
+    "winter": {
+      "archive": {
+        "count": 1512,
+        "day_count": 7,
+        "coastal_fallbacks": {
+          "wind": 0,
+          "current": 0,
+          "wave": 0
+        },
+        "issue_first_utc": "2026-01-12T00:00:00Z",
+        "issue_last_utc": "2026-01-18T23:00:00Z",
+        "target_last_utc": "2026-01-19T00:00:00Z",
+        "files_sha256": {
+          "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+          "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+          "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+        }
+      },
+      "metrics": {
+        "all": {
+          "persistence": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.5186141382541488,
+            "wind_along_leg_mae_mps": 0.275281477874585,
+            "wind_along_leg_bias_mps": -0.01802189154608362,
+            "wind_cross_leg_mae_mps": 0.2666487445876902,
+            "current_en_vector_rmse_mps": 0.02327152876547808,
+            "current_along_leg_mae_mps": 0.010180210785991477,
+            "current_along_leg_bias_mps": -0.0006332546120603556,
+            "current_cross_leg_mae_mps": 0.011214028621657443,
+            "wave_height_mae_m": 0.03461514688372152
+          },
+          "causal_trend": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.4539500939026741,
+            "wind_along_leg_mae_mps": 0.23312230854146798,
+            "wind_along_leg_bias_mps": -0.009063568495791874,
+            "wind_cross_leg_mae_mps": 0.23095423855450156,
+            "current_en_vector_rmse_mps": 0.02337859370990927,
+            "current_along_leg_mae_mps": 0.011756433062447018,
+            "current_along_leg_bias_mps": -0.0003168137557838368,
+            "current_cross_leg_mae_mps": 0.01216038734415525,
+            "wave_height_mae_m": 0.02491243478011997
+          },
+          "transformer": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.45017192804239486,
+            "wind_along_leg_mae_mps": 0.23456587975248297,
+            "wind_along_leg_bias_mps": -0.01511788795167034,
+            "wind_cross_leg_mae_mps": 0.23372061852879586,
+            "current_en_vector_rmse_mps": 0.022792640836311443,
+            "current_along_leg_mae_mps": 0.011372229429193841,
+            "current_along_leg_bias_mps": 0.0004436685869536239,
+            "current_cross_leg_mae_mps": 0.01218147869590336,
+            "wave_height_mae_m": 0.0270213621835056
+          }
+        },
+        "opposing_current": {
+          "persistence": {
+            "count": 76,
+            "wind_en_vector_rmse_mps": 0.6563447022110979,
+            "wind_along_leg_mae_mps": 0.4351062162991475,
+            "wind_along_leg_bias_mps": -0.2755731323496072,
+            "wind_cross_leg_mae_mps": 0.2891330626075883,
+            "current_en_vector_rmse_mps": 0.023343186905732425,
+            "current_along_leg_mae_mps": 0.012728621439891114,
+            "current_along_leg_bias_mps": -0.00707400376876906,
+            "current_cross_leg_mae_mps": 0.0086304055707571,
+            "wave_height_mae_m": 0.12051766221820734
+          },
+          "causal_trend": {
+            "count": 76,
+            "wind_en_vector_rmse_mps": 0.49597611108823203,
+            "wind_along_leg_mae_mps": 0.3255150726445776,
+            "wind_along_leg_bias_mps": -0.15077224950181387,
+            "wind_cross_leg_mae_mps": 0.2527464865726296,
+            "current_en_vector_rmse_mps": 0.022212059399197005,
+            "current_along_leg_mae_mps": 0.012043622008156753,
+            "current_along_leg_bias_mps": -0.00359052675719492,
+            "current_cross_leg_mae_mps": 0.01019064139273671,
+            "wave_height_mae_m": 0.09141271677939676
+          },
+          "transformer": {
+            "count": 76,
+            "wind_en_vector_rmse_mps": 0.49050887945777283,
+            "wind_along_leg_mae_mps": 0.30398296012626924,
+            "wind_along_leg_bias_mps": -0.15159654650996068,
+            "wind_cross_leg_mae_mps": 0.2652817427621393,
+            "current_en_vector_rmse_mps": 0.02340356109889965,
+            "current_along_leg_mae_mps": 0.013292324307955872,
+            "current_along_leg_bias_mps": -0.004685954086931782,
+            "current_cross_leg_mae_mps": 0.012241328686407366,
+            "wave_height_mae_m": 0.08798155658087362
+          }
+        },
+        "headwind": {
+          "persistence": {
+            "count": 435,
+            "wind_en_vector_rmse_mps": 0.5759991230949065,
+            "wind_along_leg_mae_mps": 0.2898611466437472,
+            "wind_along_leg_bias_mps": -0.06161582904349296,
+            "wind_cross_leg_mae_mps": 0.3019063344459768,
+            "current_en_vector_rmse_mps": 0.022700595088415005,
+            "current_along_leg_mae_mps": 0.009637909635475292,
+            "current_along_leg_bias_mps": -0.0017322727097064865,
+            "current_cross_leg_mae_mps": 0.011367759810561808,
+            "wave_height_mae_m": 0.0524019427834216
+          },
+          "causal_trend": {
+            "count": 435,
+            "wind_en_vector_rmse_mps": 0.4862328501409558,
+            "wind_along_leg_mae_mps": 0.2368622471912676,
+            "wind_along_leg_bias_mps": -0.03775991096703004,
+            "wind_cross_leg_mae_mps": 0.2564740291604219,
+            "current_en_vector_rmse_mps": 0.022412546547907426,
+            "current_along_leg_mae_mps": 0.01099824592309206,
+            "current_along_leg_bias_mps": -0.0009604763251719881,
+            "current_cross_leg_mae_mps": 0.012007766746443526,
+            "wave_height_mae_m": 0.038057759247829524
+          },
+          "transformer": {
+            "count": 435,
+            "wind_en_vector_rmse_mps": 0.47868836610156057,
+            "wind_along_leg_mae_mps": 0.24381000789457868,
+            "wind_along_leg_bias_mps": 0.0011947422453258796,
+            "wind_cross_leg_mae_mps": 0.2557470139335817,
+            "current_en_vector_rmse_mps": 0.022029311264142374,
+            "current_along_leg_mae_mps": 0.01058976644350084,
+            "current_along_leg_bias_mps": -0.003206418292902689,
+            "current_cross_leg_mae_mps": 0.01233631167809112,
+            "wave_height_mae_m": 0.03886738887231094
+          }
+        },
+        "weak_wind_opposing_current": {
+          "persistence": {
+            "count": 9,
+            "wind_en_vector_rmse_mps": 0.7041199023609718,
+            "wind_along_leg_mae_mps": 0.5674319627203994,
+            "wind_along_leg_bias_mps": -0.4518195555508285,
+            "wind_cross_leg_mae_mps": 0.21351741275660588,
+            "current_en_vector_rmse_mps": 0.01662497403580067,
+            "current_along_leg_mae_mps": 0.009316289574203697,
+            "current_along_leg_bias_mps": -0.008367205541846988,
+            "current_cross_leg_mae_mps": 0.0057048810604004956,
+            "wave_height_mae_m": 0.07282407520817553
+          },
+          "causal_trend": {
+            "count": 9,
+            "wind_en_vector_rmse_mps": 0.407832506954566,
+            "wind_along_leg_mae_mps": 0.3025074577951282,
+            "wind_along_leg_bias_mps": -0.13521711230937392,
+            "wind_cross_leg_mae_mps": 0.17474318223212185,
+            "current_en_vector_rmse_mps": 0.015270107985366972,
+            "current_along_leg_mae_mps": 0.008793932973300493,
+            "current_along_leg_bias_mps": -0.0026867099437004075,
+            "current_cross_leg_mae_mps": 0.007417983598630323,
+            "wave_height_mae_m": 0.031597222616315396
+          },
+          "transformer": {
+            "count": 9,
+            "wind_en_vector_rmse_mps": 0.43981005438451093,
+            "wind_along_leg_mae_mps": 0.30248546548717586,
+            "wind_along_leg_bias_mps": -0.18650145984029848,
+            "wind_cross_leg_mae_mps": 0.2090696921542544,
+            "current_en_vector_rmse_mps": 0.01994198798734209,
+            "current_along_leg_mae_mps": 0.01017903364005853,
+            "current_along_leg_bias_mps": -0.00019602091473577601,
+            "current_cross_leg_mae_mps": 0.014920312947376129,
+            "wave_height_mae_m": 0.036102240552817015
+          }
+        },
+        "brindisi": {
+          "persistence": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.49555484850967574,
+            "wind_along_leg_mae_mps": 0.26227603329571014,
+            "wind_along_leg_bias_mps": -0.026927853748363515,
+            "wind_cross_leg_mae_mps": 0.24689464888342338,
+            "current_en_vector_rmse_mps": 0.023968468186274718,
+            "current_along_leg_mae_mps": 0.010326005289771328,
+            "current_along_leg_bias_mps": -0.000738506743648382,
+            "current_cross_leg_mae_mps": 0.011356620906498643,
+            "wave_height_mae_m": 0.03325983943132888
+          },
+          "causal_trend": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.4320835906009779,
+            "wind_along_leg_mae_mps": 0.22132262949990256,
+            "wind_along_leg_bias_mps": -0.012384001348361992,
+            "wind_cross_leg_mae_mps": 0.2188968972507413,
+            "current_en_vector_rmse_mps": 0.024313929743889167,
+            "current_along_leg_mae_mps": 0.012187071717599179,
+            "current_along_leg_bias_mps": -0.0003476576047651133,
+            "current_cross_leg_mae_mps": 0.012488809885094416,
+            "wave_height_mae_m": 0.024499692750173583
+          },
+          "transformer": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.42262367958060415,
+            "wind_along_leg_mae_mps": 0.2202913267965236,
+            "wind_along_leg_bias_mps": -0.031330573026458974,
+            "wind_cross_leg_mae_mps": 0.2168283734794523,
+            "current_en_vector_rmse_mps": 0.023319249388267967,
+            "current_along_leg_mae_mps": 0.011561982539322923,
+            "current_along_leg_bias_mps": 0.0015250191721803718,
+            "current_cross_leg_mae_mps": 0.012260642407617081,
+            "wave_height_mae_m": 0.025270510480843267
+          }
+        },
+        "otranto": {
+          "persistence": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.5922935777145092,
+            "wind_along_leg_mae_mps": 0.32080053390064717,
+            "wind_along_leg_bias_mps": 0.013148976161895984,
+            "wind_cross_leg_mae_mps": 0.3357880795526243,
+            "current_en_vector_rmse_mps": 0.02064781089325235,
+            "current_along_leg_mae_mps": 0.00966993002276201,
+            "current_along_leg_bias_mps": -0.00026487215150226227,
+            "current_cross_leg_mae_mps": 0.01071495562471325,
+            "wave_height_mae_m": 0.03935872296709573
+          },
+          "causal_trend": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.5233366913000582,
+            "wind_along_leg_mae_mps": 0.2744211851869471,
+            "wind_along_leg_bias_mps": 0.0025579464882035294,
+            "wind_cross_leg_mae_mps": 0.27315493311766254,
+            "current_en_vector_rmse_mps": 0.019759270451380973,
+            "current_along_leg_mae_mps": 0.010249197769414456,
+            "current_along_leg_bias_mps": -0.0002088602843493689,
+            "current_cross_leg_mae_mps": 0.01101090845086817,
+            "wave_height_mae_m": 0.026357031884932318
+          },
+          "transformer": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.5355452648380531,
+            "wind_along_leg_mae_mps": 0.2845268150983407,
+            "wind_along_leg_bias_mps": 0.04162650981008994,
+            "wind_cross_leg_mae_mps": 0.29284347620149836,
+            "current_en_vector_rmse_mps": 0.020845005905638116,
+            "current_along_leg_mae_mps": 0.010708093543742055,
+            "current_along_leg_bias_mps": -0.0033410584613399945,
+            "current_cross_leg_mae_mps": 0.011904405704905337,
+            "wave_height_mae_m": 0.03314934314282377
+          }
+        }
+      }
+    },
+    "summer": {
+      "archive": {
+        "count": 1512,
+        "day_count": 7,
+        "coastal_fallbacks": {
+          "wind": 0,
+          "current": 0,
+          "wave": 0
+        },
+        "issue_first_utc": "2026-07-13T00:00:00Z",
+        "issue_last_utc": "2026-07-19T23:00:00Z",
+        "target_last_utc": "2026-07-20T00:00:00Z",
+        "files_sha256": {
+          "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+          "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+          "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+        }
+      },
+      "metrics": {
+        "all": {
+          "persistence": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.7427290331909118,
+            "wind_along_leg_mae_mps": 0.4076875592118748,
+            "wind_along_leg_bias_mps": -0.012311312170662659,
+            "wind_cross_leg_mae_mps": 0.40496042090490686,
+            "current_en_vector_rmse_mps": 0.040208796567597,
+            "current_along_leg_mae_mps": 0.019981227061321903,
+            "current_along_leg_bias_mps": -0.0002782972504397218,
+            "current_cross_leg_mae_mps": 0.020602685207863354,
+            "wave_height_mae_m": 0.02979977701500523
+          },
+          "causal_trend": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6399297403224677,
+            "wind_along_leg_mae_mps": 0.3365267664709607,
+            "wind_along_leg_bias_mps": -0.005504096949036551,
+            "wind_cross_leg_mae_mps": 0.3404053277252487,
+            "current_en_vector_rmse_mps": 0.03248999694261959,
+            "current_along_leg_mae_mps": 0.017305638379545827,
+            "current_along_leg_bias_mps": -0.00017695152436485805,
+            "current_cross_leg_mae_mps": 0.017114416829491535,
+            "wave_height_mae_m": 0.024938858730430048
+          },
+          "transformer": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6299163171628678,
+            "wind_along_leg_mae_mps": 0.33727988618632904,
+            "wind_along_leg_bias_mps": 0.015117887951670194,
+            "wind_cross_leg_mae_mps": 0.3423056333245806,
+            "current_en_vector_rmse_mps": 0.03279890901557148,
+            "current_along_leg_mae_mps": 0.017739842839338833,
+            "current_along_leg_bias_mps": -0.00044366858695360294,
+            "current_cross_leg_mae_mps": 0.017072843377378268,
+            "wave_height_mae_m": 0.02743263691440055
+          }
+        },
+        "opposing_current": {
+          "persistence": {
+            "count": 201,
+            "wind_en_vector_rmse_mps": 0.7576545128055046,
+            "wind_along_leg_mae_mps": 0.4191540459890864,
+            "wind_along_leg_bias_mps": -0.1685278299421474,
+            "wind_cross_leg_mae_mps": 0.4144697280336841,
+            "current_en_vector_rmse_mps": 0.044417418935750616,
+            "current_along_leg_mae_mps": 0.026330276500186576,
+            "current_along_leg_bias_mps": 0.0038091913678934995,
+            "current_cross_leg_mae_mps": 0.0227621334826453,
+            "wave_height_mae_m": 0.03370955015307837
+          },
+          "causal_trend": {
+            "count": 201,
+            "wind_en_vector_rmse_mps": 0.6549334147128895,
+            "wind_along_leg_mae_mps": 0.35345038568375026,
+            "wind_along_leg_bias_mps": -0.12597365934124588,
+            "wind_cross_leg_mae_mps": 0.3483254714616455,
+            "current_en_vector_rmse_mps": 0.03367496603674861,
+            "current_along_leg_mae_mps": 0.019505668003764784,
+            "current_along_leg_bias_mps": -0.002092817957004505,
+            "current_cross_leg_mae_mps": 0.01814744703986787,
+            "wave_height_mae_m": 0.029640891057680814
+          },
+          "transformer": {
+            "count": 201,
+            "wind_en_vector_rmse_mps": 0.6506254828822055,
+            "wind_along_leg_mae_mps": 0.36204469520800164,
+            "wind_along_leg_bias_mps": 0.017662765387947685,
+            "wind_cross_leg_mae_mps": 0.36279061737221546,
+            "current_en_vector_rmse_mps": 0.03385173179264259,
+            "current_along_leg_mae_mps": 0.022035379878994357,
+            "current_along_leg_bias_mps": 0.008143546850004109,
+            "current_cross_leg_mae_mps": 0.01642346571992548,
+            "wave_height_mae_m": 0.03320411400853827
+          }
+        },
+        "headwind": {
+          "persistence": {
+            "count": 665,
+            "wind_en_vector_rmse_mps": 0.7423912350942464,
+            "wind_along_leg_mae_mps": 0.396231982433852,
+            "wind_along_leg_bias_mps": 0.031597797555824675,
+            "wind_cross_leg_mae_mps": 0.42495267737026005,
+            "current_en_vector_rmse_mps": 0.039367757762539396,
+            "current_along_leg_mae_mps": 0.02037932209569461,
+            "current_along_leg_bias_mps": 0.0015162720366786713,
+            "current_cross_leg_mae_mps": 0.01897144003878218,
+            "wave_height_mae_m": 0.03030549083918212
+          },
+          "causal_trend": {
+            "count": 665,
+            "wind_en_vector_rmse_mps": 0.6427268419792345,
+            "wind_along_leg_mae_mps": 0.3332117916652127,
+            "wind_along_leg_bias_mps": -0.015159105331531397,
+            "wind_cross_leg_mae_mps": 0.35516561732874996,
+            "current_en_vector_rmse_mps": 0.031807922922185254,
+            "current_along_leg_mae_mps": 0.017200066591186638,
+            "current_along_leg_bias_mps": 7.991800999608099e-05,
+            "current_cross_leg_mae_mps": 0.016439259847869998,
+            "wave_height_mae_m": 0.025094247552647133
+          },
+          "transformer": {
+            "count": 665,
+            "wind_en_vector_rmse_mps": 0.637225085364403,
+            "wind_along_leg_mae_mps": 0.34152459334958984,
+            "wind_along_leg_bias_mps": 0.11295371152849376,
+            "wind_cross_leg_mae_mps": 0.35488850857246884,
+            "current_en_vector_rmse_mps": 0.0321951208342452,
+            "current_along_leg_mae_mps": 0.01803342612217775,
+            "current_along_leg_bias_mps": 0.0026353645329776944,
+            "current_cross_leg_mae_mps": 0.0163244946086329,
+            "wave_height_mae_m": 0.027802210068468232
+          }
+        },
+        "weak_wind_opposing_current": {
+          "persistence": {
+            "count": 52,
+            "wind_en_vector_rmse_mps": 0.9860164349370502,
+            "wind_along_leg_mae_mps": 0.6494478628012624,
+            "wind_along_leg_bias_mps": -0.4179043903305552,
+            "wind_cross_leg_mae_mps": 0.47077800794719976,
+            "current_en_vector_rmse_mps": 0.05324905541705473,
+            "current_along_leg_mae_mps": 0.02608245892495559,
+            "current_along_leg_bias_mps": 0.0056615181730323896,
+            "current_cross_leg_mae_mps": 0.03349546742223647,
+            "wave_height_mae_m": 0.026877150898166655
+          },
+          "causal_trend": {
+            "count": 52,
+            "wind_en_vector_rmse_mps": 0.7934731964583064,
+            "wind_along_leg_mae_mps": 0.48716221980779806,
+            "wind_along_leg_bias_mps": -0.2895544043059184,
+            "wind_cross_leg_mae_mps": 0.38301572826921854,
+            "current_en_vector_rmse_mps": 0.03589305599064039,
+            "current_along_leg_mae_mps": 0.017177680365966022,
+            "current_along_leg_bias_mps": -0.005062263300811643,
+            "current_cross_leg_mae_mps": 0.0239512099193438,
+            "wave_height_mae_m": 0.025579003367938204
+          },
+          "transformer": {
+            "count": 52,
+            "wind_en_vector_rmse_mps": 0.7834848479942536,
+            "wind_along_leg_mae_mps": 0.47079105779874475,
+            "wind_along_leg_bias_mps": -0.2426997700286842,
+            "wind_cross_leg_mae_mps": 0.4224585387299701,
+            "current_en_vector_rmse_mps": 0.03276471852760868,
+            "current_along_leg_mae_mps": 0.01861268256938612,
+            "current_along_leg_bias_mps": 0.007721069836624201,
+            "current_cross_leg_mae_mps": 0.018279648342100472,
+            "wave_height_mae_m": 0.02739992454824702
+          }
+        },
+        "brindisi": {
+          "persistence": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.7221231895998645,
+            "wind_along_leg_mae_mps": 0.39166967342816256,
+            "wind_along_leg_bias_mps": -0.012644891637793788,
+            "wind_cross_leg_mae_mps": 0.39124727093595496,
+            "current_en_vector_rmse_mps": 0.034779149259441366,
+            "current_along_leg_mae_mps": 0.016636519503196105,
+            "current_along_leg_bias_mps": -1.4309100277134764e-05,
+            "current_cross_leg_mae_mps": 0.01728923787766351,
+            "wave_height_mae_m": 0.02945146170878635
+          },
+          "causal_trend": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.6197303497291331,
+            "wind_along_leg_mae_mps": 0.32297705482653877,
+            "wind_along_leg_bias_mps": -0.006282138727193792,
+            "wind_cross_leg_mae_mps": 0.331043599474271,
+            "current_en_vector_rmse_mps": 0.031220206032051133,
+            "current_along_leg_mae_mps": 0.016368173195791477,
+            "current_along_leg_bias_mps": -2.0775296860891216e-05,
+            "current_cross_leg_mae_mps": 0.016094339152779205,
+            "wave_height_mae_m": 0.02504309514580914
+          },
+          "transformer": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.6055965875956753,
+            "wind_along_leg_mae_mps": 0.31965867094745404,
+            "wind_along_leg_bias_mps": 0.01478367656579524,
+            "wind_cross_leg_mae_mps": 0.3291807732810767,
+            "current_en_vector_rmse_mps": 0.030154883259833943,
+            "current_along_leg_mae_mps": 0.015727070514601184,
+            "current_along_leg_bias_mps": 0.0018163717734741203,
+            "current_cross_leg_mae_mps": 0.01572951169526418,
+            "wave_height_mae_m": 0.027252720236570716
+          }
+        },
+        "otranto": {
+          "persistence": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.810735605483435,
+            "wind_along_leg_mae_mps": 0.4637501594548676,
+            "wind_along_leg_bias_mps": -0.011143784035703704,
+            "wind_cross_leg_mae_mps": 0.4529564457962386,
+            "current_en_vector_rmse_mps": 0.055152521838335265,
+            "current_along_leg_mae_mps": 0.0316877035147622,
+            "current_along_leg_bias_mps": -0.0012022557760087763,
+            "current_cross_leg_mae_mps": 0.032199750863562804,
+            "wave_height_mae_m": 0.03101888058677129
+          },
+          "causal_trend": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.7060916046501594,
+            "wind_along_leg_mae_mps": 0.3839507572264372,
+            "wind_along_leg_bias_mps": -0.0027809507254861966,
+            "wind_cross_leg_mae_mps": 0.37317137660367045,
+            "current_en_vector_rmse_mps": 0.036588866197224644,
+            "current_along_leg_mae_mps": 0.020586766522686054,
+            "current_along_leg_bias_mps": -0.0007235683206287424,
+            "current_cross_leg_mae_mps": 0.020684688697984684,
+            "wave_height_mae_m": 0.024574031276603223
+          },
+          "transformer": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.7084915353409634,
+            "wind_along_leg_mae_mps": 0.3989541395223915,
+            "wind_along_leg_bias_mps": 0.016287627802232533,
+            "wind_cross_leg_mae_mps": 0.3882426434768442,
+            "current_en_vector_rmse_mps": 0.04072282531091213,
+            "current_along_leg_mae_mps": 0.024784545975920613,
+            "current_along_leg_bias_mps": -0.008353809848450635,
+            "current_cross_leg_mae_mps": 0.021774504264777568,
+            "wave_height_mae_m": 0.028062345286804978
+          }
+        }
+      }
+    },
+    "spring": {
+      "archive": {
+        "count": 1512,
+        "day_count": 7,
+        "coastal_fallbacks": {
+          "wind": 0,
+          "current": 0,
+          "wave": 0
+        },
+        "issue_first_utc": "2026-04-13T00:00:00Z",
+        "issue_last_utc": "2026-04-19T23:00:00Z",
+        "target_last_utc": "2026-04-20T00:00:00Z",
+        "files_sha256": {
+          "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+          "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+          "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+        }
+      },
+      "metrics": {
+        "all": {
+          "persistence": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.7437855383764032,
+            "wind_along_leg_mae_mps": 0.3874461034763387,
+            "wind_along_leg_bias_mps": 0.0019066819647847676,
+            "wind_cross_leg_mae_mps": 0.38593151250161695,
+            "current_en_vector_rmse_mps": 0.025589475463216146,
+            "current_along_leg_mae_mps": 0.01186749798701408,
+            "current_along_leg_bias_mps": 0.00011722569518182533,
+            "current_cross_leg_mae_mps": 0.012498017226700998,
+            "wave_height_mae_m": 0.043276418446031924
+          },
+          "causal_trend": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6135491501356533,
+            "wind_along_leg_mae_mps": 0.31701042040138616,
+            "wind_along_leg_bias_mps": 0.0016559476003598441,
+            "wind_cross_leg_mae_mps": 0.31223729394974475,
+            "current_en_vector_rmse_mps": 0.025202178910108616,
+            "current_along_leg_mae_mps": 0.01289000109333483,
+            "current_along_leg_bias_mps": 8.307889568944368e-05,
+            "current_cross_leg_mae_mps": 0.013436503047192093,
+            "wave_height_mae_m": 0.031593985781999574
+          },
+          "transformer": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6667940793688167,
+            "wind_along_leg_mae_mps": 0.3641239755882984,
+            "wind_along_leg_bias_mps": -0.01630128538243273,
+            "wind_cross_leg_mae_mps": 0.3445614141949783,
+            "current_en_vector_rmse_mps": 0.02536692932244945,
+            "current_along_leg_mae_mps": 0.012930180077384317,
+            "current_along_leg_bias_mps": 0.003359011042881616,
+            "current_cross_leg_mae_mps": 0.013937232213920249,
+            "wave_height_mae_m": 0.043170575462898174
+          }
+        },
+        "opposing_current": {
+          "persistence": {
+            "count": 274,
+            "wind_en_vector_rmse_mps": 0.5886484673429859,
+            "wind_along_leg_mae_mps": 0.30749276678444065,
+            "wind_along_leg_bias_mps": -0.06416520649309983,
+            "wind_cross_leg_mae_mps": 0.3099700994862274,
+            "current_en_vector_rmse_mps": 0.02247623205435258,
+            "current_along_leg_mae_mps": 0.010183101960939925,
+            "current_along_leg_bias_mps": 0.002147934376145458,
+            "current_cross_leg_mae_mps": 0.009706407911470654,
+            "wave_height_mae_m": 0.03641592012529024
+          },
+          "causal_trend": {
+            "count": 274,
+            "wind_en_vector_rmse_mps": 0.47796610994760386,
+            "wind_along_leg_mae_mps": 0.24604804346931686,
+            "wind_along_leg_bias_mps": -0.039076749705236294,
+            "wind_cross_leg_mae_mps": 0.24525027090301557,
+            "current_en_vector_rmse_mps": 0.022649508410747348,
+            "current_along_leg_mae_mps": 0.010709328404981167,
+            "current_along_leg_bias_mps": 0.0007451623958091193,
+            "current_cross_leg_mae_mps": 0.011989137648989229,
+            "wave_height_mae_m": 0.02787378842880814
+          },
+          "transformer": {
+            "count": 274,
+            "wind_en_vector_rmse_mps": 0.5363419249528438,
+            "wind_along_leg_mae_mps": 0.31255836634645423,
+            "wind_along_leg_bias_mps": 0.15558305985587934,
+            "wind_cross_leg_mae_mps": 0.2741095398635518,
+            "current_en_vector_rmse_mps": 0.024911136887788128,
+            "current_along_leg_mae_mps": 0.014794722462259173,
+            "current_along_leg_bias_mps": 0.012020530284723387,
+            "current_cross_leg_mae_mps": 0.012182310593570713,
+            "wave_height_mae_m": 0.03961031596233863
+          }
+        },
+        "headwind": {
+          "persistence": {
+            "count": 587,
+            "wind_en_vector_rmse_mps": 0.7334389905353815,
+            "wind_along_leg_mae_mps": 0.371417530872738,
+            "wind_along_leg_bias_mps": 0.032031777422019445,
+            "wind_cross_leg_mae_mps": 0.382517013640311,
+            "current_en_vector_rmse_mps": 0.025403654183289593,
+            "current_along_leg_mae_mps": 0.01216786436655111,
+            "current_along_leg_bias_mps": 0.0007211943303863615,
+            "current_cross_leg_mae_mps": 0.011616888999240035,
+            "wave_height_mae_m": 0.04068220456832196
+          },
+          "causal_trend": {
+            "count": 587,
+            "wind_en_vector_rmse_mps": 0.6003715632678985,
+            "wind_along_leg_mae_mps": 0.3027021944750219,
+            "wind_along_leg_bias_mps": -0.008166062124166425,
+            "wind_cross_leg_mae_mps": 0.30691223984687316,
+            "current_en_vector_rmse_mps": 0.024887418671433542,
+            "current_along_leg_mae_mps": 0.013053415298163418,
+            "current_along_leg_bias_mps": 0.0003314213442608838,
+            "current_cross_leg_mae_mps": 0.012927469333573331,
+            "wave_height_mae_m": 0.02872644283257847
+          },
+          "transformer": {
+            "count": 587,
+            "wind_en_vector_rmse_mps": 0.6550571708825894,
+            "wind_along_leg_mae_mps": 0.34778592078107684,
+            "wind_along_leg_bias_mps": 0.15948656385616583,
+            "wind_cross_leg_mae_mps": 0.3406274184207121,
+            "current_en_vector_rmse_mps": 0.02571020612684398,
+            "current_along_leg_mae_mps": 0.014463563604697556,
+            "current_along_leg_bias_mps": 0.007566620001463269,
+            "current_cross_leg_mae_mps": 0.013472135755803676,
+            "wave_height_mae_m": 0.04032714670942038
+          }
+        },
+        "weak_wind_opposing_current": {
+          "persistence": {
+            "count": 28,
+            "wind_en_vector_rmse_mps": 0.4516248150643537,
+            "wind_along_leg_mae_mps": 0.3776521029083143,
+            "wind_along_leg_bias_mps": -0.3776521029083143,
+            "wind_cross_leg_mae_mps": 0.15224390470952986,
+            "current_en_vector_rmse_mps": 0.021559369126790538,
+            "current_along_leg_mae_mps": 0.009294190159087062,
+            "current_along_leg_bias_mps": 0.001509843471096211,
+            "current_cross_leg_mae_mps": 0.010238951283090438,
+            "wave_height_mae_m": 0.040021064291958876
+          },
+          "causal_trend": {
+            "count": 28,
+            "wind_en_vector_rmse_mps": 0.24115672502731234,
+            "wind_along_leg_mae_mps": 0.1835949992946241,
+            "wind_along_leg_bias_mps": -0.18307432498728257,
+            "wind_cross_leg_mae_mps": 0.09098302141764403,
+            "current_en_vector_rmse_mps": 0.023244831626292848,
+            "current_along_leg_mae_mps": 0.012076805420646833,
+            "current_along_leg_bias_mps": 0.0011248342730912314,
+            "current_cross_leg_mae_mps": 0.012189006002031386,
+            "wave_height_mae_m": 0.017780379102492465
+          },
+          "transformer": {
+            "count": 28,
+            "wind_en_vector_rmse_mps": 0.2750163862554687,
+            "wind_along_leg_mae_mps": 0.23206003647985846,
+            "wind_along_leg_bias_mps": -0.23206003647985846,
+            "wind_cross_leg_mae_mps": 0.09188947166223223,
+            "current_en_vector_rmse_mps": 0.022607526925422086,
+            "current_along_leg_mae_mps": 0.013328700607863595,
+            "current_along_leg_bias_mps": 0.011740554849266461,
+            "current_cross_leg_mae_mps": 0.010507548373625763,
+            "wave_height_mae_m": 0.025162774592274065
+          }
+        },
+        "brindisi": {
+          "persistence": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.6924044123865469,
+            "wind_along_leg_mae_mps": 0.3684025497206231,
+            "wind_along_leg_bias_mps": 0.007993279296707834,
+            "wind_cross_leg_mae_mps": 0.3576946508971555,
+            "current_en_vector_rmse_mps": 0.024030958951920065,
+            "current_along_leg_mae_mps": 0.01086897859783967,
+            "current_along_leg_bias_mps": 0.00015009528284845897,
+            "current_cross_leg_mae_mps": 0.01127536915389731,
+            "wave_height_mae_m": 0.040988420670019066
+          },
+          "causal_trend": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.5836639806364047,
+            "wind_along_leg_mae_mps": 0.3047422304990514,
+            "wind_along_leg_bias_mps": 0.004161011852717313,
+            "wind_cross_leg_mae_mps": 0.2960212544632571,
+            "current_en_vector_rmse_mps": 0.02470509698582911,
+            "current_along_leg_mae_mps": 0.01249777540182616,
+            "current_along_leg_bias_mps": 7.504764142422953e-05,
+            "current_cross_leg_mae_mps": 0.0128261383289549,
+            "wave_height_mae_m": 0.03075401553182198
+          },
+          "transformer": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.6212038600025183,
+            "wind_along_leg_mae_mps": 0.34968669115091644,
+            "wind_along_leg_bias_mps": -0.01405050555953968,
+            "wind_cross_leg_mae_mps": 0.31460827519419665,
+            "current_en_vector_rmse_mps": 0.023938246108720744,
+            "current_along_leg_mae_mps": 0.01208773020370644,
+            "current_along_leg_bias_mps": 0.002961576348797534,
+            "current_cross_leg_mae_mps": 0.013098097432825355,
+            "wave_height_mae_m": 0.040523069341473775
+          }
+        },
+        "otranto": {
+          "persistence": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.9008288549536945,
+            "wind_along_leg_mae_mps": 0.4540985416213431,
+            "wind_along_leg_bias_mps": -0.019396408696945994,
+            "wind_cross_leg_mae_mps": 0.484760528117232,
+            "current_en_vector_rmse_mps": 0.03042188663857651,
+            "current_along_leg_mae_mps": 0.015362315849124513,
+            "current_along_leg_bias_mps": 2.1821383486076636e-06,
+            "current_cross_leg_mae_mps": 0.01677728548151391,
+            "wave_height_mae_m": 0.05128441066207693
+          },
+          "causal_trend": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.708285797063342,
+            "wind_along_leg_mae_mps": 0.35994908505955764,
+            "wind_along_leg_bias_mps": -0.007111777282891297,
+            "wind_cross_leg_mae_mps": 0.36899343215245156,
+            "current_en_vector_rmse_mps": 0.026869645297245313,
+            "current_along_leg_mae_mps": 0.014262791013615172,
+            "current_along_leg_bias_mps": 0.00011118828561769339,
+            "current_cross_leg_mae_mps": 0.015572779561022279,
+            "wave_height_mae_m": 0.034533881657621154
+          },
+          "transformer": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.8063093230136842,
+            "wind_along_leg_mae_mps": 0.41465447111913517,
+            "wind_along_leg_bias_mps": -0.02417901476255837,
+            "wind_cross_leg_mae_mps": 0.4493974006977143,
+            "current_en_vector_rmse_mps": 0.029833308079389425,
+            "current_along_leg_mae_mps": 0.01587875463525688,
+            "current_along_leg_bias_mps": 0.004750032472175903,
+            "current_cross_leg_mae_mps": 0.01687420394775238,
+            "wave_height_mae_m": 0.05243684688788358
+          }
+        }
+      }
+    },
+    "autumn": {
+      "archive": {
+        "count": 1512,
+        "day_count": 7,
+        "coastal_fallbacks": {
+          "wind": 0,
+          "current": 0,
+          "wave": 0
+        },
+        "issue_first_utc": "2026-10-12T00:00:00Z",
+        "issue_last_utc": "2026-10-18T23:00:00Z",
+        "target_last_utc": "2026-10-19T00:00:00Z",
+        "files_sha256": {
+          "wind": "12dc51d3ab7a1f92165268d054fd8f66ddaf0c6d4afb17f40600610e5991b480",
+          "current": "892a4e71f1b7415597ff34ee4b7d7db65e5a7f2b5598287a23b279a25088ce44",
+          "wave": "e98deb5bd1e7e4b3a451ac36563a91ddae6307c54d0176f271c607a8d96c78af"
+        }
+      },
+      "metrics": {
+        "all": {
+          "persistence": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6722669498282767,
+            "wind_along_leg_mae_mps": 0.3521279692514655,
+            "wind_along_leg_bias_mps": -0.005155394282878669,
+            "wind_cross_leg_mae_mps": 0.37706897779494053,
+            "current_en_vector_rmse_mps": 0.0204057124078289,
+            "current_along_leg_mae_mps": 0.008596947457663083,
+            "current_along_leg_bias_mps": -0.0003536495942773883,
+            "current_cross_leg_mae_mps": 0.009426090135090676,
+            "wave_height_mae_m": 0.06014574953721556
+          },
+          "causal_trend": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.5453257716045613,
+            "wind_along_leg_mae_mps": 0.27942558024156544,
+            "wind_along_leg_bias_mps": -0.0022642292395336676,
+            "wind_cross_leg_mae_mps": 0.2946752904993363,
+            "current_en_vector_rmse_mps": 0.02050957009877546,
+            "current_along_leg_mae_mps": 0.009796456264376864,
+            "current_along_leg_bias_mps": -0.00017245198086722715,
+            "current_cross_leg_mae_mps": 0.010463948919063198,
+            "wave_height_mae_m": 0.04479697367276358
+          },
+          "transformer": {
+            "count": 1512,
+            "wind_en_vector_rmse_mps": 0.6161957062722014,
+            "wind_along_leg_mae_mps": 0.3297910542571566,
+            "wind_along_leg_bias_mps": 0.07510598804727939,
+            "wind_cross_leg_mae_mps": 0.3289763717544891,
+            "current_en_vector_rmse_mps": 0.021793222443022488,
+            "current_along_leg_mae_mps": 0.010843583714069386,
+            "current_along_leg_bias_mps": 0.0009204354827591799,
+            "current_cross_leg_mae_mps": 0.011598678756830159,
+            "wave_height_mae_m": 0.05988266458996684
+          }
+        },
+        "opposing_current": {
+          "persistence": {
+            "count": 356,
+            "wind_en_vector_rmse_mps": 0.6935350312197647,
+            "wind_along_leg_mae_mps": 0.3908268461629263,
+            "wind_along_leg_bias_mps": -0.013179239650591498,
+            "wind_cross_leg_mae_mps": 0.3752906035734294,
+            "current_en_vector_rmse_mps": 0.023661539417242854,
+            "current_along_leg_mae_mps": 0.01161808368506652,
+            "current_along_leg_bias_mps": 0.0007560912878469885,
+            "current_cross_leg_mae_mps": 0.010490939987419618,
+            "wave_height_mae_m": 0.06574890552817446
+          },
+          "causal_trend": {
+            "count": 356,
+            "wind_en_vector_rmse_mps": 0.5563431786337466,
+            "wind_along_leg_mae_mps": 0.29614483391107116,
+            "wind_along_leg_bias_mps": -0.015187109910648939,
+            "wind_cross_leg_mae_mps": 0.2963877070676731,
+            "current_en_vector_rmse_mps": 0.023119853241847392,
+            "current_along_leg_mae_mps": 0.012263701525177122,
+            "current_along_leg_bias_mps": 0.0002414432404328306,
+            "current_cross_leg_mae_mps": 0.011331358386669776,
+            "wave_height_mae_m": 0.049845336934519445
+          },
+          "transformer": {
+            "count": 356,
+            "wind_en_vector_rmse_mps": 0.6748750390501852,
+            "wind_along_leg_mae_mps": 0.3737085307115901,
+            "wind_along_leg_bias_mps": 0.20587379191399588,
+            "wind_cross_leg_mae_mps": 0.3577691867497624,
+            "current_en_vector_rmse_mps": 0.025594636743059403,
+            "current_along_leg_mae_mps": 0.013519341392317077,
+            "current_along_leg_bias_mps": 0.005578307792186503,
+            "current_cross_leg_mae_mps": 0.013649700157174762,
+            "wave_height_mae_m": 0.06938695249351884
+          }
+        },
+        "headwind": {
+          "persistence": {
+            "count": 799,
+            "wind_en_vector_rmse_mps": 0.6720724797692401,
+            "wind_along_leg_mae_mps": 0.36074801903069104,
+            "wind_along_leg_bias_mps": 0.0052583385254245845,
+            "wind_cross_leg_mae_mps": 0.3744148804988747,
+            "current_en_vector_rmse_mps": 0.02065896252692635,
+            "current_along_leg_mae_mps": 0.009085861324767384,
+            "current_along_leg_bias_mps": -0.0008538517749111699,
+            "current_cross_leg_mae_mps": 0.009232266335554528,
+            "wave_height_mae_m": 0.06256892952347944
+          },
+          "causal_trend": {
+            "count": 799,
+            "wind_en_vector_rmse_mps": 0.5417059179036837,
+            "wind_along_leg_mae_mps": 0.2785929090505991,
+            "wind_along_leg_bias_mps": -0.006961110114364571,
+            "wind_cross_leg_mae_mps": 0.2938367819236199,
+            "current_en_vector_rmse_mps": 0.020916084247480253,
+            "current_along_leg_mae_mps": 0.010242956765010296,
+            "current_along_leg_bias_mps": -0.0005656281591974146,
+            "current_cross_leg_mae_mps": 0.010359306876019922,
+            "wave_height_mae_m": 0.04661869673036502
+          },
+          "transformer": {
+            "count": 799,
+            "wind_en_vector_rmse_mps": 0.6325337404307902,
+            "wind_along_leg_mae_mps": 0.34831055416488094,
+            "wind_along_leg_bias_mps": 0.2044766214629847,
+            "wind_cross_leg_mae_mps": 0.32989706006032143,
+            "current_en_vector_rmse_mps": 0.022119819260931626,
+            "current_along_leg_mae_mps": 0.01075117308779564,
+            "current_along_leg_bias_mps": 0.0011855335389666806,
+            "current_cross_leg_mae_mps": 0.011871752030043068,
+            "wave_height_mae_m": 0.06348910015140172
+          }
+        },
+        "weak_wind_opposing_current": {
+          "persistence": {
+            "count": 63,
+            "wind_en_vector_rmse_mps": 0.5972545296185438,
+            "wind_along_leg_mae_mps": 0.3290583815051176,
+            "wind_along_leg_bias_mps": -0.06544684899786742,
+            "wind_cross_leg_mae_mps": 0.3493196169467098,
+            "current_en_vector_rmse_mps": 0.01747725639501715,
+            "current_along_leg_mae_mps": 0.006836112713458095,
+            "current_along_leg_bias_mps": -0.0024181184951144476,
+            "current_cross_leg_mae_mps": 0.005584446694325815,
+            "wave_height_mae_m": 0.02872431083123811
+          },
+          "causal_trend": {
+            "count": 63,
+            "wind_en_vector_rmse_mps": 0.499653981614977,
+            "wind_along_leg_mae_mps": 0.24008647821042503,
+            "wind_along_leg_bias_mps": -0.031606771825890126,
+            "wind_cross_leg_mae_mps": 0.2845515701343977,
+            "current_en_vector_rmse_mps": 0.019500363619804437,
+            "current_along_leg_mae_mps": 0.009968325863358133,
+            "current_along_leg_bias_mps": -0.0016895405446678124,
+            "current_cross_leg_mae_mps": 0.00653346290016872,
+            "wave_height_mae_m": 0.019337552222413776
+          },
+          "transformer": {
+            "count": 63,
+            "wind_en_vector_rmse_mps": 0.48585718239278985,
+            "wind_along_leg_mae_mps": 0.2455622927392948,
+            "wind_along_leg_bias_mps": 0.03664591545654866,
+            "wind_cross_leg_mae_mps": 0.26384324795916636,
+            "current_en_vector_rmse_mps": 0.0198042950864955,
+            "current_along_leg_mae_mps": 0.010346715068379883,
+            "current_along_leg_bias_mps": 0.0020437035016055293,
+            "current_cross_leg_mae_mps": 0.011172009982032166,
+            "wave_height_mae_m": 0.02701579664318604
+          }
+        },
+        "brindisi": {
+          "persistence": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.6533572274786322,
+            "wind_along_leg_mae_mps": 0.3396549502808984,
+            "wind_along_leg_bias_mps": -0.011123222121875775,
+            "wind_cross_leg_mae_mps": 0.37464720230354825,
+            "current_en_vector_rmse_mps": 0.01792978390836311,
+            "current_along_leg_mae_mps": 0.007376977858697129,
+            "current_along_leg_bias_mps": -0.00042600504286276143,
+            "current_cross_leg_mae_mps": 0.007986807147797224,
+            "wave_height_mae_m": 0.05962266937634572
+          },
+          "causal_trend": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.5218309779402285,
+            "wind_along_leg_mae_mps": 0.26665739389254084,
+            "wind_along_leg_bias_mps": -0.0052457329947338096,
+            "wind_cross_leg_mae_mps": 0.28954833910656524,
+            "current_en_vector_rmse_mps": 0.019117942903283544,
+            "current_along_leg_mae_mps": 0.008984739940432883,
+            "current_along_leg_bias_mps": -0.00020638860898307602,
+            "current_cross_leg_mae_mps": 0.009517123375029175,
+            "wave_height_mae_m": 0.04466420716728638
+          },
+          "transformer": {
+            "count": 1176,
+            "wind_en_vector_rmse_mps": 0.5967928781847404,
+            "wind_along_leg_mae_mps": 0.32187397035760634,
+            "wind_along_leg_bias_mps": 0.08904609847457602,
+            "wind_cross_leg_mae_mps": 0.3221436563394651,
+            "current_en_vector_rmse_mps": 0.019317281528247212,
+            "current_along_leg_mae_mps": 0.009542265273325854,
+            "current_along_leg_bias_mps": 0.0029868128705357526,
+            "current_cross_leg_mae_mps": 0.010187048686758378,
+            "wave_height_mae_m": 0.060728826764217286
+          }
+        },
+        "otranto": {
+          "persistence": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.7346277967762918,
+            "wind_along_leg_mae_mps": 0.3957835356484501,
+            "wind_along_leg_bias_mps": 0.0157320031536112,
+            "wind_cross_leg_mae_mps": 0.3855451920148131,
+            "current_en_vector_rmse_mps": 0.02736053574799864,
+            "current_along_leg_mae_mps": 0.012866841054043924,
+            "current_along_leg_bias_mps": -0.00010040552422858213,
+            "current_cross_leg_mae_mps": 0.014463580590617767,
+            "wave_height_mae_m": 0.061976530100259976
+          },
+          "causal_trend": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.6205919705485261,
+            "wind_along_leg_mae_mps": 0.3241142324631513,
+            "wind_along_leg_bias_mps": 0.008171033903666839,
+            "wind_cross_leg_mae_mps": 0.31261962037403485,
+            "current_en_vector_rmse_mps": 0.024772081107133415,
+            "current_along_leg_mae_mps": 0.012637463398180802,
+            "current_along_leg_bias_mps": -5.367378246175603e-05,
+            "current_cross_leg_mae_mps": 0.013777838323182282,
+            "wave_height_mae_m": 0.045261656441933765
+          },
+          "transformer": {
+            "count": 336,
+            "wind_en_vector_rmse_mps": 0.6797581039202436,
+            "wind_along_leg_mae_mps": 0.35750084790558234,
+            "wind_along_leg_bias_mps": 0.026315601551741227,
+            "wind_cross_leg_mae_mps": 0.3528908757070731,
+            "current_en_vector_rmse_mps": 0.02883053364549991,
+            "current_along_leg_mae_mps": 0.015398198256671743,
+            "current_along_leg_bias_mps": -0.006311885374458824,
+            "current_cross_leg_mae_mps": 0.016539384002081395,
+            "wave_height_mae_m": 0.056921096980090305
+          }
+        }
+      }
+    }
+  }
+}

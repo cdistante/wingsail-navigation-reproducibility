@@ -1,0 +1,12 @@
+arm,step,elapsed_s,source,action,reason,COLREG_active,ais_mode
+classical,1,0,,,,3,buffer maneuver
+classical,2,5,,,,0,buffer maneuver
+classical,10,45,,,,2,buffer maneuver
+classical,29,140,,,,0,buffer maneuver
+classical,68,335,,,,0,route
+transformer,1,0,classical fallback,planner,AIS steering override,3,buffer maneuver
+transformer,2,5,classical fallback,planner,AIS steering override,0,buffer maneuver
+transformer,10,45,classical fallback,planner,AIS steering override,2,buffer maneuver
+transformer,29,140,classical fallback,planner,AIS steering override,0,buffer maneuver
+transformer,68,335,classical fallback,planner,AIS encounter,0,route
+transformer,337,1680,learned,sail,,0,route

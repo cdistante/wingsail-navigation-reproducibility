@@ -1,0 +1,1118 @@
+{
+  "version": 1,
+  "roster": "pilot",
+  "archive_bounds_request": {
+    "min_latitude": 39.85,
+    "max_latitude": 40.85,
+    "min_longitude": 17.65,
+    "max_longitude": 19.15
+  },
+  "archive_blocks": {
+    "winter": {
+      "split": "train",
+      "start_utc": "2026-01-12T00:00:00Z",
+      "end_utc_exclusive": "2026-01-19T00:00:00Z",
+      "requested_archive_start_utc": "2026-01-11T00:00:00Z",
+      "requested_archive_end_utc_exclusive": "2026-01-21T00:00:00Z",
+      "requested_hourly_samples": 240,
+      "files": {
+        "wind": "forcing/winter/wind.nc",
+        "current": "forcing/winter/current.nc",
+        "wave": "forcing/winter/wave.nc"
+      }
+    },
+    "spring": {
+      "split": "validation",
+      "start_utc": "2026-04-13T00:00:00Z",
+      "end_utc_exclusive": "2026-04-20T00:00:00Z",
+      "requested_archive_start_utc": "2026-04-12T00:00:00Z",
+      "requested_archive_end_utc_exclusive": "2026-04-22T00:00:00Z",
+      "requested_hourly_samples": 240,
+      "files": {
+        "wind": "forcing/spring/wind.nc",
+        "current": "forcing/spring/current.nc",
+        "wave": "forcing/spring/wave.nc"
+      }
+    },
+    "summer": {
+      "split": "train",
+      "start_utc": "2026-07-13T00:00:00Z",
+      "end_utc_exclusive": "2026-07-20T00:00:00Z",
+      "requested_archive_start_utc": "2026-07-12T00:00:00Z",
+      "requested_archive_end_utc_exclusive": "2026-07-22T00:00:00Z",
+      "requested_hourly_samples": 240,
+      "files": {
+        "wind": "forcing/summer/wind.nc",
+        "current": "forcing/summer/current.nc",
+        "wave": "forcing/summer/wave.nc"
+      }
+    },
+    "autumn": {
+      "split": "test",
+      "start_utc": "2026-10-12T00:00:00Z",
+      "end_utc_exclusive": "2026-10-19T00:00:00Z",
+      "requested_archive_start_utc": "2026-10-11T00:00:00Z",
+      "requested_archive_end_utc_exclusive": "2026-10-21T00:00:00Z",
+      "requested_hourly_samples": 240,
+      "files": {
+        "wind": "forcing/autumn/wind.nc",
+        "current": "forcing/autumn/current.nc",
+        "wave": "forcing/autumn/wave.nc"
+      }
+    }
+  },
+  "routes": {
+    "otranto_002": {
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "family": "otranto",
+      "sha256": "8b66bdafdd224390eb3e1542197be44f351e12aa12058ae28f0298adb376cec3",
+      "waypoints": [
+        {
+          "waypoint": "001",
+          "latitude": 40.225,
+          "longitude": 18.746666667
+        },
+        {
+          "waypoint": "002",
+          "latitude": 40.228333333,
+          "longitude": 18.75
+        }
+      ],
+      "first_leg_bearing_deg": 37.36049600966235
+    },
+    "otranto_003": {
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "family": "otranto",
+      "sha256": "ab37baf9433abce58e1b7e7c8bfc7b2ce32f7bd1f4eb1729e33cd2310bc5c61d",
+      "waypoints": [
+        {
+          "waypoint": "001",
+          "latitude": 40.225,
+          "longitude": 18.746666667
+        },
+        {
+          "waypoint": "002",
+          "latitude": 40.228333333,
+          "longitude": 18.75
+        },
+        {
+          "waypoint": "003",
+          "latitude": 40.226666667,
+          "longitude": 18.756666667
+        }
+      ],
+      "first_leg_bearing_deg": 37.36049600966235
+    },
+    "brindisi_small": {
+      "route_gpx": "current_route/small route.gpx",
+      "family": "brindisi",
+      "sha256": "90ef106e1a3c0ef552c3e8472d31b5dff4dd25554e0f50cb70b1db25da50c6ac",
+      "waypoints": [
+        {
+          "waypoint": "001",
+          "latitude": 40.593730886,
+          "longitude": 18.192885376
+        },
+        {
+          "waypoint": "002",
+          "latitude": 40.595546735,
+          "longitude": 18.195317283
+        },
+        {
+          "waypoint": "003",
+          "latitude": 40.598778207,
+          "longitude": 18.194506647
+        }
+      ],
+      "first_leg_bearing_deg": 45.480661930015486
+    },
+    "brindisi_003": {
+      "route_gpx": "current_route/opencpn_001_003_test.gpx",
+      "family": "brindisi",
+      "sha256": "b9b067b537ff59787e6df2f35ad2a8a1738314936a305de8e0530086d936d6f7",
+      "waypoints": [
+        {
+          "waypoint": "001",
+          "latitude": 40.593333333,
+          "longitude": 18.193333333
+        },
+        {
+          "waypoint": "002",
+          "latitude": 40.6,
+          "longitude": 18.188333333
+        },
+        {
+          "waypoint": "003",
+          "latitude": 40.595,
+          "longitude": 18.186666667
+        }
+      ],
+      "first_leg_bearing_deg": 330.34089934929847
+    },
+    "brindisi_004": {
+      "route_gpx": "current_route/opencpn_001_004_test.gpx",
+      "family": "brindisi",
+      "sha256": "6fd9d1d34d381f7ab53a89da077fa511f12889a54a8433a303ee4ea536eda6a5",
+      "waypoints": [
+        {
+          "waypoint": "001",
+          "latitude": 40.593333333,
+          "longitude": 18.193333333
+        },
+        {
+          "waypoint": "002",
+          "latitude": 40.598333333,
+          "longitude": 18.196666667
+        },
+        {
+          "waypoint": "003",
+          "latitude": 40.601666667,
+          "longitude": 18.19
+        },
+        {
+          "waypoint": "004",
+          "latitude": 40.6,
+          "longitude": 18.188333333
+        }
+      ],
+      "first_leg_bearing_deg": 26.84801947969179
+    }
+  },
+  "traffic_profiles": {
+    "train_crossing": {
+      "split": "train",
+      "delay_s": 10,
+      "drop_windows_s": [],
+      "targets": [
+        {
+          "name": "crossing ferry",
+          "ship_type": 60,
+          "along_m": 255,
+          "starboard_m": -375,
+          "course_offset_deg": 90,
+          "speed_mps": 2.5,
+          "length_m": 45,
+          "beam_m": 10
+        },
+        {
+          "name": "outbound monitor",
+          "ship_type": 52,
+          "along_m": 140,
+          "starboard_m": 335,
+          "course_offset_deg": 0,
+          "speed_mps": 1.9,
+          "length_m": 25,
+          "beam_m": 8
+        },
+        {
+          "name": "distant inbound freighter",
+          "ship_type": 70,
+          "along_m": 960,
+          "starboard_m": -460,
+          "course_offset_deg": 180,
+          "speed_mps": 2.7,
+          "length_m": 62,
+          "beam_m": 12
+        }
+      ],
+      "report_interval_s": 5
+    },
+    "train_opposed": {
+      "split": "train",
+      "delay_s": 10,
+      "drop_windows_s": [
+        [
+          85,
+          105
+        ],
+        [
+          115,
+          135
+        ]
+      ],
+      "targets": [
+        {
+          "name": "parallel inbound",
+          "ship_type": 70,
+          "along_m": 560,
+          "starboard_m": 220,
+          "course_offset_deg": 180,
+          "speed_mps": 2.2,
+          "length_m": 66,
+          "beam_m": 14
+        },
+        {
+          "name": "parallel overtaking",
+          "ship_type": 52,
+          "along_m": -510,
+          "starboard_m": -205,
+          "course_offset_deg": 0,
+          "speed_mps": 2.5,
+          "length_m": 23,
+          "beam_m": 8
+        },
+        {
+          "name": "outer outbound ferry",
+          "ship_type": 60,
+          "along_m": 85,
+          "starboard_m": -390,
+          "course_offset_deg": 18,
+          "speed_mps": 2.1,
+          "length_m": 48,
+          "beam_m": 10
+        }
+      ],
+      "report_interval_s": 5
+    },
+    "validation_slanted": {
+      "split": "validation",
+      "delay_s": 15,
+      "drop_windows_s": [
+        [
+          145,
+          170
+        ]
+      ],
+      "targets": [
+        {
+          "name": "slanted eastbound ferry",
+          "ship_type": 60,
+          "along_m": 295,
+          "starboard_m": -445,
+          "course_offset_deg": 72,
+          "speed_mps": 2.35,
+          "length_m": 50,
+          "beam_m": 11
+        },
+        {
+          "name": "outer port freighter",
+          "ship_type": 70,
+          "along_m": 830,
+          "starboard_m": -360,
+          "course_offset_deg": 169,
+          "speed_mps": 2.25,
+          "length_m": 58,
+          "beam_m": 13
+        },
+        {
+          "name": "parallel tug",
+          "ship_type": 52,
+          "along_m": -350,
+          "starboard_m": 285,
+          "course_offset_deg": 12,
+          "speed_mps": 2.55,
+          "length_m": 26,
+          "beam_m": 9
+        }
+      ],
+      "report_interval_s": 5
+    },
+    "test_oblique_fan": {
+      "split": "test",
+      "delay_s": 20,
+      "drop_windows_s": [
+        [
+          120,
+          160
+        ],
+        [
+          190,
+          225
+        ]
+      ],
+      "targets": [
+        {
+          "name": "inbound oblique crossing",
+          "ship_type": 60,
+          "along_m": 490,
+          "starboard_m": 465,
+          "course_offset_deg": -122,
+          "speed_mps": 2.4,
+          "length_m": 52,
+          "beam_m": 12
+        },
+        {
+          "name": "offside joining tug",
+          "ship_type": 52,
+          "along_m": -285,
+          "starboard_m": -235,
+          "course_offset_deg": 21,
+          "speed_mps": 2.65,
+          "length_m": 27,
+          "beam_m": 9
+        },
+        {
+          "name": "distant eastbound freighter",
+          "ship_type": 70,
+          "along_m": 850,
+          "starboard_m": 510,
+          "course_offset_deg": 169,
+          "speed_mps": 2.15,
+          "length_m": 61,
+          "beam_m": 14
+        }
+      ],
+      "velocity_ramps": [
+        {
+          "ship_index": 0,
+          "start_s": 155,
+          "end_s": 185,
+          "final_offset_deg": -115,
+          "final_speed_mps": 2.6
+        }
+      ],
+      "report_interval_s": 5
+    },
+    "test_raking_overtake": {
+      "split": "test",
+      "delay_s": 20,
+      "drop_windows_s": [
+        [
+          125,
+          165
+        ],
+        [
+          200,
+          235
+        ]
+      ],
+      "targets": [
+        {
+          "name": "raking overtaker",
+          "ship_type": 52,
+          "along_m": -435,
+          "starboard_m": -160,
+          "course_offset_deg": 22,
+          "speed_mps": 2.75,
+          "length_m": 29,
+          "beam_m": 9
+        },
+        {
+          "name": "starboard crossing ferry",
+          "ship_type": 60,
+          "along_m": 410,
+          "starboard_m": 385,
+          "course_offset_deg": -75,
+          "speed_mps": 2.8,
+          "length_m": 51,
+          "beam_m": 11
+        },
+        {
+          "name": "outer freight ship",
+          "ship_type": 70,
+          "along_m": 820,
+          "starboard_m": -455,
+          "course_offset_deg": 172,
+          "speed_mps": 2.0,
+          "length_m": 60,
+          "beam_m": 13
+        }
+      ],
+      "velocity_ramps": [
+        {
+          "ship_index": 0,
+          "start_s": 155,
+          "end_s": 180,
+          "final_offset_deg": 29,
+          "final_speed_mps": 2.5
+        }
+      ],
+      "report_interval_s": 5
+    }
+  },
+  "scenarios": [
+    {
+      "id": "winter__20260112T0600Z__otranto_002__train_crossing",
+      "split": "train",
+      "archive_block": "winter",
+      "departure_utc": "2026-01-12T06:00:00Z",
+      "weather_coverage_through_utc": "2026-01-12T22:15:00Z",
+      "route_id": "otranto_002",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        }
+      ],
+      "traffic_profile": "train_crossing",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "winter__20260114T1200Z__otranto_003__train_opposed",
+      "split": "train",
+      "archive_block": "winter",
+      "departure_utc": "2026-01-14T12:00:00Z",
+      "weather_coverage_through_utc": "2026-01-15T04:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "train_opposed",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "winter__20260116T1800Z__otranto_002__train_opposed",
+      "split": "train",
+      "archive_block": "winter",
+      "departure_utc": "2026-01-16T18:00:00Z",
+      "weather_coverage_through_utc": "2026-01-17T10:15:00Z",
+      "route_id": "otranto_002",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        }
+      ],
+      "traffic_profile": "train_opposed",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "winter__20260118T0000Z__otranto_003__train_crossing",
+      "split": "train",
+      "archive_block": "winter",
+      "departure_utc": "2026-01-18T00:00:00Z",
+      "weather_coverage_through_utc": "2026-01-18T16:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "train_crossing",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "spring__20260414T0600Z__otranto_002__validation_slanted",
+      "split": "validation",
+      "archive_block": "spring",
+      "departure_utc": "2026-04-14T06:00:00Z",
+      "weather_coverage_through_utc": "2026-04-14T22:15:00Z",
+      "route_id": "otranto_002",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        }
+      ],
+      "traffic_profile": "validation_slanted",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "split": "validation",
+      "archive_block": "spring",
+      "departure_utc": "2026-04-16T12:00:00Z",
+      "weather_coverage_through_utc": "2026-04-17T04:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "validation_slanted",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "split": "validation",
+      "archive_block": "spring",
+      "departure_utc": "2026-04-18T18:00:00Z",
+      "weather_coverage_through_utc": "2026-04-19T10:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "validation_slanted",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "summer__20260713T0600Z__otranto_002__train_opposed",
+      "split": "train",
+      "archive_block": "summer",
+      "departure_utc": "2026-07-13T06:00:00Z",
+      "weather_coverage_through_utc": "2026-07-13T22:15:00Z",
+      "route_id": "otranto_002",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        }
+      ],
+      "traffic_profile": "train_opposed",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "summer__20260715T1200Z__otranto_003__train_opposed",
+      "split": "train",
+      "archive_block": "summer",
+      "departure_utc": "2026-07-15T12:00:00Z",
+      "weather_coverage_through_utc": "2026-07-16T04:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "train_opposed",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "summer__20260717T1800Z__otranto_002__train_crossing",
+      "split": "train",
+      "archive_block": "summer",
+      "departure_utc": "2026-07-17T18:00:00Z",
+      "weather_coverage_through_utc": "2026-07-18T10:15:00Z",
+      "route_id": "otranto_002",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_001_002_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        }
+      ],
+      "traffic_profile": "train_crossing",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "summer__20260719T0000Z__otranto_003__train_crossing",
+      "split": "train",
+      "archive_block": "summer",
+      "departure_utc": "2026-07-19T00:00:00Z",
+      "weather_coverage_through_utc": "2026-07-19T16:15:00Z",
+      "route_id": "otranto_003",
+      "route_family": "otranto",
+      "route_gpx": "current_route/otranto_short_001_003_loop.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.225,
+        "longitude": 18.746666667
+      },
+      "initial_heading_deg": 37.36049600966235,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "train_crossing",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics"
+      ]
+    },
+    {
+      "id": "autumn__20261012T0600Z__brindisi_small__test_oblique_fan",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-12T06:00:00Z",
+      "weather_coverage_through_utc": "2026-10-12T22:15:00Z",
+      "route_id": "brindisi_small",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/small route.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593730886,
+        "longitude": 18.192885376
+      },
+      "initial_heading_deg": 45.480661930015486,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_oblique_fan",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261012T0600Z__brindisi_small__test_raking_overtake",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-12T06:00:00Z",
+      "weather_coverage_through_utc": "2026-10-12T22:15:00Z",
+      "route_id": "brindisi_small",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/small route.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593730886,
+        "longitude": 18.192885376
+      },
+      "initial_heading_deg": 45.480661930015486,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_raking_overtake",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261014T1200Z__brindisi_003__test_oblique_fan",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-14T12:00:00Z",
+      "weather_coverage_through_utc": "2026-10-15T04:15:00Z",
+      "route_id": "brindisi_003",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/opencpn_001_003_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593333333,
+        "longitude": 18.193333333
+      },
+      "initial_heading_deg": 330.34089934929847,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_oblique_fan",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261014T1200Z__brindisi_003__test_raking_overtake",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-14T12:00:00Z",
+      "weather_coverage_through_utc": "2026-10-15T04:15:00Z",
+      "route_id": "brindisi_003",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/opencpn_001_003_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593333333,
+        "longitude": 18.193333333
+      },
+      "initial_heading_deg": 330.34089934929847,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_raking_overtake",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-16T18:00:00Z",
+      "weather_coverage_through_utc": "2026-10-17T10:15:00Z",
+      "route_id": "brindisi_004",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/opencpn_001_004_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593333333,
+        "longitude": 18.193333333
+      },
+      "initial_heading_deg": 26.84801947969179,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004"
+        }
+      ],
+      "traffic_profile": "test_oblique_fan",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261016T1800Z__brindisi_004__test_raking_overtake",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-16T18:00:00Z",
+      "weather_coverage_through_utc": "2026-10-17T10:15:00Z",
+      "route_id": "brindisi_004",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/opencpn_001_004_test.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593333333,
+        "longitude": 18.193333333
+      },
+      "initial_heading_deg": 26.84801947969179,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "004"
+        }
+      ],
+      "traffic_profile": "test_raking_overtake",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261018T0000Z__brindisi_small__test_oblique_fan",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-18T00:00:00Z",
+      "weather_coverage_through_utc": "2026-10-18T16:15:00Z",
+      "route_id": "brindisi_small",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/small route.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593730886,
+        "longitude": 18.192885376
+      },
+      "initial_heading_deg": 45.480661930015486,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_oblique_fan",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    },
+    {
+      "id": "autumn__20261018T0000Z__brindisi_small__test_raking_overtake",
+      "split": "test",
+      "archive_block": "autumn",
+      "departure_utc": "2026-10-18T00:00:00Z",
+      "weather_coverage_through_utc": "2026-10-18T16:15:00Z",
+      "route_id": "brindisi_small",
+      "route_family": "brindisi",
+      "route_gpx": "current_route/small route.gpx",
+      "departure": {
+        "waypoint": "001",
+        "latitude": 40.593730886,
+        "longitude": 18.192885376
+      },
+      "initial_heading_deg": 45.480661930015486,
+      "expected_captures": [
+        {
+          "phase": "outbound",
+          "waypoint": "002"
+        },
+        {
+          "phase": "outbound",
+          "waypoint": "003"
+        }
+      ],
+      "traffic_profile": "test_raking_overtake",
+      "capture_radius_m": 50.0,
+      "control_dt_s": 5,
+      "max_steps": 4320,
+      "return_to_start": false,
+      "wind_from_override_deg": null,
+      "pairing": [
+        "physics",
+        "seasonal_learner"
+      ]
+    }
+  ],
+  "scenario_counts": {
+    "train": 8,
+    "validation": 3,
+    "test": 8
+  },
+  "paired_policy_arms": 27,
+  "split_rules": {
+    "weather": "Winter and summer fit; spring validation; autumn test. No dates overlap, including download buffers.",
+    "geography": "Otranto fit and validation. Hold out the complete Brindisi family, including all three nearby or overlapping GPXs.",
+    "traffic": "Fit, validation and test are assigned distinct synthetic traffic geometries and receipt timing profiles.",
+    "independent_groups": "Two traffic geometry scenarios share each held-out route/departure group and are paired sensitivity trials.",
+    "archive_provenance": "The block and roster are predeclared. Local archive coverage, checksums and provider provenance must be verified separately before launch.",
+    "lookahead_scope": "Use archived valid-time fields under shared offline look-ahead. Validate chronology and accepted timestamps without implying operational forecast issuance.",
+    "traffic_scope": "Synthetic native AIS traffic; recipe coordinates are relative to the first GPX leg, not reused global tracks.",
+    "reserved": {
+      "otranto": [
+        {
+          "route_gpx": "current_route/otranto_short_test_loop.gpx",
+          "sha256": "7f10e7441acfa91bed78808ad8da456c062aa960ec1303e81161c434d6397415"
+        }
+      ]
+    }
+  },
+  "metrics": {
+    "pair_unit": "Each test scenario ID pairs one frozen physics and one frozen learner arm.",
+    "success": "Every listed waypoint captured in order within the actual 50 m gate; start mark is the departure.",
+    "time": "Elapsed active-mark captures and mission completion from actual launch, with launch delay reported separately.",
+    "clearance": "Minimum full-uncertainty clearance with extra 3 m reserve; report- and truth-centred audited minima recorded separately.",
+    "timing": "Complete native decision time and overrun count over the 5 s control budget, including terminal attempts.",
+    "attrition": "All declared episodes are retained. Mark nonavailable forcing/inputs distinctly. Record chart or AIS stops and timeouts without selecting on outcomes."
+  },
+  "manifest_source_sha256": "f9ac2784f0e8a1657b2eb71d48e5874f6463927ecaf58c9f36454d4c74acf45a"
+}

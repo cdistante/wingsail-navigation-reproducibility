@@ -1,0 +1,301 @@
+[
+  {
+    "case": "classical",
+    "applied_actions": 300,
+    "frames": 301,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_runtime_margin_difference_m": 9.094947017729282e-13,
+    "maximum_truth_outside_report_envelope_m": -5.991719589919549,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_nominal_m": 14.813260516457575,
+    "truth_centered_minimum_uncertainty_m": -1.0812378073194964,
+    "configured_truth_centered_minimum_m": -4.081237807319496,
+    "model_minimum_uncertainty_m": -5.10003300843853,
+    "configured_model_minimum_m": -8.10003300843853,
+    "minimum_details": {
+      "true_nominal_25m": {
+        "margin_m": 14.813260516457575,
+        "mmsi": 999000102,
+        "elapsed_s": 172.13642678148196
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -1.0812378073194964,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -5.10003300843853,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "truth_with_reserve": {
+        "margin_m": -4.081237807319496,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "projected_with_reserve": {
+        "margin_m": -8.10003300843853,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      }
+    },
+    "negative_action_counts": {
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 1,
+      "projected_full_uncertainty": 3,
+      "truth_with_reserve": 3,
+      "projected_with_reserve": 4
+    },
+    "ais_modes": {
+      "buffer maneuver": 41,
+      "fallback minimum-risk": 4,
+      "route": 255
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "step_limit",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": 514.9003579425905,
+    "replay_sha256": "618aa1a419c7001bd7200f51a8ba39c8876efd1f0c824ca91d7273b1144eb0cb",
+    "command_time_flags": [
+      "2026-10-01T01:55:00Z",
+      "2026-09-30T02:59:20Z"
+    ],
+    "launch_utc": "2026-09-30T02:59:20Z",
+    "encounter_utc": "2026-09-30T03:00:00Z",
+    "wind_from_deg": 5.0,
+    "initial_archived_wind_speed_mps": 5.039270389018713,
+    "initial_current_speed_mps": 0.22802011377019732,
+    "initial_wave_height_m": 0.6424770529326129,
+    "audit_source_sha256": "c488a5e56355420a01b2777db2a3d9bd5a40d8f80b6066ca28f30e014d15f215",
+    "command_sha256": "0a330d71a4c0401501c9605f230a8db71d0a3169f284fed92fddc26b381dc8b3",
+    "violated_actions": {
+      "35": [
+        {
+          "step": "34",
+          "scenario_seconds": "130.0",
+          "mmsi": "999000102",
+          "report_age_s": "20.0",
+          "true_nominal_m": "14.813260516457575",
+          "truth_full_m": "1.9839260129818115",
+          "truth_with_reserve_m": "-1.0160739870181885",
+          "projected_full_m": "-1.0964489038722007",
+          "projected_with_reserve_m": "-4.096448903872201",
+          "max_report_extrapolation_error_m": "4.381445458149247",
+          "navigation_step": 35,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": null,
+          "forecast_hold_source": "classical fallback"
+        }
+      ],
+      "36": [
+        {
+          "step": "35",
+          "scenario_seconds": "135.0",
+          "mmsi": "999000102",
+          "report_age_s": "25.0",
+          "true_nominal_m": "15.108927019198617",
+          "truth_full_m": "0.09217039284266093",
+          "truth_with_reserve_m": "-2.907829607157339",
+          "projected_full_m": "-3.7572306628825203",
+          "projected_with_reserve_m": "-6.75723066288252",
+          "max_report_extrapolation_error_m": "6.572317681488909",
+          "navigation_step": 36,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": null,
+          "forecast_hold_source": "classical fallback"
+        }
+      ],
+      "37": [
+        {
+          "step": "36",
+          "scenario_seconds": "140.0",
+          "mmsi": "999000102",
+          "report_age_s": "30.0",
+          "true_nominal_m": "16.792170479688863",
+          "truth_full_m": "-1.0812378073194964",
+          "truth_with_reserve_m": "-4.081237807319496",
+          "projected_full_m": "-5.10003300843853",
+          "projected_with_reserve_m": "-8.10003300843853",
+          "max_report_extrapolation_error_m": "8.763186721677991",
+          "navigation_step": 37,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": null,
+          "forecast_hold_source": "classical fallback"
+        }
+      ]
+    },
+    "temporal_unique_decisions": {},
+    "temporal_frame_counts": {
+      "None/None": 301
+    }
+  },
+  {
+    "case": "transformer",
+    "applied_actions": 300,
+    "frames": 301,
+    "integration_substep_seconds": 0.05,
+    "maximum_pose_reconstruction_error_m": 0.0,
+    "maximum_runtime_margin_difference_m": 9.094947017729282e-13,
+    "maximum_truth_outside_report_envelope_m": -5.991719589918164,
+    "distinct_report_ages_s": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "truth_minimum_nominal_m": 14.813139292525207,
+    "truth_centered_minimum_uncertainty_m": -1.0810750037208834,
+    "configured_truth_centered_minimum_m": -4.081075003720883,
+    "model_minimum_uncertainty_m": -5.099800346601583,
+    "configured_model_minimum_m": -8.099800346601583,
+    "minimum_details": {
+      "true_nominal_25m": {
+        "margin_m": 14.813139292525207,
+        "mmsi": 999000102,
+        "elapsed_s": 172.13611253783645
+      },
+      "truth_full_uncertainty": {
+        "margin_m": -1.0810750037208834,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "projected_full_uncertainty": {
+        "margin_m": -5.099800346601583,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "truth_with_reserve": {
+        "margin_m": -4.081075003720883,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      },
+      "projected_with_reserve": {
+        "margin_m": -8.099800346601583,
+        "mmsi": 999000102,
+        "elapsed_s": 185.0
+      }
+    },
+    "negative_action_counts": {
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 1,
+      "projected_full_uncertainty": 3,
+      "truth_with_reserve": 3,
+      "projected_with_reserve": 4
+    },
+    "ais_modes": {
+      "buffer maneuver": 41,
+      "fallback minimum-risk": 4,
+      "route": 255
+    },
+    "verified_constant_velocity_truth_extended_after_s": 2100.0,
+    "mission_status": "step_limit",
+    "waypoint_arrivals": [],
+    "goal_captures": [],
+    "final_goal_distance_m": 494.1963227064964,
+    "replay_sha256": "d6b437e192d365ef80773883ed116b5b48f1ee5a074592e925dec6a9a3ed6997",
+    "command_time_flags": [
+      "2026-10-01T01:55:00Z",
+      "2026-09-30T02:59:20Z"
+    ],
+    "launch_utc": "2026-09-30T02:59:20Z",
+    "encounter_utc": "2026-09-30T03:00:00Z",
+    "wind_from_deg": 5.0,
+    "initial_archived_wind_speed_mps": 5.039270389018713,
+    "initial_current_speed_mps": 0.22802011377019732,
+    "initial_wave_height_m": 0.6424770529326129,
+    "audit_source_sha256": "c488a5e56355420a01b2777db2a3d9bd5a40d8f80b6066ca28f30e014d15f215",
+    "command_sha256": "443f3ed614efb1b02eb622cb71e32a0a6b82f9f26040b7620fe12c1dad1bc578",
+    "violated_actions": {
+      "35": [
+        {
+          "step": "34",
+          "scenario_seconds": "130.0",
+          "mmsi": "999000102",
+          "report_age_s": "20.0",
+          "true_nominal_m": "14.813139292525207",
+          "truth_full_m": "1.98386691819789",
+          "truth_with_reserve_m": "-1.01613308180211",
+          "projected_full_m": "-1.096478665963275",
+          "projected_with_reserve_m": "-4.096478665963275",
+          "max_report_extrapolation_error_m": "4.3814454575259845",
+          "navigation_step": 35,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": "classical fallback",
+          "forecast_hold_source": "classical fallback"
+        }
+      ],
+      "36": [
+        {
+          "step": "35",
+          "scenario_seconds": "135.0",
+          "mmsi": "999000102",
+          "report_age_s": "25.0",
+          "true_nominal_m": "15.108867924326944",
+          "truth_full_m": "0.09222289533592232",
+          "truth_with_reserve_m": "-2.9077771046640777",
+          "projected_full_m": "-3.7571279629434997",
+          "projected_with_reserve_m": "-6.7571279629435",
+          "max_report_extrapolation_error_m": "6.572317680698675",
+          "navigation_step": 36,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": "classical fallback",
+          "forecast_hold_source": "classical fallback"
+        }
+      ],
+      "37": [
+        {
+          "step": "36",
+          "scenario_seconds": "140.0",
+          "mmsi": "999000102",
+          "report_age_s": "30.0",
+          "true_nominal_m": "16.79222298215693",
+          "truth_full_m": "-1.0810750037208834",
+          "truth_with_reserve_m": "-4.081075003720883",
+          "projected_full_m": "-5.099800346601583",
+          "projected_with_reserve_m": "-8.099800346601583",
+          "max_report_extrapolation_error_m": "8.763186720711419",
+          "navigation_step": 37,
+          "ais_mode": "fallback minimum-risk",
+          "temporal_source": "classical fallback",
+          "forecast_hold_source": "classical fallback"
+        }
+      ]
+    },
+    "temporal_unique_decisions": {
+      "2026-09-30T03:12:05.000Z": {
+        "source": "learned",
+        "raw_action": "sail",
+        "applied_action": "sail",
+        "p_hold": 2.820313795837137e-07,
+        "fallback_reason": null
+      },
+      "2026-09-30T03:15:00.000Z": {
+        "source": "learned",
+        "raw_action": "sail",
+        "applied_action": "sail",
+        "p_hold": 8.233741368712799e-07,
+        "fallback_reason": null
+      },
+      "2026-09-30T03:20:00.000Z": {
+        "source": "learned",
+        "raw_action": "sail",
+        "applied_action": "sail",
+        "p_hold": 3.0533376502717147e-06,
+        "fallback_reason": null
+      }
+    },
+    "temporal_frame_counts": {
+      "classical fallback/planner": 154,
+      "learned/sail": 147
+    }
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "scope": "First600s when available; entire shorter stopped trajectories otherwise. Timing fields and method-label headers are deliberately excluded from physical equality.",
+  "all_pairs_identical": true,
+  "no_applied_model_or_guard_during_AIS_priority": true,
+  "cases": [
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 355,
+      "cases": [
+        "crossing_fan__otranto_355__classical",
+        "crossing_fan__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        28,
+        28
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/crossing_fan__otranto_355__classical/navigation.jsonl.gz": "9341e7fd1165917ecb30e8fa3fbb0d577848b91629c638eb3fefd67d99b553cc",
+        "runs/crossing_fan__otranto_355__transformer/navigation.jsonl.gz": "ab533b413271cad0d938ca761070ed098b8355648b6693ae440ba60e0f9249ff"
+      }
+    },
+    {
+      "encounter_id": "crossing_fan",
+      "wind_from_degrees": 5,
+      "cases": [
+        "crossing_fan__otranto_005__classical",
+        "crossing_fan__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        28,
+        28
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/crossing_fan__otranto_005__classical/navigation.jsonl.gz": "2951aea16e73cccad7d8d6d5a1376a708b961715a0b72c4604f998a349c15bba",
+        "runs/crossing_fan__otranto_005__transformer/navigation.jsonl.gz": "f293f59168cd913d66529e1325aa76fc3e08dfb09d2401ae53c1689c8249fb9d"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 355,
+      "cases": [
+        "opposed_crossing__otranto_355__classical",
+        "opposed_crossing__otranto_355__transformer"
+      ],
+      "frames_checked": [
+        121,
+        121
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "independent_checkpoint_inputs/opposed_crossing__otranto_355__classical/navigation_600s.jsonl.gz": "13d049899c31685202539c5e0f0a8d73d4ecc61bf01d07d8ed73185e3fb899fe",
+        "independent_checkpoint_inputs/opposed_crossing__otranto_355__transformer/navigation_600s.jsonl.gz": "0b715c831ea5faaeaa5b238132c864a43a920364d173f314b30bb87b2499fe99"
+      }
+    },
+    {
+      "encounter_id": "opposed_crossing",
+      "wind_from_degrees": 5,
+      "cases": [
+        "opposed_crossing__otranto_005__classical",
+        "opposed_crossing__otranto_005__transformer"
+      ],
+      "frames_checked": [
+        25,
+        25
+      ],
+      "identical_frame_counts": true,
+      "first_physical_difference_at_step": null,
+      "states_observations_commands_identical": true,
+      "frozen_source_input_maps_identical": true,
+      "accepted_model_or_guard_updates_in_checked_prefix": 0,
+      "learned_or_guard_under_AIS_priority_steps": [],
+      "recordings": {
+        "runs/opposed_crossing__otranto_005__classical/navigation.jsonl.gz": "5ab89a688f43058d052473d66b696e34e72c8d7c12a81831b2467fd386bde565",
+        "runs/opposed_crossing__otranto_005__transformer/navigation.jsonl.gz": "550086948e384bc06cdc036c09c39ac95b5e9ccf8f7f311a7b50eee160f1a142"
+      }
+    }
+  ],
+  "source_sha256": "dad0a9e9d8c8a35b214d39db3163c0cfbad71ff072bc7d97750d9e2cf75c1b6e"
+}

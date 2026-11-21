@@ -1,0 +1,80 @@
+{
+  "expected_runs": 4,
+  "closed_independently_audited_runs": 4,
+  "complete_matrix": true,
+  "all_acceptance_checks_passed": true,
+  "verified_captures": 32,
+  "applied_commands": 45180,
+  "native_0p05s_substeps": 4518000,
+  "per_case_checks": {
+    "crossing_fan__otranto_005__layline_off": {
+      "normal_execution": true,
+      "complete_ordered_8captures_50m": true,
+      "truth_full_plus_3m_positive": true,
+      "report_full_plus_3m_positive": true,
+      "no_negative_clearance_intervals": true,
+      "underway_acquisition_at420s": true,
+      "both_underway65s_peaks_verified": true,
+      "all_gate_attempts_below5s": true,
+      "all_AIS_choose_attempts_below5s": true,
+      "all_AIS_accept_or_stop_attempts_below5s": true,
+      "all_full_native_control_decisions_below5s": true
+    },
+    "crossing_fan__otranto_005__layline_on": {
+      "normal_execution": true,
+      "complete_ordered_8captures_50m": true,
+      "truth_full_plus_3m_positive": true,
+      "report_full_plus_3m_positive": true,
+      "no_negative_clearance_intervals": true,
+      "underway_acquisition_at420s": true,
+      "both_underway65s_peaks_verified": true,
+      "all_gate_attempts_below5s": true,
+      "all_AIS_choose_attempts_below5s": true,
+      "all_AIS_accept_or_stop_attempts_below5s": true,
+      "all_full_native_control_decisions_below5s": true
+    },
+    "crossing_fan__otranto_355__layline_off": {
+      "normal_execution": true,
+      "complete_ordered_8captures_50m": true,
+      "truth_full_plus_3m_positive": true,
+      "report_full_plus_3m_positive": true,
+      "no_negative_clearance_intervals": true,
+      "underway_acquisition_at420s": true,
+      "both_underway65s_peaks_verified": true,
+      "all_gate_attempts_below5s": true,
+      "all_AIS_choose_attempts_below5s": true,
+      "all_AIS_accept_or_stop_attempts_below5s": true,
+      "all_full_native_control_decisions_below5s": true
+    },
+    "crossing_fan__otranto_355__layline_on": {
+      "normal_execution": true,
+      "complete_ordered_8captures_50m": true,
+      "truth_full_plus_3m_positive": true,
+      "report_full_plus_3m_positive": true,
+      "no_negative_clearance_intervals": true,
+      "underway_acquisition_at420s": true,
+      "both_underway65s_peaks_verified": true,
+      "all_gate_attempts_below5s": true,
+      "all_AIS_choose_attempts_below5s": true,
+      "all_AIS_accept_or_stop_attempts_below5s": true,
+      "all_full_native_control_decisions_below5s": true
+    }
+  },
+  "minimum_truth_full_plus_reserve_m": 99.16212962489357,
+  "minimum_report_full_plus_reserve_m": 99.16234996577083,
+  "maximum_complete_control_s": 2.462205832998734,
+  "full_control_attempts_at_or_above_5s": 0,
+  "both_off_arms_reproduce_prior_native_trajectories": true,
+  "audit_source_sha256": "36081ff6d53ca8c15b56cc780311a792903fc7fa97083c763ff3582d0865f49d",
+  "pinned_auditors": {
+    "audit_independent.py": "2b4c281813ac4ed3f0852a92844cbf8b9cef4b10b26397d497f827775ee07d77",
+    "audit_departure_gate.py": "daa0287b9bc8118cbb1faf3018ee6b517dac8812f7ffb2e4afbb6fbf62f1ce25",
+    "audit_route_reference.py": "a2e6989155f544375f49b78c2598c40d68997aca10d887f834992be61501465d",
+    "audit_exposure.py": "ce3e9b09ed1ab5e36630067bc9c3e64d5047313599d2d99bf59b304dea6d6b00",
+    "audit_native_hybrid.py": "3d233127b48dc5796568110038b617392312c2b35aba30d33d45570df5db3721"
+  },
+  "checked_utc": "2026-11-19T19:43:34.771207+00:00",
+  "scope": "Ordered first 50 m endpoint captures, archived forcing, matched AIS reports, native substep clearance, and all complete timed control attempts.",
+  "both_full40s_underway_lost_delivery_effects_experienced_in_all_runs": true,
+  "both_underway65s_peaks_experienced_in_all_runs": true
+}

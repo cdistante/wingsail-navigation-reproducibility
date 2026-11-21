@@ -1,0 +1,1895 @@
+{
+  "states": 27,
+  "eligible_states": 27,
+  "eligible_alternative_pairs": 52,
+  "states_with_oracle_safe_gain_gt_25": 1,
+  "incumbent_outcomes": {
+    "safe_capture": 27
+  },
+  "eligible_alternative_outcomes": {
+    "safe_capture": 49,
+    "timeout": 3
+  },
+  "arms": {
+    "physics": {
+      "scored_states": 0,
+      "predicted_crossings": 0,
+      "decidable_crossings": 0,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 0,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {},
+      "selected_outcomes": {
+        "safe_capture": 27
+      },
+      "gate_precision_on_safe_pairs": null,
+      "observed_safe_win_fraction_of_crossings": null,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": null,
+      "observed_oracle_regret_states": 27,
+      "mean_observed_oracle_regret_s": 1.5578158809773204,
+      "safe_eta_states": 27,
+      "safe_eta_pairs": 49,
+      "state_weighted_pair_mae_s": 108.4712338986131,
+      "state_weighted_pair_bias_s": 57.44731734320397
+    },
+    "explicit": {
+      "scored_states": 27,
+      "predicted_crossings": 7,
+      "decidable_crossings": 7,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 7,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 7
+      },
+      "selected_outcomes": {
+        "safe_capture": 27
+      },
+      "gate_precision_on_safe_pairs": 0.0,
+      "observed_safe_win_fraction_of_crossings": 0.0,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": -216.80501875998453,
+      "observed_oracle_regret_states": 27,
+      "mean_observed_oracle_regret_s": 57.76652444838072,
+      "safe_eta_states": 27,
+      "safe_eta_pairs": 49,
+      "state_weighted_pair_mae_s": 138.86512336310548,
+      "state_weighted_pair_bias_s": 67.43565993570896
+    },
+    "temporal": {
+      "scored_states": 27,
+      "predicted_crossings": 10,
+      "decidable_crossings": 10,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 10,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 10
+      },
+      "selected_outcomes": {
+        "safe_capture": 27
+      },
+      "gate_precision_on_safe_pairs": 0.0,
+      "observed_safe_win_fraction_of_crossings": 0.0,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": -114.37099869883852,
+      "observed_oracle_regret_states": 27,
+      "mean_observed_oracle_regret_s": 43.91744502869529,
+      "safe_eta_states": 27,
+      "safe_eta_pairs": 49,
+      "state_weighted_pair_mae_s": 210.07610458882442,
+      "state_weighted_pair_bias_s": 68.66599859207865
+    },
+    "snapshot": {
+      "scored_states": 27,
+      "predicted_crossings": 8,
+      "decidable_crossings": 8,
+      "observed_safe_gain_gt_25_crossings": 0,
+      "observed_safe_gain_le_25_crossings": 8,
+      "crossings_without_paired_safe_eta": 0,
+      "crossing_outcomes": {
+        "safe_capture": 8
+      },
+      "selected_outcomes": {
+        "safe_capture": 27
+      },
+      "gate_precision_on_safe_pairs": 0.0,
+      "observed_safe_win_fraction_of_crossings": 0.0,
+      "oracle_opportunity_recall": 0.0,
+      "mean_observed_crossing_gain_s": -124.5094610799002,
+      "observed_oracle_regret_states": 27,
+      "mean_observed_oracle_regret_s": 38.4495080527996,
+      "safe_eta_states": 27,
+      "safe_eta_pairs": 49,
+      "state_weighted_pair_mae_s": 197.43778208472034,
+      "state_weighted_pair_bias_s": 71.40250426621013
+    }
+  },
+  "state_records": [
+    {
+      "state_id": "spring__20260413T0000Z__otranto_002__validation_slanted/310",
+      "scenario": "spring__20260413T0000Z__otranto_002__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 5,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -2.1697791715268977,
+        "2": -0.009161879378370763,
+        "3": -0.009161879378370763,
+        "4": -0.009161879378370763,
+        "5": -0.009161879378370763
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 0.1797948414269701,
+            "2": -0.24445915293684894,
+            "3": -1.2729963913441962,
+            "4": -2.529027303135977,
+            "5": -55.52890485114463
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 15.069813012759937,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -26.447940186703107,
+            "2": 15.078974892138309,
+            "3": -8.488654074523968,
+            "4": -21.53031173765066,
+            "5": -38.852830442099446
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -27.861145205255028,
+            "2": -15.0184799056109,
+            "3": -54.10788674795887,
+            "4": -85.88370446417083,
+            "5": -138.55289931257266
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 4.419328004976933,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -60.63361627607701,
+            "2": 4.4284898843553036,
+            "3": -27.482143362655858,
+            "4": -56.12573754419877,
+            "5": -103.62232274706834
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260414T0600Z__otranto_002__validation_slanted/0",
+      "scenario": "spring__20260414T0600Z__otranto_002__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 4,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -46.871667934081074,
+        "2": -46.871667934081074,
+        "3": -46.871667934081074,
+        "4": -82.96602709456346
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -73.3481373279696,
+            "2": -55.02923200264178,
+            "3": -33.318261393839805,
+            "4": 29.696304304000364
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -380.93751187167055,
+            "2": -274.83147548555695,
+            "3": -124.13875618661251,
+            "4": 46.2883095213719
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1374.2881688137518,
+            "2": -1233.7775961607022,
+            "3": -915.9020377820453,
+            "4": -438.54730311554516
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 5,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1278.5248580541706,
+            "2": -1175.880962341675,
+            "3": -920.123029596196,
+            "4": -504.9016192578295
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260414T0600Z__otranto_002__validation_slanted/245",
+      "scenario": "spring__20260414T0600Z__otranto_002__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -52.88989759442629
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -47.094570115841975
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 9.141015299969752
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -56.51987113708262
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -10.346196096087255
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/0",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -28.86824247580944,
+        "2": -203.5120360236847,
+        "3": -186.617830163706
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -79.94190841462114,
+            "2": 126.43690778394011,
+            "3": 76.66510422233796
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -209.41321178276758,
+            "2": -49.215823161115395,
+            "3": 55.821603046794735
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -146.9618536815574,
+            "2": -64.57919520687801,
+            "3": -15.82888339450983
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -130.55072100076495,
+            "2": -26.32822063681533,
+            "3": 14.720587428881117
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/240",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -27.871550303278127
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -89.48564578085598
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -97.07729529093103
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -111.29750838482482
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -94.7846522211562
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/480",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -26.883606324903667
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -85.18283384747883
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -75.00615439124158
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -65.53889386015362
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -83.50212981468644
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/720",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -26.110092205484307
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -65.8502293927404
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -6.315440408053519
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -30.16177208236718
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -46.015311510928086
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/960",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -25.129595410113325,
+        "2": -1232.008121451328
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -0.25328005327151004,
+            "2": 1182.8413184556234
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 12.852681181811022,
+            "2": 1161.432878683578
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 13.672806478104121,
+            "2": 824.6735753745675
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.017945600210396,
+            "2": 844.0885082139819
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/1200",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 3,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -815.7296518884132,
+        "2": -827.5490804543715,
+        "3": -810.4928078058056
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 763.3863599486992,
+            "2": 746.7160873365929,
+            "3": 684.5894411344145
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 4,
+          "selected_index": 3,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 65.5840937525877,
+          "actual_selected_gain_s": -810.4928078058056,
+          "observed_oracle_regret_s": 810.4928078058056,
+          "paired_prediction_errors_s": {
+            "1": 805.3795963242615,
+            "2": 836.7412666571718,
+            "3": 876.0769015583933
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 774.7639935128026,
+            "2": 397.639643347487,
+            "3": 484.76668734483565
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 4,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 765.6486160868042,
+            "2": 424.5697557282008,
+            "3": 478.2111535594688
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/1440",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -280.72905523203076,
+        "2": -237.81479178819586
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 259.66562372326916,
+            "2": 191.1263991930457
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 62.36062831129118,
+          "actual_selected_gain_s": -237.81479178819586,
+          "observed_oracle_regret_s": 237.81479178819586,
+          "paired_prediction_errors_s": {
+            "1": 236.29840538407723,
+            "2": 300.17542009948704
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 273.354566303982,
+            "2": -156.4952096805721
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 272.86539420253416,
+            "2": -130.19968787880407
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260415T1800Z__otranto_003__validation_slanted/1680",
+      "scenario": "spring__20260415T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 28.181503392557943,
+      "oracle_gain_gt_25": true,
+      "actual_safe_gains_s": {
+        "1": 28.181503392557943,
+        "2": -134.41109437283603
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 28.181503392557943,
+          "paired_prediction_errors_s": {
+            "1": -78.73122298719636,
+            "2": 64.6900981114004
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 108.15855025231087,
+          "actual_selected_gain_s": -134.41109437283603,
+          "observed_oracle_regret_s": 162.59259776539398,
+          "paired_prediction_errors_s": {
+            "1": -88.53415491210262,
+            "2": 242.5696446251469
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 28.181503392557943,
+          "paired_prediction_errors_s": {
+            "1": -50.70367661010437,
+            "2": -263.0677597455947
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 28.181503392557943,
+          "paired_prediction_errors_s": {
+            "1": -56.466632304825,
+            "2": -239.42669989331193
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260416T1200Z__otranto_003__validation_slanted/0",
+      "scenario": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -167.4980935168452
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 54.23529491158604
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 109.62994419356176,
+          "actual_selected_gain_s": -167.4980935168452,
+          "observed_oracle_regret_s": 167.4980935168452,
+          "paired_prediction_errors_s": {
+            "1": 277.12803771040694
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 111.72007083223298,
+          "actual_selected_gain_s": -167.4980935168452,
+          "observed_oracle_regret_s": 167.4980935168452,
+          "paired_prediction_errors_s": {
+            "1": 279.21816434907817
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 103.16380720314748,
+          "actual_selected_gain_s": -167.4980935168452,
+          "observed_oracle_regret_s": 167.4980935168452,
+          "paired_prediction_errors_s": {
+            "1": 270.6619007199927
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260416T1200Z__otranto_003__validation_slanted/240",
+      "scenario": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -154.7932107203291,
+        "2": -144.3084065187839
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 72.03037201248299,
+            "2": -0.01020850949674923
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 101.78692915119638,
+          "actual_selected_gain_s": -154.7932107203291,
+          "observed_oracle_regret_s": 154.7932107203291,
+          "paired_prediction_errors_s": {
+            "1": 256.5801398715255,
+            "2": 234.85674237098294
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 257.38507365796033,
+          "actual_selected_gain_s": -144.3084065187839,
+          "observed_oracle_regret_s": 144.3084065187839,
+          "paired_prediction_errors_s": {
+            "1": 274.2337751023919,
+            "2": 401.69348017674423
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 217.06175150127785,
+          "actual_selected_gain_s": -144.3084065187839,
+          "observed_oracle_regret_s": 144.3084065187839,
+          "paired_prediction_errors_s": {
+            "1": 262.17603913995765,
+            "2": 361.37015802006175
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260416T1200Z__otranto_003__validation_slanted/480",
+      "scenario": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -18.89585263434566
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 14.742353119426525
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 13.888972944712577
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 82.03408644431892,
+          "actual_selected_gain_s": -18.89585263434566,
+          "observed_oracle_regret_s": 18.89585263434566,
+          "paired_prediction_errors_s": {
+            "1": 100.92993907866457
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 68.1751985389748,
+          "actual_selected_gain_s": -18.89585263434566,
+          "observed_oracle_regret_s": 18.89585263434566,
+          "paired_prediction_errors_s": {
+            "1": 87.07105117332046
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260416T1200Z__otranto_003__validation_slanted/610.1",
+      "scenario": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -284.51328164100414
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 207.3259402076725
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 124.10479653816355
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 179.31759757767657,
+          "actual_selected_gain_s": -284.51328164100414,
+          "observed_oracle_regret_s": 284.51328164100414,
+          "paired_prediction_errors_s": {
+            "1": 463.8308792186807
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 183.7635399563627,
+          "actual_selected_gain_s": -284.51328164100414,
+          "observed_oracle_regret_s": 284.51328164100414,
+          "paired_prediction_errors_s": {
+            "1": 468.27682159736685
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260416T1200Z__otranto_003__validation_slanted/1090.1",
+      "scenario": "spring__20260416T1200Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -72.73967900393764,
+        "2": -1.0673586654244076
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -65.43737790739037,
+            "2": -7.033720025844758
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -141.12346249283678,
+            "2": -110.5073336208542
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -73.08175397856762,
+            "2": -115.17830925409937
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 44.17727253416173,
+            "2": -54.11136653668525
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/0",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.7375693944283057,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.7375693944283057
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.7375693944283057,
+          "paired_prediction_errors_s": {
+            "1": -35.57679524525429
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 13.865149577864145,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.7375693944283057,
+          "paired_prediction_errors_s": {
+            "1": 13.127580183435839
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.7375693944283057,
+          "paired_prediction_errors_s": {
+            "1": -46.63981551985205
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.7375693944283057,
+          "paired_prediction_errors_s": {
+            "1": -36.93532041135154
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/240",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 2.417774089728482,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 2.417774089728482
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 2.417774089728482,
+          "paired_prediction_errors_s": {
+            "1": -6.414813886565469
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 22.257895727276434,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 2.417774089728482,
+          "paired_prediction_errors_s": {
+            "1": 19.840121637547952
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 2.417774089728482,
+          "paired_prediction_errors_s": {
+            "1": -31.298467832399638
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 2.417774089728482,
+          "paired_prediction_errors_s": {
+            "1": -23.587952583746073
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/480",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -7.752435316530239
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -13.003205012963974
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 33.535324061882136,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 33.535324061882136
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 27.823597932240375,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 27.823597932240375
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/711.55",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -243.23627384954602,
+        "2": -269.00162283685063
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 206.19471068452503,
+            "2": 143.27068276170485
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 140.71499378195801,
+            "2": 31.29960495338355
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 432.46053091737485,
+          "actual_selected_gain_s": -269.00162283685063,
+          "observed_oracle_regret_s": 269.00162283685063,
+          "paired_prediction_errors_s": {
+            "1": 404.59110832386796,
+            "2": 701.4621537542255
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 2,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 352.26026754480927,
+          "actual_selected_gain_s": -269.00162283685063,
+          "observed_oracle_regret_s": 269.00162283685063,
+          "paired_prediction_errors_s": {
+            "1": 351.23349191902616,
+            "2": 621.2618903816599
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/1071.55",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 10.724181909672922,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 10.724181909672922
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 10.724181909672922,
+          "paired_prediction_errors_s": {
+            "1": -131.9111301555601
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 10.724181909672922,
+          "paired_prediction_errors_s": {
+            "1": -119.77729555219952
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 205.6992106331141,
+          "actual_selected_gain_s": 10.724181909672922,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 194.97502872344117
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 224.29954604850462,
+          "actual_selected_gain_s": 10.724181909672922,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 213.5753641388317
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260417T0600Z__otranto_003__validation_slanted/1311.55",
+      "scenario": "spring__20260417T0600Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 5,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": -0.7081756758037949
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -75.69403534446117,
+            "2": -73.97404166044602,
+            "3": -71.53674790417848,
+            "4": -0.011867479801470626,
+            "5": -0.8012684111524471
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 6,
+          "selected_index": 5,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 30.639762196207226,
+          "actual_selected_gain_s": -0.7081756758037949,
+          "observed_oracle_regret_s": 0.7081756758037949,
+          "paired_prediction_errors_s": {
+            "1": -170.12345430829686,
+            "2": -144.35918520820243,
+            "3": -91.72771507685633,
+            "4": 19.82090999005828,
+            "5": 31.34793787201102
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 6,
+          "selected_index": 5,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 41.390387591871836,
+          "actual_selected_gain_s": -0.7081756758037949,
+          "observed_oracle_regret_s": 0.7081756758037949,
+          "paired_prediction_errors_s": {
+            "1": -142.03053363371376,
+            "2": -125.99875152210964,
+            "3": -93.30403318471767,
+            "4": 25.872353295708944,
+            "5": 42.09856326767563
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 6,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 20.115887722940272,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -138.7765015001669,
+            "2": -122.1793904954142,
+            "3": -88.62670851778083,
+            "4": 17.562255504206618,
+            "5": 20.824063398744066
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260418T1800Z__otranto_003__validation_slanted/0",
+      "scenario": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -11.916957440075976
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -4.604128935404333
+          }
+        },
+        "explicit": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 26.781329915616425,
+          "actual_selected_gain_s": -11.916957440075976,
+          "observed_oracle_regret_s": 11.916957440075976,
+          "paired_prediction_errors_s": {
+            "1": 38.6982873556924
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -2.1717160746427453
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 7.0968731758509875
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260418T1800Z__otranto_003__validation_slanted/240",
+      "scenario": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1.0307524915959903
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 23.233331158338444,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 23.233331158338444
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -9.154349977484344
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -1.979313639568204
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260418T1800Z__otranto_003__validation_slanted/480",
+      "scenario": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": 0.0
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -3.187748115352889
+          }
+        },
+        "explicit": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 4.082388332947858,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 4.082388332947858
+          }
+        },
+        "temporal": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -24.020440761910663
+          }
+        },
+        "snapshot": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -19.07432621844623
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260418T1800Z__otranto_003__validation_slanted/704.35",
+      "scenario": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 1,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -146.92612267337972
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 96.41657126810196
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 70.59769010341302
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 2,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 99.09647738292097,
+          "actual_selected_gain_s": -146.92612267337972,
+          "observed_oracle_regret_s": 146.92612267337972,
+          "paired_prediction_errors_s": {
+            "1": 246.0226000563007
+          }
+        },
+        "snapshot": {
+          "status": "below_or_equal_gain_threshold",
+          "scored_count": 2,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.9847259669008963,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": 147.91084864028062
+          }
+        }
+      }
+    },
+    {
+      "state_id": "spring__20260418T1800Z__otranto_003__validation_slanted/1184.35",
+      "scenario": "spring__20260418T1800Z__otranto_003__validation_slanted",
+      "block": "spring",
+      "eligible_alternatives": 2,
+      "incumbent_outcome": "safe_capture",
+      "oracle_safe_gain_s": 0.0,
+      "oracle_gain_gt_25": false,
+      "actual_safe_gains_s": {
+        "1": -122.5826134010451,
+        "2": -10.510918572556697
+      },
+      "arms": {
+        "physics": {
+          "status": "physics_only",
+          "scored_count": 0,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": null,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -23.21801057507234,
+            "2": 1.0920225342081835
+          }
+        },
+        "explicit": {
+          "status": "incumbent_best",
+          "scored_count": 3,
+          "selected_index": 0,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 0.0,
+          "actual_selected_gain_s": 0.0,
+          "observed_oracle_regret_s": 0.0,
+          "paired_prediction_errors_s": {
+            "1": -79.28119723263801,
+            "2": -123.8053181555874
+          }
+        },
+        "temporal": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 482.0597803140189,
+          "actual_selected_gain_s": -122.5826134010451,
+          "observed_oracle_regret_s": 122.5826134010451,
+          "paired_prediction_errors_s": {
+            "1": 604.642393715064,
+            "2": 258.72047291723715
+          }
+        },
+        "snapshot": {
+          "status": "override",
+          "scored_count": 3,
+          "selected_index": 1,
+          "selected_outcome": "safe_capture",
+          "predicted_gain_s": 523.1770594688934,
+          "actual_selected_gain_s": -122.5826134010451,
+          "observed_oracle_regret_s": 122.5826134010451,
+          "paired_prediction_errors_s": {
+            "1": 645.7596728699385,
+            "2": 271.69639072087676
+          }
+        }
+      }
+    }
+  ]
+}

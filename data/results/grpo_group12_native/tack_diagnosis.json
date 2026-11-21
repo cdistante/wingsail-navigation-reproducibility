@@ -1,0 +1,153 @@
+{
+  "thresholds": {
+    "minimum_gain_s_strict": 25.0,
+    "maximum_native_eta_regret_s": 150.0
+  },
+  "group6": {
+    "grpo_progress": {
+      "decisions": 602,
+      "by_status": {
+        "no_incumbent_capture": 380,
+        "no_competing_capture": 93,
+        "outside_legacy_support": 48,
+        "incumbent_retained": 79,
+        "selected": 2
+      },
+      "scored_decisions": 81,
+      "positive_gains": 11,
+      "above_25s_gain": 2,
+      "top_corrected_gain": {
+        "elapsed_s": 785.0,
+        "utc": "2026-10-16T18:13:05.000000000Z",
+        "goal": "002",
+        "physics_index": 7,
+        "requested_index": 6,
+        "status": "selected",
+        "eligible_candidates": 7,
+        "native_eta_regret_s": 25.121813086358543,
+        "corrected_gain_s": 39.372537823828225,
+        "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan"
+      }
+    },
+    "grpo_dropout": {
+      "decisions": 603,
+      "by_status": {
+        "no_incumbent_capture": 380,
+        "no_competing_capture": 94,
+        "outside_legacy_support": 48,
+        "incumbent_retained": 81
+      },
+      "scored_decisions": 81,
+      "positive_gains": 6,
+      "above_25s_gain": 0,
+      "top_corrected_gain": {
+        "elapsed_s": 2835.4,
+        "utc": "2026-10-16T18:47:15.400000000Z",
+        "goal": "003",
+        "physics_index": 2,
+        "requested_index": 2,
+        "status": "incumbent_retained",
+        "eligible_candidates": 6,
+        "native_eta_regret_s": 0.0,
+        "corrected_gain_s": 3.2140456371684962,
+        "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan"
+      }
+    }
+  },
+  "original_grpo_tack_changes_replayed_with_both_actors": [
+    {
+      "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan",
+      "elapsed_s": 785.0,
+      "utc": "2026-10-16T18:13:05.000000000Z",
+      "goal": "002",
+      "same_state_scores": {
+        "grpo_progress": {
+          "index": 6,
+          "status": "selected",
+          "eligible_candidates": 7,
+          "native_eta_regret_s": 25.121813086358543,
+          "corrected_gain_s": 39.372537823828225
+        },
+        "grpo_dropout": {
+          "index": 7,
+          "status": "incumbent_retained",
+          "eligible_candidates": 7,
+          "native_eta_regret_s": 0.0,
+          "corrected_gain_s": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan",
+      "elapsed_s": 4441.15,
+      "utc": "2026-10-17T13:14:01.150000000Z",
+      "goal": "004",
+      "same_state_scores": {
+        "grpo_progress": {
+          "index": 1,
+          "status": "selected",
+          "eligible_candidates": 4,
+          "native_eta_regret_s": 5.121031511029159,
+          "corrected_gain_s": 27.476549875537003
+        },
+        "grpo_dropout": {
+          "index": 0,
+          "status": "incumbent_retained",
+          "eligible_candidates": 4,
+          "native_eta_regret_s": 0.0,
+          "corrected_gain_s": 2.1393733141814124
+        }
+      }
+    }
+  ],
+  "group12": {
+    "grpo_progress": {
+      "decisions": 603,
+      "by_status": {
+        "no_incumbent_capture": 380,
+        "no_competing_capture": 94,
+        "outside_legacy_support": 48,
+        "incumbent_retained": 81
+      },
+      "scored_decisions": 81,
+      "positive_gains": 7,
+      "above_25s_gain": 0,
+      "top_corrected_gain": {
+        "elapsed_s": 4441.15,
+        "utc": "2026-10-17T13:14:01.150000000Z",
+        "goal": "004",
+        "physics_index": 0,
+        "requested_index": 0,
+        "status": "incumbent_retained",
+        "eligible_candidates": 4,
+        "native_eta_regret_s": 0.0,
+        "corrected_gain_s": 8.068902981082047,
+        "scenario": "autumn__20261017T1200Z__brindisi_004__test_oblique_fan"
+      }
+    },
+    "grpo_dropout": {
+      "decisions": 603,
+      "by_status": {
+        "no_incumbent_capture": 380,
+        "no_competing_capture": 94,
+        "outside_legacy_support": 48,
+        "incumbent_retained": 81
+      },
+      "scored_decisions": 81,
+      "positive_gains": 6,
+      "above_25s_gain": 0,
+      "top_corrected_gain": {
+        "elapsed_s": 2835.4,
+        "utc": "2026-10-16T18:47:15.400000000Z",
+        "goal": "003",
+        "physics_index": 2,
+        "requested_index": 2,
+        "status": "incumbent_retained",
+        "eligible_candidates": 6,
+        "native_eta_regret_s": 0.0,
+        "corrected_gain_s": 3.561245554008096,
+        "scenario": "autumn__20261016T1800Z__brindisi_004__test_oblique_fan"
+      }
+    }
+  }
+}

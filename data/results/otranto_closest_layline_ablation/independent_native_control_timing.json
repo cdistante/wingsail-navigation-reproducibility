@@ -1,0 +1,64 @@
+{
+  "cases": {
+    "crossing_fan__otranto_005__layline_off": {
+      "case": "crossing_fan__otranto_005__layline_off",
+      "attempts": 9483,
+      "applied_attempts": 9483,
+      "unapplied_terminal_attempts": 0,
+      "maximum_complete_native_control_decision_s": 2.443468584009679,
+      "attempts_at_or_above_5s": 0,
+      "all_complete_native_control_attempts_below_5s": true,
+      "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+      "overrun_or_unapplied_records": [],
+      "timing_csv_sha256": "05d2dba24c4e9053b4a45811c8962310640298a41e8e1e3123869e4073a3db82",
+      "run_log_sha256": "b7098bba7b9938ecdcd7a09b52fbd4bc76f3a0ae4c9fe77bb05d214077f9a52d",
+      "replay_sha256": "fb5f8f1105058b08b1e42361847061e95c4990109cfba14cd530ad679622624e",
+      "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+    },
+    "crossing_fan__otranto_005__layline_on": {
+      "case": "crossing_fan__otranto_005__layline_on",
+      "attempts": 9483,
+      "applied_attempts": 9483,
+      "unapplied_terminal_attempts": 0,
+      "maximum_complete_native_control_decision_s": 2.424263875000179,
+      "attempts_at_or_above_5s": 0,
+      "all_complete_native_control_attempts_below_5s": true,
+      "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+      "overrun_or_unapplied_records": [],
+      "timing_csv_sha256": "695d6590370f2d53110d22178c838d6413cae2543d5e11bfbd1cd1040efc5e95",
+      "run_log_sha256": "1cacaf7bd52e1b134b0c72642ce9734c3da50fcbd0e20489042bd4f29490fe16",
+      "replay_sha256": "07f350d276a71e67c598429d3c98d9f67a478b073e5a7e00f97f804e2985bd13",
+      "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+    },
+    "crossing_fan__otranto_355__layline_off": {
+      "case": "crossing_fan__otranto_355__layline_off",
+      "attempts": 13107,
+      "applied_attempts": 13107,
+      "unapplied_terminal_attempts": 0,
+      "maximum_complete_native_control_decision_s": 2.462205832998734,
+      "attempts_at_or_above_5s": 0,
+      "all_complete_native_control_attempts_below_5s": true,
+      "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+      "overrun_or_unapplied_records": [],
+      "timing_csv_sha256": "9077c35e859f126682ac3dc30762220fb874637c60a0c7b5c8bfc9f92f4a6751",
+      "run_log_sha256": "b306aa66dc3301022121d9257572c311a0999b5ab98983a696f82995ff778136",
+      "replay_sha256": "fe537b7168846be3da00862111548d7e0d27e0c85698c1b81f432e2d02a53c65",
+      "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+    },
+    "crossing_fan__otranto_355__layline_on": {
+      "case": "crossing_fan__otranto_355__layline_on",
+      "attempts": 13107,
+      "applied_attempts": 13107,
+      "unapplied_terminal_attempts": 0,
+      "maximum_complete_native_control_decision_s": 2.4480673749931157,
+      "attempts_at_or_above_5s": 0,
+      "all_complete_native_control_attempts_below_5s": true,
+      "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+      "overrun_or_unapplied_records": [],
+      "timing_csv_sha256": "3f0c524b8401f907c48b2f92b58bdac0409167bb4c96b4b72789d84634eb0577",
+      "run_log_sha256": "0cec1cf12a39803a9e54ee91fb51f24baa8c624ca4ddc8c82772a361d40456b1",
+      "replay_sha256": "dc6acb5a9aa7a606d5021fb0f9315ca27914dab6f7ecdad707d4b17b8e7a21a2",
+      "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+    }
+  }
+}

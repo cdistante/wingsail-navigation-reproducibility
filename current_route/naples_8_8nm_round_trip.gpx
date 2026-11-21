@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="maritime_world" xmlns="http://www.topografix.com/GPX/1/1" xmlns:opencpn="http://www.opencpn.org">
+  <rte>
+    <name>naples_8_8nm</name>
+    <extensions>
+      <opencpn:planned_speed>6.00</opencpn:planned_speed>
+      <opencpn:planned_departure>2026-10-01T14:25:26Z</opencpn:planned_departure>
+    </extensions>
+    <rtept lat="40.666666667" lon="14.088333333">
+      <name>001</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.695000000" lon="14.071666667">
+      <name>002</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.725000000" lon="14.116666667">
+      <name>003</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.701666667" lon="14.150000000">
+      <name>004</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+    <rtept lat="40.666666667" lon="14.141666667">
+      <name>005</name>
+      <sym>diamond</sym>
+      <type>WPT</type>
+    </rtept>
+  </rte>
+</gpx>
