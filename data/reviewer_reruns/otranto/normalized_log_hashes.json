@@ -1,0 +1,22 @@
+{
+  "data/reviewer_reruns/otranto/acados-smoke.log": {
+    "original_sha256": "348c6b7050bb84f8a7bb833c45b7d537fd807d20269457a877c1cb402eba2863",
+    "published_sha256": "5a1527b3d54516c2fe41e9b41c8026ebb03f9debf118eba2c32266f59ac0924a"
+  },
+  "data/reviewer_reruns/otranto/otranto-355-eta/simulator.log": {
+    "original_sha256": "d34e2a01434c338be006632f3fb611dcd47d7d91ebad507d6793ed3844bf4884",
+    "published_sha256": "07cfa270fba61e0a9f7fe68bf27cd5c038201e6237f65d467972f52bc78cc88a"
+  },
+  "data/reviewer_reruns/otranto/otranto-355-off/simulator.log": {
+    "original_sha256": "b1e86ebb7cebfd42bebc34c999b0a192ae5bcd7ef967ef4e319974ae2cc02a6a",
+    "published_sha256": "05d9e136194cbf9e146b8b9bc736e1129c2e837edc74b0f0933bb0ae79669244"
+  },
+  "data/reviewer_reruns/otranto/otranto-5-eta/simulator.log": {
+    "original_sha256": "71bd82e20776d5b3d735eece5339c568905cc91b843bb181b0c78c97eadf9dd3",
+    "published_sha256": "279a4452bd53218f8c42ffbf5dedd5c92c5940e3e4406ccd6d470c49026ddd80"
+  },
+  "data/reviewer_reruns/otranto/otranto-5-off/simulator.log": {
+    "original_sha256": "ee4fc49c9d4f6aa9f017390dc2cf74c89d14959ad2bc4aed884db6f1336c2297",
+    "published_sha256": "d9b358a4142547c7ff11cc0407685743de0a5863f4ac319251c12f68bdc48fdc"
+  }
+}

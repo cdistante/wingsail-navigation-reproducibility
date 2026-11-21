@@ -1,0 +1,287 @@
+{
+  "case": "crossing_fan__otranto_005__layline_off",
+  "input_run": "data/reviewer_reruns/otranto/otranto-5-off",
+  "process_exit_code": 0,
+  "run_log": "data/reviewer_reruns/otranto/otranto-5-off/simulator.log",
+  "mission_status": "completed",
+  "captures": [
+    {
+      "phase": "outbound",
+      "waypoint": "002",
+      "step": 8167,
+      "distance_metres": 48.76494734249954,
+      "elapsed_s": 40835.0
+    },
+    {
+      "phase": "outbound",
+      "waypoint": "003",
+      "step": 8263,
+      "distance_metres": 47.153879858085105,
+      "elapsed_s": 41315.0
+    },
+    {
+      "phase": "outbound",
+      "waypoint": "004",
+      "step": 8424,
+      "distance_metres": 47.94060242921909,
+      "elapsed_s": 42120.0
+    },
+    {
+      "phase": "outbound",
+      "waypoint": "005",
+      "step": 8732,
+      "distance_metres": 48.48914879988581,
+      "elapsed_s": 43660.0
+    },
+    {
+      "phase": "return",
+      "waypoint": "004",
+      "step": 8805,
+      "distance_metres": 47.161367064086676,
+      "elapsed_s": 44025.0
+    },
+    {
+      "phase": "return",
+      "waypoint": "003",
+      "step": 9194,
+      "distance_metres": 49.108113489466916,
+      "elapsed_s": 45970.0
+    },
+    {
+      "phase": "return",
+      "waypoint": "002",
+      "step": 9395,
+      "distance_metres": 48.11446520794387,
+      "elapsed_s": 46975.0
+    },
+    {
+      "phase": "return",
+      "waypoint": "001",
+      "step": 9483,
+      "distance_metres": 46.49252158315143,
+      "elapsed_s": 47415.0
+    }
+  ],
+  "departure_utc": "2026-09-30T23:54:50Z",
+  "staging_wait_s": 290.0,
+  "expected_capture_order": [
+    "outbound 002",
+    "outbound 003",
+    "outbound 004",
+    "outbound 005",
+    "return 004",
+    "return 003",
+    "return 002",
+    "return 001"
+  ],
+  "elapsed_from_launch_s": 47415.0,
+  "elapsed_from_monitoring_start_s": 47705.0,
+  "clearance": {
+    "truth_full_plus_reserve_m": 132.37420439499337,
+    "report_full_plus_reserve_m": 132.37442908108125,
+    "native_substep_s": 0.05,
+    "negative_intervals": {
+      "true_hull": 0,
+      "true_nominal_25m": 0,
+      "truth_full_uncertainty": 0,
+      "projected_full_uncertainty": 0,
+      "truth_with_reserve": 0,
+      "projected_with_reserve": 0
+    },
+    "first_underway_acquisition_encounter_s": 420.0,
+    "both_underway_65s_peaks_verified": true
+  },
+  "budget": {
+    "limit_s": 5.0,
+    "departure_gate_max_s": 0.0004110830050194636,
+    "ais_choose_max_s": 3.978347666998161,
+    "ais_accept_or_stop_max_s": 3.981984541998827,
+    "full_control_max_s": 4.004014332997031,
+    "full_control_attempts_at_or_above_limit": 0
+  },
+  "archived_comparison": {
+    "capture_002_time_s": {
+      "fresh": 40835.0,
+      "archived": 40835.0,
+      "delta": 0.0,
+      "within_tolerance": true
+    },
+    "completion_time_s": {
+      "fresh": 47415.0,
+      "archived": 47415.0,
+      "delta": 0.0,
+      "within_tolerance": true
+    },
+    "elapsed_since_monitoring_s": {
+      "fresh": 47705.0,
+      "archived": 47705.0,
+      "delta": 0.0,
+      "within_tolerance": true
+    },
+    "truth_full_plus_reserve_m": {
+      "fresh": 132.37420439499337,
+      "archived": 132.37420439499337,
+      "delta": 0.0,
+      "within_tolerance": true
+    },
+    "report_full_plus_reserve_m": {
+      "fresh": 132.37442908108125,
+      "archived": 132.37442908108125,
+      "delta": 0.0,
+      "within_tolerance": true
+    },
+    "captures": [
+      {
+        "phase": "outbound",
+        "waypoint": "002",
+        "elapsed_s": {
+          "fresh": 40835.0,
+          "archived": 40835.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 48.76494734249954,
+          "archived": 48.76494734249954,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "003",
+        "elapsed_s": {
+          "fresh": 41315.0,
+          "archived": 41315.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 47.153879858085105,
+          "archived": 47.153879858085105,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "004",
+        "elapsed_s": {
+          "fresh": 42120.0,
+          "archived": 42120.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 47.94060242921909,
+          "archived": 47.94060242921909,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "outbound",
+        "waypoint": "005",
+        "elapsed_s": {
+          "fresh": 43660.0,
+          "archived": 43660.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 48.48914879988581,
+          "archived": 48.48914879988581,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "return",
+        "waypoint": "004",
+        "elapsed_s": {
+          "fresh": 44025.0,
+          "archived": 44025.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 47.161367064086676,
+          "archived": 47.161367064086676,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "return",
+        "waypoint": "003",
+        "elapsed_s": {
+          "fresh": 45970.0,
+          "archived": 45970.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 49.108113489466916,
+          "archived": 49.108113489466916,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "return",
+        "waypoint": "002",
+        "elapsed_s": {
+          "fresh": 46975.0,
+          "archived": 46975.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 48.11446520794387,
+          "archived": 48.11446520794387,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      },
+      {
+        "phase": "return",
+        "waypoint": "001",
+        "elapsed_s": {
+          "fresh": 47415.0,
+          "archived": 47415.0,
+          "delta": 0.0,
+          "within_tolerance": true
+        },
+        "distance_metres": {
+          "fresh": 46.49252158315143,
+          "archived": 46.49252158315143,
+          "delta": 0.0,
+          "within_tolerance": true
+        }
+      }
+    ],
+    "full_control_max_s": {
+      "fresh": 4.004014332997031,
+      "archived": 2.443468584009679,
+      "scope": "The original and fresh measurements each use the 5 s budget."
+    }
+  },
+  "tolerances": {
+    "time_s": 1e-09,
+    "distance_and_margin_m": 1e-05
+  },
+  "checks": {
+    "completed_ordered_50m_waypoints": true,
+    "truth_and_report_full_plus_reserve_positive": true,
+    "no_negative_clearance_intervals": true,
+    "underway_acquisition_at_420s": true,
+    "both_underway_65s_held_age_peaks": true,
+    "departure_gate_below_5s": true,
+    "ais_choose_below_5s": true,
+    "ais_accept_or_stop_below_5s": true,
+    "full_native_control_below_5s": true,
+    "process_exit_success": true
+  },
+  "benchmark_checks_pass": true,
+  "matches_archive_within_tolerance": true
+}

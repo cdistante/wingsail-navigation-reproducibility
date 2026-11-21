@@ -1,0 +1,15 @@
+{
+  "case": "crossing_fan__otranto_355__layline_off",
+  "attempts": 13107,
+  "applied_attempts": 13107,
+  "unapplied_terminal_attempts": 0,
+  "maximum_complete_native_control_decision_s": 3.991667916998267,
+  "attempts_at_or_above_5s": 0,
+  "all_complete_native_control_attempts_below_5s": true,
+  "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+  "overrun_or_unapplied_records": [],
+  "timing_csv_sha256": "c95db5e3978a3a307a654fdd370d2b2a1e24cc84f2aecfdca9a1df38919ca9a2",
+  "run_log_sha256": "05d9e136194cbf9e146b8b9bc736e1129c2e837edc74b0f0933bb0ae79669244",
+  "replay_sha256": "5931bedac9bd76310f8ed47080ecedb007ced7c644a2ab81c2d40de500a7fb2e",
+  "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+}

@@ -1,0 +1,15 @@
+{
+  "checkout_commit": "ea0fe5f7cbaf45aa80df1b46419afa167f2564f7",
+  "acados_commit": "503364817c872d474ab5bed219c26760ac267769",
+  "acados_version": "v0.6.0",
+  "tera_renderer_version": "0.2.1",
+  "python": "Python 3.12.14",
+  "casadi_version": "3.7.2",
+  "pandas_version": "2.3.3",
+  "blasfeo_target": "ARMV8A_APPLE_M1",
+  "hpipm_target": "GENERIC",
+  "build_type": "Release",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+  "host_os": "26.7.1",
+  "comparison": "Four fresh native runs from the published paper-v1 input revision, with archived Otranto dependency pins."
+}

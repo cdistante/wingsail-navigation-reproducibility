@@ -1,0 +1,22 @@
+{
+  "otranto-355-off": {
+    "fresh_frames": 13108,
+    "archived_frames": 13108,
+    "exact_state_and_control_frames": 13108
+  },
+  "otranto-355-eta": {
+    "fresh_frames": 13035,
+    "archived_frames": 13035,
+    "exact_state_and_control_frames": 13035
+  },
+  "otranto-5-off": {
+    "fresh_frames": 9484,
+    "archived_frames": 9484,
+    "exact_state_and_control_frames": 9484
+  },
+  "otranto-5-eta": {
+    "fresh_frames": 9394,
+    "archived_frames": 9394,
+    "exact_state_and_control_frames": 9394
+  }
+}

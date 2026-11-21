@@ -1,0 +1,7 @@
+Source: https://github.com/cdistante/wingsail-navigation-reproducibility
+Tag: paper-v1
+Commit: ea0fe5f7cbaf45aa80df1b46419afa167f2564f7
+Python: 3.12.14
+Platform: Darwin 25.6.0 arm64
+Threads: OMP_NUM_THREADS=1, OPENBLAS_NUM_THREADS=1, VECLIB_MAXIMUM_THREADS=1, MKL_NUM_THREADS=1, NUMEXPR_NUM_THREADS=1
+Benchmark worker count: 4

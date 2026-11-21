@@ -1,0 +1,81 @@
+{
+  "compact ridge": {
+    "cases": 12,
+    "complete": 5,
+    "ordered_captures": 12,
+    "expected_captures": 28,
+    "with_motion": 10,
+    "minimum_truth_margin_m": 16.386657373039093,
+    "median_completed_s": 3784.474161081249,
+    "maximum_decision_s": 0.24647862500569317,
+    "maximum_staging_s": 0.0,
+    "decision_overruns": 0,
+    "staging_overruns": 0,
+    "mismatched_cases": 0,
+    "differences_except_wall_clock": []
+  },
+  "escape": {
+    "cases": 12,
+    "complete": 5,
+    "ordered_captures": 12,
+    "expected_captures": 28,
+    "with_motion": 10,
+    "minimum_truth_margin_m": 16.386657373039093,
+    "median_completed_s": 3784.474161081249,
+    "maximum_decision_s": 0.7595454580005025,
+    "maximum_staging_s": 0.0,
+    "decision_overruns": 0,
+    "staging_overruns": 0,
+    "mismatched_cases": 0,
+    "differences_except_wall_clock": []
+  },
+  "protected departure": {
+    "cases": 12,
+    "complete": 8,
+    "ordered_captures": 20,
+    "expected_captures": 28,
+    "with_motion": 10,
+    "minimum_truth_margin_m": 14.745562898061713,
+    "median_completed_s": 3893.907573437097,
+    "maximum_decision_s": 0.27861820900579914,
+    "maximum_staging_s": 0.2815175419964362,
+    "decision_overruns": 0,
+    "staging_overruns": 0,
+    "mismatched_cases": 0,
+    "differences_except_wall_clock": []
+  },
+  "causal hybrid forcing": {
+    "cases": 12,
+    "complete": 8,
+    "ordered_captures": 20,
+    "expected_captures": 28,
+    "with_motion": 10,
+    "minimum_truth_margin_m": 14.745562898061713,
+    "median_completed_s": 3894.3026875057485,
+    "maximum_decision_s": 0.6185531670053024,
+    "maximum_staging_s": 0.21611437500541797,
+    "decision_overruns": 0,
+    "staging_overruns": 0,
+    "mismatched_cases": 0,
+    "differences_except_wall_clock": []
+  },
+  "hybrid_minus_fresh_departure_joint_completion_median_s": 25.16663985353648,
+  "ridge_vs_archived_physics": {
+    "joint_completions": 5,
+    "mean_savings_s": 36.02925289949635
+  },
+  "offline_forcing": {
+    "selection_receipt.json": true,
+    "forcing_ridge_head.npz": true,
+    "prediction_records.csv.gz": true,
+    "daily_metrics.csv": true,
+    "metrics.json": true
+  },
+  "hybrid_audit": {
+    "status": "verified",
+    "cases": 12,
+    "unsafe_applied_cases": [],
+    "control_intervals_replayed": 15066,
+    "integration_substeps_replayed": 1505473
+  }
+}

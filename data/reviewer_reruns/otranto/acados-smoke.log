@@ -1,0 +1,46 @@
+rm -f libacados_ocp_solver_ocp_pendulum_ode_abe84876.dylib
+rm -f pendulum_ode_cost/pendulum_ode_cost_y_0_fun.o pendulum_ode_cost/pendulum_ode_cost_y_0_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_0_hess.o pendulum_ode_cost/pendulum_ode_cost_y_fun.o pendulum_ode_cost/pendulum_ode_cost_y_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_hess.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_e_hess.o acados_solver_ocp_pendulum_ode_abe84876.o
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_0_fun.o pendulum_ode_cost/pendulum_ode_cost_y_0_fun.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_0_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_0_fun_jac_ut_xt.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_0_hess.o pendulum_ode_cost/pendulum_ode_cost_y_0_hess.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_fun.o pendulum_ode_cost/pendulum_ode_cost_y_fun.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_fun_jac_ut_xt.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_hess.o pendulum_ode_cost/pendulum_ode_cost_y_hess.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_e_fun.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_e_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun_jac_ut_xt.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_cost/pendulum_ode_cost_y_e_hess.o pendulum_ode_cost/pendulum_ode_cost_y_e_hess.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o acados_solver_ocp_pendulum_ode_abe84876.o acados_solver_ocp_pendulum_ode_abe84876.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_model/pendulum_ode_impl_dae_fun.o pendulum_ode_model/pendulum_ode_impl_dae_fun.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_z.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_z.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u_z.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u_z.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u.c
+cc -fPIC -std=c99   -O2 -Irepro-output/acados/include -Irepro-output/acados/include/acados -Irepro-output/acados/include/blasfeo/include -Irepro-output/acados/include/hpipm/include  -c -o pendulum_ode_model/pendulum_ode_impl_dae_jac_x_xdot_u_z.o pendulum_ode_model/pendulum_ode_impl_dae_jac_x_xdot_u_z.c
+cc -shared pendulum_ode_cost/pendulum_ode_cost_y_0_fun.o pendulum_ode_cost/pendulum_ode_cost_y_0_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_0_hess.o pendulum_ode_cost/pendulum_ode_cost_y_fun.o pendulum_ode_cost/pendulum_ode_cost_y_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_hess.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun.o pendulum_ode_cost/pendulum_ode_cost_y_e_fun_jac_ut_xt.o pendulum_ode_cost/pendulum_ode_cost_y_e_hess.o acados_solver_ocp_pendulum_ode_abe84876.o pendulum_ode_model/pendulum_ode_impl_dae_fun.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_z.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u_z.o pendulum_ode_model/pendulum_ode_impl_dae_fun_jac_x_xdot_u.o pendulum_ode_model/pendulum_ode_impl_dae_jac_x_xdot_u_z.o -o libacados_ocp_solver_ocp_pendulum_ode_abe84876.dylib -Lrepro-output/acados/lib -lacados -lhpipm -lblasfeo -lm  \
+	-L -l
+ld: warning: search path '-l' not found
+ld: warning: building for macOS-26.0, but linking with dylib '@rpath/libacados.dylib' which was built for newer version 26.7
+ld: warning: building for macOS-26.0, but linking with dylib '@rpath/libhpipm.dylib' which was built for newer version 26.7
+ld: warning: building for macOS-26.0, but linking with dylib '@rpath/libblasfeo.0.dylib' which was built for newer version 26.7
+acados/interfaces/acados_template/acados_template/plot_utils.py:306: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+External functions generated in 4.625 ms.
+Templated solver code generated in 801.344 ms.
+Build completed in 472.840 ms.
+acados was compiled without OpenMP.
+
+iter	res_stat	res_eq		res_ineq	res_comp	qp_stat	qp_iter	alpha
+0	6.283185e+03	8.259477e-17	0.000000e+00	0.000000e+00	0	0	0.000000e+00	
+1	4.157952e+03	3.287960e+00	0.000000e+00	4.872276e-14	0	7	1.000000e+00	
+2	1.075826e+03	3.853160e+00	0.000000e+00	7.587925e+01	0	27	4.900000e-01	
+3	7.297345e+02	4.596882e+00	0.000000e+00	6.792695e-12	0	12	1.000000e+00	
+4	7.830690e+02	1.008541e+01	0.000000e+00	5.807888e-10	0	22	1.000000e+00	
+5	2.742341e+02	8.222071e-01	0.000000e+00	8.033253e-11	0	21	1.000000e+00	
+6	2.061598e+01	1.014569e-02	0.000000e+00	8.528716e-08	0	3	1.000000e+00	
+7	1.068400e-01	4.453771e-05	0.000000e+00	6.941675e-08	0	3	1.000000e+00	
+8	1.435036e-03	2.790096e-08	0.000000e+00	9.821706e-10	0	3	1.000000e+00	
+9	2.216659e-05	7.440104e-12	0.000000e+00	1.094352e-09	0	3	1.000000e+00	
+10	3.862292e-07	2.664535e-15	0.000000e+00	1.092658e-09	0	3	1.000000e+00	
+
+
+
+stored figure in pendulum_ocp.png

@@ -1,0 +1,126 @@
+{
+  "manifest_sha256": "92ff0938be03584d660611d4aee989e426cb4be69ec06ca24bbfbf018baf5e6e",
+  "acquisition_index_sha256": "e08735d3c897f980d20e14b13631d7e2462559e03c21a981601d091b3abf64a0",
+  "encoder_sha256": "cf467bcf85a08af99c9819f13b04e65b57f34006ff3957cc42646bba04bc0972",
+  "prediction_horizon_s": 3600,
+  "history_steps": 12,
+  "history_cadence_s": 300,
+  "change_clip_quantile": 0.98,
+  "training_blocks": [
+    "winter",
+    "summer"
+  ],
+  "validation_block": "spring",
+  "settings": {
+    "trend_multiplier": 0.5,
+    "ridge": 100.0,
+    "change_caps": [
+      1.4202639281681277,
+      0.07551918720711576,
+      0.16000000718567176
+    ],
+    "training_persistence_vector_rms_scales": [
+      0.640549389642125,
+      0.03285050511405325
+    ],
+    "validation_objective": "Mean wind and current squared vector error, each normalized by January/July persistence MSE.",
+    "validation_persistence_score": 0.9775508896975622,
+    "validation_trend_candidates": [
+      {
+        "alpha": 0.0,
+        "score": 0.9775508896975622
+      },
+      {
+        "alpha": 0.25,
+        "score": 0.803918689014357
+      },
+      {
+        "alpha": 0.5,
+        "score": 0.7530175961814349
+      },
+      {
+        "alpha": 0.75,
+        "score": 0.8244157521380706
+      },
+      {
+        "alpha": 1.0,
+        "score": 1.0006686843172785
+      }
+    ],
+    "validation_ridge_candidates": [
+      {
+        "penalty": 0.1,
+        "score": 0.8932115970864166
+      },
+      {
+        "penalty": 1.0,
+        "score": 0.8756209008814805
+      },
+      {
+        "penalty": 10.0,
+        "score": 0.8748330698033213
+      },
+      {
+        "penalty": 100.0,
+        "score": 0.8399525115747084
+      },
+      {
+        "penalty": 1000.0,
+        "score": 0.8850328016160461
+      }
+    ]
+  },
+  "pretest_blocks": {
+    "winter": {
+      "count": 1512,
+      "day_count": 7,
+      "coastal_fallbacks": {
+        "wind": 0,
+        "current": 0,
+        "wave": 0
+      },
+      "issue_first_utc": "2026-01-12T00:00:00Z",
+      "issue_last_utc": "2026-01-18T23:00:00Z",
+      "target_last_utc": "2026-01-19T00:00:00Z",
+      "files_sha256": {
+        "wind": "8051b7504aa3ffa5337b0ec46a0151a1e6c713eee2d4628f94de2f1e07b28ded",
+        "current": "6c6e69038c9e3be5c518410837b10d38e081b66d8502c44f896624c40ed70bb0",
+        "wave": "d4ae87a9407b5fcb302ac8d0865d1147567d174821d88639b0caa9f77616f7c3"
+      }
+    },
+    "summer": {
+      "count": 1512,
+      "day_count": 7,
+      "coastal_fallbacks": {
+        "wind": 0,
+        "current": 0,
+        "wave": 0
+      },
+      "issue_first_utc": "2026-07-13T00:00:00Z",
+      "issue_last_utc": "2026-07-19T23:00:00Z",
+      "target_last_utc": "2026-07-20T00:00:00Z",
+      "files_sha256": {
+        "wind": "2550d8064333448937145b99c572132eb818a0a71235009b5c7724761fb9da17",
+        "current": "e54e0f8854fa058244c63779efe325f3713e6e301f3f83403322d4fed0f23427",
+        "wave": "2e9b841322adac603d26c5bb1d0b060d0d4998706b698e8379f6c9c8eedae246"
+      }
+    },
+    "spring": {
+      "count": 1512,
+      "day_count": 7,
+      "coastal_fallbacks": {
+        "wind": 0,
+        "current": 0,
+        "wave": 0
+      },
+      "issue_first_utc": "2026-04-13T00:00:00Z",
+      "issue_last_utc": "2026-04-19T23:00:00Z",
+      "target_last_utc": "2026-04-20T00:00:00Z",
+      "files_sha256": {
+        "wind": "97460fcdb46bd7996b8143bbcc8225b53191af084f020d5199f25e4c2f2ed2d6",
+        "current": "c5c6a8613e92b23824505ffe5612f683bca22f3007ee50e557390b0af0da294d",
+        "wave": "b815b10488b82909a1eddefd3d9d38976f070341b73f5ca4d6205b4b6f22ee9b"
+      }
+    }
+  }
+}

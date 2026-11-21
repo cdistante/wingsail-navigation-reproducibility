@@ -1,0 +1,15 @@
+{
+  "case": "crossing_fan__otranto_005__layline_eta",
+  "attempts": 9393,
+  "applied_attempts": 9393,
+  "unapplied_terminal_attempts": 0,
+  "maximum_complete_native_control_decision_s": 4.0040970419941,
+  "attempts_at_or_above_5s": 0,
+  "all_complete_native_control_attempts_below_5s": true,
+  "all_applied_timers_and_AIS_acceptance_attempts_bound": true,
+  "overrun_or_unapplied_records": [],
+  "timing_csv_sha256": "4ddeda566d373d6ae67ec7b90b5e1f7d49717fd9c7d15d6fe6ac8afeb432e5b3",
+  "run_log_sha256": "279a4452bd53218f8c42ffbf5dedd5c92c5940e3e4406ccd6d470c49026ddd80",
+  "replay_sha256": "d36fe1fe35a948545bcf3548028da271030a6fe615ddde82fb3bfb5a9af9e696",
+  "scope": "Before world.observe/local map and all upstream guidance, controller and AIS selection through command acceptance or strict stop; excludes plant integration and replay I/O."
+}

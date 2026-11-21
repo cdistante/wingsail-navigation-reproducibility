@@ -8,6 +8,8 @@ python3 scripts/verify_reported_results.py
 
 The check uses the Python standard library. It recomputes the headline counts, paired differences and wind vector errors from the bundled CSV records. It also reads the Otranto audit receipt and verifies the recorded checksums for the pinned native Brindisi and GRPO run records. These checks verify the archived experiments. The simulation and independent swept-geometry audit scripts are separate entry points.
 
+The [fresh rerun report](../data/reviewer_reruns/README.md) links to the independently audited Otranto and Brindisi runs, the trajectories behind those checks, and commands for re-auditing the published files.
+
 ## Evidence by experiment
 
 | Experiment | Start with | What the records show |

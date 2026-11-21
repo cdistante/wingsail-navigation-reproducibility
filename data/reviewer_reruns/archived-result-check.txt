@@ -1,0 +1,11 @@
+Wind sweep  720 runs, compact completions 29/56 to 37/56 and ordered captures 74/128 to 86/128
+Otranto 355 degrees  8/8 ordered 50 m gates, 365 s saved with ETA gating
+Otranto 5 degrees  8/8 ordered 50 m gates, 450 s saved with ETA gating
+Brindisi  ridge saves a mean 36.03 s over five joint finishes
+Brindisi  protected departure completes 8/12 routes and 20/28 gates, from 5/12 and 12/28
+Brindisi  trend adds 25.17 s paired median over eight joint finishes, both clear 10/10 with minimum +14.746 m
+Forecast  October next-hour wind vector RMSE 0.672 m/s for persistence and 0.545 m/s for trend
+GRPO group size 6  accepted overrides [2, 0], peak corrected ETA gains [39.37, 3.21] s
+GRPO group size 12  accepted overrides [0, 0], peak corrected ETA gains [8.07, 3.56] s
+GRPO retests  each arm completes 5/12, with median 3718.77 s and minimum full truth margin +16.324 m
+All headline result checks passed
