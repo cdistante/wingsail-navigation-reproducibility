@@ -2,6 +2,7 @@
 
 import argparse
 import hashlib
+from importlib.metadata import PackageNotFoundError, version
 import json
 import os
 from pathlib import Path
@@ -21,6 +22,22 @@ ARCHIVED_ENTRY_POINTS = (ENTRY_POINT, NATIVE / "run_archive.py")
 INPUT_FLAGS = ("--traffic-fixture", "--underway-traffic-fixture", "--route-gpx", "--hybrid-model-dir")
 THREAD_VARIABLES = ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "VECLIB_MAXIMUM_THREADS",
                     "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS")
+
+
+def require_archived_runtime():
+    mismatches = []
+    for name, expected in (("casadi", "3.7.2"), ("pandas", "2.3.3")):
+        try:
+            installed = version(name)
+        except PackageNotFoundError:
+            installed = "not installed"
+        if installed != expected:
+            mismatches.append(f"{name} ({installed}, expected {expected})")
+    if mismatches:
+        raise SystemExit(
+            "Use the separate Otranto environment from requirements-otranto.txt. "
+            "See docs/RUN_SIMULATION.md. Runtime differences: " + ", ".join(mismatches)
+        )
 
 
 def verified_sources(receipt, arm):
@@ -100,6 +117,7 @@ def main():
         print(json.dumps({"run": run_id, "checked_overlays": [str(path) for path in sources],
                           "command": command}, indent=2))
         return
+    require_archived_runtime()
     output.mkdir(parents=True, exist_ok=False)
     environment = dict(os.environ)
     environment.update({name: "1" for name in THREAD_VARIABLES})

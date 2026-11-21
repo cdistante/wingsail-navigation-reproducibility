@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -19,6 +20,10 @@ from world import Currents, Waves, Weather
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true",
+                        help="Compare with the released receipt without writing it.")
+    args = parser.parse_args()
     fields = {}
     for name, factory in (("wind", Weather), ("current", Currents), ("wave", Waves)):
         provider = factory(**OTRANTO_BOUNDS).load()
@@ -39,6 +44,16 @@ def main():
               "meaning": "All loaded regional archive variable arrays and coordinates, not only capture samples.",
               "script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
     path = STUDY / "archive_field_fingerprints.json"
+    if args.check:
+        expected = json.loads(path.read_text(encoding="utf-8"))
+        if expected["regional_bounds"] != {name: list(bounds) for name, bounds in OTRANTO_BOUNDS.items()}:
+            raise SystemExit("Loaded regional bounds differ from the archived receipt.")
+        mismatches = [name for name in fields if fields[name] != expected["fields"].get(name)]
+        if mismatches:
+            raise SystemExit(f"Loaded archive fields differ: {', '.join(mismatches)}.")
+        count = sum(len(field["variables"]) for field in fields.values())
+        print(f"All {count} loaded regional variables and coordinates match the archived receipt.")
+        return
     temporary = path.with_suffix(".tmp")
     temporary.write_text(json.dumps(result, indent=2) + "\n")
     temporary.replace(path)

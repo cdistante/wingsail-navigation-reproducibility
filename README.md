@@ -8,7 +8,7 @@ Research materials for *Forecast Guidance and Learned Tack Selection for an Auto
 - [Run the simulator](docs/RUN_SIMULATION.md) for setup, a small test, and the commands and prerequisites for the native Brindisi and Otranto workflows.
 - [Check data provenance and access](docs/DATA.md) for the archived forcing, bathymetry, and AIS fixtures.
 
-From a fresh checkout, verify the released files and recompute the headline comparisons:
+Use `paper-v1.1` for the tested simulator setup and fresh-run audit commands. From a fresh checkout, verify the released files and recompute the headline comparisons:
 
 ```sh
 shasum -a 256 -c SHA256SUMS

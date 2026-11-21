@@ -20,6 +20,12 @@ Credit for the Mediterranean wave and SMOC data: European Union, Copernicus Mari
 
 The published [field fingerprint record](../data/results/otranto_layline_eta/archive_field_fingerprints.json) registers every loaded variable and coordinate. The distributed regional fields matched those per-variable shapes, data types and SHA-256 hashes after being reloaded with the same providers.
 
+With the [simulator Python environment](RUN_SIMULATION.md), rerun this comparison from the checkout root. The command reads the released receipt.
+
+```sh
+python -B data/results/otranto_layline_eta/reproduce/fingerprint_archive.py --check
+```
+
 ## Seasonal forcing for Brindisi and Otranto
 
 The [forcing archive](../data/results/seasonal_native_training/forcing/README.md) contains 240 hourly samples per seasonal block, with one core week each in January, April, July, and October 2026. It covers Brindisi and Otranto, with a requested crop of 39.85–40.85° N, 17.65–19.15° E and grid-specific outward rounding. The per-block acquisition receipts bind the normalized NetCDF files and the raw responses under `data/results/seasonal_native_training/forcing_raw/` to SHA-256 digests.
